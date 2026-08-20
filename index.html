@@ -13,6 +13,11 @@
 <meta name="ext-resource-dependency" content="uploads/opt/c1.webp" data-resource-id="uploads/opt/c1.webp">
 <meta name="ext-resource-dependency" content="uploads/opt/gatos-carne-pollo.webp" data-resource-id="uploads/opt/gatos-carne-pollo.webp">
 <meta name="ext-resource-dependency" content="uploads/opt/v1.webp" data-resource-id="uploads/opt/v1.webp">
+<meta name="ext-resource-dependency" content="uploads/opt/logo-kongo-azul.webp" data-resource-id="uploads/opt/logo-kongo-azul.webp">
+<meta name="ext-resource-dependency" content="uploads/opt/nota-gato-cover.webp" data-resource-id="uploads/opt/nota-gato-cover.webp">
+<meta name="ext-resource-dependency" content="uploads/opt/baires-planta.jpg" data-resource-id="uploads/opt/baires-planta.jpg">
+<meta name="ext-resource-dependency" content="uploads/opt/baires-color.webp" data-resource-id="uploads/opt/baires-color.webp">
+<meta name="ext-resource-dependency" content="uploads/opt/hero-home-kibble.jpg" data-resource-id="uploads/opt/hero-home-kibble.jpg">
 <template id="__bundler_thumbnail" data-bg-color="#003B71"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300"><rect width="300" height="300" fill="#003B71"/><text x="150" y="172" font-family="Georgia,serif" font-size="86" font-weight="700" fill="#FF7F30" text-anchor="middle">K</text></svg></template>
 </head>
 <body>
@@ -29,7 +34,6 @@
   a { color: #003B71; text-decoration: none; }
   a:hover { color: #FF7F30; }
   input, textarea, button, select { font-family: inherit; }
-  input::placeholder, textarea::placeholder { color: #9AA8B6; }
   summary::-webkit-details-marker { display: none; }
   @keyframes kongoFloatA { 0%,100% { transform: translate3d(0,0,0) scale(1); } 50% { transform: translate3d(4%,-6%,0) scale(1.12); } }
   @keyframes kongoFloatB { 0%,100% { transform: translate3d(0,0,0) scale(1.06); } 50% { transform: translate3d(-5%,7%,0) scale(.94); } }
@@ -76,7 +80,7 @@
   <main>
     <!-- HERO -->
     <section data-spot="rgba(255,183,27,.20)" data-bleed="" style="position:relative; width:100vw; margin-left:calc(50% - 50vw); height:min(86vh,920px); min-height:480px; overflow:hidden; background:#003B71">
-      <div style="position:absolute; inset:0; transition:transform 1.4s cubic-bezier(.16,.84,.28,1); overflow:hidden" style-hover="transform:scale(1.05)"><img src="uploads/opt/hero-home.jpg" alt="Perro junto a su plato de alimento" style="width:100%; height:100%; object-fit:cover; display:block"></div>
+      <div style="position:absolute; inset:0; transition:transform 1.4s cubic-bezier(.16,.84,.28,1); overflow:hidden" style-hover="transform:scale(1.05)"><img src="uploads/opt/hero-home-kibble.jpg" alt="Perro asomando entre alimento balanceado" style="width:100%; height:100%; object-fit:cover; object-position:50% 38%; display:block"></div>
       <div style="position:absolute; inset:0; background:linear-gradient(180deg,rgba(0,20,40,.28) 0,rgba(0,20,40,.05) 40%,rgba(0,25,50,.78) 100%); pointer-events:none"></div>
       <div data-spot-layer="" style="position:absolute; inset:0; opacity:0; transition:opacity .4s ease; pointer-events:none; mix-blend-mode:screen"></div>
       <div style="position:absolute; left:0; right:0; bottom:0; padding:clamp(18px,3.2vw,44px) clamp(18px,3.2vw,44px) clamp(56px,7vw,92px); display:flex; align-items:flex-end; justify-content:space-between; gap:28px; flex-wrap:wrap">
@@ -86,22 +90,22 @@
     </section>
 
     <section style="max-width:1440px; margin:0 auto; padding:0 clamp(18px,3.2vw,44px)">
-      <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:1px; margin-top:-30px; position:relative; z-index:5; background:#E8ECF1; border:1px solid #E8ECF1; border-radius:20px; overflow:hidden; box-shadow:0 24px 60px rgba(0,59,113,.16)">
-        <div data-reveal="0" style="background:#fff; padding:24px 22px">
-          <div style="color:#003B71"><span data-count="9" style="font-size:clamp(26px,3.2vw,46px); font-weight:700; letter-spacing:-2px; line-height:1">0</span></div>
-          <div style="margin-top:6px; font-size:11px; letter-spacing:1.3px; text-transform:uppercase; color:#7C8B9A">alimentos en la familia</div>
+      <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:0; margin-top:-30px; position:relative; z-index:5; background:#fff; border:1px solid #E8ECF1; border-radius:20px; overflow:hidden; box-shadow:0 24px 60px rgba(0,59,113,.16)">
+        <div data-reveal="0" style="background:#fff; padding:24px 18px">
+          <div style="color:#003B71"><span data-count="100" style="font-size:clamp(26px,3.2vw,46px); font-weight:700; letter-spacing:-2px; line-height:1">0</span><span style="font-size:clamp(20px,2.2vw,30px); font-weight:700; letter-spacing:-1px; color:#003B71">%</span></div>
+          <div style="margin-top:6px; font-size:clamp(9.5px,0.76vw,11px); letter-spacing:.8px; text-transform:uppercase; color:#7C8B9A; text-wrap:pretty">ingredientes naturales</div>
         </div>
-        <div data-reveal="90" style="background:#fff; padding:24px 22px">
-          <div style="color:#FF7F30"><span data-count="6" style="font-size:clamp(26px,3.2vw,46px); font-weight:700; letter-spacing:-2px; line-height:1">0</span></div>
-          <div style="margin-top:6px; font-size:11px; letter-spacing:1.3px; text-transform:uppercase; color:#7C8B9A">fórmulas para perros</div>
+        <div data-reveal="90" style="background:#fff; padding:24px 18px; border-left:1px solid #E8ECF1">
+          <div style="font-size:clamp(26px,3.2vw,46px); white-space:nowrap; font-weight:700; letter-spacing:-2px; line-height:1; color:#FF7F30"><span data-count="22">22</span> – <span data-count="34">34</span><span style="font-size:clamp(20px,2.2vw,30px); letter-spacing:-1px">%</span></div>
+          <div style="margin-top:6px; font-size:clamp(9.5px,0.76vw,11px); letter-spacing:.8px; text-transform:uppercase; color:#7C8B9A; text-wrap:pretty">de proteína</div>
         </div>
-        <div data-reveal="180" style="background:#fff; padding:24px 22px">
-          <div style="color:#AB0033"><span data-count="3" style="font-size:clamp(26px,3.2vw,46px); font-weight:700; letter-spacing:-2px; line-height:1">0</span></div>
-          <div style="margin-top:6px; font-size:11px; letter-spacing:1.3px; text-transform:uppercase; color:#7C8B9A">fórmulas para gatos</div>
+        <div data-reveal="180" style="background:#fff; padding:24px 18px; border-left:1px solid #E8ECF1">
+          <div style="color:#AB0033"><span data-count="85" style="font-size:clamp(26px,3.2vw,46px); font-weight:700; letter-spacing:-2px; line-height:1">0</span><span style="font-size:clamp(20px,2.2vw,30px); font-weight:700; letter-spacing:-1px">%</span></div>
+          <div style="margin-top:6px; font-size:clamp(9.5px,0.76vw,11px); letter-spacing:.8px; text-transform:uppercase; color:#7C8B9A; text-wrap:pretty">proteína de origen animal</div>
         </div>
-        <div data-reveal="270" style="background:#fff; padding:24px 22px">
-          <div style="font-size:clamp(26px,3.2vw,46px); white-space:nowrap; font-weight:700; letter-spacing:-2px; line-height:1; color:#6BA43A"><span data-count="1.5">1,5</span> – <span data-count="21">21</span><span style="font-size:22px; letter-spacing:0"> kg</span></div>
-          <div style="margin-top:6px; font-size:11px; letter-spacing:1.3px; text-transform:uppercase; color:#7C8B9A">presentaciones</div>
+        <div data-reveal="270" style="background:#fff; padding:24px 18px; border-left:1px solid #E8ECF1">
+          <div style="color:#6BA43A"><span data-count="0" style="font-size:clamp(26px,3.2vw,46px); font-weight:700; letter-spacing:-2px; line-height:1">0</span><span style="font-size:clamp(20px,2.2vw,30px); font-weight:700; letter-spacing:-1px">%</span></div>
+          <div style="margin-top:6px; font-size:clamp(9.5px,0.76vw,11px); letter-spacing:.8px; text-transform:uppercase; color:#7C8B9A; text-wrap:pretty">colorantes y saborizantes artificiales</div>
         </div>
       </div>
     </section>
@@ -113,7 +117,7 @@
       <section style="position:relative; max-width:1440px; margin:0 auto; padding:96px clamp(18px,3.2vw,44px) 24px">
         <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); gap:44px; align-items:start">
           <div data-reveal="0" data-reveal-mode="left">
-            <h2 style="margin:10px 0 0; font-size:clamp(52px,11vw,116px); line-height:.84; font-weight:700; color:#003B71; letter-spacing:-3px">Familia<br><span style="font-family:Bevan,Georgia,serif; font-weight:400; letter-spacing:-1px">Kongo</span></h2>
+            <h2 style="margin:10px 0 0; font-size:clamp(52px,11vw,116px); line-height:.84; font-weight:700; color:#003B71; letter-spacing:-3px">Familia<br><img src="uploads/opt/logo-kongo-azul.webp" alt="Kongo" style="display:block; width:auto; height:clamp(44px,9.3vw,98px); margin-top:.06em"></h2>
             <div style="display:flex; gap:10px; margin-top:40px; flex-wrap:wrap">
               <div onClick="{{ pickKongo }}" style="padding:12px 22px; border-radius:999px; border:2px solid #FF7F30; background:{{ tabKongo.bg }}; color:{{ tabKongo.fg }}; font-weight:700; font-size:15px; cursor:pointer; transition:all .25s" style-hover="background:#FF7F30; color:#fff">Kongo</div>
               <div onClick="{{ pickGold }}" style="padding:12px 22px; border-radius:999px; border:2px solid #FFB71B; background:{{ tabGold.bg }}; color:{{ tabGold.fg }}; font-weight:700; font-size:15px; cursor:pointer; transition:all .25s" style-hover="background:#FFB71B; color:#fff">Kongo Gold</div>
@@ -126,13 +130,13 @@
             
             <h3 style="margin:8px 0 14px; font-size:clamp(26px,3.4vw,38px); line-height:1; font-weight:700; letter-spacing:-1.4px; color:{{ fam.ink }}">{{ fam.label }}</h3>
             <p style="margin:0; font-size:16px; line-height:1.68; color:#31404F; text-wrap:pretty">{{ fam.text }}</p>
-            <span onClick="{{ goProductos }}" style="display:inline-block; margin-top:20px; font-weight:700; font-size:15px; color:{{ fam.ink }}; border-bottom:2px solid {{ fam.color }}; cursor:pointer; transition:all .25s">{{ fam.cta }} →</span>
+            <span onClick="{{ goFamilia }}" style="display:inline-block; margin-top:20px; font-weight:700; font-size:15px; color:{{ fam.ink }}; border-bottom:2px solid {{ fam.color }}; cursor:pointer; transition:all .25s">{{ fam.cta }} →</span>
           </div>
         </div>
 
         <div data-reveal="0" style="margin-top:64px">
           <div style="display:flex; align-items:center; gap:10px; font-size:11px; font-weight:700; letter-spacing:1.4px; text-transform:uppercase; color:#7C8B9A">
-            <span>Scrolleá para ver todos</span>
+            <span>DESLIZÁ PARA VER TODOS</span>
             <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="#7C8B9A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" style="animation:kongoNudge 1.6s ease-in-out infinite"><path d="M4 12h15"></path><path d="M13 6l6 6-6 6"></path></svg>
           </div>
           <div data-drag="" style="display:flex; align-items:stretch; gap:16px; margin:20px -6px -30px; overflow-x:auto; overflow-y:visible; scrollbar-width:none; padding:20px 8px 60px">
@@ -161,7 +165,7 @@
           <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:clamp(32px,4vw,56px); align-items:center">
             <div data-reveal="0" data-reveal-mode="left">
               <span style="display:inline-block; font-size:12px; font-weight:700; letter-spacing:1.6px; text-transform:uppercase; color:#8FD16A">Ayudamos a los que más lo necesitan · ¿Te sumás?</span>
-              <h2 style="margin:18px 0 0; font-size:clamp(40px,7.4vw,88px); line-height:.86; font-weight:700; color:#fff; letter-spacing:-3px">Comunidad<br><span style="font-family:Bevan,Georgia,serif; font-weight:400; color:#8FD16A">Baires</span></h2>
+              <img src="uploads/logo-comunidad-baires-blanco.png" alt="Comunidad Baires" style="display:block; margin:18px 0 0; width:min(100%,520px); height:auto">
               <p style="margin:22px 0 0; max-width:44ch; font-size:19px; line-height:1.6; color:#D7E9CE; text-wrap:pretty">Con cada envase vacío de Kongo podés ayudar a perritos que están en los refugios y además cuidar al medio ambiente.</p>
               <div style="display:flex; gap:14px; flex-wrap:wrap; margin-top:30px">
                 <div onClick="{{ goComunidad }}" style="padding:15px 30px; border-radius:999px; background:#8FD16A; border:2px solid #8FD16A; color:#0E3218; font-weight:700; font-size:16px; cursor:pointer; transition:all .3s" style-hover="background:transparent; color:#8FD16A">Conocé la campaña</div>
@@ -174,8 +178,7 @@
               </div>
               <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:12px">
                 <div style="border-radius:18px; padding:16px 20px; background:rgba(255,255,255,.09); backdrop-filter:blur(12px); border:1px solid rgba(255,255,255,.18); display:flex; align-items:center; gap:14px">
-                  <div style="flex:0 0 auto; font-size:15px; font-weight:700; line-height:1.2; letter-spacing:.8px; color:#8FD16A; white-space:nowrap"><span data-count="1">1</span> = 1 kg</div>
-                  <div style="font-size:15px; font-weight:500; line-height:1.2; letter-spacing:.8px; text-transform:uppercase; color:#B9D8AC">envase vacío por alimento</div>
+                  <div style="font-size:15px; font-weight:500; line-height:1.2; letter-spacing:.8px; text-transform:uppercase; color:#B9D8AC"><span style="font-weight:700; color:#8FD16A">1 envase vacío</span> = <span style="font-weight:700; color:#8FD16A">1 kg de alimento</span></div>
                 </div>
                 <div onClick="{{ goComunidad }}" style="border-radius:18px; padding:16px 20px; background:rgba(255,255,255,.09); backdrop-filter:blur(12px); border:1px solid rgba(255,255,255,.18); display:flex; align-items:center; gap:14px; cursor:pointer; transition:background .3s ease, border-color .3s ease" style-hover="background:rgba(143,209,106,.14); border-color:rgba(143,209,106,.5)">
                   <div style="flex:0 0 auto; font-size:15px; font-weight:700; line-height:1.2; letter-spacing:.8px; color:#8FD16A"><span data-count="3">3</span></div>
@@ -241,9 +244,14 @@
         <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:22px; margin-top:28px">
           <sc-for list="{{ homePosts }}" as="post" hint-placeholder-count="3">
             <div onClick="{{ post.open }}" data-reveal="{{ post.delay }}" style="cursor:pointer; border-radius:18px; overflow:hidden; background:#fff; border:1px solid #E8ECF1; transition:transform .35s cubic-bezier(.16,.84,.28,1), box-shadow .35s ease" style-hover="transform:translateY(-8px); box-shadow:0 20px 40px rgba(148,45,86,.24)">
-              <div style="aspect-ratio:16/10; background:repeating-linear-gradient(135deg,#F1F5F9 0 12px,#E4EBF2 12px 24px); display:flex; align-items:center; justify-content:center">
-                <span style="font-size:10px; letter-spacing:1px; color:#7C8B9A; text-transform:uppercase">imagen nota</span>
-              </div>
+              <sc-if value="{{ post.hasCover }}" hint-placeholder-val="{{ false }}">
+                <img src="{{ post.cover }}" alt="" style="display:block; width:100%; aspect-ratio:16/10; object-fit:cover">
+              </sc-if>
+              <sc-if value="{{ post.noCover }}" hint-placeholder-val="{{ true }}">
+                <div style="aspect-ratio:16/10; background:repeating-linear-gradient(135deg,#F1F5F9 0 12px,#E4EBF2 12px 24px); display:flex; align-items:center; justify-content:center">
+                  <span style="font-size:10px; letter-spacing:1px; color:#7C8B9A; text-transform:uppercase">imagen nota</span>
+                </div>
+              </sc-if>
               <div style="padding:18px">
                 <span style="font-size:11px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:#AB0033">{{ post.date }}</span>
                 <h3 style="margin:8px 0 6px; font-size:19px; line-height:1.2; font-weight:700; color:#003B71">{{ post.title }}</h3>
@@ -257,14 +265,17 @@
       <!-- BAIRES -->
       <section data-bleed="" style="position:relative; width:100vw; margin-left:calc(50% - 50vw); margin-top:96px; padding:clamp(44px,6vw,84px) clamp(18px,3.2vw,44px) 0; background:#F2F6FA; border-top:1px solid #E3EAF1">
         <div style="max-width:1240px; margin:0 auto">
-      <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(290px,1fr)); gap:36px; align-items:center; ">
-          <div data-reveal="0" data-reveal-mode="left" style="border-radius:24px; overflow:hidden; background:#E4ECF3; aspect-ratio:4/3">
-            <img src="uploads/opt/baires-calidad.jpg" alt="Control de calidad del alimento Kongo en laboratorio" style="width:100%; height:100%; object-fit:cover; display:block">
+      <div data-reveal="0" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); align-items:stretch; background:#fff; border:1px solid #E3EAF1; border-radius:28px; overflow:hidden">
+          <div style="position:relative; background:#E4ECF3; min-height:420px">
+            <img src="uploads/opt/baires-planta.jpg" alt="Planta de Baires S.A. en Cañuelas" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; display:block">
           </div>
-          <div data-reveal="120" data-reveal-mode="right">
-            <img src="uploads/baires-azul.png" alt="Baires S.A." style="height:52px; width:auto; display:block">
-            <h2 style="margin:20px 0 14px; font-size:clamp(26px,4.2vw,44px); line-height:1.02; font-weight:700; color:#003B71; letter-spacing:-1.5px; text-wrap:balance">Trabajamos todos los días para hacer el <span style="font-family:Bevan,Georgia,serif; font-weight:400; color:#FF7F30">mejor alimento para ellos</span></h2>
-            <p style="margin:0; font-size:16px; line-height:1.65; color:#31404F; max-width:62ch; text-wrap:pretty">Somos una empresa responsable y comprometida. Es nuestro propósito ofrecer excelencia en nutrición, aportando más salud y mejor calidad de vida a perros y gatos. Para ello nos especializamos en la producción de sus alimentos y trabajamos con pasión, logrando así ingresar día a día en nuevos hogares para compartir el cuidado con sus familias.</p>
+          <div style="display:flex; flex-direction:column; justify-content:center; gap:22px; padding:clamp(30px,3.4vw,54px)">
+            <img src="uploads/opt/baires-color.webp" alt="Baires S.A." style="height:58px; width:auto; align-self:flex-start; object-fit:contain; display:block">
+            <h2 style="margin:0; font-size:clamp(26px,3.4vw,42px); line-height:1.04; font-weight:700; color:#003B71; letter-spacing:-1.5px; text-wrap:balance">Trabajamos todos los días para hacer el <span style="font-family:Bevan,Georgia,serif; font-weight:400; color:#FF7F30">mejor alimento para ellos</span></h2>
+            <p style="margin:0; font-size:16px; line-height:1.68; color:#31404F; max-width:52ch; text-wrap:pretty">Somos una empresa responsable y comprometida. Es nuestro propósito ofrecer excelencia en nutrición, aportando más salud y mejor calidad de vida a perros y gatos. Para ello nos especializamos en la producción de sus alimentos y trabajamos con pasión, logrando así ingresar día a día en nuevos hogares para compartir el cuidado con sus familias.</p>
+            <div style="display:flex; align-items:center; gap:18px; flex-wrap:wrap; padding-top:4px">
+              <a href="https://baires-sa.com.ar/" target="_blank" rel="noopener" style="display:inline-flex; align-items:center; gap:10px; padding:14px 26px; border-radius:999px; background:#003B71; color:#fff; font-size:15px; font-weight:700; text-decoration:none; transition:transform .25s, box-shadow .25s, background .25s" style-hover="background:#00518F; transform:translateY(-2px); box-shadow:0 14px 28px rgba(0,59,113,.24)">Conocé Baires S.A.<span style="font-size:17px; line-height:1">→</span></a>
+            </div>
           </div>
         </div>
         </div>
@@ -274,7 +285,7 @@
       <section data-bleed="" style="position:relative; width:100vw; margin-left:calc(50% - 50vw); padding:0 clamp(18px,3.2vw,44px) clamp(48px,6vw,88px); background:#F2F6FA">
         <div style="max-width:1240px; margin:0 auto; padding:clamp(72px,8vw,120px) 0 0; display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:32px; align-items:start">
           <div style="display:flex; flex-direction:column; align-items:flex-start; text-align:left; gap:14px">
-            <h2 style="margin:0; font-size:clamp(30px,5vw,52px); line-height:.95; font-weight:700; color:#003B71; letter-spacing:-2px">¿Nos <span style="font-family:Bevan,Georgia,serif; font-weight:400">escribís</span>?</h2>
+            <h2 style="margin:0; font-size:clamp(30px,5vw,52px); line-height:.95; font-weight:700; color:#003B71; letter-spacing:-2px">Contáctanos</h2>
             <p style="margin:0; font-size:16px; line-height:1.6; color:#31404F; white-space:nowrap">Escribinos y te respondemos a la brevedad.</p>
             <div style="display:flex; flex-wrap:wrap; justify-content:flex-start; gap:12px; margin-top:6px">
               <a href="mailto:consultas@baires-sa.com.ar" title="consultas@baires-sa.com.ar" style="display:flex; align-items:center; justify-content:center; width:52px; height:52px; border-radius:999px; border:2px solid #003B71; background:#003B71; color:#fff; transition:all .25s" style-hover="background:#fff; color:#003B71">
@@ -305,7 +316,7 @@
   <sc-if value="{{ isProductos }}" hint-placeholder-val="{{ true }}">
   <main style="max-width:1440px; margin:0 auto; padding:0 clamp(18px,3.2vw,44px) 96px">
     <section data-spot="rgba(255,127,48,.20)" data-bleed="" style="position:relative; width:100vw; margin-left:calc(50% - 50vw); height:clamp(440px,58vh,600px); overflow:hidden; background:#003B71">
-      <img src="uploads/opt/hero-productos.jpg" alt="Hocico de perro asomando entre alimento balanceado" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; display:block; transform-origin:58% 45%; animation:kongoZoom 22s ease-in-out infinite alternate">
+      <img src="uploads/opt/hero-home.jpg" alt="Perro junto a su plato de alimento" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; display:block; transform-origin:58% 45%; animation:kongoZoom 22s ease-in-out infinite alternate">
       <div style="position:absolute; left:58%; top:45%; width:44vw; height:44vw; max-width:620px; max-height:620px; border-radius:999px; background:radial-gradient(circle at 50% 50%, rgba(255,127,48,.55), rgba(255,127,48,0) 66%); mix-blend-mode:screen; animation:kongoGlow 9s ease-in-out infinite; pointer-events:none"></div>
       <div style="position:absolute; left:0; right:0; bottom:0; height:52%; background:linear-gradient(180deg,rgba(60,22,2,0) 0,rgba(60,22,2,.55) 100%); pointer-events:none"></div>
       <div data-spot-layer="" style="position:absolute; inset:0; opacity:0; transition:opacity .4s ease; pointer-events:none; mix-blend-mode:screen"></div>
@@ -349,7 +360,7 @@
 
     <!-- PERROS -->
     <sc-if value="{{ showDogs }}" hint-placeholder-val="{{ true }}">
-      <section style="margin-top:56px; border:2px solid #003B71; border-radius:28px; padding:34px 24px 28px">
+      <section id="sec-dogs" style="margin-top:56px; border:2px solid #003B71; border-radius:28px; padding:34px 24px 28px">
         <div style="display:flex; align-items:baseline; justify-content:space-between; gap:16px; flex-wrap:wrap; padding-bottom:12px; border-bottom:1px solid #E8ECF1"><h2 style="margin:0; font-size:clamp(28px,5.4vw,54px); line-height:.98; font-weight:700; color:#003B71; letter-spacing:-1.8px">Alimentos <span style="font-family:Bevan,Georgia,serif; font-weight:400; color:#003B71">para perros</span></h2></div>
         <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:20px; margin-top:26px">
           <sc-for list="{{ dogs }}" as="p" hint-placeholder-count="3">
@@ -399,7 +410,7 @@
 
     <!-- GOLD -->
     <sc-if value="{{ showGold }}" hint-placeholder-val="{{ true }}">
-      <section style="margin-top:36px; border:2px solid #16202B; border-radius:28px; padding:34px 24px 28px">
+      <section id="sec-gold" style="margin-top:36px; border:2px solid #16202B; border-radius:28px; padding:34px 24px 28px">
         <div style="display:flex; align-items:baseline; justify-content:space-between; gap:16px; flex-wrap:wrap; padding-bottom:12px; border-bottom:1px solid #EDE4CE"><h2 style="margin:0; font-size:clamp(28px,5.4vw,54px); line-height:.98; font-weight:700; color:#16202B; letter-spacing:-1.8px">Kongo <span style="font-family:Bevan,Georgia,serif; font-weight:400; color:#E0A00E">Gold</span></h2></div>
         
         <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:20px; margin-top:26px">
@@ -464,12 +475,9 @@
     <!-- PRESENTACIONES -->
     <section data-reveal="0" style="margin-top:72px; display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:36px; align-items:center">
       <h2 style="margin: 0; max-width: 9ch; text-align: left; font-size: 53px; line-height: 1.05; font-weight: 700; letter-spacing: -1.2px; color: {{ prod.color }}">Presentaciones<br><span style="font-family: Bevan,Georgia,serif; font-weight: 400; font-size: 57px">disponibles</span></h2>
-      <div style="display:flex; align-items:flex-end; justify-content:flex-start; gap:12px; flex-wrap:nowrap; background:{{ prod.soft }}; border-radius:22px; padding:26px 22px">
+      <div style="background:{{ prod.soft }}; border-radius:22px; padding:30px 26px; display:flex; align-items:center; gap:10px">
         <sc-for list="{{ prod.sizes }}" as="s" hint-placeholder-count="5">
-          <div style="flex:1 1 0; min-width:0; display:flex; flex-direction:column; align-items:center; gap:10px">
-            <div style="width:100%; height:{{ s.h }}; border-radius:8px; background:{{ prod.accent }}; border:2px solid #fff; box-shadow:0 8px 18px rgba(0,0,0,.10)"></div>
-            <span style="font-size:14px; font-weight:700; color:{{ prod.color }}">{{ s.label }}</span>
-          </div>
+          <span style="flex:1 1 0; min-width:0; text-align:center; padding:12px 8px; border-radius:999px; background:{{ prod.accent }}; color:#fff; font-size:14px; font-weight:700; letter-spacing:.3px; white-space:nowrap; box-shadow:0 6px 14px rgba(0,0,0,.10)">{{ s.label }}</span>
         </sc-for>
       </div>
     </section>
@@ -562,7 +570,7 @@
       <div style="position:relative; max-width:1440px; margin:0 auto; display:grid; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); gap:clamp(28px,4vw,56px); align-items:center">
         <div>
           <span data-reveal="0" style="display:inline-block; font-size:12px; font-weight:700; letter-spacing:1.6px; text-transform:uppercase; color:#8FD16A">Ayudamos a los que más lo necesitan</span>
-          <h1 data-reveal="60" style="margin:clamp(14px,2vw,22px) 0 0; font-size:clamp(44px,7.6vw,96px); line-height:.84; font-weight:700; color:#fff; letter-spacing:-3.5px">Comunidad<br><span style="position:relative; display:inline-block; font-family:Bevan,Georgia,serif; font-weight:400; color:#8FD16A">Baires<span style="position:absolute; left:0; right:0; bottom:-.06em; height:8px; border-radius:999px; background:linear-gradient(90deg,#8FD16A,#FFB71B,#8FD16A,#FFB71B); background-size:200% 100%; transform-origin:left center; animation:kongoUnderline 1s cubic-bezier(.16,.84,.28,1) .35s both, kongoSweep 4s linear .35s infinite"></span></span></h1>
+          <img data-reveal="60" src="uploads/logo-comunidad-baires-blanco.png" alt="Comunidad Baires" style="display:block; margin:clamp(14px,2vw,22px) 0 0; width:min(100%,580px); height:auto">
           <p data-reveal="140" style="margin:clamp(18px,2.6vw,28px) 0 0; font-size:18px; line-height:1.6; color:#EAF5E2; max-width:52ch; text-wrap:pretty">No tires la bolsa vacía de Kongo: llevala a un refugio. Nosotros la retiramos y <strong style="font-weight:700; color:#fff">les dejamos alimento</strong>; después las bolsas se reciclan y el plástico vuelve a ser materia prima. Con algo que ibas a tirar cuidamos al planeta y ayudamos a quienes más lo necesitan.</p>
         </div>
         <div data-reveal="200" data-reveal-mode="right" style="border-radius:24px; overflow:hidden; aspect-ratio:16/9; background:#0B1B2A; border:1px solid rgba(255,255,255,.20); box-shadow:0 26px 60px rgba(0,0,0,.34)">
@@ -626,7 +634,7 @@
     <section style="max-width:1440px; margin:0 auto; padding:clamp(20px,2.4vw,32px) clamp(18px,3.2vw,44px) clamp(48px,6vw,88px)">
       <div onClick="{{ goRefugios }}" data-reveal="0" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:clamp(20px,3vw,44px); align-items:center; cursor:pointer; border-radius:28px; padding:clamp(28px,3.6vw,48px); background:#F0F6E9; border:2px solid #DCEBCD; transition:transform .35s cubic-bezier(.16,.84,.28,1), box-shadow .35s ease, border-color .3s ease" style-hover="transform:translateY(-6px); box-shadow:0 26px 54px rgba(63,107,29,.18); border-color:#8FD16A">
         <div>
-          <span style="display:inline-block; font-size:12px; font-weight:700; letter-spacing:1.6px; text-transform:uppercase; color:#6BA43A">Ya son <span data-count="59">59</span> en Buenos Aires</span>
+          <span style="display:inline-block; font-size:12px; font-weight:700; letter-spacing:1.6px; text-transform:uppercase; color:#6BA43A">Ya son más de 300 en todo el país</span>
           <h2 style="margin:14px 0 0; font-size:clamp(28px,3.8vw,46px); line-height:.98; font-weight:700; color:#0E3218; letter-spacing:-1.8px">Conocé los refugios <span style="font-family:Bevan,Georgia,serif; font-weight:400; color:#3F6B1D">beneficiados</span></h2>
         </div>
         <div>
@@ -654,7 +662,18 @@
 
     <section style="margin-top:clamp(28px,4vw,52px)">
       <div style="display:flex; align-items:center; gap:14px; flex-wrap:wrap; padding:14px 18px; border-radius:18px; background:#F7F9FB; border:1px solid #E8ECF1">
-        <div style="position:relative; flex:0 1 260px; min-width:0; display:flex">
+        <div style="position:relative; flex:0 1 230px; min-width:0; display:flex">
+          <select value="{{ refugioProv }}" onChange="{{ setRefugioProv }}" style="width:100%; padding:12px 44px 12px 16px; border-radius:12px; border:1px solid #DCE3EA; background:#fff; font-size:15px; font-weight:700; color:#003B71; font-family:inherit; cursor:pointer; appearance:none; -webkit-appearance:none; -moz-appearance:none">
+            <option value="">Todas las provincias</option>
+            <sc-for list="{{ refugioProvs }}" as="pv" hint-placeholder-count="6">
+              <option value="{{ pv }}">{{ pv }}</option>
+            </sc-for>
+          </select>
+          <span style="position:absolute; right:16px; top:50%; transform:translateY(-50%); pointer-events:none; display:flex; color:#003B71">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"></path></svg>
+          </span>
+        </div>
+        <div style="position:relative; flex:0 1 230px; min-width:0; display:flex">
           <select value="{{ refugioZona }}" onChange="{{ setRefugioZona }}" style="width:100%; padding:12px 44px 12px 16px; border-radius:12px; border:1px solid #DCE3EA; background:#fff; font-size:15px; font-weight:700; color:#003B71; font-family:inherit; cursor:pointer; appearance:none; -webkit-appearance:none; -moz-appearance:none">
             <option value="">Todas las localidades</option>
             <sc-for list="{{ refugioZonas }}" as="z" hint-placeholder-count="4">
@@ -672,7 +691,7 @@
         <sc-for list="{{ refugios }}" as="r" hint-placeholder-count="9">
           <a href="{{ r.href }}" target="_blank" rel="noopener" data-reveal="{{ r.delay }}" style="display:flex; flex-direction:column; gap:12px; border:2px solid {{ r.accent }}; border-radius:20px; overflow:hidden; background:#fff; text-decoration:none; transition:transform .35s cubic-bezier(.16,.84,.28,1), box-shadow .35s ease" style-hover="transform:translateY(-8px); box-shadow:0 22px 44px rgba(0,0,0,.14)">
             <div style="display:flex; align-items:center; gap:7px; padding:12px 16px; background:{{ r.accent }}">
-              <span style="font-size:10px; font-weight:700; letter-spacing:1.1px; text-transform:uppercase; color:#fff">{{ r.loc }}</span>
+              <span style="font-size:10px; font-weight:700; letter-spacing:1.1px; text-transform:uppercase; color:#fff">{{ r.locLabel }}</span>
             </div>
             <div style="display:flex; flex-direction:column; gap:8px; padding:4px 18px 20px">
               <h3 style="margin:0; font-size:19px; line-height:1.18; font-weight:700; letter-spacing:-.4px; color:#003B71; text-wrap:pretty">{{ r.name }}</h3>
@@ -681,7 +700,7 @@
           </a>
         </sc-for>
       </div>
-      <p style="margin:26px 0 0; font-size:13px; font-style:italic; color:#5A6875">¿Tenés un refugio y querés aparecer acá? Escribinos por Instagram a <a href="https://instagram.com/kongooficial" target="_blank" rel="noopener" style="font-weight:700; color:#3F6B1D">@kongooficial</a>.</p>
+      <p style="margin:26px 0 0; font-size:13px; font-style:italic; color:#5A6875">¿Participas de comunidad y querés aparecer acá? Escribinos por Instagram a <a href="https://instagram.com/kongooficial" target="_blank" rel="noopener" style="font-weight: 700; color: rgb(63, 107, 29);">@kongooficial</a>.</p>
     </section>
   </main>
   </sc-if>
@@ -710,9 +729,14 @@
     <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(270px,1fr)); gap:22px; margin-top:28px">
       <sc-for list="{{ posts }}" as="post" hint-placeholder-count="6">
         <div onClick="{{ post.open }}" data-reveal="{{ post.delay }}" data-spot="rgba(148,45,86,.10)" style="position:relative; cursor:pointer; border-radius:20px; overflow:hidden; background:#fff; border:1px solid #E8ECF1; display:flex; flex-direction:column; transition:transform .35s cubic-bezier(.16,.84,.28,1), box-shadow .35s ease, border-color .3s ease" style-hover="transform:translateY(-10px); box-shadow:0 24px 46px rgba(148,45,86,.18); border-color:#E7B8CB"><div data-spot-layer="" style="position:absolute; inset:0; opacity:0; transition:opacity .4s ease; pointer-events:none; z-index:2"></div>
-          <div style="aspect-ratio:16/10; background:repeating-linear-gradient(135deg,#F1F5F9 0 12px,#E4EBF2 12px 24px); display:flex; align-items:center; justify-content:center">
-            <span style="font-size:10px; letter-spacing:1px; color:#7C8B9A; text-transform:uppercase">imagen nota</span>
-          </div>
+          <sc-if value="{{ post.hasCover }}" hint-placeholder-val="{{ false }}">
+            <img src="{{ post.cover }}" alt="" style="display:block; width:100%; aspect-ratio:16/10; object-fit:cover">
+          </sc-if>
+          <sc-if value="{{ post.noCover }}" hint-placeholder-val="{{ true }}">
+            <div style="aspect-ratio:16/10; background:repeating-linear-gradient(135deg,#F1F5F9 0 12px,#E4EBF2 12px 24px); display:flex; align-items:center; justify-content:center">
+              <span style="font-size:10px; letter-spacing:1px; color:#7C8B9A; text-transform:uppercase">imagen nota</span>
+            </div>
+          </sc-if>
           <div style="padding:18px; display:flex; flex-direction:column; gap:8px; flex:1; min-width:0">
             <span style="font-size:11px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:{{ post.catColor }}">{{ post.date }}</span>
             <h3 style="margin:0; font-size:20px; line-height:1.15; font-weight:700; color:#003B71">{{ post.title }}</h3>
@@ -734,14 +758,35 @@
     </div>
     <span style="display:block; margin-top:26px; font-size:11px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:{{ post.catColor }}">{{ post.date }}</span>
     <h1 style="margin:10px 0 0; font-size:clamp(32px,6.4vw,60px); line-height:.98; font-weight:700; color:#003B71; letter-spacing:-2px; text-wrap:balance">{{ post.title }}</h1>
-    <div style="margin:26px 0; border-radius:22px; aspect-ratio:16/9; background:repeating-linear-gradient(135deg,#F1F5F9 0 14px,#E4EBF2 14px 28px); display:flex; align-items:center; justify-content:center">
-      <span style="font-size:11px; letter-spacing:1px; color:#7C8B9A; text-transform:uppercase">imagen de portada</span>
-    </div>
+    <sc-if value="{{ post.hasCover }}" hint-placeholder-val="{{ true }}">
+      <img src="{{ post.cover }}" alt="" style="display:block; width:100%; margin:26px 0; border-radius:22px; aspect-ratio:16/9; object-fit:cover">
+    </sc-if>
+    <sc-if value="{{ post.noCover }}" hint-placeholder-val="{{ false }}">
+      <div style="margin:26px 0; border-radius:22px; aspect-ratio:16/9; background:repeating-linear-gradient(135deg,#F1F5F9 0 14px,#E4EBF2 14px 28px); display:flex; align-items:center; justify-content:center">
+        <span style="font-size:11px; letter-spacing:1px; color:#7C8B9A; text-transform:uppercase">imagen de portada</span>
+      </div>
+    </sc-if>
     <p style="margin:0 0 18px; font-size:19px; line-height:1.6; color:#16202B; font-weight:500">{{ post.excerpt }}</p>
-    <p style="margin:0 0 18px; font-size:11px; color:#8A6A12; background:#FFF6E0; border-radius:8px; padding:10px 12px">PLACEHOLDER · cuerpo de la nota pendiente de redacción.</p>
-    <p style="margin:0 0 18px; font-size:17px; line-height:1.75; color:#16202B">Cuerpo de ejemplo. Este párrafo muestra el ancho de medida, el interlineado y el contraste con los que se va a leer una nota real de Consejos. La columna se mantiene cerca de los 70 caracteres para una lectura cómoda en desktop y ocupa el ancho completo en mobile.</p>
-    <h2 style="margin:32px 0 12px; font-size:28px; line-height:1.1; font-weight:700; color:#003B71; letter-spacing:-1px">Subtítulo de ejemplo</h2>
-    <p style="margin:0 0 18px; font-size:17px; line-height:1.75; color:#16202B">Segundo bloque de texto de ejemplo, para mostrar cómo se separan los subtítulos del cuerpo y cómo respira la nota en pantallas chicas.</p>
+    <sc-for list="{{ post.blocks }}" as="b" hint-placeholder-count="4">
+      <sc-if value="{{ b.plain }}" hint-placeholder-val="{{ true }}">
+        <p style="margin:0 0 18px; font-size:17px; line-height:1.75; color:#16202B; text-wrap:pretty">{{ b.t }}</p>
+      </sc-if>
+      <sc-if value="{{ b.head }}" hint-placeholder-val="{{ false }}">
+        <h2 style="margin:34px 0 14px; font-size:28px; line-height:1.1; font-weight:700; color:#003B71; letter-spacing:-1px">{{ b.h }}</h2>
+      </sc-if>
+      <sc-if value="{{ b.isQuote }}" hint-placeholder-val="{{ false }}">
+        <div style="margin:28px 0; padding:22px 26px; border-left:4px solid #AB0033; background:#FBF3F6; border-radius:0 16px 16px 0">
+          <p style="margin:0; font-size:19px; line-height:1.55; font-weight:500; color:#16202B; text-wrap:pretty">“{{ b.t }}”</p>
+          <span style="display:block; margin-top:12px; font-size:12px; font-weight:700; letter-spacing:1.1px; text-transform:uppercase; color:#AB0033">{{ b.who }}</span>
+        </div>
+      </sc-if>
+      <sc-if value="{{ b.isNote }}" hint-placeholder-val="{{ false }}">
+        <p style="margin:34px 0 0; padding-top:18px; border-top:1px solid #E8ECF1; font-size:14px; line-height:1.7; color:#5A6875">{{ b.t }}</p>
+      </sc-if>
+    </sc-for>
+    <sc-if value="{{ post.isPlaceholder }}" hint-placeholder-val="{{ false }}">
+      <p style="margin:0 0 18px; font-size:11px; color:#8A6A12; background:#FFF6E0; border-radius:8px; padding:10px 12px">PLACEHOLDER · cuerpo de la nota pendiente de redacción.</p>
+    </sc-if>
     <div style="margin-top:44px; border-top:3px solid #003B71; padding-top:24px">
       <h2 style="margin:0 0 20px; font-size:24px; font-weight:700; color:#003B71; letter-spacing:-.8px">Notas relacionadas</h2>
       <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:18px">
@@ -864,7 +909,7 @@
         <div style="display:flex; flex-direction:column; gap:8px; font-size:15px">
           <a href="https://instagram.com/kongooficial" style="color:#fff; width:fit-content" style-hover="color:#FFB71B">Instagram @kongooficial</a>
           <a href="https://www.facebook.com/KongoOficial/" style="color:#fff; width:fit-content" style-hover="color:#FFB71B">Facebook @KongoOficial</a>
-          <a href="https://www.youtube.com/channel/UColFvIkhJhcC3K8ip8eK6tw" style="color:#fff; width:fit-content" style-hover="color:#FFB71B">YouTube Kongo</a>
+          <a href="https://www.youtube.com/channel/UColFvIkhJhcC3K8ip8eK6tw" style="color:#fff; width:fit-content" style-hover="color:#FFB71B">YouTube @kongo.oficial</a>
         </div>
       </div>
       <div>
@@ -1163,7 +1208,25 @@ class Component extends DCLogic {
 
   postsData() {
     return [
-      { id: 1, cat: 'Perros', date: '12.05.2026', title: '[Placeholder] Cómo elegir el alimento según la etapa de vida', excerpt: 'Bajada de ejemplo: qué mirar en la etiqueta cuando tu perro pasa de cachorro a adulto.' },
+      { id: 1, cat: 'Gatos', date: '08.08.2026',
+        title: 'Día Internacional del Gato: por qué cada vez más personas eligen convivir con felinos',
+        excerpt: 'Esta efeméride invita a conocer las razones detrás de una tendencia que crece: cada vez más personas eligen compartir su hogar con felinos, en un contexto de cambios en las formas de vivir, trabajar y vincularse con los animales.',
+        cover: this.res('uploads/opt/nota-gato-cover.webp'),
+        body: [
+          { t: 'Buenos Aires, agosto de 2026 – Cada 8 de agosto se celebra el Día Internacional del Gato, una fecha que busca concientizar sobre el bienestar, el cuidado responsable y la importancia de garantizar una buena calidad de vida a los felinos. Además de homenajearlos, la efeméride invita a reflexionar sobre un fenómeno que crece año tras año: cada vez más personas eligen convivir con gatos.' },
+          { t: 'Esta tendencia también se refleja en los datos del Registro Nacional de Perros y Gatos de Old Prince, impulsado además por Kongo y Fawna, que ya reúne 21.736 animales registrados, de los cuales 5.629 corresponden a gatos. Esta iniciativa también busca conocer algunas curiosidades sobre los gatos argentinos. Por ejemplo, entre los nombres más elegidos aparecen Tom, Simón, Simba, Romeo, Pelusa, Olivia, Oliver, Nina, Nala, Milo, Michi, Luna, Lola y Frida.' },
+          { t: 'Para Nicolás Fiasche, médico veterinario y Responsable del Área Técnica y Desarrollo de Agroindustrias Baires, este crecimiento responde a una transformación en la forma en que las personas se vinculan con sus animales.' },
+          { quote: true, t: 'Cada vez más personas eligen compartir su vida con gatos porque encuentran en ellos compañeros que se adaptan muy bien a las dinámicas actuales de los hogares. Son animales independientes, pero también afectuosos y capaces de construir vínculos muy profundos con sus familias.', who: 'Nicolás Fiasche · Área Técnica y Desarrollo, Agroindustrias Baires' },
+          { h: 'Qué explica el cambio' },
+          { t: '¿Qué explica este cambio en la elección de los gatos como mascotas? Para los especialistas, se trata de una tendencia impulsada por distintos cambios sociales y culturales que transformaron la forma en que las personas viven y se vinculan con los animales.' },
+          { t: 'Uno de ellos es la aparición de nuevas configuraciones de hogar. Cada vez son más frecuentes los hogares unipersonales, las parejas sin hijos y las viviendas urbanas más compactas. En ese contexto, muchos gatos pueden adaptarse muy bien a la vida dentro de un departamento, siempre que cuenten con estímulos, espacios de descanso, oportunidades de juego y la atención necesaria para desarrollar su comportamiento de manera saludable.' },
+          { t: 'A esto se suman rutinas cada vez más variables. Frente a jornadas laborales extensas, esquemas híbridos y una vida cotidiana menos estructurada, el gato suele ser percibido como un compañero compatible con una mayor autonomía doméstica. Sin embargo, esto no significa que necesite menos cuidados que un perro, sino que sus necesidades cotidianas son diferentes y deben ser atendidas con la misma responsabilidad.' },
+          { t: 'Otro aspecto que explica este crecimiento es la mayor búsqueda de compañía emocional. Los animales ocupan un lugar cada vez más central dentro de las familias. De hecho, una encuesta difundida en 2025 indicó que ocho de cada diez argentinos conviven con al menos un animal y que el 75 % considera a su perro o gato “como un hijo”, reflejando el vínculo cada vez más estrecho entre las personas y sus mascotas.' },
+          { t: 'Por último, también se observa un cambio cultural respecto de los gatos. Hoy existe mayor información sobre su comportamiento y sus necesidades, una creciente difusión de la adopción responsable y una representación mucho más positiva de los felinos en redes sociales. Además, la preferencia por los gatos forma parte de una tendencia internacional: en Europa ya constituyen la población de animales de compañía más numerosa, consolidando un fenómeno que también comienza a observarse con fuerza en Argentina.' },
+          { h: 'Popularidad con responsabilidad' },
+          { t: 'En este contexto, los especialistas destacan que, más allá de la creciente popularidad de los gatos, su bienestar depende de una tenencia responsable. Controles veterinarios periódicos, vacunación, castración, espacios adecuados para desarrollar su comportamiento natural y una alimentación balanceada, adaptada a cada etapa de la vida, son pilares fundamentales para garantizar su salud y calidad de vida.' },
+          { note: true, t: 'Acerca de Baires S.A.: la compañía se especializa en la producción de alimento para perros y gatos. Actualmente se posiciona como la empresa líder en tecnología y calidad de la Argentina, alimentando a más de 2 millones de perros y gatos por mes.' }
+        ] },
       { id: 2, cat: 'Gatos', date: '28.04.2026', title: '[Placeholder] Hidratación: cuánta agua toma un gato por día', excerpt: 'Bajada de ejemplo: señales de que tu gato no está tomando suficiente agua.' },
       { id: 3, cat: 'Perros', date: '15.04.2026', title: '[Placeholder] Paseos: cuánto ejercicio necesita cada raza', excerpt: 'Bajada de ejemplo: rutinas según tamaño, edad y energía del perro.' },
       { id: 4, cat: 'Gatos', date: '02.04.2026', title: '[Placeholder] Cómo adaptar la casa a la llegada de un gatito', excerpt: 'Bajada de ejemplo: rincones seguros, comederos y primeros días.' },
@@ -1181,6 +1244,20 @@ class Component extends DCLogic {
     } catch (e) {}
   };
   go = (page) => () => { this.setState({ page, filtersOpen: false }); this.toTop(); };
+  goFamilia = () => {
+    const line = this.state.fam === 'gold' ? 'gold' : 'kongo';
+    this.setState({ page: 'productos', filtersOpen: false, filters: { linea: line, especie: '', etapa: '', tamano: '' } });
+    this.toTop();
+    let tries = 0;
+    const jump = () => {
+      const el = document.getElementById(line === 'gold' ? 'sec-gold' : 'sec-dogs');
+      if (el) {
+        const y = el.getBoundingClientRect().top + window.pageYOffset - 90;
+        window.scrollTo({ top: y, behavior: 'smooth' });
+      } else if (tries++ < 12) setTimeout(jump, 60);
+    };
+    setTimeout(jump, 140);
+  };
   openProduct = (id) => () => { this.setState({ page: 'producto', productId: id }); this.toTop(); };
   openPost = (id) => () => { this.setState({ page: 'nota', postId: id }); this.toTop(); };
 
@@ -1199,12 +1276,16 @@ class Component extends DCLogic {
     const censoY = st.censoVis === false ? 'translateY(-12px)' : 'none';
     const RF = this.refugiosList();
     const rq = (st.refugioQuery || '').trim().toLowerCase();
-    const refugioZonas = Array.from(new Set(RF.map(r => r.loc))).sort((a, b) => a.localeCompare(b, 'es'));
+    const refugioProvs = Array.from(new Set(RF.map(r => r.prov))).sort((a, b) => a.localeCompare(b, 'es'));
+    const provSel = st.refugioProv || '';
+    const refugioZonas = Array.from(new Set(RF.filter(r => !provSel || r.prov === provSel).map(r => r.loc))).sort((a, b) => a.localeCompare(b, 'es'));
     const refugiosShown = RF
+      .filter(r => !provSel || r.prov === provSel)
       .filter(r => !st.refugioZona || r.loc === st.refugioZona)
-      .filter(r => !rq || (r.name + ' ' + r.loc).toLowerCase().indexOf(rq) > -1)
-      .sort((a, b) => a.loc.localeCompare(b.loc, 'es') || a.name.localeCompare(b.name, 'es'))
+      .filter(r => !rq || (r.name + ' ' + r.loc + ' ' + r.prov).toLowerCase().indexOf(rq) > -1)
+      .sort((a, b) => a.prov.localeCompare(b.prov, 'es') || a.loc.localeCompare(b.loc, 'es') || a.name.localeCompare(b.name, 'es'))
       .map((r, i) => Object.assign({}, r, {
+        locLabel: r.loc === r.prov ? r.loc : r.loc + ' · ' + r.prov,
         delay: (i % 9) * 60,
         accent: ['#FFB71B', '#FF7F30', '#6BA43A', '#5EB3E4', '#E96BB0', '#4CA585'][i % 6],
         href: r.ig ? 'https://www.instagram.com/' + r.ig : 'https://instagram.com/kongooficial',
@@ -1234,7 +1315,7 @@ class Component extends DCLogic {
     };
     const SABOR = {
       'k-cachorros': 'Carne, pollo y vegetales', 'k-peq': 'Carne, pollo y vegetales', 'k-med': 'Carne, pollo y vegetales',
-      'gold-cachorros': 'Carne, pollo y vegetales', 'gold-peq': 'Carne, pollo y vegetales', 'gold-med': 'Carne, pollo y vegetales',
+      'gold-cachorros': 'Pollo y vegetales', 'gold-peq': 'Pollo y vegetales', 'gold-med': 'Pollo y vegetales',
       'gatitos': 'Carne y leche', 'gatos-adultos': 'Carne y pollo', 'gatos-salmon': 'Salmón y atún'
     };
     const withOpen = (p) => {
@@ -1344,7 +1425,7 @@ class Component extends DCLogic {
 
     // --- blog ---
     const catColor = (c) => c === 'Gatos' ? '#AB0033' : '#003B71';
-    const allPosts = this.postsData().map(p => Object.assign({}, p, { open: this.openPost(p.id), catColor: catColor(p.cat) }));
+    const allPosts = this.postsData().map(p => Object.assign({}, p, { open: this.openPost(p.id), catColor: catColor(p.cat), hasCover: !!p.cover, noCover: !p.cover }));
     const blogCats = [['todos', 'Todas'], ['Perros', 'Perros'], ['Gatos', 'Gatos']].map(c => {
       const on = st.cat === c[0];
       const line = c[0] === 'Gatos' ? '#AB0033' : '#003B71';
@@ -1352,7 +1433,16 @@ class Component extends DCLogic {
     });
     const posts = allPosts.filter(p => st.cat === 'todos' || p.cat === st.cat)
       .map((p, i) => Object.assign({}, p, { delay: i * 80 }));
-    const post = allPosts.find(p => p.id === st.postId) || allPosts[0];
+    let post = allPosts.find(p => p.id === st.postId) || allPosts[0];
+    post = Object.assign({}, post, {
+      hasCover: !!post.cover,
+      noCover: !post.cover,
+      isPlaceholder: !post.body,
+      blocks: (post.body || []).map(b => Object.assign({}, b, {
+        plain: !b.quote && !b.h && !b.note,
+        head: !!b.h, isQuote: !!b.quote, isNote: !!b.note
+      }))
+    });
 
     const FAM = {
       kongo: { label: 'Kongo', color: '#FF7F30', ink: '#B54B08', soft: '#FFF1E7', kicker: 'Línea completa',
@@ -1371,7 +1461,7 @@ class Component extends DCLogic {
     });
     const perfilesRaw = [
       { t1: 'Tengo un', t2: 'refugio', tab: 'Refugios', color: '#6BA43A', ink: '#3F6B1D', bg: '#F0F6E9', text: 'Escribinos por Instagram desde la cuenta del refugio a @kongooficial. Te mandamos el formulario para sumarte y material para difundir la campaña.' },
-      { t1: 'Tengo un', t2: 'punto de venta', tab: 'Puntos de venta', color: '#6BA43A', ink: '#3F6B1D', bg: '#F0F6E9', text: 'Tu local puede recibir las bolsas vacías. Hablá con tu distribuidor o escribinos a @kongooficial con los datos del comercio: te llevamos el recipiente y el material para arrancar.' },
+      { t1: 'Tengo un', t2: 'punto de venta', tab: 'Puntos de venta', color: '#6BA43A', ink: '#3F6B1D', bg: '#F0F6E9', text: 'Tu local puede recibir las bolsas vacías. Hablá con tu distribuidor o escribinos a @kongooficial con los datos del comercio: te llevamos el botadero y el material para arrancar.' },
       { t1: 'Soy', t2: 'consumidor', tab: 'Consumidores', color: '#6BA43A', ink: '#3F6B1D', bg: '#F0F6E9', text: 'Guardá las bolsas vacías de Kongo y llevalas al refugio o local que participe más cerca de tu casa. Mirá el listado completo y elegí el tuyo.' }
     ];
     const perfilCta = [
@@ -1401,9 +1491,12 @@ class Component extends DCLogic {
       tabGold: st.fam === 'gold' ? { bg: '#FFB71B', fg: '#fff' } : { bg: '#fff', fg: '#8A6A12' },
       perfilTabs: perfilTabs, perfilActive: perfilesRaw[st.perfil] || perfilesRaw[0], perfilCards: perfilCards,
       goInicio: this.go('inicio'), goProductos: this.go('productos'), goComunidad: this.go('comunidad'),
+      goFamilia: this.goFamilia,
       goConsejos: this.go('consejos'), goFaq: this.go('faq'), goContacto: this.go('contacto'),
       goRefugios: this.go('refugios'), isRefugios: st.page === 'refugios',
       refugios: refugiosShown, refugiosCount: refugiosShown.length, refugioQuery: st.refugioQuery || '',
+      refugioProvs, refugioProv: provSel,
+      setRefugioProv: (e) => this.setState({ refugioProv: e.target.value, refugioZona: '' }),
       setRefugioQuery: (e) => this.setState({ refugioQuery: e.target.value }),
       refugioZona: st.refugioZona || '',
       setRefugioZona: (e) => this.setState({ refugioZona: e.target.value }),
@@ -1456,7 +1549,7 @@ class Component extends DCLogic {
   }
 
   refugiosList() {
-    return [{"loc":"Alejandro Korn","name":"Refugio Patitas Rescatadas A. Korn","ig":"refugiopatitasrescatadas"},{"loc":"Alejandro Korn","name":"Ranitas Rescatadas","ig":"ranitas_rescatadas"},{"loc":"Bahía Blanca","name":"Mascoteros Bahienses","ig":"mascoterosbahienses"},{"loc":"Bahía Blanca","name":"House of Michis","ig":"houseofmichis"},{"loc":"Bahía Blanca","name":"Huellitas Bahía Blanca","ig":"huellitas.bahiablanca"},{"loc":"Bahía Blanca","name":"Nora Aguilar — proteccionista independiente","ig":"noritaguilar"},{"loc":"Bahía Blanca","name":"Proyecto Animal Bahía Blanca","ig":"proyectoanimalbb"},{"loc":"Bolívar","name":"SAPAAB","ig":"sapaab_bolivar"},{"loc":"Bragado","name":"Voluntarios Animalistas de Bragado","ig":"voluntariosanimalistasbragado"},{"loc":"Buenos Aires","name":"Amigo a Casa","ig":"amigoacasa"},{"loc":"Cañuelas","name":"Somos Ayudando","ig":"somos.ayudando"},{"loc":"Cañuelas","name":"María de Matos Leitao","ig":"mariadematosleitao"},{"loc":"Capitán Sarmiento","name":"Adopciones Huellitas Callejeras","ig":"huellitas67"},{"loc":"Carmen de Areco","name":"Cambiando Vidas","ig":"cambiandovidas.ar"},{"loc":"Chivilcoy","name":"Mirada de Galgo","ig":"miradadegalgo"},{"loc":"Chivilcoy","name":"Galgos Felices Chivilcoy","ig":"galgosfeliceschivilcoyarg"},{"loc":"Chivilcoy","name":"Huellitas al Rescate Chivilcoy","ig":"huellitasalrescatechivilcoy"},{"loc":"Chivilcoy","name":"Corazones Voluntarios Chivilcoy","ig":"voluntarioscorazones"},{"loc":"Garín","name":"Vidas en Adopción","ig":"vidasenadopcion"},{"loc":"General Las Heras","name":"Patas en Casa","ig":"patasencasa"},{"loc":"General Rodríguez","name":"Rabito Contento","ig":"rabitocontento2023"},{"loc":"General Rodríguez","name":"Refugio y Albergue Esperanza","ig":"refugioyalbergueesperanza"},{"loc":"General Rodríguez","name":"La Tribu de Ale","ig":"latribudeale"},{"loc":"La Plata","name":"Ayuda un Galgo","ig":"ayudaungalgo"},{"loc":"La Plata","name":"Adopciones Gatitos LP","ig":"adopcionesgatitoslp"},{"loc":"La Plata","name":"APA La Plata — Encontrá un Amigo","ig":"encontra.un.amigo"},{"loc":"La Plata","name":"Gatolandia La Plata","ig":"gatolandia_laplata"},{"loc":"La Plata","name":"Rescatando Narices Frías","ig":"rescatandonaricesfrias"},{"loc":"La Plata","name":"Voluntariado El Rincón","ig":"voluntariado_el_rincon"},{"loc":"La Plata","name":"Rescataditos La Plata","ig":"rescataditoslaplata"},{"loc":"La Plata","name":"Callejeritos de Villa Elisa","ig":"callejeritosvillaelisa"},{"loc":"Mar del Plata","name":"Casona de Galgos SPA","ig":"casonadegalgosspa"},{"loc":"Mar del Plata","name":"Los Perritos de María Marto","ig":"perritosdemaria"},{"loc":"Mar del Plata","name":"El Gran Pirincho MDP","ig":"refu_elgranpirincho_mdp"},{"loc":"Mar del Plata","name":"Michis del Amor MDP","ig":"michisdelamor_mdp"},{"loc":"Mar del Plata","name":"Patitas Callejeras","ig":"patitascallejeras.casos"},{"loc":"Mar del Plata","name":"Callejeros del Regional","ig":"callejerosdelregional"},{"loc":"Mar del Plata","name":"Pampa Nuestra","ig":"pampa_nuestra.hogardetransito"},{"loc":"Mar del Plata","name":"Danos una Pata MDP","ig":"danosunapatamdp"},{"loc":"Marcos Paz","name":"La Manada de Julio","ig":"lamanadadejulio"},{"loc":"Mariano Acosta","name":"Hogar Amor de Galgo","ig":"hogaramordegalgo"},{"loc":"Navarro","name":"UNAN — Unidos por Nuestros Animales","ig":"nuestrosanimalesnav"},{"loc":"Pergamino","name":"Rescataditos Pergamino","ig":"rescataditospergamino"},{"loc":"Pilar","name":"Saltitos Felices","ig":"hogardeanimalessaltitosfelices"},{"loc":"Pilar","name":"Mascotas Pilar del Este","ig":"mascotaspilardeleste"},{"loc":"Pilar","name":"Tropilla al Rescate","ig":"tropilla.al.rescate"},{"loc":"Pinamar","name":"Patitas Pinamar","ig":"patitaspinamar"},{"loc":"Presidente Derqui","name":"Los Luceritos de Presidente Derqui","ig":"losluceritosptederquic"},{"loc":"Salto","name":"Asociación Protectora de Animales de Salto","ig":"cuidandohuellas"},{"loc":"San Vicente","name":"Refugio San Vicente","ig":"refugiosanvicente"},{"loc":"San Vicente","name":"Patitas de San Vicente","ig":"refupatitassanvicente"},{"loc":"Tres Arroyos","name":"PACMA Tres Arroyos","ig":"refugiocaninopacma"},{"loc":"Villa Gesell","name":"APAADE Villa Gesell","ig":"refugioapaade"},{"loc":"Zárate","name":"Animales en Adopción Zárate","ig":"animalesenadopcionzarate"},{"loc":"Zárate","name":"S.O.S. Galgos de Zárate","ig":"sosgalgosdezarate"},{"loc":"Zárate","name":"Adopciones Responsables BA","ig":"adopciones.responsablesba"},{"loc":"Zárate","name":"Sociedad Protectora de Animales de Zárate","ig":"protectoradeanimaleszarate"},{"loc":"Zona Norte","name":"Patitas Zona Norte","ig":"patitaszonanorte"},{"loc":"Chivilcoy","name":"Chivilcotas ONG","ig":""}];
+    return [{"prov":"Buenos Aires","loc":"Alejandro Korn","name":"Refugio Patitas Rescatadas A. Korn","ig":"refugiopatitasrescatadas"},{"prov":"Buenos Aires","loc":"Alejandro Korn","name":"Ranitas Rescatadas","ig":"ranitas_rescatadas"},{"prov":"Buenos Aires","loc":"Bahía Blanca","name":"Mascoteros Bahienses","ig":"mascoterosbahienses"},{"prov":"Buenos Aires","loc":"Bahía Blanca","name":"House of Michis","ig":"houseofmichis"},{"prov":"Buenos Aires","loc":"Bahía Blanca","name":"Huellitas Bahía Blanca","ig":"huellitas.bahiablanca"},{"prov":"Buenos Aires","loc":"Bahía Blanca","name":"Nora Aguilar — proteccionista independiente","ig":"noritaguilar"},{"prov":"Buenos Aires","loc":"Bahía Blanca","name":"Proyecto Animal Bahía Blanca","ig":"proyectoanimalbb"},{"prov":"Buenos Aires","loc":"Bolívar","name":"SAPAAB","ig":"sapaab_bolivar"},{"prov":"Buenos Aires","loc":"Bragado","name":"Voluntarios Animalistas de Bragado","ig":"voluntariosanimalistasbragado"},{"prov":"Buenos Aires","loc":"Buenos Aires","name":"Amigo a Casa","ig":"amigoacasa"},{"prov":"Buenos Aires","loc":"Cañuelas","name":"Somos Ayudando","ig":"somos.ayudando"},{"prov":"Buenos Aires","loc":"Cañuelas","name":"María de Matos Leitao","ig":"mariadematosleitao"},{"prov":"Buenos Aires","loc":"Capitán Sarmiento","name":"Adopciones Huellitas Callejeras","ig":"huellitas67"},{"prov":"Buenos Aires","loc":"Carmen de Areco","name":"Cambiando Vidas","ig":"cambiandovidas.ar"},{"prov":"Buenos Aires","loc":"Chivilcoy","name":"Chivilcotas ONG","ig":""},{"prov":"Buenos Aires","loc":"Chivilcoy","name":"Mirada de Galgo","ig":"miradadegalgo"},{"prov":"Buenos Aires","loc":"Chivilcoy","name":"Galgos Felices Chivilcoy","ig":"galgosfeliceschivilcoyarg"},{"prov":"Buenos Aires","loc":"Chivilcoy","name":"Huellitas al Rescate Chivilcoy","ig":"huellitasalrescatechivilcoy"},{"prov":"Buenos Aires","loc":"Chivilcoy","name":"Corazones Voluntarios Chivilcoy","ig":"voluntarioscorazones"},{"prov":"Buenos Aires","loc":"Garín","name":"Vidas en Adopción","ig":"vidasenadopcion"},{"prov":"Buenos Aires","loc":"General Las Heras","name":"Patas en Casa","ig":"patasencasa"},{"prov":"Buenos Aires","loc":"General Rodríguez","name":"Rabito Contento","ig":"rabitocontento2023"},{"prov":"Buenos Aires","loc":"General Rodríguez","name":"Refugio y Albergue Esperanza","ig":"refugioyalbergueesperanza"},{"prov":"Buenos Aires","loc":"General Rodríguez","name":"La Tribu de Ale","ig":"latribudeale"},{"prov":"Buenos Aires","loc":"La Plata","name":"Ayuda un Galgo","ig":"ayudaungalgo"},{"prov":"Buenos Aires","loc":"La Plata","name":"Adopciones Gatitos LP","ig":"adopcionesgatitoslp"},{"prov":"Buenos Aires","loc":"La Plata","name":"APA La Plata — Encontrá un Amigo","ig":"encontra.un.amigo"},{"prov":"Buenos Aires","loc":"La Plata","name":"Gatolandia La Plata","ig":"gatolandia_laplata"},{"prov":"Buenos Aires","loc":"La Plata","name":"Rescatando Narices Frías","ig":"rescatandonaricesfrias"},{"prov":"Buenos Aires","loc":"La Plata","name":"Voluntariado El Rincón","ig":"voluntariado_el_rincon"},{"prov":"Buenos Aires","loc":"La Plata","name":"Rescataditos La Plata","ig":"rescataditoslaplata"},{"prov":"Buenos Aires","loc":"La Plata","name":"Callejeritos de Villa Elisa","ig":"callejeritosvillaelisa"},{"prov":"Buenos Aires","loc":"Mar del Plata","name":"Casona de Galgos SPA","ig":"casonadegalgosspa"},{"prov":"Buenos Aires","loc":"Mar del Plata","name":"Los Perritos de María Marto","ig":"perritosdemaria"},{"prov":"Buenos Aires","loc":"Mar del Plata","name":"El Gran Pirincho MDP","ig":"refu_elgranpirincho_mdp"},{"prov":"Buenos Aires","loc":"Mar del Plata","name":"Michis del Amor MDP","ig":"michisdelamor_mdp"},{"prov":"Buenos Aires","loc":"Mar del Plata","name":"Patitas Callejeras","ig":"patitascallejeras.casos"},{"prov":"Buenos Aires","loc":"Mar del Plata","name":"Callejeros del Regional","ig":"callejerosdelregional"},{"prov":"Buenos Aires","loc":"Mar del Plata","name":"Pampa Nuestra","ig":"pampa_nuestra.hogardetransito"},{"prov":"Buenos Aires","loc":"Mar del Plata","name":"Danos una Pata MDP","ig":"danosunapatamdp"},{"prov":"Buenos Aires","loc":"Marcos Paz","name":"La Manada de Julio","ig":"lamanadadejulio"},{"prov":"Buenos Aires","loc":"Mariano Acosta","name":"Hogar Amor de Galgo","ig":"hogaramordegalgo"},{"prov":"Buenos Aires","loc":"Navarro","name":"UNAN Unidos por Nuestros Animales Navarro","ig":"nuestrosanimalesnav"},{"prov":"Buenos Aires","loc":"Pergamino","name":"Rescataditos Pergamino","ig":"rescataditospergamino"},{"prov":"Buenos Aires","loc":"Pilar","name":"Saltitos Felices","ig":"hogardeanimalessaltitosfelices"},{"prov":"Buenos Aires","loc":"Pilar","name":"Mascotas Pilar del Este","ig":"mascotaspilardeleste"},{"prov":"Buenos Aires","loc":"Pilar","name":"Tropilla al Rescate","ig":"tropilla.al.rescate"},{"prov":"Buenos Aires","loc":"Pinamar","name":"Patitas Pinamar","ig":"patitaspinamar"},{"prov":"Buenos Aires","loc":"Presidente Derqui","name":"Los Luceritos de Presidente Derqui","ig":"losluceritosptederquic"},{"prov":"Buenos Aires","loc":"Salto","name":"Asociación Protectora de Animales de Salto","ig":"cuidandohuellas"},{"prov":"Buenos Aires","loc":"San Vicente","name":"Refugio San Vicente","ig":"refugiosanvicente"},{"prov":"Buenos Aires","loc":"San Vicente","name":"Patitas de San Vicente","ig":"refupatitassanvicente"},{"prov":"Buenos Aires","loc":"Tres Arroyos","name":"PACMA Tres Arroyos","ig":"refugiocaninopacma"},{"prov":"Buenos Aires","loc":"Villa Gesell","name":"APAADE Villa Gesell","ig":"refugioapaade"},{"prov":"Buenos Aires","loc":"Zárate","name":"Animales en Adopción Zárate","ig":"animalesenadopcionzarate"},{"prov":"Buenos Aires","loc":"Zárate","name":"S.O.S. Galgos de Zárate","ig":"sosgalgosdezarate"},{"prov":"Buenos Aires","loc":"Zárate","name":"Adopciones Responsables BA","ig":"adopciones.responsablesba"},{"prov":"Buenos Aires","loc":"Zárate","name":"Sociedad Protectora de Animales de Zárate","ig":"protectoradeanimaleszarate"},{"prov":"Buenos Aires","loc":"Zona Norte","name":"Patitas Zona Norte","ig":"patitaszonanorte"},{"prov":"CABA y GBA","loc":"Tres de Febrero","name":"Bicheros S.P. Peña - V. Raffo","ig":"bicheros_sp_vr"},{"prov":"CABA y GBA","loc":"Adrogué","name":"Gatos Adrogué","ig":"gatosadrogue"},{"prov":"CABA y GBA","loc":"Agronomía","name":"Proyecto Hocicos Contentos","ig":"proyecto.hocicos.contentos"},{"prov":"CABA y GBA","loc":"Almagro","name":"AyudaCan","ig":"ayudacan"},{"prov":"CABA y GBA","loc":"Almirante Brown","name":"Amores Callejeros Don Orione","ig":"amorescallejeros2_"},{"prov":"CABA y GBA","loc":"Avellaneda","name":"Bigotes Felices","ig":"bigotes._felices"},{"prov":"CABA y GBA","loc":"Avellaneda","name":"Amores en Adopción","ig":"silviabeatriz.rioschirino"},{"prov":"CABA y GBA","loc":"Avellaneda","name":"Gatitos de Avellaneda","ig":"gatitosdeavellaneda"},{"prov":"CABA y GBA","loc":"Balvanera","name":"Hogar de Rescate y Protección Lourdes","ig":"hogardeproteccionlourdes"},{"prov":"CABA y GBA","loc":"Balvanera","name":"Trapito'S","ig":"trapitosyco"},{"prov":"CABA y GBA","loc":"Barracas","name":"Catdopciones","ig":"catdopciones"},{"prov":"CABA y GBA","loc":"Barracas","name":"Los Bebés Gorditos","ig":"losbebesgorditos"},{"prov":"CABA y GBA","loc":"Barracas","name":"Refugio de Silvia","ig":"refugiodesilvia"},{"prov":"CABA y GBA","loc":"Belgrano","name":"Patitas al Rescate","ig":"patitasalrescate"},{"prov":"CABA y GBA","loc":"Belgrano","name":"El Campito Felino","ig":"elcampitofelino"},{"prov":"CABA y GBA","loc":"Belgrano","name":"Pandilla Animal","ig":"pandillaanimal"},{"prov":"CABA y GBA","loc":"Benavídez","name":"Patitas Unidas Tigre","ig":"patitas_unidas_tigre"},{"prov":"CABA y GBA","loc":"Berazategui","name":"Salvemos a las Patitas","ig":"salvemosalaspatitas"},{"prov":"CABA y GBA","loc":"Bernal Oeste","name":"Refugio Hogar Cristian","ig":"refugio_hogar_cristian"},{"prov":"CABA y GBA","loc":"Boedo","name":"Refugio Lucero de Raúl","ig":"refugio.lucero"},{"prov":"CABA y GBA","loc":"Boedo","name":"Callejeros Casa Quiere","ig":"callejerocasaquiere"},{"prov":"CABA y GBA","loc":"Boedo","name":"Rescatando 4 Patas","ig":"rescatando4patas_"},{"prov":"CABA y GBA","loc":"CABA","name":"Gatisenial","ig":"gatisenial"},{"prov":"CABA y GBA","loc":"CABA","name":"Bicho Feliz","ig":"holabichofeliz"},{"prov":"CABA y GBA","loc":"CABA","name":"Las Antonias Rescate","ig":"lasantonias.rescates"},{"prov":"CABA y GBA","loc":"CABA","name":"Zaguates Refugio","ig":"zaguatesrefugio"},{"prov":"CABA y GBA","loc":"CABA","name":"Adopta un Galgo en Argentina","ig":"adoptaungalgo"},{"prov":"CABA y GBA","loc":"CABA","name":"Yo Adopto Argentina","ig":"yoadoptoargentina"},{"prov":"CABA y GBA","loc":"Zona Norte","name":"Rescatando Peluditos","ig":"rescatando.peluditos_bsas"},{"prov":"CABA y GBA","loc":"Caballito","name":"Galgos Mágicos","ig":"galgosmagicos"},{"prov":"CABA y GBA","loc":"Caballito","name":"Gatos de Caballito","ig":"gatos_de_caballito"},{"prov":"CABA y GBA","loc":"Caballito","name":"Huellas sin Techo","ig":"huellassintecho"},{"prov":"CABA y GBA","loc":"Caballito","name":"Vero Amor Perruno","ig":"vero_amorperruno"},{"prov":"CABA y GBA","loc":"Castelar","name":"Refugio Hogar de Nené","ig":"refugio_hogardenene"},{"prov":"CABA y GBA","loc":"Castelar","name":"Gatitos Castelar","ig":"gatitos_castelar"},{"prov":"CABA y GBA","loc":"Ciudad Evita","name":"Ayuda Animal de Ciudad Evita","ig":"ayuda_animal.ok"},{"prov":"CABA y GBA","loc":"Ciudad Evita","name":"Huellas de un Amor Infinito","ig":"huellas_deamor_infinito_bsas"},{"prov":"CABA y GBA","loc":"Ciudadela","name":"Patitas x Ahí","ig":"patitasxahi"},{"prov":"CABA y GBA","loc":"Ciudadela","name":"Solar de Bigotes","ig":"solardebigotes"},{"prov":"CABA y GBA","loc":"Ciudadela","name":"Gatitos Ciudadela","ig":"gatitosciudadela"},{"prov":"CABA y GBA","loc":"Colegiales","name":"Gatitos en las Vías","ig":"gatitosenlasvias"},{"prov":"CABA y GBA","loc":"Colegiales","name":"Gatitos de Avilés","ig":"gatitosdeaviles"},{"prov":"CABA y GBA","loc":"Villa Devoto","name":"Mascotopia Adopciones","ig":"mascotopia_adopciones"},{"prov":"CABA y GBA","loc":"Dock Sud","name":"Dog Sud Help","ig":"dogsudhelp"},{"prov":"CABA y GBA","loc":"Dock Sud","name":"Adopciones en CABA","ig":"adopcionesencaba"},{"prov":"CABA y GBA","loc":"Dock Sud","name":"Cuchitas Dock Sud","ig":"cuchitasdocksud"},{"prov":"CABA y GBA","loc":"Don Torcuato","name":"Hocicos en Espera","ig":"hocicosenespera"},{"prov":"CABA y GBA","loc":"Ensenada","name":"Sinkka Chiri","ig":"sinkkachiri"},{"prov":"CABA y GBA","loc":"Ezeiza","name":"Ayuda Animal Ezeiza","ig":"ayuda_para_animales_de_ezeiza"},{"prov":"CABA y GBA","loc":"Ezeiza","name":"Por Ellos Ezeiza","ig":""},{"prov":"CABA y GBA","loc":"Florencio Varela","name":"Patitas Rescatadas Andy","ig":"patitasrescatadas.andy"},{"prov":"CABA y GBA","loc":"Flores","name":"Gatos y Perros de Flores","ig":"gatosyperrosdeflores"},{"prov":"CABA y GBA","loc":"Flores","name":"Rescate de Patitas","ig":"rescatedepatitas"},{"prov":"CABA y GBA","loc":"Flores","name":"Los Callejeritos de Flores","ig":"loscallejeritosdeflores"},{"prov":"CABA y GBA","loc":"Flores","name":"Hogar de Lactantes","ig":"hogardelactantes"},{"prov":"CABA y GBA","loc":"Francisco Álvarez","name":"Patitas al Hogar","ig":"patitasalhogar"},{"prov":"CABA y GBA","loc":"Francisco Álvarez","name":"Adopciones Casa de Sol","ig":"adopcionescasadesol"},{"prov":"CABA y GBA","loc":"Glew","name":"Paraíso de Galgos","ig":"paraisodegalgosch"},{"prov":"CABA y GBA","loc":"Glew","name":"A.D.A.S.","ig":"adasporlosanimales"},{"prov":"CABA y GBA","loc":"Gonnet","name":"Callejeritos Gonnet","ig":"callejeritos.gonnet"},{"prov":"CABA y GBA","loc":"González Catán","name":"Faby Dandolo Rescatados","ig":"fabydandolo.rescatados"},{"prov":"CABA y GBA","loc":"González Catán","name":"Rescatdog Pequeño Refugio Hogar","ig":"rescatdog_"},{"prov":"CABA y GBA","loc":"González Catán","name":"Esperando una Cucha","ig":"esperando.una.cucha"},{"prov":"CABA y GBA","loc":"González Catán","name":"Rescatancitos","ig":"rescatancitos"},{"prov":"CABA y GBA","loc":"González Catán","name":"Detrás de tus Huellas","ig":"detrasdetushuellas"},{"prov":"CABA y GBA","loc":"González Catán","name":"Una Patita Amiga Hogar Canino","ig":"unapatitaamigahogarcanino12"},{"prov":"CABA y GBA","loc":"General Rodríguez","name":"Polo Animal","ig":"polo.animal.hogar.gr"},{"prov":"CABA y GBA","loc":"Hurlingham","name":"Fundación Viva la Vida","ig":"fundacionvivalavida.argentina"},{"prov":"CABA y GBA","loc":"Ingeniero Budge","name":"Hogar Guerreritos","ig":"los.guerreritos"},{"prov":"CABA y GBA","loc":"Ingeniero Adolfo Sourdeaux","name":"Huellitas sin Hogar BsAs","ig":"huellitassinhogarbsas"},{"prov":"CABA y GBA","loc":"Ituzaingó","name":"Patitas de la UNLaM","ig":"patitasdelaunlam"},{"prov":"CABA y GBA","loc":"Ituzaingó","name":"Tigrecitos","ig":"tigrecitossinhogar"},{"prov":"CABA y GBA","loc":"Ituzaingó","name":"Rescates y Adopciones Ituzaingó","ig":"rescates.adopciones.ituzaingo"},{"prov":"CABA y GBA","loc":"Ituzaingó","name":"Refugio Clemente Mamani","ig":"refuclementemamani"},{"prov":"CABA y GBA","loc":"José C. Paz","name":"El Edén de los Rescatados","ig":"eleden_hogar"},{"prov":"CABA y GBA","loc":"La Tablada","name":"Alejandra Muñoz Callejeritos Rescatados","ig":"ale_callejeritos_rescatados"},{"prov":"CABA y GBA","loc":"Lanús","name":"Gatitos de Lanús","ig":"gatitosdelanus"},{"prov":"CABA y GBA","loc":"Lanús","name":"Patitas 1785","ig":"patitas1785lanus_este"},{"prov":"CABA y GBA","loc":"Lanús","name":"Hogar de Tránsito Ghione Noemí","ig":"hogardetransitoghione_noemi"},{"prov":"CABA y GBA","loc":"Lanús","name":"Raza Callejera","ig":"razacallejera"},{"prov":"CABA y GBA","loc":"Lanús","name":"Patitas Unidas Zona Sur","ig":"patitas.unidas.zonasur"},{"prov":"CABA y GBA","loc":"Lanús","name":"Rescatando Huellitas","ig":"rescatandohuellitasoficial"},{"prov":"CABA y GBA","loc":"Liniers","name":"Unidos en Rescate","ig":"unidosenrescate"},{"prov":"CABA y GBA","loc":"Liniers","name":"Gatitos de Caballito","ig":"gatitosdecaballito"},{"prov":"CABA y GBA","loc":"Loma Hermosa","name":"Patitas que Ayudan SM","ig":"patitasqueayudan_sm"},{"prov":"CABA y GBA","loc":"Lomas de Zamora","name":"Adopta un Amigo","ig":"adoptaunamigo.arg"},{"prov":"CABA y GBA","loc":"Lomas de Zamora","name":"Los Callejeritos de Su y Bella Brisa","ig":"los_callejeritodesu"},{"prov":"CABA y GBA","loc":"Lomas de Zamora","name":"Patipufete","ig":"patipufete"},{"prov":"CABA y GBA","loc":"Lomas de Zamora","name":"Refugio San Nicolás","ig":"refugio_san_nicolas"},{"prov":"CABA y GBA","loc":"Lomas del Mirador","name":"Rescataditos LDM","ig":"rescataditos.ldm"},{"prov":"CABA y GBA","loc":"Lomas del Mirador","name":"Adopt.amor","ig":"adopt.amor"},{"prov":"CABA y GBA","loc":"Lomas del Mirador","name":"Adopciones CABA","ig":"adopciones_caba"},{"prov":"CABA y GBA","loc":"Malvinas Argentinas","name":"Adoptame Zona Norte","ig":"adoptamezonanorte"},{"prov":"Catamarca","loc":"Catamarca Capital","name":"Ángeles al Rescate","ig":"angelesalrescate"},{"prov":"Catamarca","loc":"Valle Viejo","name":"Proteccionistas Independientes de Valle Viejo","ig":"malena.quevedo.9440"},{"prov":"Córdoba","loc":"Brinkmann","name":"Asociación Civil La Manada BRK","ig":"lamanadabrk"},{"prov":"Córdoba","loc":"Brinkmann","name":"Amigo Fiel","ig":"amigofielbrinkmann"},{"prov":"Córdoba","loc":"Capilla del Monte","name":"Huellitas Capilla del Monte","ig":"dont_stoopp"},{"prov":"Córdoba","loc":"Córdoba Capital","name":"Patitas de Perros","ig":"patitasdeperrosoficial"},{"prov":"Córdoba","loc":"Córdoba Capital","name":"Fundación Garra","ig":"fundaciongarra"},{"prov":"Córdoba","loc":"Las Varillas","name":"SOS Animales Las Varillas","ig":"sosanimaleslasvarillas"},{"prov":"Córdoba","loc":"Morteros","name":"Colitas Contentas","ig":"colitas.contentas"},{"prov":"Córdoba","loc":"San Francisco","name":"Protectora Mario Gemelli San Francisco","ig":"protectora.mariogemelli"},{"prov":"Córdoba","loc":"Valle Hermoso","name":"Rescataditos Valle Hermoso Punilla","ig":"silvidela1726"},{"prov":"Córdoba","loc":"Valle Hermoso","name":"Alma Animal","ig":"alma.animal.of"},{"prov":"Córdoba","loc":"Villa Carlos Paz","name":"IPAD","ig":"ipad_carlos_paz"},{"prov":"Córdoba","loc":"Villa Giardino","name":"Red Voluntarios de Animales de Villa Giardino","ig":"redvoluntariosanimalesgiardino"},{"prov":"Entre Ríos","loc":"Concepción del Uruguay","name":"Manos x Patas CdelU","ig":"manosxpatascdelu"},{"prov":"Entre Ríos","loc":"Concepción del Uruguay","name":"SOS Animales CdelU","ig":"a.c_civil_s.o.s_animal_cdelu"},{"prov":"Entre Ríos","loc":"Concepción del Uruguay","name":"Alma Animal","ig":"gabyallois"},{"prov":"Entre Ríos","loc":"Concepción del Uruguay","name":"Rescate Animal CDU","ig":"rescateanimal.cdu"},{"prov":"Entre Ríos","loc":"Concepción del Uruguay","name":"Ayuda Animal CdelU","ig":"ayudaanimalcdelu"},{"prov":"Entre Ríos","loc":"Crespo","name":"Patitas Crespo","ig":"patitascrespo"},{"prov":"Entre Ríos","loc":"Gualeguaychú","name":"Patitas Gualeguaychú","ig":"patitasengualeguaychu"},{"prov":"Entre Ríos","loc":"Gualeguaychú","name":"Los Perros de San Roque","ig":"refugiolosperrosdesanroque"},{"prov":"Entre Ríos","loc":"Nogoyá","name":"APA Los Amigos","ig":"apanogoya"},{"prov":"Entre Ríos","loc":"Paraná","name":"Amor x los Animales","ig":"amorxlosanimales_pna"},{"prov":"Entre Ríos","loc":"Paraná","name":"Fundación Callejeritos","ig":"fundacion.callejeritos"},{"prov":"Entre Ríos","loc":"Gualeguaychú","name":"Refugio La Casita","ig":"car_colombo_refu_lacasita"},{"prov":"Entre Ríos","loc":"San José","name":"Sanjochichos","ig":"sanjochichos"},{"prov":"La Pampa","loc":"General Pico","name":"APPA General Pico","ig":"appa_generalpico"},{"prov":"Misiones","loc":"Posadas","name":"El Refugio de Animales Posadas","ig":"elrefugiodeanimalesposadas"},{"prov":"Mendoza","loc":"San Martín","name":"Refugio A.M.P.A.R.A.","ig":"refugioampara"},{"prov":"Mendoza","loc":"Guaymallén","name":"El Refugio de Diego","ig":"elrefugiodediego"},{"prov":"Santa Cruz","loc":"Pico Truncado","name":"Refugio Defensores de Vida","ig":"refugiodefensoresdevida"},{"prov":"Santa Fe","loc":"Gobernador Crespo","name":"Colitas sin Hogar","ig":"colitas.sin.hogar"},{"prov":"Santa Fe","loc":"Rosario","name":"Dejando Huellas Rosario","ig":"dejandohuellasrosario"},{"prov":"Santa Fe","loc":"Rosario","name":"Propatas Rosario","ig":"propatasrosario"},{"prov":"Santa Fe","loc":"Rosario","name":"Gatitos Rosario","ig":"gatitosrosario"},{"prov":"Santa Fe","loc":"Rosario","name":"Acción Bigotes","ig":"accionbigotes"},{"prov":"Santa Fe","loc":"Rosario","name":"Ya Te Elegí Perros en Adopción","ig":"yateelegiperrosenadopcion"},{"prov":"Santa Fe","loc":"Rosario","name":"Casita Feliz de Ibarlucea","ig":"norajunot"},{"prov":"Santa Fe","loc":"Rosario","name":"Animalistas de Rosario","ig":"animalistasderosario"},{"prov":"Santa Fe","loc":"Rosario","name":"Amigos de los Perritos de Graciela","ig":"amigosdelosperritosdegraciela"},{"prov":"Santa Fe","loc":"Rosario","name":"Protectora Domingo Faustino Sarmiento","ig":"protectorasarmiento_oficial"},{"prov":"Santa Fe","loc":"Recreo","name":"Dejando Huellas Recreo","ig":"dejandohuellasrecreo_"},{"prov":"Santa Fe","loc":"San Lorenzo","name":"Misión Ronroneo","ig":"mision.ronroneo"},{"prov":"Santa Fe","loc":"Santa Fe Capital","name":"Animales en Adopción SF","ig":"animalesenadopcionsf"},{"prov":"Santa Fe","loc":"Santa Fe Capital","name":"Ayuda 1 Gato Santa Fe","ig":"ayuda1gatosantafe"},{"prov":"Santa Fe","loc":"Santa Fe Capital","name":"Rescatando Ando Santa Fe","ig":"rescatandoando.sfe"},{"prov":"Santa Fe","loc":"Santa Fe Capital","name":"Salvando Patitas Santa Fe","ig":"salvandopatitassf"},{"prov":"Santa Fe","loc":"Santa Fe Capital","name":"Galguitis Aguda","ig":"galguitis.sf"},{"prov":"Santa Fe","loc":"Santa Fe Capital","name":"S.O.S. Gatos Santa Fe","ig":"sosgatostafe"},{"prov":"Santa Fe","loc":"Santo Tomé","name":"Juntos por Ellos","ig":"juntosporelloss"},{"prov":"Santa Fe","loc":"Totoras","name":"Totoras por los Animales","ig":"adopcionestotoras"},{"prov":"Santa Fe","loc":"Venado Tuerto","name":"Unidos x Ellos","ig":"unidosxellosvt"},{"prov":"Santa Fe","loc":"Venado Tuerto","name":"Galgos Amados","ig":"galgosamados"},{"prov":"Santiago del Estero","loc":"Santiago del Estero","name":"Refugio de Laura Daniele","ig":""},{"prov":"Santiago del Estero","loc":"Santiago del Estero","name":"Bichos SGO","ig":"bichossgo"},{"prov":"Tucumán","loc":"Banda del Río Salí","name":"Di Romi Rescates","ig":"diromi_rescates"},{"prov":"Tucumán","loc":"Tafí Viejo","name":"APAT Ayuda para los Animales de Tafí","ig":"apat_amoranimal"},{"prov":"Tucumán","loc":"Tafí Viejo","name":"ADLAA Tafí Viejo","ig":"adlaatafiviejo"},{"prov":"CABA y GBA","loc":"Martínez","name":"Tres Patitas Callejeras","ig":"trespatitascallejeras"},{"prov":"CABA y GBA","loc":"Mataderos","name":"Hogar Gatitos Jazz","ig":"hogargatitosjazz"},{"prov":"CABA y GBA","loc":"Mataderos","name":"Adopciones Somos Puente 310","ig":"adopciones_somospuente310"},{"prov":"CABA y GBA","loc":"Mataderos","name":"Pastoraok","ig":"pastoraok"},{"prov":"CABA y GBA","loc":"Merlo","name":"Refugio Zoe Moria","ig":"refugiozoe..moria"},{"prov":"CABA y GBA","loc":"Merlo","name":"El Refugio de Liliana","ig":""},{"prov":"CABA y GBA","loc":"Merlo","name":"Refugio Zoobrevivientes","ig":"refugiozoobrevivientes"},{"prov":"CABA y GBA","loc":"Monserrat","name":"Gatitos de la Sarmiento","ig":"gatitosdelsalon"},{"prov":"CABA y GBA","loc":"Monte Castro","name":"Garritas","ig":"garritasdemontecastro"},{"prov":"CABA y GBA","loc":"Monte Grande","name":"Amoreanimal","ig":"amore__animal"},{"prov":"CABA y GBA","loc":"Monte Grande","name":"Patitas Buscando Hogar Argentina","ig":"patitas_buscando_hogar_arg"},{"prov":"CABA y GBA","loc":"Monte Grande","name":"Patitas Somos su Voz","ig":"patitas_somos_su_voz"},{"prov":"CABA y GBA","loc":"Monte Grande","name":"Rescatando Bigotes","ig":"rescatando_bigotes"},{"prov":"CABA y GBA","loc":"Monte Grande","name":"Los Callejeritos de Elisa","ig":"loscallejeritosdeelisa"},{"prov":"CABA y GBA","loc":"Monte Grande","name":"Animalistas de San Francisco","ig":"luzenelsilencio"},{"prov":"CABA y GBA","loc":"Monserrat","name":"Sergalgos","ig":"sergalgos"},{"prov":"CABA y GBA","loc":"Moreno","name":"Aprani","ig":"apraniprotectora_"},{"prov":"CABA y GBA","loc":"Moreno","name":"Fundación Orejas","ig":"fundacionorejas"},{"prov":"CABA y GBA","loc":"Moreno","name":"Peludas Colitas","ig":"peludascolitas"},{"prov":"CABA y GBA","loc":"Morón","name":"Casa Miau","ig":"casamiau.ar"},{"prov":"CABA y GBA","loc":"Morón","name":"Choque esa Pata","ig":"choqueesapata"},{"prov":"CABA y GBA","loc":"Morón","name":"Hogar Mascotero","ig":"hogar__mascotero"},{"prov":"CABA y GBA","loc":"Nueva Pompeya","name":"Gatitos Pompeya","ig":"gatitospompeya"},{"prov":"CABA y GBA","loc":"Nueva Pompeya","name":"Refugio Rescatados","ig":"refugiorescatados"},{"prov":"CABA y GBA","loc":"Nueva Pompeya","name":"Huella de Pitbull","ig":"hdp.rescates"},{"prov":"CABA y GBA","loc":"Núñez","name":"Gaticos de Núñez y Villa Martelli","ig":"gaticosdenunez"},{"prov":"CABA y GBA","loc":"Núñez","name":"Gatitos de Belgrano Adopciones","ig":"gatitosdebelgrano"},{"prov":"CABA y GBA","loc":"Núñez","name":"Red 4 Patas","ig":"red4patas"},{"prov":"CABA y GBA","loc":"Olivos","name":"Santa Ramona Protectora","ig":"santaramonaprotectora"},{"prov":"CABA y GBA","loc":"Pablo Nogués","name":"Peludos Felices","ig":"peludos_felices"},{"prov":"CABA y GBA","loc":"Palermo","name":"Garritas de Palermo","ig":"garritasdepalermo"},{"prov":"CABA y GBA","loc":"Palermo","name":"Gatitos de Palermo","ig":"gatitosdepalermook"},{"prov":"CABA y GBA","loc":"Palermo","name":"Mascotas en Adopción Argentina","ig":"mascotasenadopcionargentina"},{"prov":"CABA y GBA","loc":"Palomar","name":"Rescate al Alma","ig":"rescatealalma"},{"prov":"CABA y GBA","loc":"Palomar","name":"Los Perritos del Palomar Refugio CCPA","ig":"losperritosdelpalomarefugio"},{"prov":"CABA y GBA","loc":"Parque Centenario","name":"Gatites del Centenario","ig":"gatitesdelcentenario"},{"prov":"CABA y GBA","loc":"Parque Centenario","name":"101 Rescataditos","ig":"101_rescataditos"},{"prov":"CABA y GBA","loc":"Parque Chacabuco","name":"Colonia de Gatitos Parque Chacabuco","ig":"coloniagatitos.pc"},{"prov":"CABA y GBA","loc":"Parque Chacabuco","name":"Gatitos Parque Chacabuco","ig":"gatitos_parque_chacabuco"},{"prov":"CABA y GBA","loc":"Parque Chacabuco","name":"Gatitos del Mercado","ig":"gatitosdelmercado"},{"prov":"CABA y GBA","loc":"Parque Patricios","name":"Vagabundos de Parque Patricios — El Hogar de Claudia","ig":"vagabundos.parquepatricios"},{"prov":"CABA y GBA","loc":"Parque Patricios","name":"Adopciones Álida","ig":"adopciones_alida"},{"prov":"CABA y GBA","loc":"Parque Patricios","name":"Gatitos del Penna","ig":"gatitosdelpenna"},{"prov":"CABA y GBA","loc":"Paternal","name":"Misión Vagabundos","ig":"misionvagabundosba"},{"prov":"CABA y GBA","loc":"Paternal","name":"Michis Hospital Alvear","ig":"michishospitalalvear"},{"prov":"CABA y GBA","loc":"Paternal","name":"Un Gatito Adopta","ig":"ungatitoadopta"},{"prov":"CABA y GBA","loc":"Paternal","name":"Gatos y Perros de la Paternal","ig":"gatosyperrosdelapaternal"},{"prov":"CABA y GBA","loc":"Pompeya","name":"Michis Adopciones","ig":"michisadopciones"},{"prov":"CABA y GBA","loc":"Puerto Madero","name":"Mascotas Puerto Madero","ig":"mascotaspuertomadero"},{"prov":"CABA y GBA","loc":"Quilmes","name":"Gatitos del Barrio","ig":"los_gatitos_delbarrio"},{"prov":"CABA y GBA","loc":"Quilmes","name":"Vegan Quilmes","ig":"veganquilmes"},{"prov":"CABA y GBA","loc":"Ramos Mejía","name":"Santuario de Florcita","ig":"santuariodeflorcita"},{"prov":"CABA y GBA","loc":"Recoleta","name":"Sentido Galgo","ig":"sentidogalgo"},{"prov":"CABA y GBA","loc":"Recoleta","name":"Gatitos de Recoleta","ig":"gatitosderecoleta"},{"prov":"CABA y GBA","loc":"Remedios de Escalada","name":"Michis de Lanús","ig":"michisdelanus"},{"prov":"CABA y GBA","loc":"CABA","name":"Galguired","ig":"galguired"},{"prov":"CABA y GBA","loc":"Saavedra","name":"Rescataditos en Adopción","ig":"rescataditosenadopcionn"},{"prov":"CABA y GBA","loc":"Saavedra","name":"Huellitas Adopciones","ig":"huellitas.adopciones"},{"prov":"CABA y GBA","loc":"Saavedra","name":"Bolita de Leche","ig":"bolitadelecheok"},{"prov":"CABA y GBA","loc":"San Cristóbal","name":"Adopción de Gatos CABA","ig":"adopciondegatoscaba"},{"prov":"CABA y GBA","loc":"San Fernando","name":"Gatitos Lactantes Zona Norte","ig":"gatitoslacanteszn"},{"prov":"CABA y GBA","loc":"San Justo","name":"Refugio Callejeritos del Oeste","ig":"refugio_callejeritos_del_oeste"},{"prov":"CABA y GBA","loc":"San Martín","name":"Gatitos del Gutiérrez","ig":"gatitos__del_gutierrez"},{"prov":"CABA y GBA","loc":"San Martín","name":"Patitas Unisex","ig":"belladelnilo"},{"prov":"CABA y GBA","loc":"San Martín","name":"Patitas a Salvo","ig":"patitasalvo__"},{"prov":"CABA y GBA","loc":"San Telmo","name":"Refugio para Michis","ig":"refugioparamichis"},{"prov":"CABA y GBA","loc":"Santos Lugares","name":"Los Hermanos Pati Corti","ig":"loshermanospaticorti"},{"prov":"CABA y GBA","loc":"Sarandí","name":"Amicats Sarandí","ig":"amicatsarandi"},{"prov":"CABA y GBA","loc":"Sarandí","name":"Aquimiu","ig":"aquimiu"},{"prov":"CABA y GBA","loc":"Tapiales","name":"Voz Animal Argentina","ig":"vozanimal.arg"},{"prov":"CABA y GBA","loc":"Temperley","name":"Seres Sintientes","ig":"seres.sintientes"},{"prov":"CABA y GBA","loc":"Tigre","name":"Proteccionismo Tigre","ig":"proteccionismotigre"},{"prov":"CABA y GBA","loc":"Tigre","name":"Rescatando Mini Patitas","ig":"rescatandominipatitas"},{"prov":"CABA y GBA","loc":"Tigre","name":"Rescates Tigre","ig":"rescatestigre"},{"prov":"CABA y GBA","loc":"Tortuguitas","name":"Salvando Patitas","ig":"salvandopatitasrg"},{"prov":"CABA y GBA","loc":"Tristán Suárez","name":"Hogar de Tránsito Oca","ig":"hogardetransitoca"},{"prov":"CABA y GBA","loc":"Tristán Suárez","name":"Proyecto El Arca","ig":"_proyectoelarca"},{"prov":"CABA y GBA","loc":"Tristán Suárez","name":"Andy Pichy","ig":"andy_pichi_guau"},{"prov":"CABA y GBA","loc":"Valentín Alsina","name":"Refugio Hogar Rox Michis","ig":"refugiohogarroxmichiss"},{"prov":"CABA y GBA","loc":"Vicente López","name":"Animales de Vte. López","ig":"animalesdevtelopez"},{"prov":"CABA y GBA","loc":"Villa Ballester","name":"Patitas San Martín","ig":"patitassanmartin"},{"prov":"CABA y GBA","loc":"Villa Ballester","name":"Patitas Villa Ballester","ig":"patitasvillaballester"},{"prov":"CABA y GBA","loc":"Villa Celina","name":"Pichy Michis","ig":"pichymichis"},{"prov":"CABA y GBA","loc":"Villa Celina","name":"Rescatando por Amor","ig":"rescatando.por.amor"},{"prov":"CABA y GBA","loc":"Villa Celina","name":"Colitas sin Hogar","ig":"colitassinhogar"},{"prov":"CABA y GBA","loc":"Villa Crespo","name":"Liberados del Pasteur","ig":"liberadosdelpasteur"},{"prov":"CABA y GBA","loc":"Villa Crespo","name":"Adopciones Villa Crespo","ig":"adopciones.villacrespo"},{"prov":"CABA y GBA","loc":"Villa Crespo","name":"Guardianes de Galgos","ig":"guardianesdegalgos"},{"prov":"CABA y GBA","loc":"Villa de Mayo","name":"Suertudos de Li","ig":"suertudos__de_li"},{"prov":"CABA y GBA","loc":"Villa del Parque","name":"Amor a las Cuatro Huellitas","ig":"amoralascuatrohuellitas"},{"prov":"CABA y GBA","loc":"Villa del Parque","name":"Los Michis de VdP","ig":"losmichisdevdp"},{"prov":"CABA y GBA","loc":"Villa del Parque","name":"Ronroneos Felices","ig":"ronroneosfelices"},{"prov":"CABA y GBA","loc":"Villa Domínico","name":"APAC Avellaneda","ig":"apacavellaneda"},{"prov":"CABA y GBA","loc":"Villa Lugano","name":"Aledia Riveros Adopciones","ig":"alediariveros_adopciones"},{"prov":"CABA y GBA","loc":"Villa Lugano","name":"Melina Adopciones","ig":"melina_adopciones"},{"prov":"CABA y GBA","loc":"Villa Lugano","name":"Patitas Lugano","ig":"patitaslugano"},{"prov":"CABA y GBA","loc":"Villa Pueyrredón","name":"Hogar Donna","ig":"hogar.donna"},{"prov":"CABA y GBA","loc":"Villa Pueyrredón","name":"Gatitos de Villa Pueyrredón","ig":"gatitosdevillapueyrredon"},{"prov":"CABA y GBA","loc":"Villa Santa Rita","name":"Escuadrón Animal BA","ig":"escuadron.animal.ba"},{"prov":"CABA y GBA","loc":"Villa Sarmiento","name":"Techo de Amor","ig":"techodeamor"},{"prov":"CABA y GBA","loc":"Villa Soldati","name":"GAPRA Refugio","ig":"gapra.refugio"},{"prov":"CABA y GBA","loc":"Villa Soldati","name":"Proyecto Miau","ig":"proyecto.miau"},{"prov":"CABA y GBA","loc":"Villa Urquiza","name":"Bigotes en Apuros","ig":"bigotesenapuros"},{"prov":"CABA y GBA","loc":"Villa Urquiza","name":"Sumá un Amigo","ig":"sumaunamigo"},{"prov":"CABA y GBA","loc":"Villa Urquiza","name":"Fauna Urbana","ig":"faunaurbanaba"},{"prov":"CABA y GBA","loc":"Virrey del Pino","name":"Asociación Civil Las Renatas","ig":"refugiolasrenatasoficial"}];
   }
 
   faqList() {
