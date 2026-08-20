@@ -7,83 +7,64 @@
 </head>
 <body>
 <x-dc>
-<form onSubmit="{{ submit }}" style="display:flex; flex-direction:column; gap:18px; width:100%">
+<form onSubmit="{{ submit }}" style="display:flex; flex-direction:column; gap:16px; width:100%">
   <sc-if value="{{ sent }}" hint-placeholder-val="{{ false }}">
-    <div style="display:flex; flex-direction:column; justify-content:center; min-height:280px; gap:10px">
-      <div style="font-size:28px; font-weight:700; color:#003B71; letter-spacing:-1px">¡Gracias!</div>
-      <p style="margin:0; font-size:16px; line-height:1.6; color:#31404F">Recibimos tu mensaje y te respondemos a la brevedad.</p>
+    <div style="border-radius:14px; background:#E9F3DE; border:2px solid #6BA43A; padding:16px 18px">
+      <div style="font-size:16px; font-weight:700; color:#003B71">¡Gracias! Recibimos tu mensaje.</div>
+      <div style="font-size:14px; color:#31404F; margin-top:4px">Te respondemos a la brevedad a tu correo.</div>
     </div>
   </sc-if>
-  <sc-if value="{{ ready }}" hint-placeholder-val="{{ true }}">
-    <label style="display:flex; flex-direction:column; gap:8px">
-      <span style="font-size:11px; font-weight:700; letter-spacing:1.6px; text-transform:uppercase; color:#7C8B9A">Nombre</span>
-      <input type="text" value="{{ nombre }}" onChange="{{ setNombre }}" placeholder="Tu nombre" style="width:100%; padding:14px 16px; border-radius:16px; border:1.5px solid {{ bNombre }}; background:#fff; font-size:15px; color:#16202B; outline:none" />
-      <sc-if value="{{ eNombre }}" hint-placeholder-val="{{ false }}">
-        <span style="font-size:13px; font-weight:500; color:#AB0033">Ingresá tu nombre.</span>
-      </sc-if>
-    </label>
-    <label style="display:flex; flex-direction:column; gap:8px">
-      <span style="font-size:11px; font-weight:700; letter-spacing:1.6px; text-transform:uppercase; color:#7C8B9A">Correo electrónico</span>
-      <input type="email" value="{{ email }}" onChange="{{ setEmail }}" placeholder="tunombre@mail.com" style="width:100%; padding:14px 16px; border-radius:16px; border:1.5px solid {{ bEmail }}; background:#fff; font-size:15px; color:#16202B; outline:none" />
-      <sc-if value="{{ eEmail }}" hint-placeholder-val="{{ false }}">
-        <span style="font-size:13px; font-weight:500; color:#AB0033">Ingresá un correo electrónico válido.</span>
-      </sc-if>
-    </label>
-    <label style="display:flex; flex-direction:column; gap:8px">
-      <span style="font-size:11px; font-weight:700; letter-spacing:1.6px; text-transform:uppercase; color:#7C8B9A">Mensaje</span>
-      <textarea rows="5" value="{{ mensaje }}" onChange="{{ setMensaje }}" placeholder="Contanos en qué te podemos ayudar" style="width:100%; padding:14px 16px; border-radius:16px; border:1.5px solid {{ bMensaje }}; background:#fff; font-size:15px; color:#16202B; outline:none; resize:vertical; min-height:132px; font-family:inherit"></textarea>
-      <sc-if value="{{ eMensaje }}" hint-placeholder-val="{{ false }}">
-        <span style="font-size:13px; font-weight:500; color:#AB0033">Escribinos tu mensaje.</span>
-      </sc-if>
-    </label>
-    <button type="submit" style="width:100%; margin-top:4px; padding:16px 22px; border:none; border-radius:999px; background:#003B71; color:#fff; font-size:16px; font-weight:700; cursor:pointer; transition:background .25s" style-hover="background:#0A5590">{{ btnLabel }}</button>
-    <p style="margin:0; text-align:center; font-size:13px; color:#7C8B9A">Los tres campos son obligatorios</p>
-  </sc-if>
+  <label style="display:flex; flex-direction:column; gap:6px">
+    <span style="font-size:12px; font-weight:700; letter-spacing:1.4px; text-transform:uppercase; color:#5A6875">Nombre</span>
+    <input type="text" value="{{ nombre }}" onChange="{{ setNombre }}" placeholder="Tu nombre" style="padding:14px 16px; border-radius:12px; border:2px solid {{ bNombre }}; font-size:16px; color:#16202B; background:#fff; outline:none" style-focus="border-color:#003B71" />
+    <sc-if value="{{ eNombre }}" hint-placeholder-val="{{ false }}">
+      <span style="font-size:13px; font-weight:500; color:#AB0033">Ingresá tu nombre.</span>
+    </sc-if>
+  </label>
+  <label style="display:flex; flex-direction:column; gap:6px">
+    <span style="font-size:12px; font-weight:700; letter-spacing:1.4px; text-transform:uppercase; color:#5A6875">Correo electrónico</span>
+    <input type="email" value="{{ email }}" onChange="{{ setEmail }}" placeholder="tunombre@mail.com" style="padding:14px 16px; border-radius:12px; border:2px solid {{ bEmail }}; font-size:16px; color:#16202B; background:#fff; outline:none" style-focus="border-color:#003B71" />
+    <sc-if value="{{ eEmail }}" hint-placeholder-val="{{ false }}">
+      <span style="font-size:13px; font-weight:500; color:#AB0033">Ingresá un correo electrónico válido.</span>
+    </sc-if>
+  </label>
+  <label style="display:flex; flex-direction:column; gap:6px">
+    <span style="font-size:12px; font-weight:700; letter-spacing:1.4px; text-transform:uppercase; color:#5A6875">Mensaje</span>
+    <textarea rows="5" value="{{ mensaje }}" onChange="{{ setMensaje }}" placeholder="Contanos en qué te podemos ayudar" style="padding:14px 16px; border-radius:12px; border:2px solid {{ bMensaje }}; font-size:16px; color:#16202B; background:#fff; outline:none; resize:vertical; font-family:inherit" style-focus="border-color:#003B71"></textarea>
+    <sc-if value="{{ eMensaje }}" hint-placeholder-val="{{ false }}">
+      <span style="font-size:13px; font-weight:500; color:#AB0033">Escribinos tu mensaje.</span>
+    </sc-if>
+  </label>
+  <button type="submit" style="align-self:flex-start; padding:15px 30px; border-radius:999px; border:2px solid #003B71; background:#003B71; color:#fff; font-weight:700; font-size:16px; cursor:pointer; transition:all .25s" style-hover="background:#fff; color:#003B71">Enviar mensaje</button>
+  <span style="font-size:12px; font-weight:300; font-style:italic; color:#5A6875">Los tres campos son obligatorios.</span>
 </form>
+
 </x-dc>
 <script type="text/x-dc" data-dc-script>
 class Component extends DCLogic {
-  state = { nombre: '', email: '', mensaje: '', errors: {}, sent: false, sending: false };
-  set = (k) => (e) => { const v = e.target.value; this.setState(s => ({ [k]: v, errors: Object.assign({}, s.errors, { [k]: false }) })); };
+  state = { nombre: '', email: '', mensaje: '', errors: {}, sent: false };
+  set = (k) => (e) => { const v = e.target.value; this.setState(s => ({ [k]: v, sent: false, errors: Object.assign({}, s.errors, { [k]: false }) })); };
   submit = (e) => {
     e.preventDefault();
     const s = this.state;
-    if (s.sending) return;
     const errors = {
       nombre: !s.nombre.trim(),
       email: !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(s.email.trim()),
       mensaje: !s.mensaje.trim()
     };
-    if (errors.nombre || errors.email || errors.mensaje) {
-      this.setState({ errors: errors });
-      return;
-    }
-    const nombre = s.nombre.trim(), email = s.email.trim(), mensaje = s.mensaje.trim();
-    const subject = 'Consulta Kongo — ' + nombre;
-    this.setState({ sending: true });
-    fetch('https://formsubmit.co/ajax/consultas@baires-sa.com.ar', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-      body: JSON.stringify({ nombre: nombre, email: email, mensaje: mensaje, _subject: subject })
-    }).then((r) => { if (!r.ok) throw new Error('fail'); return r.json(); }).then(() => {
-      this.setState({ sent: true, sending: false, nombre: '', email: '', mensaje: '', errors: {} });
-    }).catch(() => {
-      const body = encodeURIComponent('Nombre: ' + nombre + '\nCorreo: ' + email + '\n\n' + mensaje);
-      window.location.href = 'mailto:consultas@baires-sa.com.ar?subject=' + encodeURIComponent(subject) + '&body=' + body;
-      this.setState({ sent: true, sending: false });
-    });
+    const ok = !errors.nombre && !errors.email && !errors.mensaje;
+    this.setState({ errors: errors, sent: ok });
+    if (ok) this.setState({ nombre: '', email: '', mensaje: '' });
   };
   renderVals() {
-    const s = this.state, err = s.errors;
-    const b = (k) => err[k] ? '#AB0033' : '#DDE5EE';
+    const s = this.state, e = s.errors;
+    const b = (k) => e[k] ? '#AB0033' : '#D6DEE7';
     return {
-      nombre: s.nombre, email: s.email, mensaje: s.mensaje,
-      sent: s.sent, ready: !s.sent,
+      nombre: s.nombre, email: s.email, mensaje: s.mensaje, sent: s.sent,
       setNombre: this.set('nombre'), setEmail: this.set('email'), setMensaje: this.set('mensaje'),
       submit: this.submit,
-      eNombre: !!err.nombre, eEmail: !!err.email, eMensaje: !!err.mensaje,
-      bNombre: b('nombre'), bEmail: b('email'), bMensaje: b('mensaje'),
-      btnLabel: s.sending ? 'Enviando…' : 'Enviar mensaje'
+      eNombre: !!e.nombre, eEmail: !!e.email, eMensaje: !!e.mensaje,
+      bNombre: b('nombre'), bEmail: b('email'), bMensaje: b('mensaje')
     };
   }
 }
