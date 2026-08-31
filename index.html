@@ -227,8 +227,8 @@
             <sc-for list="{{ rail }}" as="p" hint-placeholder-count="6">
               <div onClick="{{ p.open }}" style="flex:0 0 230px; border:2px solid {{ p.accent }}; border-radius:20px; overflow:hidden; background:#fff; cursor:pointer; transition:transform .35s cubic-bezier(.16,.84,.28,1), box-shadow .35s ease" style-hover="transform:translateY(-8px); box-shadow:0 22px 44px rgba(0,0,0,.14)">
                 <div style="display:flex; align-items:baseline; gap:7px; padding:12px 16px; background:{{ p.accent }}">
-                  <span style="font-size:10px; font-weight:700; letter-spacing:1.1px; text-transform:uppercase; color:#fff">{{ p.catLabel }}</span>
-                  <span style="font-size:10px; font-weight:400; letter-spacing:.5px; color:rgba(255,255,255,.88)">{{ p.specLabel }}</span>
+                  <span style="font-size:13px; font-weight:700; letter-spacing:.9px; white-space:nowrap; text-transform:uppercase; color:#fff">{{ p.catLabel }}</span>
+                  <span style="font-size:13px; font-weight:400; letter-spacing:.3px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; color:rgba(255,255,255,.88)">{{ p.specLabel }}</span>
                 </div>
                 <div style="height:170px; background:#fff; display:flex; align-items:center; justify-content:center; padding:14px">
                   <img data-photo="{{ p.img }}" alt="Envase Kongo" style="width: 170px; height: 157px; object-fit: contain; display: block; border-radius: 0px">
@@ -400,7 +400,7 @@
   <sc-if value="{{ isProductos }}" hint-placeholder-val="{{ true }}">
   <main style="max-width:1440px; margin:0 auto; padding:0 clamp(18px,3.2vw,44px) 96px">
     <section data-spot="rgba(255,127,48,.20)" data-bleed="" style="position:relative; width:100vw; margin-left:calc(50% - 50vw); height:clamp(440px,58vh,600px); overflow:hidden; background:#003B71">
-      <img src="uploads/opt/hero-home.jpg" alt="Perro junto a su plato de alimento" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; display:block; transform-origin:58% 45%; animation:kongoZoom 22s ease-in-out infinite alternate">
+      <img src="uploads/Request_for_clearer_image_2K_202608311045.jpeg" alt="Perro junto a su plato de alimento" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; display:block; transform-origin:58% 45%; animation:kongoZoom 22s ease-in-out infinite alternate">
       <div style="position:absolute; left:58%; top:45%; width:44vw; height:44vw; max-width:620px; max-height:620px; border-radius:999px; background:radial-gradient(circle at 50% 50%, rgba(255,127,48,.55), rgba(255,127,48,0) 66%); mix-blend-mode:screen; animation:kongoGlow 9s ease-in-out infinite; pointer-events:none"></div>
       <div style="position:absolute; left:0; right:0; bottom:0; height:52%; background:linear-gradient(180deg,rgba(60,22,2,0) 0,rgba(60,22,2,.55) 100%); pointer-events:none"></div>
       <div data-spot-layer="" style="position:absolute; inset:0; opacity:0; transition:opacity .4s ease; pointer-events:none; mix-blend-mode:screen"></div>
@@ -450,8 +450,8 @@
           <sc-for list="{{ dogs }}" as="p" hint-placeholder-count="3">
             <div onClick="{{ p.open }}" data-reveal="{{ p.delay }}" data-spot="rgba(0,59,113,.10)" style="position:relative; cursor:pointer; border:2px solid {{ p.accent }}; border-radius:20px; overflow:hidden; background:#fff; display:flex; flex-direction:{{ p.dir }}; transition:transform .35s cubic-bezier(.16,.84,.28,1), box-shadow .35s ease" style-hover="transform:translateY(-10px); box-shadow:0 26px 50px rgba(0,0,0,.16)"><div data-spot-layer="" style="position:absolute; inset:0; opacity:0; transition:opacity .4s ease; pointer-events:none; z-index:2"></div>
               <div style="flex:none; display:flex; align-items:baseline; gap:7px; padding:12px 16px; background:{{ p.accent }}">
-                <span style="font-size:10px; font-weight:700; letter-spacing:1.1px; text-transform:uppercase; color:#fff">{{ p.catLabel }}</span>
-                <span style="font-size:10px; font-weight:400; letter-spacing:.5px; color:rgba(255,255,255,.88)">{{ p.specLabel }}</span>
+                <span style="font-size:13px; font-weight:700; letter-spacing:.9px; text-transform:uppercase; color:#fff; white-space:nowrap">{{ p.catLabel }}</span>
+                <span style="font-size:13px; font-weight:400; letter-spacing:.3px; color:rgba(255,255,255,.88); white-space:nowrap; overflow:hidden; text-overflow:ellipsis">{{ p.specLabel }}</span>
               </div>
               <div style="position:relative; flex:none; width:{{ p.imgW }}; background:#fff; padding:24px; display:flex; align-items:center; justify-content:center; height:{{ imgH }}">
                 <img data-photo="{{ p.img }}" alt="Envase Kongo" style="width:78%; height:88%; object-fit:contain; display:block">
@@ -475,8 +475,8 @@
           <sc-for list="{{ cats }}" as="p" hint-placeholder-count="3">
             <div onClick="{{ p.open }}" data-reveal="{{ p.delay }}" data-spot="rgba(0,59,113,.10)" style="position:relative; cursor:pointer; border:2px solid {{ p.accent }}; border-radius:20px; overflow:hidden; background:#fff; display:flex; flex-direction:{{ p.dir }}; transition:transform .35s cubic-bezier(.16,.84,.28,1), box-shadow .35s ease" style-hover="transform:translateY(-10px); box-shadow:0 26px 50px rgba(0,0,0,.16)"><div data-spot-layer="" style="position:absolute; inset:0; opacity:0; transition:opacity .4s ease; pointer-events:none; z-index:2"></div>
               <div style="flex:none; display:flex; align-items:baseline; gap:7px; padding:12px 16px; background:{{ p.accent }}">
-                <span style="font-size:10px; font-weight:700; letter-spacing:1.1px; text-transform:uppercase; color:#fff">{{ p.catLabel }}</span>
-                <span style="font-size:10px; font-weight:400; letter-spacing:.5px; color:rgba(255,255,255,.88)">{{ p.specLabel }}</span>
+                <span style="font-size:13px; font-weight:700; letter-spacing:.9px; text-transform:uppercase; color:#fff; white-space:nowrap">{{ p.catLabel }}</span>
+                <span style="font-size:13px; font-weight:400; letter-spacing:.3px; color:rgba(255,255,255,.88); white-space:nowrap; overflow:hidden; text-overflow:ellipsis">{{ p.specLabel }}</span>
               </div>
               <div style="position:relative; flex:none; width:{{ p.imgW }}; background:#fff; padding:24px; display:flex; align-items:center; justify-content:center; height:{{ imgH }}">
                 <img data-photo="{{ p.img }}" alt="Envase Kongo" style="width:78%; height:88%; object-fit:contain; display:block">
@@ -501,8 +501,8 @@
           <sc-for list="{{ gold }}" as="p" hint-placeholder-count="3">
             <div onClick="{{ p.open }}" data-reveal="{{ p.delay }}" data-spot="rgba(255,183,27,.16)" style="position:relative; cursor:pointer; border:2px solid #FFB71B; border-radius:20px; overflow:hidden; background:#fff; display:flex; flex-direction:{{ p.dir }}; transition:transform .35s cubic-bezier(.16,.84,.28,1), box-shadow .35s ease" style-hover="transform:translateY(-10px); box-shadow:0 26px 50px rgba(0,0,0,.16)"><div data-spot-layer="" style="position:absolute; inset:0; opacity:0; transition:opacity .4s ease; pointer-events:none; z-index:2"></div>
               <div style="flex:none; display:flex; align-items:baseline; gap:7px; padding:12px 16px; background:#FFB71B">
-                <span style="font-size:10px; font-weight:700; letter-spacing:1.1px; text-transform:uppercase; color:#fff">{{ p.catLabel }}</span>
-                <span style="font-size:10px; font-weight:400; letter-spacing:.5px; color:rgba(255,255,255,.88)">{{ p.specLabel }}</span>
+                <span style="font-size:13px; font-weight:700; letter-spacing:.9px; text-transform:uppercase; color:#fff; white-space:nowrap">{{ p.catLabel }}</span>
+                <span style="font-size:13px; font-weight:400; letter-spacing:.3px; color:rgba(255,255,255,.88); white-space:nowrap; overflow:hidden; text-overflow:ellipsis">{{ p.specLabel }}</span>
               </div>
               <div style="position:relative; flex:none; width:{{ p.imgW }}; background:#fff; padding:24px; display:flex; align-items:center; justify-content:center; height:{{ imgH }}">
                 <img data-photo="{{ p.img }}" alt="Envase Kongo" style="width:78%; height:88%; object-fit:contain; display:block">
@@ -626,8 +626,8 @@
         <sc-for list="{{ related }}" as="p" hint-placeholder-count="3">
           <div onClick="{{ p.open }}" style="cursor:pointer; border:2px solid {{ p.accent }}; border-radius:20px; overflow:hidden; background:#fff; transition:transform .25s, box-shadow .25s" style-hover="transform:translateY(-6px); box-shadow:0 18px 36px rgba(0,0,0,.14)">
             <div style="display:flex; align-items:baseline; gap:7px; padding:12px 16px; background:{{ p.accent }}">
-              <span style="font-size:10px; font-weight:700; letter-spacing:1.1px; text-transform:uppercase; color:#fff">{{ p.catLabel }}</span>
-              <span style="font-size:10px; font-weight:400; letter-spacing:.5px; color:rgba(255,255,255,.88)">{{ p.specLabel }}</span>
+              <span style="font-size:13px; font-weight:700; letter-spacing:.9px; white-space:nowrap; text-transform:uppercase; color:#fff">{{ p.catLabel }}</span>
+              <span style="font-size:13px; font-weight:400; letter-spacing:.3px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; color:rgba(255,255,255,.88)">{{ p.specLabel }}</span>
             </div>
             <div style="background:#fff; height:180px; display:flex; align-items:center; justify-content:center; padding:16px">
               <img data-photo="{{ p.img }}" alt="Envase Kongo" style="width:78%; height:100%; object-fit:contain; display:block">
@@ -1310,12 +1310,7 @@ class Component extends DCLogic {
           { h: 'Popularidad con responsabilidad' },
           { t: 'En este contexto, los especialistas destacan que, más allá de la creciente popularidad de los gatos, su bienestar depende de una tenencia responsable. Controles veterinarios periódicos, vacunación, castración, espacios adecuados para desarrollar su comportamiento natural y una alimentación balanceada, adaptada a cada etapa de la vida, son pilares fundamentales para garantizar su salud y calidad de vida.' },
           { note: true, t: 'Acerca de Baires S.A.: la compañía se especializa en la producción de alimento para perros y gatos. Actualmente se posiciona como la empresa líder en tecnología y calidad de la Argentina, alimentando a más de 2 millones de perros y gatos por mes.' }
-        ] },
-      { id: 2, cat: 'Gatos', date: '28.04.2026', title: '[Placeholder] Hidratación: cuánta agua toma un gato por día', excerpt: 'Bajada de ejemplo: señales de que tu gato no está tomando suficiente agua.' },
-      { id: 3, cat: 'Perros', date: '15.04.2026', title: '[Placeholder] Paseos: cuánto ejercicio necesita cada raza', excerpt: 'Bajada de ejemplo: rutinas según tamaño, edad y energía del perro.' },
-      { id: 4, cat: 'Gatos', date: '02.04.2026', title: '[Placeholder] Cómo adaptar la casa a la llegada de un gatito', excerpt: 'Bajada de ejemplo: rincones seguros, comederos y primeros días.' },
-      { id: 5, cat: 'Perros', date: '20.03.2026', title: '[Placeholder] Transición de alimento sin problemas digestivos', excerpt: 'Bajada de ejemplo: el cambio gradual en siete días, paso a paso.' },
-      { id: 6, cat: 'Gatos', date: '06.03.2026', title: '[Placeholder] Señales de una buena alimentación en tu gato', excerpt: 'Bajada de ejemplo: pelo, peso y energía como indicadores diarios.' }
+        ] }
     ];
   }
 
