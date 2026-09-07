@@ -4,21 +4,29 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="./support.js"></script>
-<meta name="ext-resource-dependency" content="uploads/opt/kongo-cachorros.webp" data-resource-id="uploads/opt/kongo-cachorros.webp">
+<meta name="ext-resource-dependency" content="uploads/renders26/p-cachorros.png" data-resource-id="uploads/renders26/p-cachorros.png">
+<meta name="ext-resource-dependency" content="uploads/renders26/p-peq.png" data-resource-id="uploads/renders26/p-peq.png">
+<meta name="ext-resource-dependency" content="uploads/renders26/p-med.png" data-resource-id="uploads/renders26/p-med.png">
+<meta name="ext-resource-dependency" content="uploads/renders26/p-gold-cachorros.png" data-resource-id="uploads/renders26/p-gold-cachorros.png">
+<meta name="ext-resource-dependency" content="uploads/renders26/p-gold-peq.png" data-resource-id="uploads/renders26/p-gold-peq.png">
+<meta name="ext-resource-dependency" content="uploads/renders26/p-gold-med.png" data-resource-id="uploads/renders26/p-gold-med.png">
+<meta name="ext-resource-dependency" content="uploads/renders26/p-gatitos.png" data-resource-id="uploads/renders26/p-gatitos.png">
+<meta name="ext-resource-dependency" content="uploads/renders26/p-gatos-adultos.png" data-resource-id="uploads/renders26/p-gatos-adultos.png">
+<meta name="ext-resource-dependency" content="uploads/renders26/p-gatos-salmon.png" data-resource-id="uploads/renders26/p-gatos-salmon.png">
 <meta name="ext-resource-dependency" content="uploads/opt/kongo-peq.webp" data-resource-id="uploads/opt/kongo-peq.webp">
 <meta name="ext-resource-dependency" content="uploads/opt/kongo-med.webp" data-resource-id="uploads/opt/kongo-med.webp">
-<meta name="ext-resource-dependency" content="uploads/opt/kongo-gold-2.webp" data-resource-id="uploads/opt/kongo-gold-2.webp">
+<meta name="ext-resource-dependency" content="uploads/renders26/p-gold-cachorros.png" data-resource-id="uploads/renders26/p-gold-cachorros.png">
 <meta name="ext-resource-dependency" content="uploads/opt/1.webp" data-resource-id="uploads/opt/1.webp">
 <meta name="ext-resource-dependency" content="uploads/opt/1-1.webp" data-resource-id="uploads/opt/1-1.webp">
 <meta name="ext-resource-dependency" content="uploads/opt/c1.webp" data-resource-id="uploads/opt/c1.webp">
 <meta name="ext-resource-dependency" content="uploads/opt/gatos-carne-pollo.webp" data-resource-id="uploads/opt/gatos-carne-pollo.webp">
 <meta name="ext-resource-dependency" content="uploads/opt/v1.webp" data-resource-id="uploads/opt/v1.webp">
-<meta name="ext-resource-dependency" content="uploads/opt/logo-kongo-azul.webp" data-resource-id="uploads/opt/logo-kongo-azul.webp">
+<meta name="ext-resource-dependency" content="uploads/renders26/logo-kongo-petroleo-title.png" data-resource-id="uploads/renders26/logo-kongo-petroleo-title.png">
 <meta name="ext-resource-dependency" content="uploads/opt/nota-gato-cover.webp" data-resource-id="uploads/opt/nota-gato-cover.webp">
 <meta name="ext-resource-dependency" content="uploads/Foto retocada Baires Final-d76747df.jpg" data-resource-id="uploads/Foto retocada Baires Final-d76747df.jpg">
 <meta name="ext-resource-dependency" content="uploads/opt/baires-color.webp" data-resource-id="uploads/opt/baires-color.webp">
 <meta name="ext-resource-dependency" content="uploads/opt/hero-home-kibble.jpg" data-resource-id="uploads/opt/hero-home-kibble.jpg">
-<template id="__bundler_thumbnail" data-bg-color="#003B71"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300"><rect width="300" height="300" fill="#003B71"/><text x="150" y="172" font-family="Georgia,serif" font-size="86" font-weight="700" fill="#FF7F30" text-anchor="middle">K</text></svg></template>
+<template id="__bundler_thumbnail" data-bg-color="#003E51"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300"><rect width="300" height="300" fill="#003E51"/><text x="150" y="172" font-family="Georgia,serif" font-size="86" font-weight="700" fill="#96661F" text-anchor="middle">K</text></svg></template>
 </head>
 <body>
 <x-dc>
@@ -29,10 +37,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300&amp;family=Bevan&amp;display=swap" rel="stylesheet">
 <style>
   html, body { margin: 0; padding: 0; background: #ffffff; }
-  body { font-family: Roboto, Helvetica, Arial, sans-serif; color: #16202B; -webkit-font-smoothing: antialiased; }
+  body { font-family: Roboto, Helvetica, Arial, sans-serif; color: #1D1D1B; -webkit-font-smoothing: antialiased; }
   * { box-sizing: border-box; }
-  a { color: #003B71; text-decoration: none; }
-  a:hover { color: #FF7F30; }
+  a { color: #003E51; text-decoration: none; }
+  a:hover { color: #96661F; }
   input, textarea, button, select { font-family: inherit; }
   summary::-webkit-details-marker { display: none; }
   @keyframes kongoFloatA { 0%,100% { transform: translate3d(0,0,0) scale(1); } 50% { transform: translate3d(4%,-6%,0) scale(1.12); } }
@@ -85,6 +93,12 @@
     [style*="auto-fit"] { grid-template-columns: 1fr !important; }
     [style*="auto-fit"] > * { min-width: 0; }
     .k-home-posts > *:nth-child(n+2) { display: none !important; }
+    .k-consejos-grid { grid-template-columns: minmax(0,1fr) !important; gap: 26px !important; }
+    .k-consejos-grid > div:first-child { position: static !important; }
+    .k-post-row { grid-template-columns: minmax(0,1fr) !important; }
+    .k-post-row [role="img"] { aspect-ratio: 16/10 !important; height: auto !important; }
+    [style*="Bevan"] { overflow-wrap: break-word; }
+    h1, h2, h3 { white-space: normal !important; }
     main h1 { letter-spacing: -1.6px !important; }
     .k-air { padding-left: 24px !important; padding-right: 24px !important; }
     .k-air-familia { padding-top: 68px !important; padding-bottom: 8px !important; }
@@ -132,29 +146,29 @@
   <header style="position:sticky; top:0; z-index:50; background:{{ nav.bg }}; backdrop-filter:blur(10px); border-bottom:1px solid {{ nav.border }}">
     <div style="max-width:none; margin:0; padding:14px clamp(20px,4vw,48px); display:flex; align-items:center; justify-content:space-between; gap:16px">
       <div onClick="{{ goInicio }}" style="display:flex; align-items:baseline; gap:8px; cursor:pointer; flex:0 0 auto">
-        <span style="position:relative; display:block; height:34px"><img src="uploads/kongo-azul.png" alt="Kongo" style="height:34px; width:auto; display:block; opacity:{{ nav.oAzul }}"><img src="uploads/kongo-crema.png" alt="" style="position:absolute; left:0; top:0; height:34px; width:auto; display:block; opacity:{{ nav.oCrema }}; pointer-events:none"></span>
+        <span style="position:relative; display:block; height:34px"><img src="uploads/renders26/logo-kongo-petroleo.png" alt="Kongo" style="height:34px; width:auto; display:block; opacity:{{ nav.oAzul }}"><img src="uploads/kongo-crema.png" alt="" style="position:absolute; left:0; top:0; height:34px; width:auto; display:block; opacity:{{ nav.oCrema }}; pointer-events:none"></span>
         
       </div>
       <button class="k-burger" onClick="{{ toggleMenu }}" aria-label="Menú" style="display:none; align-items:center; justify-content:center; width:44px; height:44px; border-radius:12px; border:0; background:transparent; color:{{ nav.fg }}; cursor:pointer; padding:0">
         <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M4 7h16"></path><path d="M4 12h16"></path><path d="M4 17h16"></path></svg>
       </button>
       <nav class="k-nav-desktop" style="display:flex; flex-wrap:wrap; align-items:center; gap:4px 2px">
-        <span onClick="{{ goInicio }}" style="padding:8px 12px; border-radius:999px; font-size:14px; font-weight:500; color:{{ nav.fg }}; cursor:pointer" style-hover="background:#FFB71B; color:#7A5300">Inicio</span>
-        <span onClick="{{ goProductos }}" style="padding:8px 12px; border-radius:999px; font-size:14px; font-weight:500; color:{{ nav.fg }}; cursor:pointer" style-hover="background:#FF7F30; color:#8A3600">Productos</span>
-        <span onClick="{{ goComunidad }}" style="padding:8px 12px; border-radius:999px; font-size:14px; font-weight:500; color:{{ nav.fg }}; cursor:pointer" style-hover="background:#6BA43A; color:#2E4A12">Comunidad Baires</span>
-        <span onClick="{{ goConsejos }}" style="padding:8px 12px; border-radius:999px; font-size:14px; font-weight:500; color:{{ nav.fg }}; cursor:pointer" style-hover="background:#5EB3E4; color:#0C4A6B">Consejos</span>
-        <span onClick="{{ goFaq }}" style="padding:8px 12px; border-radius:999px; font-size:14px; font-weight:500; color:{{ nav.fg }}; cursor:pointer" style-hover="background:#4CA585; color:#12463A">Preguntas frecuentes</span>
-        <span onClick="{{ goContacto }}" style="padding:9px 18px; border-radius:999px; font-size:14px; font-weight:700; color:#fff; background:#FF7F30; border:2px solid #FF7F30; cursor:pointer; transition:all .3s ease" style-hover="background:#fff; color:#B54B08; border-color:#fff">Contacto</span>
+        <span onClick="{{ goInicio }}" style="padding:8px 12px; border-radius:999px; font-size:14px; font-weight:500; color:{{ nav.fg }}; cursor:pointer" style-hover="background:#EAA55D; color:#6E4B15">Inicio</span>
+        <span onClick="{{ goProductos }}" style="padding:8px 12px; border-radius:999px; font-size:14px; font-weight:500; color:{{ nav.fg }}; cursor:pointer" style-hover="background:#97272D; color:#fff">Productos</span>
+        <span onClick="{{ goComunidad }}" style="padding:8px 12px; border-radius:999px; font-size:14px; font-weight:500; color:{{ nav.fg }}; cursor:pointer" style-hover="background:#A1A467; color:#43451F">Comunidad Baires</span>
+        <span onClick="{{ goConsejos }}" style="padding:8px 12px; border-radius:999px; font-size:14px; font-weight:500; color:{{ nav.fg }}; cursor:pointer" style-hover="background:#D4BA8B; color:#7A5F33">Consejos</span>
+        <span onClick="{{ goFaq }}" style="padding:8px 12px; border-radius:999px; font-size:14px; font-weight:500; color:{{ nav.fg }}; cursor:pointer" style-hover="background:#575756; color:#fff">Preguntas frecuentes</span>
+        <span onClick="{{ goContacto }}" style="padding:9px 18px; border-radius:999px; font-size:14px; font-weight:700; color:#fff; background:#003E51; border:2px solid #003E51; cursor:pointer; transition:all .3s ease" style-hover="background:#fff; color:#003E51; border-color:#fff">Contacto</span>
       </nav>
     </div>
     <sc-if value="{{ menuOpen }}">
-      <div style="border-top:1px solid rgba(0,59,113,.10); background:#fff; padding:10px 20px 18px; display:flex; flex-direction:column; gap:2px; box-shadow:0 18px 30px rgba(0,32,64,.10)">
-        <span onClick="{{ mInicio }}" style="padding:14px 12px; border-radius:12px; font-size:16px; font-weight:600; color:#003B71; cursor:pointer" style-hover="background:#FFF4DE">Inicio</span>
-        <span onClick="{{ mProductos }}" style="padding:14px 12px; border-radius:12px; font-size:16px; font-weight:600; color:#003B71; cursor:pointer" style-hover="background:#FFEDE0">Productos</span>
-        <span onClick="{{ mComunidad }}" style="padding:14px 12px; border-radius:12px; font-size:16px; font-weight:600; color:#003B71; cursor:pointer" style-hover="background:#EDF6E3">Comunidad Baires</span>
-        <span onClick="{{ mConsejos }}" style="padding:14px 12px; border-radius:12px; font-size:16px; font-weight:600; color:#003B71; cursor:pointer" style-hover="background:#E7F4FC">Consejos</span>
-        <span onClick="{{ mFaq }}" style="padding:14px 12px; border-radius:12px; font-size:16px; font-weight:600; color:#003B71; cursor:pointer" style-hover="background:#E6F4EF">Preguntas frecuentes</span>
-        <span onClick="{{ mContacto }}" style="margin-top:8px; text-align:center; padding:15px 18px; border-radius:999px; font-size:16px; font-weight:700; color:#fff; background:#FF7F30; cursor:pointer">Contacto</span>
+      <div style="border-top:1px solid rgba(0,62,81,.10); background:#fff; padding:10px 20px 18px; display:flex; flex-direction:column; gap:2px; box-shadow:0 18px 30px rgba(0,34,44,.10)">
+        <span onClick="{{ mInicio }}" style="padding:14px 12px; border-radius:12px; font-size:16px; font-weight:600; color:#003E51; cursor:pointer" style-hover="background:#FAF1E4">Inicio</span>
+        <span onClick="{{ mProductos }}" style="padding:14px 12px; border-radius:12px; font-size:16px; font-weight:600; color:#003E51; cursor:pointer" style-hover="background:#F8EDEC">Productos</span>
+        <span onClick="{{ mComunidad }}" style="padding:14px 12px; border-radius:12px; font-size:16px; font-weight:600; color:#003E51; cursor:pointer" style-hover="background:#F3F2E6">Comunidad Baires</span>
+        <span onClick="{{ mConsejos }}" style="padding:14px 12px; border-radius:12px; font-size:16px; font-weight:600; color:#003E51; cursor:pointer" style-hover="background:#F7F1E4">Consejos</span>
+        <span onClick="{{ mFaq }}" style="padding:14px 12px; border-radius:12px; font-size:16px; font-weight:600; color:#003E51; cursor:pointer" style-hover="background:#EFEFEE">Preguntas frecuentes</span>
+        <span onClick="{{ mContacto }}" style="margin-top:8px; text-align:center; padding:15px 18px; border-radius:999px; font-size:16px; font-weight:700; color:#fff; background:#003E51; cursor:pointer">Contacto</span>
       </div>
     </sc-if>
   </header>
@@ -163,33 +177,33 @@
   <sc-if value="{{ isInicio }}" hint-placeholder-val="{{ true }}">
   <main>
     <!-- HERO -->
-    <section data-spot="rgba(255,183,27,.20)" data-bleed="" style="position:relative; width:100vw; margin-left:calc(50% - 50vw); height:min(86vh,920px); min-height:480px; overflow:hidden; background:#003B71">
+    <section data-spot="rgba(234,165,93,.20)" data-bleed="" style="position:relative; width:100vw; margin-left:calc(50% - 50vw); height:min(86vh,920px); min-height:480px; overflow:hidden; background:#003E51">
       <div style="position:absolute; inset:0; transition:transform 1.4s cubic-bezier(.16,.84,.28,1); overflow:hidden" style-hover="transform:scale(1.05)"><img src="uploads/opt/hero-home-kibble.jpg" alt="Perro asomando entre alimento balanceado" style="width:100%; height:100%; object-fit:cover; object-position:50% 38%; display:block"></div>
-      <div style="position:absolute; inset:0; background:linear-gradient(180deg,rgba(0,20,40,.28) 0,rgba(0,20,40,.05) 40%,rgba(0,25,50,.78) 100%); pointer-events:none"></div>
+      <div style="position:absolute; inset:0; background:linear-gradient(180deg,rgba(0,22,28,.28) 0,rgba(0,22,28,.05) 40%,rgba(0,26,34,.78) 100%); pointer-events:none"></div>
       <div data-spot-layer="" style="position:absolute; inset:0; opacity:0; transition:opacity .4s ease; pointer-events:none; mix-blend-mode:screen"></div>
       <div class="k-hero-bar" style="position:absolute; left:0; right:0; bottom:0; padding:clamp(18px,3.2vw,44px) clamp(18px,3.2vw,44px) clamp(56px,7vw,92px); display:flex; align-items:flex-end; justify-content:space-between; gap:28px; flex-wrap:wrap">
-        <h1 style="margin:0; max-width:17ch; font-size:clamp(38px,7.4vw,104px); line-height:.94; font-weight:700; color:#fff; letter-spacing:-2.5px; text-wrap:balance">Nutrición <span style="font-family:Bevan,Georgia,serif; font-weight:400; color:#FFB71B">natural</span> para perros y gatos</h1>
-        <div onClick="{{ goProductos }}" style="flex:0 0 auto; padding:16px 30px; border-radius:999px; border:2px solid rgba(255,255,255,.55); background:rgba(255,255,255,.12); backdrop-filter:blur(10px); color:#fff; font-weight:700; font-size:16px; cursor:pointer; transition:all .3s" style-hover="background:#FFB71B; border-color:#FFB71B; color:#003B71">Ver los productos</div>
+        <h1 style="margin:0; max-width:17ch; font-size:clamp(38px,7.4vw,104px); line-height:.94; font-weight:700; color:#fff; letter-spacing:-2.5px; text-wrap:balance">Nutrición <span style="font-family:Bevan,Georgia,serif; font-weight:400; color:#EAA55D">natural</span> para perros y gatos</h1>
+        <div onClick="{{ goProductos }}" style="flex:0 0 auto; padding:16px 30px; border-radius:999px; border:2px solid rgba(255,255,255,.55); background:rgba(255,255,255,.12); backdrop-filter:blur(10px); color:#fff; font-weight:700; font-size:16px; cursor:pointer; transition:all .3s" style-hover="background:#EAA55D; border-color:#EAA55D; color:#003E51">Ver los productos</div>
       </div>
     </section>
 
     <section class="k-air" style="max-width:1440px; margin:0 auto; padding:0 clamp(18px,3.2vw,44px)">
-      <div class="k-stats" style="display:grid; grid-template-columns:repeat(4,1fr); gap:0; margin-top:-30px; position:relative; z-index:5; background:#fff; border:1px solid #E8ECF1; border-radius:20px; overflow:hidden; box-shadow:0 24px 60px rgba(0,59,113,.16)">
+      <div class="k-stats" style="display:grid; grid-template-columns:repeat(4,1fr); gap:0; margin-top:-30px; position:relative; z-index:5; background:#fff; border:1px solid #E8ECF1; border-radius:20px; overflow:hidden; box-shadow:0 24px 60px rgba(0,62,81,.16)">
         <div data-reveal="0" style="background:#fff; padding:24px 18px">
-          <div style="color:#003B71"><span data-count="100" style="font-size:clamp(26px,3.2vw,46px); font-weight:700; letter-spacing:-2px; line-height:1">0</span><span style="font-size:clamp(20px,2.2vw,30px); font-weight:700; letter-spacing:-1px; color:#003B71">%</span></div>
-          <div style="margin-top:6px; font-size:clamp(9.5px,0.76vw,11px); letter-spacing:.8px; text-transform:uppercase; color:#7C8B9A; text-wrap:pretty">ingredientes naturales</div>
+          <div style="color:#003E51"><span data-count="100" style="font-size:clamp(26px,3.2vw,46px); font-weight:700; letter-spacing:-2px; line-height:1">0</span><span style="font-size:clamp(20px,2.2vw,30px); font-weight:700; letter-spacing:-1px; color:#003E51">%</span></div>
+          <div style="margin-top:6px; font-size:clamp(9.5px,0.76vw,11px); letter-spacing:.8px; text-transform:uppercase; color:#82827E; text-wrap:pretty">ingredientes naturales</div>
         </div>
         <div data-reveal="90" style="background:#fff; padding:24px 18px; border-left:1px solid #E8ECF1">
-          <div style="font-size:clamp(26px,3.2vw,46px); white-space:nowrap; font-weight:700; letter-spacing:-2px; line-height:1; color:#FF7F30"><span data-count="22">22</span> – <span data-count="34">34</span><span style="font-size:clamp(20px,2.2vw,30px); letter-spacing:-1px">%</span></div>
-          <div style="margin-top:6px; font-size:clamp(9.5px,0.76vw,11px); letter-spacing:.8px; text-transform:uppercase; color:#7C8B9A; text-wrap:pretty">de proteína</div>
+          <div style="font-size:clamp(26px,3.2vw,46px); white-space:nowrap; font-weight:700; letter-spacing:-2px; line-height:1; color:#96661F"><span data-count="22">22</span> – <span data-count="34">34</span><span style="font-size:clamp(20px,2.2vw,30px); letter-spacing:-1px">%</span></div>
+          <div style="margin-top:6px; font-size:clamp(9.5px,0.76vw,11px); letter-spacing:.8px; text-transform:uppercase; color:#82827E; text-wrap:pretty">de proteína</div>
         </div>
         <div data-reveal="180" style="background:#fff; padding:24px 18px; border-left:1px solid #E8ECF1">
-          <div style="color:#AB0033"><span data-count="85" style="font-size:clamp(26px,3.2vw,46px); font-weight:700; letter-spacing:-2px; line-height:1">0</span><span style="font-size:clamp(20px,2.2vw,30px); font-weight:700; letter-spacing:-1px">%</span></div>
-          <div style="margin-top:6px; font-size:clamp(9.5px,0.76vw,11px); letter-spacing:.8px; text-transform:uppercase; color:#7C8B9A; text-wrap:pretty">proteína de origen animal</div>
+          <div style="color:#97272D"><span data-count="85" style="font-size:clamp(26px,3.2vw,46px); font-weight:700; letter-spacing:-2px; line-height:1">0</span><span style="font-size:clamp(20px,2.2vw,30px); font-weight:700; letter-spacing:-1px">%</span></div>
+          <div style="margin-top:6px; font-size:clamp(9.5px,0.76vw,11px); letter-spacing:.8px; text-transform:uppercase; color:#82827E; text-wrap:pretty">proteína de origen animal</div>
         </div>
         <div data-reveal="270" style="background:#fff; padding:24px 18px; border-left:1px solid #E8ECF1">
-          <div style="color:#6BA43A"><span data-count="0" style="font-size:clamp(26px,3.2vw,46px); font-weight:700; letter-spacing:-2px; line-height:1">0</span><span style="font-size:clamp(20px,2.2vw,30px); font-weight:700; letter-spacing:-1px">%</span></div>
-          <div style="margin-top:6px; font-size:clamp(9.5px,0.76vw,11px); letter-spacing:.8px; text-transform:uppercase; color:#7C8B9A; text-wrap:pretty">colorantes y saborizantes artificiales</div>
+          <div style="color:#A1A467"><span data-count="0" style="font-size:clamp(26px,3.2vw,46px); font-weight:700; letter-spacing:-2px; line-height:1">0</span><span style="font-size:clamp(20px,2.2vw,30px); font-weight:700; letter-spacing:-1px">%</span></div>
+          <div style="margin-top:6px; font-size:clamp(9.5px,0.76vw,11px); letter-spacing:.8px; text-transform:uppercase; color:#82827E; text-wrap:pretty">colorantes y saborizantes artificiales</div>
         </div>
       </div>
     </section>
@@ -201,27 +215,27 @@
       <section class="k-familia k-air k-air-familia" style="position:relative; max-width:1440px; margin:0 auto; padding:96px clamp(18px,3.2vw,44px) 24px">
         <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); gap:44px; align-items:start">
           <div data-reveal="0" data-reveal-mode="left">
-            <h2 class="k-fam-title" style="margin:10px 0 0; font-size:clamp(52px,11vw,116px); line-height:.84; font-weight:700; color:#003B71; letter-spacing:-3px">Familia<br><img src="uploads/opt/logo-kongo-azul.webp" alt="Kongo" style="display:block; width:auto; height:clamp(44px,9.3vw,98px); margin-top:.06em"></h2>
+            <h2 class="k-fam-title" style="margin:10px 0 0; font-size:clamp(52px,11vw,116px); line-height:.84; font-weight:700; color:#003E51; letter-spacing:-3px">Familia<br><img src="uploads/renders26/logo-kongo-petroleo-title.png" alt="Kongo" style="display:block; width:auto; height:clamp(44px,9.3vw,98px); margin-top:.06em"></h2>
             <div style="display:flex; gap:10px; margin-top:40px; flex-wrap:wrap">
-              <div onClick="{{ pickKongo }}" style="padding:12px 22px; border-radius:999px; border:2px solid #FF7F30; background:{{ tabKongo.bg }}; color:{{ tabKongo.fg }}; font-weight:700; font-size:15px; cursor:pointer; transition:all .25s" style-hover="background:#FF7F30; color:#fff">Kongo</div>
-              <div onClick="{{ pickGold }}" style="padding:12px 22px; border-radius:999px; border:2px solid #FFB71B; background:{{ tabGold.bg }}; color:{{ tabGold.fg }}; font-weight:700; font-size:15px; cursor:pointer; transition:all .25s" style-hover="background:#FFB71B; color:#fff">Kongo Gold</div>
+              <div onClick="{{ pickKongo }}" style="padding:12px 22px; border-radius:999px; border:2px solid #003E51; background:{{ tabKongo.bg }}; color:{{ tabKongo.fg }}; font-weight:700; font-size:15px; cursor:pointer; transition:all .25s" style-hover="background:#96661F; color:#fff">Kongo</div>
+              <div onClick="{{ pickGold }}" style="padding:12px 22px; border-radius:999px; border:2px solid #9A6519; background:{{ tabGold.bg }}; color:{{ tabGold.fg }}; font-weight:700; font-size:15px; cursor:pointer; transition:all .25s" style-hover="background:#EAA55D; color:#fff">Kongo Gold</div>
             </div>
-            <span onClick="{{ goProductos }}" style="display:inline-block; margin-top:26px; font-weight:700; font-size:15px; color:#003B71; border-bottom:2px solid #003B71; padding-bottom:2px; cursor:pointer; transition:all .25s" style-hover="color:#FF7F30; border-color:#FF7F30">Ver todos los productos →</span>
+            <span onClick="{{ goProductos }}" style="display:inline-block; margin-top:26px; font-weight:700; font-size:15px; color:#003E51; border-bottom:2px solid #003E51; padding-bottom:2px; cursor:pointer; transition:all .25s" style-hover="color:#96661F; border-color:#96661F">Ver todos los productos →</span>
           </div>
 
-          <div data-reveal="120" data-reveal-mode="right" style="position:relative; border-radius:26px; padding:34px 32px; background:{{ fam.soft }}; border:1px solid rgba(0,59,113,.08); box-shadow:0 24px 60px rgba(0,59,113,.10); overflow:hidden">
+          <div data-reveal="120" data-reveal-mode="right" style="position:relative; border-radius:26px; padding:34px 32px; background:{{ fam.soft }}; border:1px solid rgba(0,62,81,.08); box-shadow:0 24px 60px rgba(0,62,81,.10); overflow:hidden">
             <div style="position:absolute; left:0; top:0; bottom:0; width:6px; background:{{ fam.color }}"></div>
             
             <h3 style="margin:8px 0 14px; font-size:clamp(26px,3.4vw,38px); line-height:1; font-weight:700; letter-spacing:-1.4px; color:{{ fam.ink }}">{{ fam.label }}</h3>
-            <p style="margin:0; font-size:16px; line-height:1.68; color:#31404F; text-wrap:pretty">{{ fam.text }}</p>
+            <p style="margin:0; font-size:16px; line-height:1.68; color:#3C3C3B; text-wrap:pretty">{{ fam.text }}</p>
             <span onClick="{{ goFamilia }}" style="display:inline-block; margin-top:20px; font-weight:700; font-size:15px; color:{{ fam.ink }}; border-bottom:2px solid {{ fam.color }}; cursor:pointer; transition:all .25s">{{ fam.cta }} →</span>
           </div>
         </div>
 
         <div data-reveal="0" style="margin-top:64px">
-          <div style="display:flex; align-items:center; gap:10px; font-size:11px; font-weight:700; letter-spacing:1.4px; text-transform:uppercase; color:#7C8B9A">
+          <div style="display:flex; align-items:center; gap:10px; font-size:11px; font-weight:700; letter-spacing:1.4px; text-transform:uppercase; color:#82827E">
             <span>DESLIZÁ PARA VER TODOS</span>
-            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="#7C8B9A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" style="animation:kongoNudge 1.6s ease-in-out infinite"><path d="M4 12h15"></path><path d="M13 6l6 6-6 6"></path></svg>
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="#82827E" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" style="animation:kongoNudge 1.6s ease-in-out infinite"><path d="M4 12h15"></path><path d="M13 6l6 6-6 6"></path></svg>
           </div>
           <div data-drag="" style="display:flex; align-items:stretch; gap:16px; margin:20px -6px -30px; overflow-x:auto; overflow-y:visible; scrollbar-width:none; padding:20px 8px 60px">
             <sc-for list="{{ rail }}" as="p" hint-placeholder-count="6">
@@ -243,31 +257,31 @@
       </section>
 
       <!-- COMUNIDAD BAIRES -->
-      <section class="k-air k-air-com" data-spot="rgba(255,183,27,.20)" data-bleed="" style="position:relative; width:100vw; margin-left:calc(50% - 50vw); margin-top:104px; padding:clamp(48px,7vw,96px) clamp(18px,3.2vw,44px); background:#0E3218; overflow:hidden">
+      <section class="k-air k-air-com" data-spot="rgba(234,165,93,.20)" data-bleed="" style="position:relative; width:100vw; margin-left:calc(50% - 50vw); margin-top:104px; padding:clamp(48px,7vw,96px) clamp(18px,3.2vw,44px); background:#003E51; overflow:hidden">
         <div data-spot-layer="" style="position:absolute; inset:0; opacity:0; transition:opacity .4s ease; pointer-events:none"></div>
         <div style="position:relative; max-width:1440px; margin:0 auto">
           <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:clamp(32px,4vw,56px); align-items:center">
             <div data-reveal="0" data-reveal-mode="left">
-              <span class="k-com-kicker" style="display:inline-block; font-size:12px; font-weight:700; letter-spacing:1.6px; text-transform:uppercase; color:#8FD16A">Ayudamos a los que más lo necesitan · ¿Te sumás?</span>
+              <span class="k-com-kicker" style="display:inline-block; font-size:12px; font-weight:700; letter-spacing:1.6px; text-transform:uppercase; color:#BCBE92">Ayudamos a los que más lo necesitan · ¿Te sumás?</span>
               <img class="k-com-logo" src="uploads/logo-comunidad-baires-blanco.png" alt="Comunidad Baires" style="display:block; margin:18px 0 0; width:min(100%,520px); height:auto">
-              <p class="k-com-text" style="margin:22px 0 0; max-width:44ch; font-size:19px; line-height:1.6; color:#D7E9CE; text-wrap:pretty">Con cada envase vacío de Kongo podés ayudar a perritos que están en los refugios y además cuidar al medio ambiente.</p>
+              <p class="k-com-text" style="margin:22px 0 0; max-width:44ch; font-size:19px; line-height:1.6; color:#E6E7D2; text-wrap:pretty">Con cada envase vacío de Kongo podés ayudar a perritos que están en los refugios y además cuidar al medio ambiente.</p>
               <div class="k-com-cta" style="display:flex; gap:14px; flex-wrap:wrap; margin-top:30px">
-                <div onClick="{{ goComunidad }}" style="padding:15px 30px; border-radius:999px; background:#8FD16A; border:2px solid #8FD16A; color:#0E3218; font-weight:700; font-size:16px; cursor:pointer; transition:all .3s" style-hover="background:transparent; color:#8FD16A">Conocé la campaña</div>
-                <a href="https://instagram.com/kongooficial" style="padding:15px 30px; border-radius:999px; border:2px solid rgba(255,255,255,.4); color:#fff; font-weight:700; font-size:16px; transition:all .3s" style-hover="background:#fff; color:#0E3218; border-color:#fff">@kongooficial</a>
+                <div onClick="{{ goComunidad }}" style="padding:15px 30px; border-radius:999px; background:#BCBE92; border:2px solid #BCBE92; color:#003E51; font-weight:700; font-size:16px; cursor:pointer; transition:all .3s" style-hover="background:transparent; color:#BCBE92">Conocé la campaña</div>
+                <a href="https://instagram.com/kongooficial" style="padding:15px 30px; border-radius:999px; border:2px solid rgba(255,255,255,.4); color:#fff; font-weight:700; font-size:16px; transition:all .3s" style-hover="background:#fff; color:#003E51; border-color:#fff">@kongooficial</a>
               </div>
             </div>
             <div data-reveal="140" data-reveal-mode="right" style="display:flex; flex-direction:column; gap:18px">
-              <div style="border-radius:24px; overflow:hidden; aspect-ratio:16/9; background:#0B1B2A; border:1px solid rgba(255,255,255,.20); box-shadow:0 26px 60px rgba(0,0,0,.34)">
+              <div style="border-radius:24px; overflow:hidden; aspect-ratio:16/9; background:#08191F; border:1px solid rgba(255,255,255,.20); box-shadow:0 26px 60px rgba(0,0,0,.34)">
                 <iframe src="https://www.youtube.com/embed/VEUU6t2USAk?start=7&amp;rel=0" title="Comunidad Baires — Ayudamos a los que más lo necesitan" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" style="width:100%; height:100%; border:0; display:block"></iframe>
               </div>
               <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:12px">
                 <div style="border-radius:18px; padding:16px 20px; background:rgba(255,255,255,.09); backdrop-filter:blur(12px); border:1px solid rgba(255,255,255,.18); display:flex; align-items:center; gap:14px">
-                  <div style="font-size:15px; font-weight:500; line-height:1.2; letter-spacing:.8px; text-transform:uppercase; color:#B9D8AC"><span style="font-weight:700; color:#8FD16A">1 envase vacío</span> = <span style="font-weight:700; color:#8FD16A">1 kg de alimento</span></div>
+                  <div style="font-size:15px; font-weight:500; line-height:1.2; letter-spacing:.8px; text-transform:uppercase; color:#E6E7D2"><span style="font-weight:700; color:#BCBE92">1 envase vacío</span> = <span style="font-weight:700; color:#BCBE92">1 kg de alimento</span></div>
                 </div>
-                <div onClick="{{ goComunidad }}" style="border-radius:18px; padding:16px 20px; background:rgba(255,255,255,.09); backdrop-filter:blur(12px); border:1px solid rgba(255,255,255,.18); display:flex; align-items:center; gap:14px; cursor:pointer; transition:background .3s ease, border-color .3s ease" style-hover="background:rgba(143,209,106,.14); border-color:rgba(143,209,106,.5)">
-                  <div style="flex:0 0 auto; font-size:15px; font-weight:700; line-height:1.2; letter-spacing:.8px; color:#8FD16A"><span data-count="3">3</span></div>
-                  <div style="font-size:15px; font-weight:500; line-height:1.2; letter-spacing:.8px; text-transform:uppercase; color:#B9D8AC">formas de sumarse</div>
-                  <span style="margin-left:auto; flex:0 0 auto; font-size:13px; font-weight:700; color:#8FD16A; border-bottom:2px solid rgba(143,209,106,.45); padding-bottom:1px; white-space:nowrap; font-size:13px">Más información →</span>
+                <div onClick="{{ goComunidad }}" style="border-radius:18px; padding:16px 20px; background:rgba(255,255,255,.09); backdrop-filter:blur(12px); border:1px solid rgba(255,255,255,.18); display:flex; align-items:center; gap:14px; cursor:pointer; transition:background .3s ease, border-color .3s ease" style-hover="background:rgba(161,164,103,.14); border-color:rgba(161,164,103,.5)">
+                  <div style="flex:0 0 auto; font-size:15px; font-weight:700; line-height:1.2; letter-spacing:.8px; color:#BCBE92"><span data-count="3">3</span></div>
+                  <div style="font-size:15px; font-weight:500; line-height:1.2; letter-spacing:.8px; text-transform:uppercase; color:#E6E7D2">formas de sumarse</div>
+                  <span style="margin-left:auto; flex:0 0 auto; font-size:13px; font-weight:700; color:#97272D; border-bottom:2px solid rgba(151,39,45,.35); padding-bottom:1px; white-space:nowrap; font-size:13px">Más información →</span>
                 </div>
               </div>
             </div>
@@ -277,28 +291,28 @@
 
       <!-- REGISTRO NACIONAL -->
       <section class="k-air k-air-registro" style="position:relative; max-width:1440px; margin:0 auto; padding:clamp(56px,7vw,96px) clamp(18px,3.2vw,44px) 0">
-        <a href="https://censo.oldprince.com.ar/" target="_blank" rel="noopener" data-reveal="0" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:clamp(24px,3vw,48px); align-items:center; position:relative; overflow:hidden; border-radius:28px; padding:clamp(30px,4vw,54px); background:#003B71; color:#fff; text-decoration:none; transition:transform .35s cubic-bezier(.16,.84,.28,1), box-shadow .35s ease" style-hover="transform:translateY(-6px); box-shadow:0 28px 60px rgba(0,59,113,.32)">
-          <div style="position:absolute; right:-40px; top:-30px; width:280px; height:280px; border-radius:50%; background:rgba(94,179,228,.16); pointer-events:none; animation:kongoFloatA 14s ease-in-out infinite"></div>
-          <div style="position:absolute; left:-70px; bottom:-90px; width:230px; height:230px; border-radius:50%; background:rgba(94,179,228,.10); pointer-events:none; animation:kongoFloatB 18s ease-in-out infinite"></div>
+        <a href="https://censo.oldprince.com.ar/" target="_blank" rel="noopener" data-reveal="0" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:clamp(24px,3vw,48px); align-items:center; position:relative; overflow:hidden; border-radius:28px; padding:clamp(30px,4vw,54px); background:#F3F2E6; color:#003E51; text-decoration:none; transition:transform .35s cubic-bezier(.16,.84,.28,1), box-shadow .35s ease" style-hover="transform:translateY(-6px); box-shadow:0 28px 60px rgba(122,31,36,.18)">
+          <div style="position:absolute; right:-40px; top:-30px; width:280px; height:280px; border-radius:50%; background:rgba(151,39,45,.10); pointer-events:none; animation:kongoFloatA 14s ease-in-out infinite"></div>
+          <div style="position:absolute; left:-70px; bottom:-90px; width:230px; height:230px; border-radius:50%; background:rgba(161,164,103,.16); pointer-events:none; animation:kongoFloatB 18s ease-in-out infinite"></div>
           <div style="position:relative">
-            <span style="display:inline-flex; align-items:center; gap:9px; padding:7px 15px 7px 12px; border-radius:999px; background:#5EB3E4; color:#00243F; font-size:11px; font-weight:700; letter-spacing:1.3px; text-transform:uppercase">
-              <span style="width:9px; height:9px; flex:0 0 auto; border-radius:50%; background:#00243F"></span>
+            <span style="display:inline-flex; align-items:center; gap:9px; padding:7px 15px 7px 12px; border-radius:999px; background:#97272D; color:#fff; font-size:11px; font-weight:700; letter-spacing:1.3px; text-transform:uppercase">
+              <span style="width:9px; height:9px; flex:0 0 auto; border-radius:50%; background:#fff"></span>
               Registro Nacional de Perros y Gatos
             </span>
-            <h2 style="margin:20px 0 0; font-size:clamp(32px,4.6vw,56px); line-height:.95; font-weight:700; letter-spacing:-2px">Tu perro y tu gato<br>no son <span style="font-family:Bevan,Georgia,serif; font-weight:400; letter-spacing:-.5px; color:#5EB3E4">uno más</span></h2>
-            <p style="margin:20px 0 0; font-size:18px; line-height:1.62; color:#CFE4F3; max-width:42ch; text-wrap:pretty">Tienen nombre, tienen historia y son parte de tu familia. Registralos y sumate a una comunidad que celebra ese vínculo todos los días.</p>
-            <span style="position:relative; display:inline-block; overflow:hidden; margin-top:26px; padding:15px 30px; border-radius:999px; background:#5EB3E4; color:#00243F; font-weight:700; font-size:16px">
-              <span style="position:absolute; inset:0; background:linear-gradient(100deg,transparent 20%,rgba(255,255,255,.65) 50%,transparent 80%); background-size:200% 100%; animation:kongoSweep 2.6s linear infinite"></span>
+            <h2 style="margin:20px 0 0; font-size:clamp(32px,4.6vw,56px); line-height:.95; font-weight:700; letter-spacing:-2px">Tu perro y tu gato<br>no son <span style="font-family:Bevan,Georgia,serif; font-weight:400; letter-spacing:-.5px; color:#97272D">uno más</span></h2>
+            <p style="margin:20px 0 0; font-size:18px; line-height:1.62; color:#3C3C3B; max-width:42ch; text-wrap:pretty">Tienen nombre, tienen historia y son parte de tu familia. Registralos y sumate a una comunidad que celebra ese vínculo todos los días.</p>
+            <span style="position:relative; display:inline-block; overflow:hidden; margin-top:26px; padding:15px 30px; border-radius:999px; background:#97272D; color:#fff; font-weight:700; font-size:16px">
+              <span style="position:absolute; inset:0; background:linear-gradient(100deg,transparent 20%,rgba(255,255,255,.42) 50%,transparent 80%); background-size:200% 100%; animation:kongoSweep 2.6s linear infinite"></span>
               <span style="position:relative">Registrá tu mascota →</span>
             </span>
           </div>
           <div style="position:relative; display:flex; justify-content:center; align-items:center; min-height:clamp(240px,26vw,320px)">
-            <div style="position:absolute; width:min(100%,340px); aspect-ratio:1.58; border-radius:20px; background:rgba(255,255,255,.10); border:1px solid rgba(255,255,255,.18); transform:rotate(6deg) translate(16px,14px)"></div>
-            <div style="position:relative; width:min(100%,340px); aspect-ratio:1.58; border-radius:20px; background:#fff; color:#003B71; padding:20px 22px; box-shadow:0 30px 70px rgba(0,20,40,.42); animation:kongoTilt 9s ease-in-out infinite; display:flex; flex-direction:column; justify-content:space-between; overflow:hidden">
+            <div style="position:absolute; width:min(100%,340px); aspect-ratio:1.58; border-radius:20px; background:rgba(0,62,81,.07); border:1px solid rgba(0,62,81,.12); transform:rotate(6deg) translate(16px,14px)"></div>
+            <div style="position:relative; width:min(100%,340px); aspect-ratio:1.58; border-radius:20px; background:#fff; color:#003E51; padding:20px 22px; box-shadow:0 24px 54px rgba(0,34,44,.20); animation:kongoTilt 9s ease-in-out infinite; display:flex; flex-direction:column; justify-content:space-between; overflow:hidden">
               <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:12px">
                 <div>
                   <div style="font-size:9px; font-weight:700; letter-spacing:1.4px; text-transform:uppercase; color:{{ censoAccent }}; transition:color .4s ease">Registro Nacional</div>
-                  <div style="font-size:11px; font-weight:700; letter-spacing:.8px; text-transform:uppercase; color:#7A8B9C">Perros y Gatos</div>
+                  <div style="font-size:11px; font-weight:700; letter-spacing:.8px; text-transform:uppercase; color:#82827E">Perros y Gatos</div>
                 </div>
                 <div style="width:34px; height:34px; border-radius:50%; background:{{ censoSoft }}; transition:background .4s ease; display:flex; align-items:center; justify-content:center">
                   <svg viewBox="0 0 24 24" width="18" height="18" fill="{{ censoAccent }}"><circle cx="6" cy="9" r="2.4"></circle><circle cx="10.6" cy="6" r="2.4"></circle><circle cx="15.4" cy="6" r="2.4"></circle><circle cx="19" cy="9.2" r="2.4"></circle><path d="M12.5 11c3.1 0 5.6 2.4 5.6 4.9 0 2-1.7 3.1-3.6 3.1-1 0-1.6-.4-2-.4s-1 .4-2 .4c-1.9 0-3.6-1.1-3.6-3.1C6.9 13.4 9.4 11 12.5 11z"></path></svg>
@@ -309,7 +323,7 @@
               </div>
               <div style="display:flex; align-items:flex-end; justify-content:space-between; gap:12px">
                 <div>
-                  <div style="font-size:9px; font-weight:700; letter-spacing:1.2px; text-transform:uppercase; color:#9AA8B6">Registro N°</div>
+                  <div style="font-size:9px; font-weight:700; letter-spacing:1.2px; text-transform:uppercase; color:#A5A5A1">Registro N°</div>
                   <div style="font-size:15px; font-weight:700; letter-spacing:.6px; color:{{ censoInk }}; transition:color .4s ease">{{ censoNum }}</div>
                 </div>
                 <div style="padding:6px 12px; border-radius:999px; background:{{ censoAccent }}; color:#fff; font-size:10px; font-weight:700; letter-spacing:1px; text-transform:uppercase; transition:background .4s ease">Registrado</div>
@@ -321,25 +335,27 @@
 
       <!-- CONSEJOS -->
       <section class="k-air k-air-consejos" style="position:relative; max-width:1440px; margin:0 auto; padding:88px clamp(18px,3.2vw,44px) 0">
-        <div style="display:flex; align-items:flex-end; justify-content:space-between; gap:20px; flex-wrap:wrap; border-bottom:3px solid #942D56; padding-bottom:14px">
-          <h2 style="margin: 0; font-size: clamp(40px,8vw,86px); line-height: .9; font-weight: 700; color: #942D56; letter-spacing: -2.5px">Consejos</h2>
-          <div onClick="{{ goConsejos }}" style="padding: 12px 24px; border-radius: 999px; border: 2px solid #942D56; background: #fff; color: #942D56; font-weight: 700; font-size: 15px; cursor: pointer; transition: all .25s" style-hover="background:#942D56; color:#fff">Conocé más</div>
+        <div class="k-consejos-grid" style="display:grid; grid-template-columns:minmax(0,300px) minmax(0,1fr); gap:clamp(28px,4vw,58px); align-items:center">
+        <div>
+          <h2 style="margin:0; font-size:clamp(42px,5.2vw,66px); line-height:.88; font-weight:700; color:#7A1F24; letter-spacing:-2.5px">Consejos</h2>
+          <div onClick="{{ goConsejos }}" style="display:inline-flex; align-items:center; gap:10px; margin-top:28px; padding:13px 26px; border-radius:999px; background:#7A1F24; color:#fff; font-weight:700; font-size:15px; cursor:pointer; transition:transform .25s ease, box-shadow .25s ease" style-hover="transform:translateY(-2px); box-shadow:0 16px 32px rgba(122,31,36,.28)">Ver todas las notas<span style="font-size:17px; line-height:1">→</span></div>
         </div>
-        <div class="k-home-posts" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:22px; margin-top:28px">
+        <div class="k-home-posts" style="display:flex; flex-direction:column; gap:20px">
           <sc-for list="{{ homePosts }}" as="post" hint-placeholder-count="3">
-            <div onClick="{{ post.open }}" data-reveal="{{ post.delay }}" style="cursor:pointer; border-radius:18px; overflow:hidden; background:#fff; border:1px solid #E8ECF1; transition:transform .35s cubic-bezier(.16,.84,.28,1), box-shadow .35s ease" style-hover="transform:translateY(-8px); box-shadow:0 20px 40px rgba(148,45,86,.24)">
+            <div class="k-post-row" onClick="{{ post.open }}" data-reveal="{{ post.delay }}" style="display:grid; grid-template-columns:minmax(0,44%) minmax(0,1fr); cursor:pointer; border-radius:24px; overflow:hidden; background:#F8EDEC; transition:transform .35s cubic-bezier(.16,.84,.28,1), box-shadow .35s ease" style-hover="transform:translateY(-6px); box-shadow:0 26px 50px rgba(122,31,36,.20)">
               <sc-if value="{{ post.hasCover }}" hint-placeholder-val="{{ false }}">
-                <img src="{{ post.cover }}" alt="" style="display:block; width:100%; aspect-ratio:16/10; object-fit:cover">
+                <div role="img" style="width:100%; height:100%; min-height:230px; background-color:#E6EDEF; background-size:cover; background-position:72% center; background-image:{{ post.coverBg }}"></div>
               </sc-if>
               <sc-if value="{{ post.noCover }}" hint-placeholder-val="{{ true }}">
-                <div style="aspect-ratio:16/10; background:repeating-linear-gradient(135deg,#F1F5F9 0 12px,#E4EBF2 12px 24px); display:flex; align-items:center; justify-content:center">
-                  <span style="font-size:10px; letter-spacing:1px; color:#7C8B9A; text-transform:uppercase">imagen nota</span>
+                <div style="min-height:230px; background:repeating-linear-gradient(135deg,#F1F5F9 0 12px,#E6EDEF 12px 24px); display:flex; align-items:center; justify-content:center">
+                  <span style="font-size:10px; letter-spacing:1px; color:#82827E; text-transform:uppercase">imagen nota</span>
                 </div>
               </sc-if>
-              <div style="padding:18px">
-                <span style="font-size:11px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:#AB0033">{{ post.date }}</span>
-                <h3 style="margin:8px 0 6px; font-size:19px; line-height:1.2; font-weight:700; color:#003B71">{{ post.title }}</h3>
-                <p style="margin:0; font-size:14px; line-height:1.55; color:#5A6875">{{ post.excerpt }}</p>
+              <div style="padding:clamp(22px,2.4vw,32px); display:flex; flex-direction:column; justify-content:center; gap:11px">
+                <span style="font-size:11px; font-weight:700; letter-spacing:1.6px; text-transform:uppercase; color:#97272D">{{ post.date }}</span>
+                <h3 style="margin:0; font-size:clamp(20px,1.8vw,26px); line-height:1.14; font-weight:700; color:#003E51; letter-spacing:-.6px; text-wrap:pretty">{{ post.title }}</h3>
+                <p style="margin:0; font-size:15px; line-height:1.6; color:#575756; text-wrap:pretty">{{ post.excerpt }}</p>
+                <span style="margin-top:4px; font-size:14px; font-weight:700; color:#7A1F24">Leer la nota →</span>
               </div>
             </div>
           </sc-for>
@@ -353,11 +369,11 @@
           <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); gap:clamp(24px,3vw,48px); align-items:center; padding:clamp(30px,3.6vw,56px)">
             <div style="display:flex; flex-direction:column; gap:20px">
               <img src="uploads/opt/baires-color.webp" alt="Baires S.A." style="height:58px; width:auto; align-self:flex-start; object-fit:contain; display:block">
-              <h2 style="margin:0; font-size:clamp(26px,3.4vw,42px); line-height:1.04; font-weight:700; color:#003B71; letter-spacing:-1.5px; text-wrap:balance">Trabajamos todos los días para hacer el <span style="font-family:Bevan,Georgia,serif; font-weight:400; color:#FF7F30">mejor alimento para ellos</span></h2>
+              <h2 style="margin:0; font-size:clamp(26px,3.4vw,42px); line-height:1.04; font-weight:700; color:#003E51; letter-spacing:-1.5px; text-wrap:balance">Trabajamos todos los días para hacer el <span style="font-family:Bevan,Georgia,serif; font-weight:400; color:#96661F">mejor alimento para ellos</span></h2>
             </div>
             <div style="display:flex; flex-direction:column; gap:22px">
-              <p style="margin:0; font-size:16px; line-height:1.68; color:#31404F; max-width:52ch; text-wrap:pretty">Somos una empresa responsable y comprometida. Es nuestro propósito ofrecer excelencia en nutrición, aportando más salud y mejor calidad de vida a perros y gatos. Para ello nos especializamos en la producción de sus alimentos y trabajamos con pasión, logrando así ingresar día a día en nuevos hogares para compartir el cuidado con sus familias.</p>
-              <a href="https://baires-sa.com.ar/" target="_blank" rel="noopener" style="align-self:flex-start; display:inline-flex; align-items:center; gap:10px; padding:14px 26px; border-radius:999px; background:#003B71; color:#fff; font-size:15px; font-weight:700; text-decoration:none; transition:transform .25s, box-shadow .25s, background .25s" style-hover="background:#00518F; transform:translateY(-2px); box-shadow:0 14px 28px rgba(0,59,113,.24)">Conocé Baires S.A.<span style="font-size:17px; line-height:1">→</span></a>
+              <p style="margin:0; font-size:16px; line-height:1.68; color:#3C3C3B; max-width:52ch; text-wrap:pretty">Somos una empresa responsable y comprometida. Es nuestro propósito ofrecer excelencia en nutrición, aportando más salud y mejor calidad de vida a perros y gatos. Para ello nos especializamos en la producción de sus alimentos y trabajamos con pasión, logrando así ingresar día a día en nuevos hogares para compartir el cuidado con sus familias.</p>
+              <a href="https://baires-sa.com.ar/" target="_blank" rel="noopener" style="align-self:flex-start; display:inline-flex; align-items:center; gap:10px; padding:14px 26px; border-radius:999px; background:#003E51; color:#fff; font-size:15px; font-weight:700; text-decoration:none; transition:transform .25s, box-shadow .25s, background .25s" style-hover="background:#00647F; transform:translateY(-2px); box-shadow:0 14px 28px rgba(0,62,81,.24)">Conocé Baires S.A.<span style="font-size:17px; line-height:1">→</span></a>
             </div>
           </div>
           <img src="uploads/Foto retocada Baires Final-d76747df.jpg" alt="Planta de Baires S.A. en Cañuelas" style="width:100%; height:auto; display:block; border-top:1px solid #E3EAF1">
@@ -369,22 +385,22 @@
       <section class="k-air k-air-form" data-bleed="" style="position:relative; width:100vw; margin-left:calc(50% - 50vw); padding:0 clamp(18px,3.2vw,44px) clamp(48px,6vw,88px); background:#F2F6FA">
         <div style="max-width:1240px; margin:0 auto; padding:clamp(72px,8vw,120px) 0 0; display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:32px; align-items:start">
           <div style="display:flex; flex-direction:column; align-items:flex-start; text-align:left; gap:14px">
-            <h2 style="margin:0; font-size:clamp(30px,5vw,52px); line-height:.95; font-weight:700; color:#003B71; letter-spacing:-2px">Contáctanos</h2>
-            <p style="margin:0; font-size:16px; line-height:1.6; color:#31404F; white-space:nowrap">Escribinos y te respondemos a la brevedad.</p>
+            <h2 style="margin:0; font-size:clamp(30px,5vw,52px); line-height:.95; font-weight:700; color:#003E51; letter-spacing:-2px">Contáctanos</h2>
+            <p style="margin:0; font-size:16px; line-height:1.6; color:#3C3C3B; white-space:nowrap">Escribinos y te respondemos a la brevedad.</p>
             <div style="display:flex; flex-wrap:wrap; justify-content:flex-start; gap:12px; margin-top:6px">
-              <a href="mailto:consultas@baires-sa.com.ar" title="consultas@baires-sa.com.ar" style="display:flex; align-items:center; justify-content:center; width:52px; height:52px; border-radius:999px; border:2px solid #003B71; background:#003B71; color:#fff; transition:all .25s" style-hover="background:#fff; color:#003B71">
+              <a href="mailto:consultas@baires-sa.com.ar" title="consultas@baires-sa.com.ar" style="display:flex; align-items:center; justify-content:center; width:52px; height:52px; border-radius:999px; border:2px solid #003E51; background:#003E51; color:#fff; transition:all .25s" style-hover="background:#fff; color:#003E51">
                 <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="3"></rect><path d="m3 7 9 6 9-6"></path></svg>
               </a>
-              <a href="https://wa.me/5491164050041" title="WhatsApp +54 9 11 6405-0041" style="display:flex; align-items:center; justify-content:center; width:52px; height:52px; border-radius:999px; border:2px solid #6BA43A; background:#6BA43A; color:#fff; transition:all .25s" style-hover="background:#fff; color:#6BA43A">
+              <a href="https://wa.me/5491164050041" title="WhatsApp +54 9 11 6405-0041" style="display:flex; align-items:center; justify-content:center; width:52px; height:52px; border-radius:999px; border:2px solid #A1A467; background:#A1A467; color:#fff; transition:all .25s" style-hover="background:#fff; color:#A1A467">
                 <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.5 8.5 0 0 1-12.6 7.4L3 20.5l1.7-5.2A8.5 8.5 0 1 1 21 11.5Z"></path><path d="M8.8 9.2c.3 2.6 3.4 5.7 6 6l1-1.6 2 .9-.6 1.6c-2.6.5-6.7-2-8.6-5.2l1.5-.8Z"></path></svg>
               </a>
-              <a href="https://www.instagram.com/kongooficial/" title="Instagram @kongooficial" style="display:flex; align-items:center; justify-content:center; width:52px; height:52px; border-radius:999px; border:2px solid #AB0033; background:#AB0033; color:#fff; transition:all .25s" style-hover="background:#fff; color:#AB0033">
+              <a href="https://www.instagram.com/kongooficial/" title="Instagram @kongooficial" style="display:flex; align-items:center; justify-content:center; width:52px; height:52px; border-radius:999px; border:2px solid #97272D; background:#97272D; color:#fff; transition:all .25s" style-hover="background:#fff; color:#97272D">
                 <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1"></circle></svg>
               </a>
-              <a href="https://www.facebook.com/KongoOficial/" title="Facebook @KongoOficial" style="display:flex; align-items:center; justify-content:center; width:52px; height:52px; border-radius:999px; border:2px solid #003B71; background:#003B71; color:#fff; transition:all .25s" style-hover="background:#fff; color:#003B71">
+              <a href="https://www.facebook.com/KongoOficial/" title="Facebook @KongoOficial" style="display:flex; align-items:center; justify-content:center; width:52px; height:52px; border-radius:999px; border:2px solid #003E51; background:#003E51; color:#fff; transition:all .25s" style-hover="background:#fff; color:#003E51">
                 <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h-2.5A4.5 4.5 0 0 0 8 7.5V10H6v4h2v7h4v-7h3l1-4h-4V7.5A.5.5 0 0 1 12.5 7H15V3Z"></path></svg>
               </a>
-              <a href="https://www.youtube.com/channel/UColFvIkhJhcC3K8ip8eK6tw" title="YouTube Kongo" style="display:flex; align-items:center; justify-content:center; width:52px; height:52px; border-radius:999px; border:2px solid #FF7F30; background:#FF7F30; color:#fff; transition:all .25s" style-hover="background:#fff; color:#FF7F30">
+              <a href="https://www.youtube.com/channel/UColFvIkhJhcC3K8ip8eK6tw" title="YouTube Kongo" style="display:flex; align-items:center; justify-content:center; width:52px; height:52px; border-radius:999px; border:2px solid #96661F; background:#96661F; color:#fff; transition:all .25s" style-hover="background:#fff; color:#96661F">
                 <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="4"></rect><path d="m10 9 5 3-5 3V9Z"></path></svg>
               </a>
             </div>
@@ -399,35 +415,35 @@
   <!-- ================= PRODUCTOS ================= -->
   <sc-if value="{{ isProductos }}" hint-placeholder-val="{{ true }}">
   <main style="max-width:1440px; margin:0 auto; padding:0 clamp(18px,3.2vw,44px) 96px">
-    <section data-spot="rgba(255,127,48,.20)" data-bleed="" style="position:relative; width:100vw; margin-left:calc(50% - 50vw); height:clamp(440px,58vh,600px); overflow:hidden; background:#003B71">
+    <section data-spot="rgba(196,116,28,.20)" data-bleed="" style="position:relative; width:100vw; margin-left:calc(50% - 50vw); height:clamp(440px,58vh,600px); overflow:hidden; background:#003E51">
       <img src="uploads/Request_for_clearer_image_2K_202608311045.jpeg" alt="Perro junto a su plato de alimento" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; display:block; transform-origin:58% 45%; animation:kongoZoom 22s ease-in-out infinite alternate">
-      <div style="position:absolute; left:58%; top:45%; width:44vw; height:44vw; max-width:620px; max-height:620px; border-radius:999px; background:radial-gradient(circle at 50% 50%, rgba(255,127,48,.55), rgba(255,127,48,0) 66%); mix-blend-mode:screen; animation:kongoGlow 9s ease-in-out infinite; pointer-events:none"></div>
+      <div style="position:absolute; left:58%; top:45%; width:44vw; height:44vw; max-width:620px; max-height:620px; border-radius:999px; background:radial-gradient(circle at 50% 50%, rgba(196,116,28,.55), rgba(196,116,28,0) 66%); mix-blend-mode:screen; animation:kongoGlow 9s ease-in-out infinite; pointer-events:none"></div>
       <div style="position:absolute; left:0; right:0; bottom:0; height:52%; background:linear-gradient(180deg,rgba(60,22,2,0) 0,rgba(60,22,2,.55) 100%); pointer-events:none"></div>
       <div data-spot-layer="" style="position:absolute; inset:0; opacity:0; transition:opacity .4s ease; pointer-events:none; mix-blend-mode:screen"></div>
       <div style="position:absolute; left:0; right:0; bottom:0; padding:clamp(18px,3.2vw,44px)">
         <h1 style="margin:0; font-size:clamp(38px,7.4vw,104px); line-height:.9; font-weight:700; color:#fff; letter-spacing:-2.5px; text-shadow:0 6px 30px rgba(40,14,0,.45)">
           <span style="display:block; overflow:hidden; padding-bottom:.04em"><span style="display:block; animation:kongoMask .9s cubic-bezier(.16,.84,.28,1) both">Nuestros</span></span>
-          <span style="display:block; overflow:hidden; padding-bottom:.08em"><span style="display:block; font-family:Bevan,Georgia,serif; font-weight:400; color:#FF7F30; animation:kongoMask 1s cubic-bezier(.16,.84,.28,1) .18s both">productos</span></span>
+          <span style="display:block; overflow:hidden; padding-bottom:.08em"><span style="display:block; font-family:Bevan,Georgia,serif; font-weight:400; color:#EAA55D; animation:kongoMask 1s cubic-bezier(.16,.84,.28,1) .18s both">productos</span></span>
         </h1>
       </div>
     </section>
 
     <!-- FILTROS -->
-    <div style="position:sticky; top:70px; z-index:30; margin-top:24px; background:rgba(244,247,250,.92); backdrop-filter:blur(14px); border:1px solid #E3E9F0; border-radius:20px; padding:16px 20px; box-shadow:0 10px 30px rgba(0,59,113,.06)">
+    <div style="position:sticky; top:70px; z-index:30; margin-top:24px; background:rgba(244,247,250,.92); backdrop-filter:blur(14px); border:1px solid #E6EDEF; border-radius:20px; padding:16px 20px; box-shadow:0 10px 30px rgba(0,62,81,.06)">
       <div style="display:flex; flex-wrap:wrap; align-items:center; gap:12px">
-        <div onClick="{{ toggleFilters }}" style="display:inline-flex; align-items:center; gap:10px; padding:12px 22px; border-radius:999px; border:2px solid #003B71; background:#003B71; color:#fff; font-weight:700; font-size:15px; cursor:pointer; transition:all .25s" style-hover="background:#fff; color:#003B71">
+        <div onClick="{{ toggleFilters }}" style="display:inline-flex; align-items:center; gap:10px; padding:12px 22px; border-radius:999px; border:2px solid #003E51; background:#003E51; color:#fff; font-weight:700; font-size:15px; cursor:pointer; transition:all .25s" style-hover="background:#fff; color:#003E51">
           <span>Filtros</span>
           <sc-if value="{{ hasFilters }}" hint-placeholder-val="{{ false }}">
-            <span style="display:inline-flex; align-items:center; justify-content:center; min-width:22px; height:22px; padding:0 6px; border-radius:999px; background:#FFB71B; color:#003B71; font-size:12px; font-weight:700">{{ filterCount }}</span>
+            <span style="display:inline-flex; align-items:center; justify-content:center; min-width:22px; height:22px; padding:0 6px; border-radius:999px; background:#EAA55D; color:#003E51; font-size:12px; font-weight:700">{{ filterCount }}</span>
           </sc-if>
         </div>
         <sc-if value="{{ hasFilters }}" hint-placeholder-val="{{ false }}">
-          <span onClick="{{ clearFilters }}" style="font-size:14px; font-weight:700; color:#AB0033; cursor:pointer; border-bottom:2px solid #E96BB0">Limpiar filtros</span>
+          <span onClick="{{ clearFilters }}" style="font-size:14px; font-weight:700; color:#97272D; cursor:pointer; border-bottom:2px solid #97272D">Limpiar filtros</span>
         </sc-if>
-        <span style="margin-left:auto; font-size:13px; color:#5A6875">{{ resultLabel }}</span>
+        <span style="margin-left:auto; font-size:13px; color:#575756">{{ resultLabel }}</span>
       </div>
       <sc-if value="{{ filtersOpen }}" hint-placeholder-val="{{ false }}">
-        <div style="margin-top:18px; display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr)); gap:18px; background:#fff; border:1px solid #E3E9F0; border-radius:14px; padding:20px">
+        <div style="margin-top:18px; display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr)); gap:18px; background:#fff; border:1px solid #E6EDEF; border-radius:14px; padding:20px">
           <sc-for list="{{ filterGroups }}" as="g" hint-placeholder-count="4">
             <div>
               <div style="font-size:11px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:{{ g.color }}; margin-bottom:10px">{{ g.label }}</div>
@@ -444,21 +460,21 @@
 
     <!-- PERROS -->
     <sc-if value="{{ showDogs }}" hint-placeholder-val="{{ true }}">
-      <section id="sec-dogs" style="margin-top:56px; border:2px solid #003B71; border-radius:28px; padding:34px 24px 28px">
-        <div style="display:flex; align-items:baseline; justify-content:space-between; gap:16px; flex-wrap:wrap; padding-bottom:12px; border-bottom:1px solid #E8ECF1"><h2 style="margin:0; font-size:clamp(28px,5.4vw,54px); line-height:.98; font-weight:700; color:#003B71; letter-spacing:-1.8px">Alimentos <span style="font-family:Bevan,Georgia,serif; font-weight:400; color:#003B71">para perros</span></h2></div>
+      <section id="sec-dogs" style="margin-top:56px; border:2px solid #003E51; border-radius:28px; padding:34px 24px 28px">
+        <div style="display:flex; align-items:baseline; justify-content:space-between; gap:16px; flex-wrap:wrap; padding-bottom:12px; border-bottom:1px solid #E8ECF1"><h2 style="margin:0; font-size:clamp(28px,5.4vw,54px); line-height:.98; font-weight:700; color:#003E51; letter-spacing:-1.8px">Alimentos <span style="font-family:Bevan,Georgia,serif; font-weight:400; color:#003E51">para perros</span></h2></div>
         <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:20px; margin-top:26px">
           <sc-for list="{{ dogs }}" as="p" hint-placeholder-count="3">
-            <div onClick="{{ p.open }}" data-reveal="{{ p.delay }}" data-spot="rgba(0,59,113,.10)" style="position:relative; cursor:pointer; border:2px solid {{ p.accent }}; border-radius:20px; overflow:hidden; background:#fff; display:flex; flex-direction:{{ p.dir }}; transition:transform .35s cubic-bezier(.16,.84,.28,1), box-shadow .35s ease" style-hover="transform:translateY(-10px); box-shadow:0 26px 50px rgba(0,0,0,.16)"><div data-spot-layer="" style="position:absolute; inset:0; opacity:0; transition:opacity .4s ease; pointer-events:none; z-index:2"></div>
+            <div onClick="{{ p.open }}" data-reveal="{{ p.delay }}" data-spot="rgba(0,62,81,.10)" style="position:relative; cursor:pointer; border:2px solid {{ p.accent }}; border-radius:20px; overflow:hidden; background:#fff; display:flex; flex-direction:{{ p.dir }}; transition:transform .35s cubic-bezier(.16,.84,.28,1), box-shadow .35s ease" style-hover="transform:translateY(-10px); box-shadow:0 26px 50px rgba(0,0,0,.16)"><div data-spot-layer="" style="position:absolute; inset:0; opacity:0; transition:opacity .4s ease; pointer-events:none; z-index:2"></div>
               <div style="flex:none; display:flex; align-items:baseline; gap:7px; padding:12px 16px; background:{{ p.accent }}">
                 <span style="font-size:13px; font-weight:700; letter-spacing:.9px; text-transform:uppercase; color:#fff; white-space:nowrap">{{ p.catLabel }}</span>
                 <span style="font-size:13px; font-weight:400; letter-spacing:.3px; color:rgba(255,255,255,.88); white-space:nowrap; overflow:hidden; text-overflow:ellipsis">{{ p.specLabel }}</span>
               </div>
-              <div style="position:relative; flex:none; width:{{ p.imgW }}; background:#fff; padding:24px; display:flex; align-items:center; justify-content:center; height:{{ imgH }}">
-                <img data-photo="{{ p.img }}" alt="Envase Kongo" style="width:78%; height:88%; object-fit:contain; display:block">
+              <div style="position:relative; flex:none; width:{{ p.imgW }}; background:#fff; padding:14px; display:flex; align-items:center; justify-content:center; height:{{ imgH }}">
+                <img data-photo="{{ p.img }}" alt="Envase Kongo" style="width:94%; height:100%; object-fit:contain; display:block">
               </div>
               <div style="padding:18px; display:flex; flex-direction:column; gap:8px; flex:1; min-width:0">
                 <div style="font-size:15px; font-weight:900; line-height:1.15; letter-spacing:.2px; white-space:nowrap; text-transform:uppercase; color:{{ p.ink }}">{{ p.sabor }}</div>
-                <p style="margin:0; font-size:{{ p.benSize }}; line-height:1.5; color:#31404F; max-width:46ch">{{ p.benefit }}</p>
+                <p style="margin:0; font-size:{{ p.benSize }}; line-height:1.5; color:#3C3C3B; max-width:46ch">{{ p.benefit }}</p>
                 <span style="margin-top:{{ p.ctaMt }}; padding-top:10px; font-size:{{ p.ctaSize }}; font-weight:700; color:{{ p.ink }}">Conocé más →</span>
               </div>
             </div>
@@ -469,21 +485,21 @@
 
     <!-- GATOS -->
     <sc-if value="{{ showCats }}" hint-placeholder-val="{{ true }}">
-      <section style="margin-top:36px; border:2px solid #AB0033; border-radius:28px; padding:34px 24px 28px">
-        <div style="display:flex; align-items:baseline; justify-content:space-between; gap:16px; flex-wrap:wrap; padding-bottom:12px; border-bottom:1px solid #F3DCE7"><h2 style="margin:0; font-size:clamp(28px,5.4vw,54px); line-height:.98; font-weight:700; color:#AB0033; letter-spacing:-1.8px">Alimentos <span style="font-family: Bevan,Georgia,serif; font-weight: 400; color: #941F36">para gatos</span></h2></div>
+      <section style="margin-top:36px; border:2px solid #97272D; border-radius:28px; padding:34px 24px 28px">
+        <div style="display:flex; align-items:baseline; justify-content:space-between; gap:16px; flex-wrap:wrap; padding-bottom:12px; border-bottom:1px solid #F8EDEC"><h2 style="margin:0; font-size:clamp(28px,5.4vw,54px); line-height:.98; font-weight:700; color:#97272D; letter-spacing:-1.8px">Alimentos <span style="font-family: Bevan,Georgia,serif; font-weight: 400; color: #7A1F24">para gatos</span></h2></div>
         <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:20px; margin-top:26px">
           <sc-for list="{{ cats }}" as="p" hint-placeholder-count="3">
-            <div onClick="{{ p.open }}" data-reveal="{{ p.delay }}" data-spot="rgba(0,59,113,.10)" style="position:relative; cursor:pointer; border:2px solid {{ p.accent }}; border-radius:20px; overflow:hidden; background:#fff; display:flex; flex-direction:{{ p.dir }}; transition:transform .35s cubic-bezier(.16,.84,.28,1), box-shadow .35s ease" style-hover="transform:translateY(-10px); box-shadow:0 26px 50px rgba(0,0,0,.16)"><div data-spot-layer="" style="position:absolute; inset:0; opacity:0; transition:opacity .4s ease; pointer-events:none; z-index:2"></div>
+            <div onClick="{{ p.open }}" data-reveal="{{ p.delay }}" data-spot="rgba(0,62,81,.10)" style="position:relative; cursor:pointer; border:2px solid {{ p.accent }}; border-radius:20px; overflow:hidden; background:#fff; display:flex; flex-direction:{{ p.dir }}; transition:transform .35s cubic-bezier(.16,.84,.28,1), box-shadow .35s ease" style-hover="transform:translateY(-10px); box-shadow:0 26px 50px rgba(0,0,0,.16)"><div data-spot-layer="" style="position:absolute; inset:0; opacity:0; transition:opacity .4s ease; pointer-events:none; z-index:2"></div>
               <div style="flex:none; display:flex; align-items:baseline; gap:7px; padding:12px 16px; background:{{ p.accent }}">
                 <span style="font-size:13px; font-weight:700; letter-spacing:.9px; text-transform:uppercase; color:#fff; white-space:nowrap">{{ p.catLabel }}</span>
                 <span style="font-size:13px; font-weight:400; letter-spacing:.3px; color:rgba(255,255,255,.88); white-space:nowrap; overflow:hidden; text-overflow:ellipsis">{{ p.specLabel }}</span>
               </div>
-              <div style="position:relative; flex:none; width:{{ p.imgW }}; background:#fff; padding:24px; display:flex; align-items:center; justify-content:center; height:{{ imgH }}">
-                <img data-photo="{{ p.img }}" alt="Envase Kongo" style="width:78%; height:88%; object-fit:contain; display:block">
+              <div style="position:relative; flex:none; width:{{ p.imgW }}; background:#fff; padding:14px; display:flex; align-items:center; justify-content:center; height:{{ imgH }}">
+                <img data-photo="{{ p.img }}" alt="Envase Kongo" style="width:94%; height:100%; object-fit:contain; display:block">
               </div>
               <div style="padding:18px; display:flex; flex-direction:column; gap:8px; flex:1; min-width:0">
                 <div style="font-size:15px; font-weight:900; line-height:1.15; letter-spacing:.2px; white-space:nowrap; text-transform:uppercase; color:{{ p.ink }}">{{ p.sabor }}</div>
-                <p style="margin:0; font-size:{{ p.benSize }}; line-height:1.5; color:#31404F; max-width:46ch">{{ p.benefit }}</p>
+                <p style="margin:0; font-size:{{ p.benSize }}; line-height:1.5; color:#3C3C3B; max-width:46ch">{{ p.benefit }}</p>
                 <span style="margin-top:{{ p.ctaMt }}; padding-top:10px; font-size:{{ p.ctaSize }}; font-weight:700; color:{{ p.ink }}">Conocé más →</span>
               </div>
             </div>
@@ -494,22 +510,22 @@
 
     <!-- GOLD -->
     <sc-if value="{{ showGold }}" hint-placeholder-val="{{ true }}">
-      <section id="sec-gold" style="margin-top:36px; border:2px solid #16202B; border-radius:28px; padding:34px 24px 28px">
-        <div style="display:flex; align-items:baseline; justify-content:space-between; gap:16px; flex-wrap:wrap; padding-bottom:12px; border-bottom:1px solid #EDE4CE"><h2 style="margin:0; font-size:clamp(28px,5.4vw,54px); line-height:.98; font-weight:700; color:#16202B; letter-spacing:-1.8px">Kongo <span style="font-family:Bevan,Georgia,serif; font-weight:400; color:#E0A00E">Gold</span></h2></div>
+      <section id="sec-gold" style="margin-top:36px; border:2px solid #1D1D1B; border-radius:28px; padding:34px 24px 28px">
+        <div style="display:flex; align-items:baseline; justify-content:space-between; gap:16px; flex-wrap:wrap; padding-bottom:12px; border-bottom:1px solid #E9DFC6"><h2 style="margin:0; font-size:clamp(28px,5.4vw,54px); line-height:.98; font-weight:700; color:#1D1D1B; letter-spacing:-1.8px">Kongo <span style="font-family:Bevan,Georgia,serif; font-weight:400; color:#9A6519">Gold</span></h2></div>
         
         <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:20px; margin-top:26px">
           <sc-for list="{{ gold }}" as="p" hint-placeholder-count="3">
-            <div onClick="{{ p.open }}" data-reveal="{{ p.delay }}" data-spot="rgba(255,183,27,.16)" style="position:relative; cursor:pointer; border:2px solid #FFB71B; border-radius:20px; overflow:hidden; background:#fff; display:flex; flex-direction:{{ p.dir }}; transition:transform .35s cubic-bezier(.16,.84,.28,1), box-shadow .35s ease" style-hover="transform:translateY(-10px); box-shadow:0 26px 50px rgba(0,0,0,.16)"><div data-spot-layer="" style="position:absolute; inset:0; opacity:0; transition:opacity .4s ease; pointer-events:none; z-index:2"></div>
-              <div style="flex:none; display:flex; align-items:baseline; gap:7px; padding:12px 16px; background:#FFB71B">
+            <div onClick="{{ p.open }}" data-reveal="{{ p.delay }}" data-spot="rgba(154,101,25,.16)" style="position:relative; cursor:pointer; border:2px solid #9A6519; border-radius:20px; overflow:hidden; background:#fff; display:flex; flex-direction:{{ p.dir }}; transition:transform .35s cubic-bezier(.16,.84,.28,1), box-shadow .35s ease" style-hover="transform:translateY(-10px); box-shadow:0 26px 50px rgba(0,0,0,.16)"><div data-spot-layer="" style="position:absolute; inset:0; opacity:0; transition:opacity .4s ease; pointer-events:none; z-index:2"></div>
+              <div style="flex:none; display:flex; align-items:baseline; gap:7px; padding:12px 16px; background:#9A6519">
                 <span style="font-size:13px; font-weight:700; letter-spacing:.9px; text-transform:uppercase; color:#fff; white-space:nowrap">{{ p.catLabel }}</span>
                 <span style="font-size:13px; font-weight:400; letter-spacing:.3px; color:rgba(255,255,255,.88); white-space:nowrap; overflow:hidden; text-overflow:ellipsis">{{ p.specLabel }}</span>
               </div>
-              <div style="position:relative; flex:none; width:{{ p.imgW }}; background:#fff; padding:24px; display:flex; align-items:center; justify-content:center; height:{{ imgH }}">
-                <img data-photo="{{ p.img }}" alt="Envase Kongo" style="width:78%; height:88%; object-fit:contain; display:block">
+              <div style="position:relative; flex:none; width:{{ p.imgW }}; background:#fff; padding:14px; display:flex; align-items:center; justify-content:center; height:{{ imgH }}">
+                <img data-photo="{{ p.img }}" alt="Envase Kongo" style="width:94%; height:100%; object-fit:contain; display:block">
               </div>
               <div style="padding:18px; display:flex; flex-direction:column; gap:8px; flex:1; min-width:0">
                 <div style="font-size:15px; font-weight:900; line-height:1.15; letter-spacing:.2px; white-space:nowrap; text-transform:uppercase; color:{{ p.ink }}">{{ p.sabor }}</div>
-                <p style="margin:0; font-size:{{ p.benSize }}; line-height:1.5; color:#31404F; max-width:46ch">{{ p.benefit }}</p>
+                <p style="margin:0; font-size:{{ p.benSize }}; line-height:1.5; color:#3C3C3B; max-width:46ch">{{ p.benefit }}</p>
                 <span style="margin-top:{{ p.ctaMt }}; padding-top:10px; font-size:{{ p.ctaSize }}; font-weight:700; color:{{ p.ink }}">Conocé más →</span>
               </div>
             </div>
@@ -520,10 +536,10 @@
 
     <!-- VACÍO -->
     <sc-if value="{{ showEmpty }}" hint-placeholder-val="{{ false }}">
-      <section style="margin-top:56px; border:2px dashed #E96BB0; border-radius:24px; padding:40px 24px; text-align:center">
-        <h2 style="margin:0; font-size:clamp(24px,4vw,36px); line-height:1.05; font-weight:700; color:#AB0033; letter-spacing:-1px">{{ emptyTitle }}</h2>
-        <p style="margin:12px auto 0; max-width:48ch; font-size:16px; line-height:1.6; color:#31404F">{{ emptyText }}</p>
-        <div onClick="{{ showCatsOnly }}" style="display:inline-block; margin-top:22px; padding:14px 26px; border-radius:999px; border:2px solid #AB0033; background:#AB0033; color:#fff; font-weight:700; font-size:15px; cursor:pointer; transition:all .25s" style-hover="background:#fff; color:#AB0033">Ver los alimentos Kongo para gatos</div>
+      <section style="margin-top:56px; border:2px dashed #97272D; border-radius:24px; padding:40px 24px; text-align:center">
+        <h2 style="margin:0; font-size:clamp(24px,4vw,36px); line-height:1.05; font-weight:700; color:#97272D; letter-spacing:-1px">{{ emptyTitle }}</h2>
+        <p style="margin:12px auto 0; max-width:48ch; font-size:16px; line-height:1.6; color:#3C3C3B">{{ emptyText }}</p>
+        <div onClick="{{ showCatsOnly }}" style="display:inline-block; margin-top:22px; padding:14px 26px; border-radius:999px; border:2px solid #97272D; background:#97272D; color:#fff; font-weight:700; font-size:15px; cursor:pointer; transition:all .25s" style-hover="background:#fff; color:#97272D">Ver los alimentos Kongo para gatos</div>
       </section>
     </sc-if>
   </main>
@@ -533,7 +549,7 @@
   <sc-if value="{{ isProducto }}" hint-placeholder-val="{{ false }}">
   <main style="max-width:1440px; margin:0 auto; padding:26px clamp(18px,3.2vw,44px) 96px">
     <div style="display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap; padding-bottom:14px; border-bottom:1px solid #E8ECF1">
-      <span onClick="{{ goProductos }}" style="font-size:11px; letter-spacing:1.4px; text-transform:uppercase; color:#7C8B9A; cursor:pointer" style-hover="color:#003B71">← Volver al catálogo</span>
+      <span onClick="{{ goProductos }}" style="font-size:11px; letter-spacing:1.4px; text-transform:uppercase; color:#82827E; cursor:pointer" style-hover="color:#003E51">← Volver al catálogo</span>
     </div>
     <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:40px; margin-top:20px; align-items:start">
       <div style="display:flex; align-items:center; justify-content:center; aspect-ratio:1/1">
@@ -547,7 +563,7 @@
         <h1 style="margin:16px 0 0; font-size:clamp(32px,6vw,58px); line-height:.98; font-weight:700; letter-spacing:-2px; color:{{ prod.color }}; text-wrap:balance">{{ prod.nameTipo }}<br><span style="font-family: Bevan,Georgia,serif; font-weight: 400; font-size: 54px">{{ prod.nameEtapa }}</span></h1>
         <ul style="list-style:none; margin:26px 0 0; padding:0; display:flex; flex-direction:column; gap:10px">
           <sc-for list="{{ prod.claims }}" as="c" hint-placeholder-count="3">
-            <li style="display:flex; align-items:flex-start; gap:10px; font-size:15px; line-height:1.5; font-weight:500; color:#31404F; text-wrap:pretty">
+            <li style="display:flex; align-items:flex-start; gap:10px; font-size:15px; line-height:1.5; font-weight:500; color:#3C3C3B; text-wrap:pretty">
               <svg viewBox="0 0 24 24" width="18" height="18" style="flex:0 0 auto; margin-top:2px" fill="{{ prod.accent }}"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm4.7 7.7-5.6 5.6a1 1 0 0 1-1.4 0L7.3 12.9a1 1 0 1 1 1.4-1.4l2 2 4.9-4.9a1 1 0 0 1 1.4 1.4Z"></path></svg>
               <span>{{ c.text }}</span>
             </li>
@@ -570,10 +586,10 @@
     <section data-reveal="0" style="margin-top:64px; display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:24px; align-items:stretch">
       <div style="background:{{ prod.soft }}; border-radius:26px; padding:30px; border:2px solid transparent; display:flex; flex-direction:column">
         <h2 style="margin:0 0 16px; font-size:clamp(22px,2.6vw,30px); line-height:1; font-weight:700; letter-spacing:-1.2px; color:{{ prod.color }}"><span style="font-family: Bevan,Georgia,serif; font-weight: 400; font-size: 54.94px">Ingredientes</span></h2>
-        <p style="margin: 0; flex: 1; display: flex; align-items: center; font-size: 17px; line-height: 1.75; color: #16202B; text-wrap: pretty; width: 415px; height: 349px">{{ prod.ingredientes }}</p>
+        <p style="margin: 0; flex: 1; display: flex; align-items: center; font-size: 17px; line-height: 1.75; color: #1D1D1B; text-wrap: pretty; width: 100%; min-width: 0">{{ prod.ingredientes }}</p>
       </div>
       <div style="border:2px solid {{ prod.accent }}; border-radius:26px; padding:30px; display:flex; flex-direction:column">
-        <h2 style="margin: 0; font-size: 35px; line-height: 1; font-weight: 700; letter-spacing: -1.2px; color: {{ prod.color }}; white-space: nowrap">Composición <span style="font-family:Bevan,Georgia,serif; font-weight:400">centesimal</span></h2>
+        <h2 style="margin: 0; font-size: clamp(24px,3vw,35px); line-height: 1.04; font-weight: 700; letter-spacing: -1.2px; color: {{ prod.color }}">Composición <span style="font-family:Bevan,Georgia,serif; font-weight:400">centesimal</span></h2>
         <div style="display:flex; justify-content:flex-end; gap:10px; margin:16px 0 8px">
           <span style="width:74px; text-align:center; font-size:10px; font-weight:700; letter-spacing:1.4px; text-transform:uppercase; color:{{ prod.color }}">Mín.</span>
           <span style="width:74px; text-align:center; font-size:10px; font-weight:700; letter-spacing:1.4px; text-transform:uppercase; color:{{ prod.color }}">Máx.</span>
@@ -581,7 +597,7 @@
         <div style="display:flex; flex-direction:column; justify-content:space-between; flex:1; gap:6px">
           <sc-for list="{{ prod.composicion }}" as="r" hint-placeholder-count="7">
             <div style="display:flex; align-items:center; gap:10px; padding:10px 6px 10px 14px; border-radius:12px; background:{{ prod.soft }}">
-              <span style="flex:1; min-width:0; font-size:15px; font-weight:600; color:#16202B">{{ r.n }}</span>
+              <span style="flex:1; min-width:0; font-size:15px; font-weight:600; color:#1D1D1B">{{ r.n }}</span>
               <span style="width:74px; text-align:center; padding:6px 0; border-radius:999px; background:#fff; font-size:14px; font-weight:700; color:{{ prod.color }}">{{ r.min }}</span>
               <span style="width:74px; text-align:center; padding:6px 0; border-radius:999px; background:{{ prod.accent }}; font-size:14px; font-weight:700; color:#fff">{{ r.max }}</span>
             </div>
@@ -593,7 +609,7 @@
     <!-- CANTIDAD DIARIA -->
     <section data-reveal="0" style="margin-top:64px">
       <h2 style="margin:0 0 6px; font-size:clamp(24px,4vw,38px); line-height:1; font-weight:700; letter-spacing:-1.2px; color:{{ prod.color }}">Cantidad diaria recomendada</h2>
-      <p style="margin:0 0 18px; font-size:14px; color:#5A6875">{{ prod.tablaNota }}</p>
+      <p style="margin:0 0 18px; font-size:14px; color:#575756">{{ prod.tablaNota }}</p>
       <div style="overflow-x:auto; -webkit-overflow-scrolling:touch">
         <table style="width:100%; min-width:600px; border-collapse:collapse; font-size:15px">
           <thead>
@@ -607,21 +623,21 @@
           <tbody>
             <sc-for list="{{ prod.dailyRows }}" as="r" hint-placeholder-count="6">
               <tr>
-                <td style="padding:12px 10px; border-bottom:1px solid #E8ECF1; font-weight:700; color:#003B71">{{ r.peso }}</td>
+                <td style="padding:12px 10px; border-bottom:1px solid #E8ECF1; font-weight:700; color:#003E51">{{ r.peso }}</td>
                 <sc-for list="{{ r.vals }}" as="v" hint-placeholder-count="4">
-                  <td style="padding:12px 10px; border-bottom:1px solid #E8ECF1; text-align:right; color:#16202B">{{ v }}</td>
+                  <td style="padding:12px 10px; border-bottom:1px solid #E8ECF1; text-align:right; color:#1D1D1B">{{ v }}</td>
                 </sc-for>
               </tr>
             </sc-for>
           </tbody>
         </table>
       </div>
-      <p style="margin:12px 0 0; font-size:13px; font-weight:300; font-style:italic; color:#5A6875">Las cantidades son orientativas y pueden variar según la actividad física, el estado fisiológico y el ambiente del animal. Agua fresca y limpia siempre disponible.</p>
+      <p style="margin:12px 0 0; font-size:13px; font-weight:300; font-style:italic; color:#575756">Las cantidades son orientativas y pueden variar según la actividad física, el estado fisiológico y el ambiente del animal. Agua fresca y limpia siempre disponible.</p>
     </section>
 
     <!-- RELACIONADOS -->
     <section data-reveal="0" style="margin-top:72px">
-      <h2 style="margin:0 0 22px; font-size:clamp(22px,3.4vw,32px); line-height:1; font-weight:700; letter-spacing:-1px; color:#003B71">También te puede interesar</h2>
+      <h2 style="margin:0 0 22px; font-size:clamp(22px,3.4vw,32px); line-height:1; font-weight:700; letter-spacing:-1px; color:#003E51">También te puede interesar</h2>
       <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:20px">
         <sc-for list="{{ related }}" as="p" hint-placeholder-count="3">
           <div onClick="{{ p.open }}" style="cursor:pointer; border:2px solid {{ p.accent }}; border-radius:20px; overflow:hidden; background:#fff; transition:transform .25s, box-shadow .25s" style-hover="transform:translateY(-6px); box-shadow:0 18px 36px rgba(0,0,0,.14)">
@@ -638,7 +654,7 @@
           </div>
         </sc-for>
       </div>
-      <div onClick="{{ goProductos }}" style="display:inline-block; margin-top:26px; padding:13px 24px; border-radius:999px; border:2px solid #003B71; background:#fff; color:#003B71; font-weight:700; font-size:15px; cursor:pointer; transition:all .25s" style-hover="background:#003B71; color:#fff">Volver al catálogo</div>
+      <div onClick="{{ goProductos }}" style="display:inline-block; margin-top:26px; padding:13px 24px; border-radius:999px; border:2px solid #003E51; background:#fff; color:#003E51; font-weight:700; font-size:15px; cursor:pointer; transition:all .25s" style-hover="background:#003E51; color:#fff">Volver al catálogo</div>
     </section>
   </main>
   </sc-if>
@@ -647,17 +663,17 @@
   <sc-if value="{{ isComunidad }}" hint-placeholder-val="{{ false }}">
   <main>
     <!-- HERO -->
-    <section class="k-air k-hero-com" data-spot="rgba(143,209,106,.22)" style="position:relative; min-height:clamp(440px,58vh,600px); padding:clamp(28px,4vw,52px) clamp(18px,3.2vw,44px) clamp(32px,4.4vw,56px); background:#0E3218; overflow:hidden">
-      <div style="position:absolute; width:52vw; height:52vw; max-width:760px; max-height:760px; right:-10vw; top:-18vw; border-radius:999px; background:radial-gradient(circle at 50% 50%, rgba(143,209,106,.34), rgba(143,209,106,0) 68%); animation:kongoFloatA 16s ease-in-out infinite; pointer-events:none"></div>
-      <div style="position:absolute; width:40vw; height:40vw; max-width:560px; max-height:560px; left:-12vw; bottom:-16vw; border-radius:999px; background:radial-gradient(circle at 50% 50%, rgba(94,179,228,.20), rgba(94,179,228,0) 70%); animation:kongoFloatB 21s ease-in-out infinite; pointer-events:none"></div>
+    <section class="k-air k-hero-com" data-spot="rgba(161,164,103,.22)" style="position:relative; min-height:clamp(440px,58vh,600px); padding:clamp(28px,4vw,52px) clamp(18px,3.2vw,44px) clamp(32px,4.4vw,56px); background:#003E51; overflow:hidden">
+      <div style="position:absolute; width:52vw; height:52vw; max-width:760px; max-height:760px; right:-10vw; top:-18vw; border-radius:999px; background:radial-gradient(circle at 50% 50%, rgba(161,164,103,.34), rgba(161,164,103,0) 68%); animation:kongoFloatA 16s ease-in-out infinite; pointer-events:none"></div>
+      <div style="position:absolute; width:40vw; height:40vw; max-width:560px; max-height:560px; left:-12vw; bottom:-16vw; border-radius:999px; background:radial-gradient(circle at 50% 50%, rgba(212,186,139,.20), rgba(212,186,139,0) 70%); animation:kongoFloatB 21s ease-in-out infinite; pointer-events:none"></div>
       <div data-spot-layer="" style="position:absolute; inset:0; opacity:0; transition:opacity .4s ease; pointer-events:none"></div>
       <div class="k-hero-com-grid" style="position:relative; max-width:1440px; margin:0 auto; display:grid; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); gap:clamp(28px,4vw,56px); align-items:center">
         <div>
-          <span class="k-com-kicker" data-reveal="0" style="display:inline-block; font-size:12px; font-weight:700; letter-spacing:1.6px; text-transform:uppercase; color:#8FD16A">Ayudamos a los que más lo necesitan</span>
+          <span class="k-com-kicker" data-reveal="0" style="display:inline-block; font-size:12px; font-weight:700; letter-spacing:1.6px; text-transform:uppercase; color:#BCBE92">Ayudamos a los que más lo necesitan</span>
           <img class="k-hero-com-logo" data-reveal="60" src="uploads/logo-comunidad-baires-blanco.png" alt="Comunidad Baires" style="display:block; margin:clamp(14px,2vw,22px) 0 0; width:min(100%,580px); height:auto">
-          <p class="k-hero-com-text" data-reveal="140" style="margin:clamp(18px,2.6vw,28px) 0 0; font-size:18px; line-height:1.6; color:#EAF5E2; max-width:52ch; text-wrap:pretty">No tires la bolsa vacía de Kongo: llevala a un refugio. Nosotros la retiramos y <strong style="font-weight:700; color:#fff">les dejamos alimento</strong>; después las bolsas se reciclan y el plástico vuelve a ser materia prima. Con algo que ibas a tirar cuidamos al planeta y ayudamos a quienes más lo necesitan.</p>
+          <p class="k-hero-com-text" data-reveal="140" style="margin:clamp(18px,2.6vw,28px) 0 0; font-size:18px; line-height:1.6; color:#F3F2E6; max-width:52ch; text-wrap:pretty">No tires la bolsa vacía de Kongo: llevala a un refugio. Nosotros la retiramos y <strong style="font-weight:700; color:#fff">les dejamos alimento</strong>; después las bolsas se reciclan y el plástico vuelve a ser materia prima. Con algo que ibas a tirar cuidamos al planeta y ayudamos a quienes más lo necesitan.</p>
         </div>
-        <div data-reveal="200" data-reveal-mode="right" style="border-radius:24px; overflow:hidden; aspect-ratio:16/9; background:#0B1B2A; border:1px solid rgba(255,255,255,.20); box-shadow:0 26px 60px rgba(0,0,0,.34)">
+        <div data-reveal="200" data-reveal-mode="right" style="border-radius:24px; overflow:hidden; aspect-ratio:16/9; background:#08191F; border:1px solid rgba(255,255,255,.20); box-shadow:0 26px 60px rgba(0,0,0,.34)">
           <iframe src="https://www.youtube.com/embed/VEUU6t2USAk?start=7&amp;rel=0" title="Comunidad Baires — Ayudamos a los que más lo necesitan" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" style="width:100%; height:100%; border:0; display:block"></iframe>
         </div>
       </div>
@@ -668,12 +684,12 @@
       <div class="k-ciclo" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:56px; margin-top:40px">
         <div class="k-sticky" style="position:sticky; top:88px; align-self:start; padding-bottom:24px">
           <div class="k-step-title" style="display:flex; align-items:baseline; gap:14px; max-width:100%; font-family:Bevan,Georgia,serif; font-size:clamp(44px,6.4vw,92px); line-height:.9; white-space:nowrap; overflow:hidden">
-            <span data-step-word="" style="color:#FFB71B; transition:color .4s ease">Paso</span>
-            <span data-step-mirror="" style="color:#FFB71B; transition:color .4s ease">01</span>
+            <span data-step-word="" style="color:#EAA55D; transition:color .4s ease">Paso</span>
+            <span data-step-mirror="" style="color:#EAA55D; transition:color .4s ease">01</span>
           </div>
-          <p style="margin:12px 0 0; font-size:15px; line-height:1.6; color:#31404F; max-width:40ch; text-wrap:pretty">Porque cuando trabajamos juntos, cada pequeño gesto puede generar un gran impacto para los animales y para el planeta.</p>
-          <div style="display:flex; align-items:center; gap:12px; margin-top:20px; padding:14px 16px; border-radius:16px; background:#F0F6E9; font-size:13px; font-weight:700; color:#3F6B1D">
-            <span style="display:inline-flex; flex:0 0 auto; align-items:center; justify-content:center; width:34px; height:34px; color:#6BA43A"><svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><g><polygon points="8.6,16.4 18.4,16.4 18.4,19.6 8.6,19.6 8.6,21.7 4.6,18 8.6,14.3"></polygon><polygon points="8.6,16.4 18.4,16.4 18.4,19.6 8.6,19.6 8.6,21.7 4.6,18 8.6,14.3" transform="rotate(120 12 12)"></polygon><polygon points="8.6,16.4 18.4,16.4 18.4,19.6 8.6,19.6 8.6,21.7 4.6,18 8.6,14.3" transform="rotate(240 12 12)"></polygon></g></svg></span>
+          <p style="margin:12px 0 0; font-size:15px; line-height:1.6; color:#3C3C3B; max-width:40ch; text-wrap:pretty">Porque cuando trabajamos juntos, cada pequeño gesto puede generar un gran impacto para los animales y para el planeta.</p>
+          <div style="display:flex; align-items:center; gap:12px; margin-top:20px; padding:14px 16px; border-radius:16px; background:#F3F2E6; font-size:13px; font-weight:700; color:#4F5230">
+            <span style="display:inline-flex; flex:0 0 auto; align-items:center; justify-content:center; width:34px; height:34px; color:#A1A467"><svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><g><polygon points="8.6,16.4 18.4,16.4 18.4,19.6 8.6,19.6 8.6,21.7 4.6,18 8.6,14.3"></polygon><polygon points="8.6,16.4 18.4,16.4 18.4,19.6 8.6,19.6 8.6,21.7 4.6,18 8.6,14.3" transform="rotate(120 12 12)"></polygon><polygon points="8.6,16.4 18.4,16.4 18.4,19.6 8.6,19.6 8.6,21.7 4.6,18 8.6,14.3" transform="rotate(240 12 12)"></polygon></g></svg></span>
             <span>Cada envase tiene una segunda oportunidad: alimenta a quien espera una familia y cuida el ambiente.</span>
           </div>
         </div>
@@ -684,7 +700,7 @@
                 <span style="font-size:12px; letter-spacing:1.4px; color:{{ s.color }}">PASO {{ s.n }}</span>
                 <div style="flex:1; height:2px; background:#EDF1F5; overflow:hidden"><div data-step-bar="" style="width:0%; height:100%; background:{{ s.color }}; transition:width .7s cubic-bezier(.16,.84,.28,1)"></div></div>
               </div>
-              <p style="margin:14px 0 0; font-size:clamp(19px,2.4vw,26px); line-height:1.4; font-weight:500; color:#16202B; text-wrap:pretty">{{ s.text }}</p>
+              <p style="margin:14px 0 0; font-size:clamp(19px,2.4vw,26px); line-height:1.4; font-weight:500; color:#1D1D1B; text-wrap:pretty">{{ s.text }}</p>
             </div>
           </sc-for>
         </div>
@@ -693,20 +709,20 @@
 
     <!-- PERFILES TABS -->
     <section class="k-air k-perf" style="max-width:1440px; margin:0 auto; padding:clamp(48px,7vw,96px) clamp(18px,3.2vw,44px) 96px">
-      <div class="k-perf-box" data-reveal="0" style="border-radius:30px; background:#0E3218; padding:clamp(30px,4vw,52px); overflow:hidden; position:relative">
+      <div class="k-perf-box" data-reveal="0" style="border-radius:30px; background:#F7F1E4; padding:clamp(30px,4vw,52px); overflow:hidden; position:relative">
         <div style="position:relative">
           
           <div class="k-perf-head" style="display:flex; align-items:flex-end; justify-content:space-between; gap:24px; flex-wrap:wrap">
-            <h2 style="margin:0; max-width:22ch; font-size:clamp(30px,4.4vw,52px); line-height:.96; font-weight:700; color:#fff; letter-spacing:-2px">Elegí tu <span style="font-family:Bevan,Georgia,serif; font-weight:400; color:#8FD16A">lugar</span> en la campaña</h2>
-            <div onClick="{{ goContacto }}" style="padding:14px 28px; border-radius:999px; border:2px solid rgba(255,255,255,.4); color:#fff; font-weight:700; font-size:15px; cursor:pointer; transition:all .3s" style-hover="background:#fff; color:#0E3218; border-color:#fff">Contactanos</div>
+            <h2 style="margin:0; max-width:22ch; font-size:clamp(30px,4.4vw,52px); line-height:.96; font-weight:700; color:#003E51; letter-spacing:-2px">Elegí tu <span style="font-family:Bevan,Georgia,serif; font-weight:400; color:#97272D">lugar</span> en la campaña</h2>
+            <div onClick="{{ goContacto }}" style="padding:14px 28px; border-radius:999px; border:2px solid #003E51; background:#003E51; color:#fff; font-weight:700; font-size:15px; cursor:pointer; transition:all .3s" style-hover="background:#fff; color:#003E51">Contactanos</div>
           </div>
           <div class="k-perf-cards" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:18px; margin-top:clamp(26px,3.4vw,38px)">
             <sc-for list="{{ perfilCards }}" as="c" hint-placeholder-count="3">
-              <a href="{{ c.href }}" target="{{ c.target }}" onClick="{{ c.open }}" rel="noopener" data-reveal="{{ c.delay }}" style="display:flex; flex-direction:column; gap:14px; border-radius:22px; background:rgba(255,255,255,.07); border:1px solid rgba(255,255,255,.16); padding:clamp(22px,2.4vw,30px); text-decoration:none; transition:transform .35s cubic-bezier(.16,.84,.28,1), background .3s ease, border-color .3s ease" style-hover="transform:translateY(-6px); background:rgba(143,209,106,.14); border-color:rgba(143,209,106,.5)">
-                <span style="font-family:Bevan,Georgia,serif; font-size:15px; letter-spacing:1px; color:#8FD16A">{{ c.num }}</span>
-                <h3 style="margin:0; font-size:clamp(22px,2.4vw,30px); line-height:1.02; font-weight:700; letter-spacing:-1.2px; color:#fff">{{ c.t1 }} <span style="font-family:Bevan,Georgia,serif; font-weight:400; letter-spacing:-.5px; color:#8FD16A">{{ c.t2 }}</span></h3>
-                <p style="margin:0; flex:1 1 auto; font-size:15px; line-height:1.62; color:#DCEBCD; text-wrap:pretty">{{ c.text }}</p>
-                <span style="font-size:14px; font-weight:700; color:#8FD16A; border-bottom:2px solid rgba(143,209,106,.45); align-self:flex-start; padding-bottom:2px">{{ c.cta }} →</span>
+              <a href="{{ c.href }}" target="{{ c.target }}" onClick="{{ c.open }}" rel="noopener" data-reveal="{{ c.delay }}" style="display:flex; flex-direction:column; gap:14px; border-radius:22px; background:#fff; border:1px solid #E9DFC6; padding:clamp(22px,2.4vw,30px); text-decoration:none; transition:transform .35s cubic-bezier(.16,.84,.28,1), box-shadow .3s ease, border-color .3s ease" style-hover="transform:translateY(-6px); box-shadow:0 22px 44px rgba(0,34,44,.14); border-color:#97272D">
+                <span style="font-family:Bevan,Georgia,serif; font-size:15px; letter-spacing:1px; color:#97272D">{{ c.num }}</span>
+                <h3 style="margin:0; font-size:clamp(22px,2.4vw,30px); line-height:1.02; font-weight:700; letter-spacing:-1.2px; color:#003E51">{{ c.t1 }} <span style="font-family:Bevan,Georgia,serif; font-weight:400; letter-spacing:-.5px; color:#97272D">{{ c.t2 }}</span></h3>
+                <p style="margin:0; flex:1 1 auto; font-size:15px; line-height:1.62; color:#3C3C3B; text-wrap:pretty">{{ c.text }}</p>
+                <span style="font-size:14px; font-weight:700; color:#97272D; border-bottom:2px solid rgba(151,39,45,.35); align-self:flex-start; padding-bottom:2px">{{ c.cta }} →</span>
               </a>
             </sc-for>
           </div>
@@ -716,14 +732,14 @@
 
     <!-- CARD REFUGIOS -->
     <section style="max-width:1440px; margin:0 auto; padding:clamp(20px,2.4vw,32px) clamp(18px,3.2vw,44px) clamp(48px,6vw,88px)">
-      <div onClick="{{ goRefugios }}" data-reveal="0" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:clamp(20px,3vw,44px); align-items:center; cursor:pointer; border-radius:28px; padding:clamp(28px,3.6vw,48px); background:#F0F6E9; border:2px solid #DCEBCD; transition:transform .35s cubic-bezier(.16,.84,.28,1), box-shadow .35s ease, border-color .3s ease" style-hover="transform:translateY(-6px); box-shadow:0 26px 54px rgba(63,107,29,.18); border-color:#8FD16A">
+      <div onClick="{{ goRefugios }}" data-reveal="0" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:clamp(20px,3vw,44px); align-items:center; cursor:pointer; border-radius:28px; padding:clamp(28px,3.6vw,48px); background:#F3F2E6; border:2px solid #E6E7D2; transition:transform .35s cubic-bezier(.16,.84,.28,1), box-shadow .35s ease, border-color .3s ease" style-hover="transform:translateY(-6px); box-shadow:0 26px 54px rgba(63,107,29,.18); border-color:#BCBE92">
         <div>
-          <span style="display:inline-block; font-size:12px; font-weight:700; letter-spacing:1.6px; text-transform:uppercase; color:#6BA43A">Ya son más de 300 en todo el país</span>
-          <h2 style="margin:14px 0 0; font-size:clamp(28px,3.8vw,46px); line-height:.98; font-weight:700; color:#0E3218; letter-spacing:-1.8px">Conocé los refugios <span style="font-family:Bevan,Georgia,serif; font-weight:400; color:#3F6B1D">beneficiados</span></h2>
+          <span style="display:inline-block; font-size:12px; font-weight:700; letter-spacing:1.6px; text-transform:uppercase; color:#A1A467">Ya son más de 300 en todo el país</span>
+          <h2 style="margin:14px 0 0; font-size:clamp(28px,3.8vw,46px); line-height:.98; font-weight:700; color:#003E51; letter-spacing:-1.8px">Conocé los refugios <span style="font-family:Bevan,Georgia,serif; font-weight:400; color:#4F5230">beneficiados</span></h2>
         </div>
         <div>
-          <p style="margin:0; font-size:17px; line-height:1.6; color:#31404F; max-width:46ch; text-wrap:pretty">Mirá el listado completo por localidad, encontrá el más cercano a tu casa y llevale las bolsas vacías.</p>
-          <span style="display:inline-block; margin-top:22px; padding:15px 30px; border-radius:999px; background:#6BA43A; color:#fff; font-weight:700; font-size:16px">Ver el listado →</span>
+          <p style="margin:0; font-size:17px; line-height:1.6; color:#3C3C3B; max-width:46ch; text-wrap:pretty">Mirá el listado completo por localidad, encontrá el más cercano a tu casa y llevale las bolsas vacías.</p>
+          <span style="display:inline-block; margin-top:22px; padding:15px 30px; border-radius:999px; background:#A1A467; color:#fff; font-weight:700; font-size:16px">Ver el listado →</span>
         </div>
       </div>
     </section>
@@ -733,13 +749,13 @@
   <!-- ================= REFUGIOS ================= -->
   <sc-if value="{{ isRefugios }}" hint-placeholder-val="{{ false }}">
   <main style="max-width:1440px; margin:0 auto; padding:0 clamp(18px,3.2vw,44px) 96px">
-    <section data-bleed="" style="position:relative; width:100vw; margin-left:calc(50% - 50vw); padding:clamp(28px,4vw,52px) clamp(18px,3.2vw,44px) clamp(32px,4.4vw,56px); background:#0E3218; overflow:hidden">
-      <div style="position:absolute; width:46vw; height:46vw; max-width:680px; max-height:680px; right:-10vw; top:-16vw; border-radius:999px; background:radial-gradient(circle at 50% 50%, rgba(143,209,106,.30), rgba(143,209,106,0) 68%); animation:kongoFloatA 16s ease-in-out infinite; pointer-events:none"></div>
+    <section data-bleed="" style="position:relative; width:100vw; margin-left:calc(50% - 50vw); padding:clamp(28px,4vw,52px) clamp(18px,3.2vw,44px) clamp(32px,4.4vw,56px); background:#003E51; overflow:hidden">
+      <div style="position:absolute; width:46vw; height:46vw; max-width:680px; max-height:680px; right:-10vw; top:-16vw; border-radius:999px; background:radial-gradient(circle at 50% 50%, rgba(161,164,103,.30), rgba(161,164,103,0) 68%); animation:kongoFloatA 16s ease-in-out infinite; pointer-events:none"></div>
       <div style="position:relative; max-width:1440px; margin:0 auto">
-        <span onClick="{{ goComunidad }}" style="display:inline-block; font-size:11px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:#8FD16A; cursor:pointer">← Volver a Comunidad Baires</span>
+        <span onClick="{{ goComunidad }}" style="display:inline-block; font-size:11px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:#BCBE92; cursor:pointer">← Volver a Comunidad Baires</span>
         <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:clamp(24px,3.4vw,56px); align-items:center; margin-top:clamp(16px,2.4vw,26px)">
-          <h1 data-reveal="0" style="margin:0; font-size:clamp(40px,6.6vw,84px); line-height:.86; font-weight:700; color:#fff; letter-spacing:-3.2px">Refugios<br><span style="font-family:Bevan,Georgia,serif; font-weight:400; color:#8FD16A">beneficiados</span></h1>
-          <p data-reveal="120" data-reveal-mode="right" style="margin:0; font-size:18px; line-height:1.6; color:#EAF5E2; max-width:46ch; text-wrap:pretty">Estos son los refugios que reciben el alimento de Comunidad Baires. Buscá el más cercano y llevale tus bolsas vacías de Kongo.</p>
+          <h1 data-reveal="0" style="margin:0; font-size:clamp(40px,6.6vw,84px); line-height:.86; font-weight:700; color:#fff; letter-spacing:-3.2px">Refugios<br><span style="font-family:Bevan,Georgia,serif; font-weight:400; color:#BCBE92">beneficiados</span></h1>
+          <p data-reveal="120" data-reveal-mode="right" style="margin:0; font-size:18px; line-height:1.6; color:#F3F2E6; max-width:46ch; text-wrap:pretty">Estos son los refugios que reciben el alimento de Comunidad Baires. Buscá el más cercano y llevale tus bolsas vacías de Kongo.</p>
         </div>
       </div>
     </section>
@@ -747,29 +763,29 @@
     <section style="margin-top:clamp(28px,4vw,52px)">
       <div class="k-toolbar" style="display:flex; align-items:center; gap:14px; flex-wrap:wrap; padding:14px 18px; border-radius:18px; background:#F7F9FB; border:1px solid #E8ECF1">
         <div style="position:relative; flex:0 1 230px; min-width:0; display:flex">
-          <select value="{{ refugioProv }}" onChange="{{ setRefugioProv }}" style="width:100%; padding:12px 44px 12px 16px; border-radius:12px; border:1px solid #DCE3EA; background:#fff; font-size:15px; font-weight:700; color:#003B71; font-family:inherit; cursor:pointer; appearance:none; -webkit-appearance:none; -moz-appearance:none">
+          <select value="{{ refugioProv }}" onChange="{{ setRefugioProv }}" style="width:100%; padding:12px 44px 12px 16px; border-radius:12px; border:1px solid #DCE3EA; background:#fff; font-size:15px; font-weight:700; color:#003E51; font-family:inherit; cursor:pointer; appearance:none; -webkit-appearance:none; -moz-appearance:none">
             <option value="">Todas las provincias</option>
             <sc-for list="{{ refugioProvs }}" as="pv" hint-placeholder-count="6">
               <option value="{{ pv }}">{{ pv }}</option>
             </sc-for>
           </select>
-          <span style="position:absolute; right:16px; top:50%; transform:translateY(-50%); pointer-events:none; display:flex; color:#003B71">
+          <span style="position:absolute; right:16px; top:50%; transform:translateY(-50%); pointer-events:none; display:flex; color:#003E51">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"></path></svg>
           </span>
         </div>
         <div style="position:relative; flex:0 1 230px; min-width:0; display:flex">
-          <select value="{{ refugioZona }}" onChange="{{ setRefugioZona }}" style="width:100%; padding:12px 44px 12px 16px; border-radius:12px; border:1px solid #DCE3EA; background:#fff; font-size:15px; font-weight:700; color:#003B71; font-family:inherit; cursor:pointer; appearance:none; -webkit-appearance:none; -moz-appearance:none">
+          <select value="{{ refugioZona }}" onChange="{{ setRefugioZona }}" style="width:100%; padding:12px 44px 12px 16px; border-radius:12px; border:1px solid #DCE3EA; background:#fff; font-size:15px; font-weight:700; color:#003E51; font-family:inherit; cursor:pointer; appearance:none; -webkit-appearance:none; -moz-appearance:none">
             <option value="">Todas las localidades</option>
             <sc-for list="{{ refugioZonas }}" as="z" hint-placeholder-count="4">
               <option value="{{ z }}">{{ z }}</option>
             </sc-for>
           </select>
-          <span style="position:absolute; right:16px; top:50%; transform:translateY(-50%); pointer-events:none; display:flex; color:#003B71">
+          <span style="position:absolute; right:16px; top:50%; transform:translateY(-50%); pointer-events:none; display:flex; color:#003E51">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"></path></svg>
           </span>
         </div>
-        <input value="{{ refugioQuery }}" onInput="{{ setRefugioQuery }}" placeholder="Buscá por nombre de refugio" style="flex:1 1 240px; min-width:0; padding:12px 16px; border-radius:12px; border:2px solid #E3EAF1; background:#fff; font-size:15px; color:#16202B">
-        <span style="font-size:13px; color:#5A6875">{{ refugiosCount }} refugios</span>
+        <input value="{{ refugioQuery }}" onInput="{{ setRefugioQuery }}" placeholder="Buscá por nombre de refugio" style="flex:1 1 240px; min-width:0; padding:12px 16px; border-radius:12px; border:2px solid #E3EAF1; background:#fff; font-size:15px; color:#1D1D1B">
+        <span style="font-size:13px; color:#575756">{{ refugiosCount }} refugios</span>
       </div>
       <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:18px; margin-top:22px">
         <sc-for list="{{ refugios }}" as="r" hint-placeholder-count="9">
@@ -778,13 +794,13 @@
               <span style="font-size:10px; font-weight:700; letter-spacing:1.1px; text-transform:uppercase; color:#fff">{{ r.locLabel }}</span>
             </div>
             <div style="display:flex; flex-direction:column; gap:8px; padding:4px 18px 20px">
-              <h3 style="margin:0; font-size:19px; line-height:1.18; font-weight:700; letter-spacing:-.4px; color:#003B71; text-wrap:pretty">{{ r.name }}</h3>
-              <span style="font-size:13px; font-weight:500; color:#5A6875">{{ r.handle }}</span>
+              <h3 style="margin:0; font-size:19px; line-height:1.18; font-weight:700; letter-spacing:-.4px; color:#003E51; text-wrap:pretty">{{ r.name }}</h3>
+              <span style="font-size:13px; font-weight:500; color:#575756">{{ r.handle }}</span>
             </div>
           </a>
         </sc-for>
       </div>
-      <p style="margin:26px 0 0; font-size:13px; font-style:italic; color:#5A6875">¿Participas de comunidad y querés aparecer acá? Escribinos por Instagram a <a href="https://instagram.com/kongooficial" target="_blank" rel="noopener" style="font-weight: 700; color: rgb(63, 107, 29);">@kongooficial</a>.</p>
+      <p style="margin:26px 0 0; font-size:13px; font-style:italic; color:#575756">¿Participas de comunidad y querés aparecer acá? Escribinos por Instagram a <a href="https://instagram.com/kongooficial" target="_blank" rel="noopener" style="font-weight: 700; color: rgb(63, 107, 29);">@kongooficial</a>.</p>
     </section>
   </main>
   </sc-if>
@@ -792,17 +808,17 @@
   <!-- ================= CONSEJOS ================= -->
   <sc-if value="{{ isConsejos }}" hint-placeholder-val="{{ false }}">
   <main style="max-width:1440px; margin:0 auto; padding:0 clamp(18px,3.2vw,44px) 96px">
-    <section data-bleed="" style="position:relative; width:100vw; margin-left:calc(50% - 50vw); min-height:clamp(440px,58vh,600px); padding:clamp(28px,4vw,52px) clamp(18px,3.2vw,44px) clamp(32px,4.4vw,56px); background:#7A1E43; overflow:hidden">
+    <section data-bleed="" style="position:relative; width:100vw; margin-left:calc(50% - 50vw); min-height:clamp(440px,58vh,600px); padding:clamp(28px,4vw,52px) clamp(18px,3.2vw,44px) clamp(32px,4.4vw,56px); background:#5E1A1E; overflow:hidden">
       <div style="position:absolute; width:52vw; height:52vw; max-width:760px; max-height:760px; right:-10vw; top:-18vw; border-radius:999px; background:radial-gradient(circle at 50% 50%, rgba(247,185,214,.30), rgba(247,185,214,0) 68%); animation:kongoFloatA 16s ease-in-out infinite; pointer-events:none"></div>
-      <div style="position:absolute; width:40vw; height:40vw; max-width:560px; max-height:560px; left:-12vw; bottom:-16vw; border-radius:999px; background:radial-gradient(circle at 50% 50%, rgba(255,183,27,.16), rgba(255,183,27,0) 70%); animation:kongoFloatB 21s ease-in-out infinite; pointer-events:none"></div>
-      <div style="position:absolute; right:7%; top:44%; width:clamp(190px,26vw,380px); height:clamp(190px,26vw,380px); transform:translateY(-50%); color:#F7B9D6; opacity:.16; pointer-events:none">
+      <div style="position:absolute; width:40vw; height:40vw; max-width:560px; max-height:560px; left:-12vw; bottom:-16vw; border-radius:999px; background:radial-gradient(circle at 50% 50%, rgba(234,165,93,.16), rgba(234,165,93,0) 70%); animation:kongoFloatB 21s ease-in-out infinite; pointer-events:none"></div>
+      <div style="position:absolute; right:7%; top:44%; width:clamp(190px,26vw,380px); height:clamp(190px,26vw,380px); transform:translateY(-50%); color:#E7C9C7; opacity:.16; pointer-events:none">
         <div style="width:100%; height:100%; animation:kongoSpin 40s linear infinite">
         <svg viewBox="0 0 24 24" width="100%" height="100%" fill="currentColor"><ellipse cx="7.4" cy="8.6" rx="2.1" ry="2.7"></ellipse><ellipse cx="12" cy="6.9" rx="2.1" ry="2.9"></ellipse><ellipse cx="16.6" cy="8.6" rx="2.1" ry="2.7"></ellipse><ellipse cx="19.4" cy="12.9" rx="1.9" ry="2.3"></ellipse><ellipse cx="4.6" cy="12.9" rx="1.9" ry="2.3"></ellipse><path d="M12 12.4c3.1 0 5.6 2.3 5.6 5 0 2-1.6 3.2-3.6 3.2-1 0-1.5-.3-2-.3s-1 .3-2 .3c-2 0-3.6-1.2-3.6-3.2 0-2.7 2.5-5 5.6-5Z"></path></svg>
         </div>
       </div>
       <div style="position:relative; max-width:1440px; margin:0 auto">
-        <h1 data-reveal="0" style="margin:clamp(22px,3.6vw,40px) 0 0; font-size:clamp(46px,10.4vw,124px); line-height:.84; font-weight:700; color:#fff; letter-spacing:-3.5px">Consejos<br><span style="font-family:Bevan,Georgia,serif; font-weight:400; color:#F7B9D6">Kongo</span></h1>
-        <p data-reveal="120" style="margin:clamp(18px,2.6vw,30px) 0 0; font-size:17px; line-height:1.6; color:#F2DAE4; max-width:50ch; text-wrap:pretty">Notas sobre alimentación, salud y convivencia con perros y gatos.</p>
+        <h1 data-reveal="0" style="margin:clamp(22px,3.6vw,40px) 0 0; font-size:clamp(46px,10.4vw,124px); line-height:.84; font-weight:700; color:#fff; letter-spacing:-3.5px">Consejos<br><span style="font-family:Bevan,Georgia,serif; font-weight:400; color:#E7C9C7">Kongo</span></h1>
+        <p data-reveal="120" style="margin:clamp(18px,2.6vw,30px) 0 0; font-size:17px; line-height:1.6; color:#F8EDEC; max-width:50ch; text-wrap:pretty">Notas sobre alimentación, salud y convivencia con perros y gatos.</p>
       </div>
     </section>
     <div style="display:flex; gap:8px; flex-wrap:wrap; margin-top:22px; border-top:1px solid #E8ECF1; padding-top:22px">
@@ -810,22 +826,22 @@
         <span onClick="{{ c.pick }}" style="padding:9px 18px; border-radius:999px; border:2px solid {{ c.line }}; background:{{ c.bg }}; color:{{ c.fg }}; font-size:14px; font-weight:700; cursor:pointer; transition:all .2s">{{ c.label }}</span>
       </sc-for>
     </div>
-    <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(270px,1fr)); gap:22px; margin-top:28px">
+    <div style="display:grid; grid-template-columns:repeat(auto-fill,minmax(270px,340px)); justify-content:start; gap:22px; margin-top:28px">
       <sc-for list="{{ posts }}" as="post" hint-placeholder-count="6">
-        <div onClick="{{ post.open }}" data-reveal="{{ post.delay }}" data-spot="rgba(148,45,86,.10)" style="position:relative; cursor:pointer; border-radius:20px; overflow:hidden; background:#fff; border:1px solid #E8ECF1; display:flex; flex-direction:column; transition:transform .35s cubic-bezier(.16,.84,.28,1), box-shadow .35s ease, border-color .3s ease" style-hover="transform:translateY(-10px); box-shadow:0 24px 46px rgba(148,45,86,.18); border-color:#E7B8CB"><div data-spot-layer="" style="position:absolute; inset:0; opacity:0; transition:opacity .4s ease; pointer-events:none; z-index:2"></div>
+        <div onClick="{{ post.open }}" data-reveal="{{ post.delay }}" data-spot="rgba(148,45,86,.10)" style="position:relative; cursor:pointer; border-radius:20px; overflow:hidden; background:#fff; border:1px solid #E8ECF1; display:flex; flex-direction:column; transition:transform .35s cubic-bezier(.16,.84,.28,1), box-shadow .35s ease, border-color .3s ease" style-hover="transform:translateY(-10px); box-shadow:0 24px 46px rgba(148,45,86,.18); border-color:#E7C9C7"><div data-spot-layer="" style="position:absolute; inset:0; opacity:0; transition:opacity .4s ease; pointer-events:none; z-index:2"></div>
           <sc-if value="{{ post.hasCover }}" hint-placeholder-val="{{ false }}">
-            <img src="{{ post.cover }}" alt="" style="display:block; width:100%; aspect-ratio:16/10; object-fit:cover">
+            <div role="img" style="width:100%; aspect-ratio:16/10; background-color:#E6EDEF; background-size:cover; background-position:center; background-image:{{ post.coverBg }}"></div>
           </sc-if>
           <sc-if value="{{ post.noCover }}" hint-placeholder-val="{{ true }}">
-            <div style="aspect-ratio:16/10; background:repeating-linear-gradient(135deg,#F1F5F9 0 12px,#E4EBF2 12px 24px); display:flex; align-items:center; justify-content:center">
-              <span style="font-size:10px; letter-spacing:1px; color:#7C8B9A; text-transform:uppercase">imagen nota</span>
+            <div style="aspect-ratio:16/10; background:repeating-linear-gradient(135deg,#F1F5F9 0 12px,#E6EDEF 12px 24px); display:flex; align-items:center; justify-content:center">
+              <span style="font-size:10px; letter-spacing:1px; color:#82827E; text-transform:uppercase">imagen nota</span>
             </div>
           </sc-if>
           <div style="padding:18px; display:flex; flex-direction:column; gap:8px; flex:1; min-width:0">
             <span style="font-size:11px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:{{ post.catColor }}">{{ post.date }}</span>
-            <h3 style="margin:0; font-size:20px; line-height:1.15; font-weight:700; color:#003B71">{{ post.title }}</h3>
-            <p style="margin:0; font-size:14px; line-height:1.55; color:#5A6875">{{ post.excerpt }}</p>
-            <span style="margin-top:auto; padding-top:10px; font-size:14px; font-weight:700; color:#003B71">Leer la nota →</span>
+            <h3 style="margin:0; font-size:20px; line-height:1.15; font-weight:700; color:#003E51">{{ post.title }}</h3>
+            <p style="margin:0; font-size:14px; line-height:1.55; color:#575756">{{ post.excerpt }}</p>
+            <span style="margin-top:auto; padding-top:10px; font-size:14px; font-weight:700; color:#003E51">Leer la nota →</span>
           </div>
         </div>
       </sc-for>
@@ -837,47 +853,47 @@
   <sc-if value="{{ isNota }}" hint-placeholder-val="{{ false }}">
   <main style="max-width:820px; margin:0 auto; padding:32px clamp(18px,3.2vw,44px) 96px">
     <div style="display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap; padding-bottom:14px; border-bottom:1px solid #E8ECF1">
-      <span onClick="{{ goConsejos }}" style="font-size:11px; letter-spacing:1.4px; text-transform:uppercase; color:#7C8B9A; cursor:pointer" style-hover="color:#003B71">← Volver a Consejos</span>
-      <span style="font-size:11px; letter-spacing:1.4px; text-transform:uppercase; color:#7C8B9A">Consejos Kongo</span>
+      <span onClick="{{ goConsejos }}" style="font-size:11px; letter-spacing:1.4px; text-transform:uppercase; color:#82827E; cursor:pointer" style-hover="color:#003E51">← Volver a Consejos</span>
+      <span style="font-size:11px; letter-spacing:1.4px; text-transform:uppercase; color:#82827E">Consejos Kongo</span>
     </div>
     <span style="display:block; margin-top:26px; font-size:11px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:{{ post.catColor }}">{{ post.date }}</span>
-    <h1 style="margin:10px 0 0; font-size:clamp(32px,6.4vw,60px); line-height:.98; font-weight:700; color:#003B71; letter-spacing:-2px; text-wrap:balance">{{ post.title }}</h1>
+    <h1 style="margin:10px 0 0; font-size:clamp(32px,6.4vw,60px); line-height:.98; font-weight:700; color:#003E51; letter-spacing:-2px; text-wrap:balance">{{ post.title }}</h1>
     <sc-if value="{{ post.hasCover }}" hint-placeholder-val="{{ true }}">
-      <img src="{{ post.cover }}" alt="" style="display:block; width:100%; margin:26px 0; border-radius:22px; aspect-ratio:16/9; object-fit:cover">
+      <div role="img" style="width:100%; margin:26px 0; border-radius:22px; aspect-ratio:16/9; background-color:#E6EDEF; background-size:cover; background-position:center; background-image:{{ post.coverBg }}"></div>
     </sc-if>
     <sc-if value="{{ post.noCover }}" hint-placeholder-val="{{ false }}">
-      <div style="margin:26px 0; border-radius:22px; aspect-ratio:16/9; background:repeating-linear-gradient(135deg,#F1F5F9 0 14px,#E4EBF2 14px 28px); display:flex; align-items:center; justify-content:center">
-        <span style="font-size:11px; letter-spacing:1px; color:#7C8B9A; text-transform:uppercase">imagen de portada</span>
+      <div style="margin:26px 0; border-radius:22px; aspect-ratio:16/9; background:repeating-linear-gradient(135deg,#F1F5F9 0 14px,#E6EDEF 14px 28px); display:flex; align-items:center; justify-content:center">
+        <span style="font-size:11px; letter-spacing:1px; color:#82827E; text-transform:uppercase">imagen de portada</span>
       </div>
     </sc-if>
-    <p style="margin:0 0 18px; font-size:19px; line-height:1.6; color:#16202B; font-weight:500">{{ post.excerpt }}</p>
+    <p style="margin:0 0 18px; font-size:19px; line-height:1.6; color:#1D1D1B; font-weight:500">{{ post.excerpt }}</p>
     <sc-for list="{{ post.blocks }}" as="b" hint-placeholder-count="4">
       <sc-if value="{{ b.plain }}" hint-placeholder-val="{{ true }}">
-        <p style="margin:0 0 18px; font-size:17px; line-height:1.75; color:#16202B; text-wrap:pretty">{{ b.t }}</p>
+        <p style="margin:0 0 18px; font-size:17px; line-height:1.75; color:#1D1D1B; text-wrap:pretty">{{ b.t }}</p>
       </sc-if>
       <sc-if value="{{ b.head }}" hint-placeholder-val="{{ false }}">
-        <h2 style="margin:34px 0 14px; font-size:28px; line-height:1.1; font-weight:700; color:#003B71; letter-spacing:-1px">{{ b.h }}</h2>
+        <h2 style="margin:34px 0 14px; font-size:28px; line-height:1.1; font-weight:700; color:#003E51; letter-spacing:-1px">{{ b.h }}</h2>
       </sc-if>
       <sc-if value="{{ b.isQuote }}" hint-placeholder-val="{{ false }}">
-        <div style="margin:28px 0; padding:22px 26px; border-left:4px solid #AB0033; background:#FBF3F6; border-radius:0 16px 16px 0">
-          <p style="margin:0; font-size:19px; line-height:1.55; font-weight:500; color:#16202B; text-wrap:pretty">“{{ b.t }}”</p>
-          <span style="display:block; margin-top:12px; font-size:12px; font-weight:700; letter-spacing:1.1px; text-transform:uppercase; color:#AB0033">{{ b.who }}</span>
+        <div style="margin:28px 0; padding:22px 26px; border-left:4px solid #97272D; background:#F8EDEC; border-radius:0 16px 16px 0">
+          <p style="margin:0; font-size:19px; line-height:1.55; font-weight:500; color:#1D1D1B; text-wrap:pretty">“{{ b.t }}”</p>
+          <span style="display:block; margin-top:12px; font-size:12px; font-weight:700; letter-spacing:1.1px; text-transform:uppercase; color:#97272D">{{ b.who }}</span>
         </div>
       </sc-if>
       <sc-if value="{{ b.isNote }}" hint-placeholder-val="{{ false }}">
-        <p style="margin:34px 0 0; padding-top:18px; border-top:1px solid #E8ECF1; font-size:14px; line-height:1.7; color:#5A6875">{{ b.t }}</p>
+        <p style="margin:34px 0 0; padding-top:18px; border-top:1px solid #E8ECF1; font-size:14px; line-height:1.7; color:#575756">{{ b.t }}</p>
       </sc-if>
     </sc-for>
     <sc-if value="{{ post.isPlaceholder }}" hint-placeholder-val="{{ false }}">
-      <p style="margin:0 0 18px; font-size:11px; color:#8A6A12; background:#FFF6E0; border-radius:8px; padding:10px 12px">PLACEHOLDER · cuerpo de la nota pendiente de redacción.</p>
+      <p style="margin:0 0 18px; font-size:11px; color:#8A6320; background:#FBF2E4; border-radius:8px; padding:10px 12px">PLACEHOLDER · cuerpo de la nota pendiente de redacción.</p>
     </sc-if>
-    <div style="margin-top:44px; border-top:3px solid #003B71; padding-top:24px">
-      <h2 style="margin:0 0 20px; font-size:24px; font-weight:700; color:#003B71; letter-spacing:-.8px">Notas relacionadas</h2>
+    <div style="margin-top:44px; border-top:3px solid #003E51; padding-top:24px">
+      <h2 style="margin:0 0 20px; font-size:24px; font-weight:700; color:#003E51; letter-spacing:-.8px">Notas relacionadas</h2>
       <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:18px">
         <sc-for list="{{ relatedPosts }}" as="rp" hint-placeholder-count="2">
-          <div onClick="{{ rp.open }}" style="cursor:pointer; border:1px solid #E8ECF1; border-radius:18px; padding:18px; transition:transform .25s, box-shadow .25s" style-hover="transform:translateY(-5px); box-shadow:0 16px 32px rgba(0,59,113,.13)">
+          <div onClick="{{ rp.open }}" style="cursor:pointer; border:1px solid #E8ECF1; border-radius:18px; padding:18px; transition:transform .25s, box-shadow .25s" style-hover="transform:translateY(-5px); box-shadow:0 16px 32px rgba(0,62,81,.13)">
             <span style="font-size:11px; font-weight:700; letter-spacing:1.4px; text-transform:uppercase; color:{{ rp.catColor }}">{{ rp.cat }}</span>
-            <h3 style="margin:8px 0 0; font-size:18px; line-height:1.2; font-weight:700; color:#003B71">{{ rp.title }}</h3>
+            <h3 style="margin:8px 0 0; font-size:18px; line-height:1.2; font-weight:700; color:#003E51">{{ rp.title }}</h3>
           </div>
         </sc-for>
       </div>
@@ -888,16 +904,16 @@
   <!-- ================= FAQ ================= -->
   <sc-if value="{{ isFaq }}" hint-placeholder-val="{{ false }}">
   <main style="max-width:1440px; margin:0 auto; padding:0 clamp(18px,3.2vw,44px) 96px">
-    <section data-bleed="" style="position:relative; width:100vw; margin-left:calc(50% - 50vw); min-height:clamp(440px,58vh,600px); padding:clamp(28px,4vw,52px) clamp(18px,3.2vw,44px) clamp(32px,4.4vw,56px); background:linear-gradient(150deg,#012A52 0%,#01477F 52%,#0A6592 100%); overflow:hidden; display:flex; align-items:center">
-      <div style="position:absolute; width:50vw; height:50vw; max-width:720px; max-height:720px; right:-8vw; top:-16vw; border-radius:999px; background:radial-gradient(circle at 50% 50%, rgba(94,179,228,.42), rgba(94,179,228,0) 68%); animation:kongoFloatA 15s ease-in-out infinite; pointer-events:none"></div>
-      <div style="position:absolute; width:38vw; height:38vw; max-width:540px; max-height:540px; left:-10vw; bottom:-14vw; border-radius:999px; background:radial-gradient(circle at 50% 50%, rgba(76,165,133,.30), rgba(76,165,133,0) 70%); animation:kongoFloatB 20s ease-in-out infinite; pointer-events:none"></div>
-      <div style="position:absolute; right:6%; top:46%; transform:translateY(-50%); display:flex; align-items:baseline; gap:clamp(6px,1.4vw,22px); font-family:Bevan,Georgia,serif; color:#5EB3E4; pointer-events:none">
+    <section data-bleed="" style="position:relative; width:100vw; margin-left:calc(50% - 50vw); min-height:clamp(440px,58vh,600px); padding:clamp(28px,4vw,52px) clamp(18px,3.2vw,44px) clamp(32px,4.4vw,56px); background:#7A1F24; overflow:hidden; display:flex; align-items:center">
+      <div style="position:absolute; width:50vw; height:50vw; max-width:720px; max-height:720px; right:-8vw; top:-16vw; border-radius:999px; background:radial-gradient(circle at 50% 50%, rgba(212,186,139,.26), rgba(212,186,139,0) 70%); animation:kongoFloatA 15s ease-in-out infinite; pointer-events:none"></div>
+      <div style="position:absolute; width:38vw; height:38vw; max-width:540px; max-height:540px; left:-10vw; bottom:-14vw; border-radius:999px; background:radial-gradient(circle at 50% 50%, rgba(0,62,81,.42), rgba(0,62,81,0) 72%); animation:kongoFloatB 20s ease-in-out infinite; pointer-events:none"></div>
+      <div style="position:absolute; right:6%; top:46%; transform:translateY(-50%); display:flex; align-items:baseline; gap:clamp(6px,1.4vw,22px); font-family:Bevan,Georgia,serif; color:#D4BA8B; pointer-events:none">
         <span style="font-size:clamp(90px,13vw,190px); line-height:1; opacity:.20; animation:kongoBob 5.2s ease-in-out infinite">?</span>
         <span style="font-size:clamp(130px,19vw,280px); line-height:1; opacity:.30; animation:kongoBob 4.2s ease-in-out infinite .5s">?</span>
         <span style="font-size:clamp(70px,10vw,150px); line-height:1; opacity:.16; animation:kongoBob 6.4s ease-in-out infinite 1.1s">?</span>
       </div>
       <div style="position:relative; width:100%; max-width:1440px; margin:0 auto">
-        <h1 data-reveal="0" style="margin:0; font-size:clamp(44px,10vw,120px); line-height:.84; font-weight:700; color:#fff; letter-spacing:-3.5px">Preguntas<br><span style="font-family:Bevan,Georgia,serif; font-weight:400; color:#7FD0F5">frecuentes</span></h1>
+        <h1 data-reveal="0" style="margin:0; font-size:clamp(44px,10vw,120px); line-height:.84; font-weight:700; color:#fff; letter-spacing:-3.5px">Preguntas<br><span style="font-family:Bevan,Georgia,serif; font-weight:400; color:#E5D3AF">frecuentes</span></h1>
       </div>
     </section>
     <div style="max-width:1040px; margin:0 auto; margin-top:44px; display:flex; flex-direction:column; gap:clamp(30px,4vw,52px)">
@@ -908,14 +924,14 @@
         <span style="flex:1; height:2px; background:{{ g.color }}; opacity:.28"></span>
       </div>
       <sc-for list="{{ g.items }}" as="f" hint-placeholder-count="3">
-        <details data-reveal="{{ f.delay }}" onMouseEnter="{{ f.enter }}" onMouseLeave="{{ f.leave }}" style="border:2px solid #E8ECF1; border-radius:20px; background:#fff; overflow:hidden; transition:box-shadow .3s ease, border-color .3s ease" style-hover="box-shadow:0 18px 40px rgba(0,59,113,.10); border-color:{{ f.dot }}; background:{{ f.soft }}">
-          <summary style="cursor:pointer; list-style:none; padding:22px 24px; display:flex; align-items:center; gap:18px; font-size:19px; font-weight:700; color:#003B71" style-hover="background:{{ f.soft }}">
+        <details data-reveal="{{ f.delay }}" onMouseEnter="{{ f.enter }}" onMouseLeave="{{ f.leave }}" style="border:2px solid #E8ECF1; border-radius:20px; background:#fff; overflow:hidden; transition:box-shadow .3s ease, border-color .3s ease" style-hover="box-shadow:0 18px 40px rgba(0,62,81,.10); border-color:{{ f.dot }}; background:{{ f.soft }}">
+          <summary style="cursor:pointer; list-style:none; padding:22px 24px; display:flex; align-items:center; gap:18px; font-size:19px; font-weight:700; color:#003E51" style-hover="background:{{ f.soft }}">
             <span style="flex:0 0 auto; font-size:11px; letter-spacing:1.3px; color:{{ f.dot }}">{{ f.num }}</span>
             <span style="flex:1">{{ f.q }}</span>
             <span style="flex:0 0 auto; width:30px; height:30px; border-radius:999px; background:{{ f.dot }}; display:inline-flex; align-items:center; justify-content:center; color:#fff; font-weight:700">+</span>
           </summary>
           <div style="padding:0 24px 24px 62px">
-            <p style="margin:0; font-size:16px; line-height:1.75; color:#31404F; max-width:74ch; text-wrap:pretty">{{ f.a }}</p>
+            <p style="margin:0; font-size:16px; line-height:1.75; color:#3C3C3B; max-width:74ch; text-wrap:pretty">{{ f.a }}</p>
           </div>
         </details>
       </sc-for>
@@ -928,10 +944,10 @@
   <!-- ================= CONTACTO ================= -->
   <sc-if value="{{ isContacto }}" hint-placeholder-val="{{ false }}">
   <main style="max-width:1440px; margin:0 auto; padding:0 clamp(18px,3.2vw,44px) 96px">
-    <section data-bleed="" style="position:relative; width:100vw; margin-left:calc(50% - 50vw); min-height:clamp(440px,58vh,600px); padding:clamp(28px,4vw,52px) clamp(18px,3.2vw,44px) clamp(32px,4.4vw,56px); background:linear-gradient(140deg,#002A52 0%,#003B71 55%,#0A5590 100%); overflow:hidden; display:flex; align-items:center">
-      <div style="position:absolute; width:46vw; height:46vw; max-width:660px; max-height:660px; right:-6vw; top:-14vw; border-radius:999px; background:radial-gradient(circle at 50% 50%, rgba(255,127,48,.34), rgba(255,127,48,0) 68%); animation:kongoFloatA 15s ease-in-out infinite; pointer-events:none"></div>
-      <div style="position:absolute; width:36vw; height:36vw; max-width:520px; max-height:520px; left:-10vw; bottom:-14vw; border-radius:999px; background:radial-gradient(circle at 50% 50%, rgba(255,183,27,.20), rgba(255,183,27,0) 70%); animation:kongoFloatB 19s ease-in-out infinite; pointer-events:none"></div>
-      <div style="position:absolute; right:8%; top:50%; transform:translateY(-50%); width:clamp(170px,22vw,330px); height:clamp(170px,22vw,330px); color:#FF7F30; opacity:.16; pointer-events:none">
+    <section data-bleed="" style="position:relative; width:100vw; margin-left:calc(50% - 50vw); min-height:clamp(440px,58vh,600px); padding:clamp(28px,4vw,52px) clamp(18px,3.2vw,44px) clamp(32px,4.4vw,56px); background:linear-gradient(140deg,#002832 0%,#003E51 50%,#7A1F24 100%); overflow:hidden; display:flex; align-items:center">
+      <div style="position:absolute; width:46vw; height:46vw; max-width:660px; max-height:660px; right:-6vw; top:-14vw; border-radius:999px; background:radial-gradient(circle at 50% 50%, rgba(212,186,139,.26), rgba(212,186,139,0) 68%); animation:kongoFloatA 15s ease-in-out infinite; pointer-events:none"></div>
+      <div style="position:absolute; width:36vw; height:36vw; max-width:520px; max-height:520px; left:-10vw; bottom:-14vw; border-radius:999px; background:radial-gradient(circle at 50% 50%, rgba(151,39,45,.34), rgba(151,39,45,0) 70%); animation:kongoFloatB 19s ease-in-out infinite; pointer-events:none"></div>
+      <div style="position:absolute; right:8%; top:50%; transform:translateY(-50%); width:clamp(170px,22vw,330px); height:clamp(170px,22vw,330px); color:#D4BA8B; opacity:.15; pointer-events:none">
         <div style="width:100%; height:100%; animation:kongoBob 6s ease-in-out infinite">
         <svg viewBox="0 0 24 24" width="100%" height="100%" fill="currentColor"><path d="M12 2.6c5.2 0 9.4 3.7 9.4 8.4S17.2 19.4 12 19.4c-1 0-2-.1-2.9-.4l-5.6 2.3a.5.5 0 0 1-.67-.64l1.9-4.9C3.4 14.3 2.6 12.6 2.6 11 2.6 6.3 6.8 2.6 12 2.6Z"></path></svg>
         </div>
@@ -939,7 +955,7 @@
       <div style="position:relative; width:100%; max-width:1440px; margin:0 auto">
         <h1 style="margin:0; max-width:16ch; font-size:clamp(40px,8.6vw,108px); line-height:.88; font-weight:700; color:#fff; letter-spacing:-3px">
           <span style="display:block; overflow:hidden; padding-bottom:.04em"><span style="display:block; animation:kongoMask .9s cubic-bezier(.16,.84,.28,1) both">¡Contactate con</span></span>
-          <span style="display:block; overflow:hidden; padding-bottom:.08em"><span style="display:block; animation:kongoMask 1s cubic-bezier(.16,.84,.28,1) .18s both"><span style="font-family:Bevan,Georgia,serif; font-weight:400; color:#FF7F30">nosotros</span>!</span></span>
+          <span style="display:block; overflow:hidden; padding-bottom:.08em"><span style="display:block; animation:kongoMask 1s cubic-bezier(.16,.84,.28,1) .18s both"><span style="font-family:Bevan,Georgia,serif; font-weight:400; color:#E5D3AF">nosotros</span>!</span></span>
         </h1>
       </div>
     </section>
@@ -948,17 +964,17 @@
         <dc-import name="Kongo Formulario" hint-size="100%,420px"></dc-import>
       </div>
       <div style="display:flex; flex-direction:column; gap:22px">
-        <div style="border-left:6px solid #5EB3E4; padding-left:18px">
-          <div style="font-size:11px; font-weight:700; letter-spacing:1.6px; text-transform:uppercase; color:#5A6875">Mail</div>
-          <div style="font-size:19px; font-weight:700; color:#003B71">consultas@baires-sa.com.ar</div>
+        <div style="border-left:6px solid #D4BA8B; padding-left:18px">
+          <div style="font-size:11px; font-weight:700; letter-spacing:1.6px; text-transform:uppercase; color:#575756">Mail</div>
+          <div style="font-size:19px; font-weight:700; color:#003E51">consultas@baires-sa.com.ar</div>
         </div>
-        <div style="border-left:6px solid #6BA43A; padding-left:18px">
-          <div style="font-size:11px; font-weight:700; letter-spacing:1.6px; text-transform:uppercase; color:#5A6875">WhatsApp</div>
-          <div style="font-size:19px; font-weight:700; color:#003B71">+54 9 11 6405-0041 · @consultasbaires</div>
+        <div style="border-left:6px solid #A1A467; padding-left:18px">
+          <div style="font-size:11px; font-weight:700; letter-spacing:1.6px; text-transform:uppercase; color:#575756">WhatsApp</div>
+          <div style="font-size:19px; font-weight:700; color:#003E51">+54 9 11 6405-0041 · @consultasbaires</div>
         </div>
-        <div style="border-left:6px solid #E96BB0; padding-left:18px">
-          <div style="font-size:11px; font-weight:700; letter-spacing:1.6px; text-transform:uppercase; color:#5A6875">Redes</div>
-          <div style="font-size:19px; font-weight:700; color:#003B71">Instagram, Facebook y YouTube: @kongooficial</div>
+        <div style="border-left:6px solid #97272D; padding-left:18px">
+          <div style="font-size:11px; font-weight:700; letter-spacing:1.6px; text-transform:uppercase; color:#575756">Redes</div>
+          <div style="font-size:19px; font-weight:700; color:#003E51">Instagram, Facebook y YouTube: @kongooficial</div>
         </div>
       </div>
     </div>
@@ -966,45 +982,45 @@
   </sc-if>
 
   <!-- WHATSAPP FLOTANTE -->
-  <a href="https://wa.me/5491164050041" target="_blank" rel="noopener" title="Escribinos por WhatsApp" style="position:fixed; right:clamp(16px,2.4vw,28px); bottom:clamp(16px,2.4vw,28px); z-index:90; display:flex; align-items:center; justify-content:center; width:60px; height:60px; border-radius:999px; background:linear-gradient(160deg,#4FBE5C,#3C9E45); color:#fff; box-shadow:0 16px 34px rgba(14,50,24,.34); transition:transform .3s cubic-bezier(.16,.84,.28,1), box-shadow .3s ease" style-hover="transform:translateY(-4px) scale(1.05); box-shadow:0 22px 44px rgba(14,50,24,.42); color:#fff">
+  <a href="https://wa.me/5491164050041" target="_blank" rel="noopener" title="Escribinos por WhatsApp" style="position:fixed; right:clamp(16px,2.4vw,28px); bottom:clamp(16px,2.4vw,28px); z-index:90; display:flex; align-items:center; justify-content:center; width:60px; height:60px; border-radius:999px; background:linear-gradient(160deg,#1FAD54,#0E7A64); color:#fff; box-shadow:0 16px 34px rgba(14,50,24,.34); transition:transform .3s cubic-bezier(.16,.84,.28,1), box-shadow .3s ease" style-hover="transform:translateY(-4px) scale(1.05); box-shadow:0 22px 44px rgba(14,50,24,.42); color:#fff">
     <svg width="34" height="34" viewBox="0 0 32 32" fill="currentColor" aria-hidden="true"><path d="M16 4.7c-6.2 0-11.3 5-11.3 11.3 0 2 .5 3.9 1.5 5.6L4.7 27.3l5.9-1.5c1.6.9 3.5 1.4 5.4 1.4 6.2 0 11.3-5 11.3-11.3S22.2 4.7 16 4.7Zm0 20.4c-1.8 0-3.5-.5-4.9-1.4l-.4-.2-3.5.9.9-3.4-.2-.4a9.1 9.1 0 0 1-1.4-4.8c0-5.1 4.2-9.2 9.5-9.2s9.5 4.1 9.5 9.2-4.3 9.3-9.5 9.3Zm5.3-6.8c-.3-.2-1.8-.9-2.1-1-.3-.1-.5-.1-.7.1-.2.3-.7 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.7-1.7-2-.2-.3 0-.5.1-.7l.5-.6c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.1c-.2-.5-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.4-1.1 1.1-1.1 2.6s1.1 3 1.3 3.2c.2.2 2.1 3.3 5.2 4.5 2.6 1 3.1.8 3.7.8.6-.1 1.9-.8 2.2-1.5.3-.8.3-1.4.2-1.5-.1-.1-.3-.2-.5-.3Z"></path></svg>
   </a>
 
   <!-- ================= FOOTER ================= -->
-  <footer style="background:#003B71; color:#fff; padding:48px clamp(18px,3.2vw,44px) 28px">
+  <footer style="background:#003E51; color:#fff; padding:48px clamp(18px,3.2vw,44px) 28px">
     <div style="max-width:1440px; margin:0 auto; display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:32px">
       <div>
         <img src="uploads/kongo-crema.png" alt="Kongo" style="height:38px; width:auto; display:block">
-        <p style="margin:12px 0 0; font-size:14px; line-height:1.6; color:#B9D0E4; max-width:34ch">Nutrición natural para perros y gatos. Una marca de Baires S.A.</p>
+        <p style="margin:12px 0 0; font-size:14px; line-height:1.6; color:#BCD5DC; max-width:34ch">Nutrición natural para perros y gatos. Una marca de Baires S.A.</p>
       </div>
       <div>
-        <div style="font-size:11px; font-weight:700; letter-spacing:1.6px; text-transform:uppercase; color:#7FA9CD; margin-bottom:12px">Secciones</div>
+        <div style="font-size:11px; font-weight:700; letter-spacing:1.6px; text-transform:uppercase; color:#7FB3C0; margin-bottom:12px">Secciones</div>
         <div style="display:flex; flex-direction:column; gap:8px; font-size:15px">
-          <span onClick="{{ goInicio }}" style="cursor:pointer; color:#fff; width:fit-content" style-hover="color:#FFB71B">Inicio</span>
-          <span onClick="{{ goProductos }}" style="cursor:pointer; color:#fff; width:fit-content" style-hover="color:#FFB71B">Productos</span>
-          <span onClick="{{ goComunidad }}" style="cursor:pointer; color:#fff; width:fit-content" style-hover="color:#FFB71B">Comunidad Baires</span>
-          <span onClick="{{ goConsejos }}" style="cursor:pointer; color:#fff; width:fit-content" style-hover="color:#FFB71B">Consejos</span>
-          <span onClick="{{ goFaq }}" style="cursor:pointer; color:#fff; width:fit-content" style-hover="color:#FFB71B">Preguntas frecuentes</span>
-          <span onClick="{{ goContacto }}" style="cursor:pointer; color:#fff; width:fit-content" style-hover="color:#FFB71B">Contacto</span>
+          <span onClick="{{ goInicio }}" style="cursor:pointer; color:#fff; width:fit-content" style-hover="color:#EAA55D">Inicio</span>
+          <span onClick="{{ goProductos }}" style="cursor:pointer; color:#fff; width:fit-content" style-hover="color:#EAA55D">Productos</span>
+          <span onClick="{{ goComunidad }}" style="cursor:pointer; color:#fff; width:fit-content" style-hover="color:#EAA55D">Comunidad Baires</span>
+          <span onClick="{{ goConsejos }}" style="cursor:pointer; color:#fff; width:fit-content" style-hover="color:#EAA55D">Consejos</span>
+          <span onClick="{{ goFaq }}" style="cursor:pointer; color:#fff; width:fit-content" style-hover="color:#EAA55D">Preguntas frecuentes</span>
+          <span onClick="{{ goContacto }}" style="cursor:pointer; color:#fff; width:fit-content" style-hover="color:#EAA55D">Contacto</span>
         </div>
       </div>
       <div>
-        <div style="font-size:11px; font-weight:700; letter-spacing:1.6px; text-transform:uppercase; color:#7FA9CD; margin-bottom:12px">Seguinos</div>
+        <div style="font-size:11px; font-weight:700; letter-spacing:1.6px; text-transform:uppercase; color:#7FB3C0; margin-bottom:12px">Seguinos</div>
         <div style="display:flex; flex-direction:column; gap:8px; font-size:15px">
-          <a href="https://instagram.com/kongooficial" style="color:#fff; width:fit-content" style-hover="color:#FFB71B">Instagram @kongooficial</a>
-          <a href="https://www.facebook.com/KongoOficial/" style="color:#fff; width:fit-content" style-hover="color:#FFB71B">Facebook @KongoOficial</a>
-          <a href="https://www.youtube.com/channel/UColFvIkhJhcC3K8ip8eK6tw" style="color:#fff; width:fit-content" style-hover="color:#FFB71B">YouTube @kongo.oficial</a>
+          <a href="https://instagram.com/kongooficial" style="color:#fff; width:fit-content" style-hover="color:#EAA55D">Instagram @kongooficial</a>
+          <a href="https://www.facebook.com/KongoOficial/" style="color:#fff; width:fit-content" style-hover="color:#EAA55D">Facebook @KongoOficial</a>
+          <a href="https://www.youtube.com/channel/UColFvIkhJhcC3K8ip8eK6tw" style="color:#fff; width:fit-content" style-hover="color:#EAA55D">YouTube @kongo.oficial</a>
         </div>
       </div>
       <div>
-        <div style="font-size:11px; font-weight:700; letter-spacing:1.6px; text-transform:uppercase; color:#7FA9CD; margin-bottom:12px">Contacto</div>
+        <div style="font-size:11px; font-weight:700; letter-spacing:1.6px; text-transform:uppercase; color:#7FB3C0; margin-bottom:12px">Contacto</div>
         <div style="display:flex; flex-direction:column; gap:8px; font-size:15px; color:#fff">
           <span>WhatsApp +54 9 11 6405-0041</span>
           <span>consultas@baires-sa.com.ar</span>
         </div>
       </div>
     </div>
-    <div style="max-width:1440px; margin:32px auto 0; padding-top:18px; border-top:1px solid rgba(255,255,255,.18); display:flex; flex-wrap:wrap; gap:10px 24px; justify-content:space-between; font-size:12px; font-weight:300; font-style:italic; color:#9FC0DA">
+    <div style="max-width:1440px; margin:32px auto 0; padding-top:18px; border-top:1px solid rgba(255,255,255,.18); display:flex; flex-wrap:wrap; gap:10px 24px; justify-content:space-between; font-size:12px; font-weight:300; font-style:italic; color:#A6C8D2">
       <span>© 2026 Baires S.A. Todos los derechos reservados. Kongo es una marca registrada de Baires S.A.</span>
       <span>Términos y condiciones · Política de privacidad · Defensa del consumidor</span>
     </div>
@@ -1043,12 +1059,12 @@ class Component extends DCLogic {
   componentWillUnmount() { clearInterval(this._t); clearInterval(this._censoTick); }
 
   censoColors = [
-    { ink: '#003B71', soft: '#EAF4FB', accent: '#5EB3E4' },
-    { ink: '#B54B08', soft: '#FFF0E4', accent: '#FF7F30' },
-    { ink: '#3F6B1D', soft: '#EFF7E6', accent: '#6BA43A' },
-    { ink: '#A63A72', soft: '#FDEDF5', accent: '#E96BB0' },
-    { ink: '#8A6A12', soft: '#FFF6E0', accent: '#FFB71B' },
-    { ink: '#1E6B54', soft: '#E9F6F1', accent: '#4CA585' }
+    { ink: '#003E51', soft: '#EAF5F7', accent: '#D4BA8B' },
+    { ink: '#7E5620', soft: '#FAF1E4', accent: '#96661F' },
+    { ink: '#4F5230', soft: '#F3F2E6', accent: '#A1A467' },
+    { ink: '#7A1F24', soft: '#F8EDEC', accent: '#97272D' },
+    { ink: '#8A6320', soft: '#FBF2E4', accent: '#EAA55D' },
+    { ink: '#4F5230', soft: '#F3F2E6', accent: '#A1A467' }
   ];
 
   censoNames = ['Luna', 'Simón', 'Toby', 'Mía', 'Coco', 'Nala', 'Rocky', 'Pelusa', 'Milo', 'Frida'];
@@ -1160,7 +1176,7 @@ class Component extends DCLogic {
           if (bar) bar.style.width = on ? '100%' : '0%';
           const big = document.querySelector('[data-step-mirror]');
           if (on && big) {
-            const c = s.getAttribute('data-step-color') || '#FFB71B';
+            const c = s.getAttribute('data-step-color') || '#EAA55D';
             big.textContent = s.getAttribute('data-step'); big.style.color = c;
             const word = document.querySelector('[data-step-word]');
             if (word) word.style.color = c;
@@ -1218,31 +1234,31 @@ class Component extends DCLogic {
     const gatoAdultoComp = [['—', '12 %'], ['9 %', '—'], ['30 %', '—'], ['—', '3 %'], ['—', '9 %'], ['1 %', '2 %'], ['0,6 %', '1,2 %']];
 
     return [
-      { id: 'k-cachorros', img: this.res('uploads/opt/kongo-cachorros.webp'), line: 'kongo', especie: 'perro', tipo: 'Kongo Cachorros', etapaLabel: 'Todas las Razas', etapa: 'cachorro', tamano: 'todas', protein: 26, accent: '#F5B921',
-        benefit: 'Aporta la cantidad necesaria de proteínas desde temprana edad.',
-        claims: ['Aporta la cantidad necesaria de proteínas desde temprana edad.', 'Refuerza el sistema inmunológico.', 'Contiene más vitaminas y minerales.'],
+      { id: 'k-cachorros', img: this.res('uploads/renders26/p-cachorros.png'), line: 'kongo', especie: 'perro', tipo: 'Kongo Cachorros', etapaLabel: 'Todas las Razas', etapa: 'cachorro', tamano: 'todas', protein: 26, accent: '#8A6A38',
+        benefit: 'Contribuye al desarrollo corporal y cognitivo desde los primeros meses.',
+        claims: ['Proteínas de alta calidad para contribuir al desarrollo corporal y cognitivo desde los primeros meses.','Vitaminas y minerales que fortalecen las defensas y acompañan la vitalidad en cada etapa del crecimiento.','Prebióticos naturales que cuidan la flora intestinal y favorecen una digestión saludable desde el primer día.'],
         ingredientes: 'Harina de carne vacuna, harina de pollo, trigo, maíz, gluten de maíz, germen de maíz, arveja, harina de soja, levadura de cerveza, aceite de pollo, carbonato de calcio, sal yodada, cloruro de potasio, pulpa de remolacha (fuente de fructo-oligosacáridos), zeolita, leche en polvo, extracto de yucca schidigera, espinaca deshidratada, hidrolizado proteico de pollo, ácido cítrico, tocoferoles, dipropionato de amonio, ácido propiónico, núcleo vitamínico-mineral: vitaminas A, D3, E, K, B1, B2, B6, B12, ácido fólico, ácido nicotínico, ácido pantoténico, biotina, colina, minerales: zinc, hierro, cobre, yodo, manganeso, selenio.',
         pres: [1.5, 3, 8, 15, 21], dailyHead: 'Peso', dailyCols: cachorroCols,
         daily: [['Hasta 2 Kg', '135 gr', '110 gr', '80 gr', '65 gr'], ['De 2 a 4 Kg', '135 - 215 gr', '110 - 170 gr', '80 - 130 gr', '65 - 105 gr'], ['De 4 a 6 Kg', '215 - 280 gr', '170 - 225 gr', '130 - 170 gr', '105 - 140 gr'], ['De 6 a 10 Kg', '280 - 390 gr', '225 - 320 gr', '170 - 240 gr', '140 - 200 gr'], ['De 10 a 15 Kg', '390 - 520 gr', '320 - 420 gr', '240 - 315 gr', '200 - 260 gr'], ['De 15 a 20 Kg', '520 - 630 gr', '420 - 510 gr', '315 - 380 gr', '260 - 315 gr'], ['De 20 a 25 Kg', '—', '510 - 580 gr', '380 - 440 gr', '315 - 370 gr'], ['De 25 a 30 Kg', '—', '580 - 670 gr', '440 - 500 gr', '370 - 415 gr'], ['De 30 a 35 Kg', '—', '—', '500 - 550 gr', '415 - 460 gr'], ['Más de 35 Kg', '—', '—', '—', '460 gr o más']],
         comp: [['—', '12 %'], ['15 %', '—'], ['26 %', '—'], ['—', '4 %'], ['—', '8 %'], ['1,2 %', '2 %'], ['0,6 %', '1,2 %']] },
 
-      { id: 'k-peq', img: this.res('uploads/opt/kongo-peq.webp'), line: 'kongo', especie: 'perro', tipo: 'Kongo Adultos', etapaLabel: 'Pequeños', etapa: 'adulto', tamano: 'pequeno', protein: 23, accent: '#F07E26',
-        benefit: 'Ayuda a una digestión sana y saludable.',
-        claims: ['Ayuda a una digestión sana y saludable;', 'Contiene más vitaminas y minerales;', 'Refuerza el sistema inmunológico.'],
+      { id: 'k-peq', img: this.res('uploads/renders26/p-peq.png'), line: 'kongo', especie: 'perro', tipo: 'Kongo Adultos', etapaLabel: 'Pequeños', etapa: 'adulto', tamano: 'pequeno', protein: 23, accent: '#96661F',
+        benefit: 'Sostiene la masa muscular y un buen funcionamiento cognitivo.',
+        claims: ['Proteínas de alta calidad para sostener la masa muscular y un buen funcionamiento cognitivo.','Ácidos grasos esenciales, omega 3 y 6, que cuidan la piel y mantienen un pelaje suave y saludable.','Vitaminas y minerales que refuerzan las defensas y acompañan el equilibrio físico en la etapa adulta.'],
         ingredientes: 'Harina de carne vacuna, harina de pollo, trigo, maíz, gluten de maíz, germen de maíz, harina de soja, levadura de cerveza, aceite de pollo, aceite de pescado (fuente de omega 3 y 6), pulpa de remolacha (fuente de fructo-oligosacáridos), carbonato de calcio, sal yodada, cloruro de potasio, zeolita, extracto de yucca schidigera, espinaca deshidratada; hidrolizado proteico de pollo, ácido cítrico, tocoferoles, dipropionato de amonio, ácido propiónico; núcleo vitamínico-mineral: vitaminas: A, D3, E, K, B1, B2, B6, B12, ácido fólico, ácido nicotínico, ácido pantoténico, biotina, colina; minerales: zinc, hierro, cobre, yodo, manganeso, selenio.',
         pres: [1.5, 3, 8, 15], dailyHead: 'Peso (kg)', dailyCols: adultoCols,
         daily: [['0,5 a 2 Kg', '30 - 75 gr'], ['2 a 4 Kg', '75 - 120 gr'], ['4 a 6 Kg', '120 - 150 gr'], ['6 a 8 Kg', '150 - 185 gr'], ['8 a 10 Kg', '185 - 215 gr']],
         comp: [['—', '12 %'], ['10 %', '—'], ['23 %', '—'], ['—', '4 %'], ['—', '8 %'], ['1 %', '1,5 %'], ['0,6 %', '1,2 %']] },
 
-      { id: 'k-med', img: this.res('uploads/opt/kongo-med.webp'), line: 'kongo', especie: 'perro', tipo: 'Kongo Adultos', etapaLabel: 'Medianos y Grandes', etapa: 'adulto', tamano: 'mediano', protein: 22, accent: '#8CC63F',
-        benefit: 'Mejora el pelo y la piel y aporta mayor cantidad de fibras naturales.',
-        claims: ['Contiene más vitaminas y minerales;', 'Mejora el pelo y la piel;', 'Aporta mayor cantidad de fibras naturales.'],
+      { id: 'k-med', img: this.res('uploads/renders26/p-med.png'), line: 'kongo', especie: 'perro', tipo: 'Kongo Adultos', etapaLabel: 'Medianos y Grandes', etapa: 'adulto', tamano: 'mediano', protein: 22, accent: '#6C6F3C',
+        benefit: 'Cuida la estructura corporal y la salud articular.',
+        claims: ['Proteínas de alta calidad que favorecen el cuidado de la estructura corporal y la agilidad cognitiva.','Ácidos grasos esenciales, omega 3 y 6, que protegen la piel y contribuyen a la salud articular.','Vitaminas y minerales que refuerzan las defensas y acompañan el equilibrio físico en la etapa adulta.'],
         ingredientes: 'Harina de carne vacuna, harina de pollo, aceite de pollo, maíz, gluten de maíz, trigo, germen de maíz, salvado de trigo, harina de soja, arveja, grasa vacuna, levadura de cerveza, pulpa de remolacha (fuente de fructo-oligosacáridos), sal yodada; hidrolizado proteico de pollo, ácido cítrico, tocoferoles, dipropionato de amonio, ácido propiónico; núcleo vitamínico-mineral: vitaminas A, D3, E, K, B1, B2, B6, B12, ácido fólico, ácido nicotínico, ácido pantoténico, biotina, colina; minerales: zinc, hierro, cobre, yodo, manganeso, selenio.',
         pres: [1.5, 3, 8, 15, 21], dailyHead: 'Peso (kg)', dailyCols: adultoCols,
         daily: [['5 - 10 Kg', '140 - 220 gr'], ['11 - 20 Kg', '230 - 350 gr'], ['21 - 30 Kg', '360 - 460 gr'], ['31 - 40 Kg', '470 - 550 gr'], ['41 - 50 Kg', '550 - 640 gr'], ['51 Kg o más', '650 gr o más']],
         comp: [['—', '12 %'], ['9 %', '—'], ['22 %', '—'], ['—', '4 %'], ['—', '8 %'], ['1 %', '1,5 %'], ['0,6 %', '1,2 %']] },
 
-      { id: 'gold-cachorros', img: this.res('uploads/opt/kongo-gold-2.webp'), line: 'gold', especie: 'perro', tipo: 'Kongo Gold Cachorros', etapaLabel: 'Todas las Razas', etapa: 'cachorro', tamano: 'todas', protein: 28, accent: '#FFB71B',
+      { id: 'gold-cachorros', img: this.res('uploads/renders26/p-gold-cachorros.png'), line: 'gold', especie: 'perro', tipo: 'Kongo Gold Cachorros', etapaLabel: 'Todas las Razas', etapa: 'cachorro', tamano: 'todas', protein: 28, accent: '#B67B2E',
         benefit: 'Crecimiento sano y nutritivo, con proteína de pollo como ingrediente principal.',
         claims: ['Crecimiento sano y nutritivo;', 'Desarrolla sus huesos y músculos;', 'Estimula el rápido aprendizaje;', 'Mejora su sistema inmunológico.'],
         ingredientes: 'Harina de pollo, arroz, gluten de maíz, germen de maíz desgrasado, grasa animal (pollo-cerdo), aceite de pescado (fuente de omega 3 y 6), hidrolizado proteico bovino, pulpa de remolacha (fuente de fructo-oligosacáridos – FOS), leche en polvo, levadura de cerveza, zeolita, sal, extracto de yucca schidigera, manano-oligosacáridos – MOS, nucleótidos de levadura, carbonato de calcio, dipropionato de amonio, ácido propiónico, acetato de zinc, pirofosfato ácido de sodio, glucosamina, condroitin sulfato, ascorbato de manganeso, metionina, ácido cítrico, tocoferoles, antioxidantes naturales: extracto de romero, vitamina C, betacaroteno, licopeno, luteína, polifenoles, taurina, vitaminas: A, D3, E, K, B1, B2, B6, B12, ácido fólico, ácido nicotínico, pantotenato de calcio, biotina, colina, minerales: zinc, hierro, cobre, yodo, selenio.',
@@ -1250,7 +1266,7 @@ class Component extends DCLogic {
         daily: [['Hasta 2 Kg', '130 gr', '105 gr', '80 gr', '65 gr'], ['De 2 a 4 Kg', '130 - 205 gr', '105 - 160 gr', '80 - 120 gr', '65 - 100 gr'], ['De 4 a 6 Kg', '205 - 275 gr', '160 - 220 gr', '120 - 160 gr', '100 - 135 gr'], ['De 6 a 10 Kg', '275 - 380 gr', '220 - 310 gr', '160 - 230 gr', '135 - 200 gr'], ['De 10 a 15 Kg', '380 - 500 gr', '310 - 405 gr', '230 - 300 gr', '200 - 250 gr'], ['De 15 a 20 Kg', '500 - 610 gr', '405 - 500 gr', '300 - 370 gr', '250 - 300 gr'], ['De 20 a 25 Kg', '—', '500 - 570 gr', '370 - 430 gr', '300 - 350 gr'], ['De 25 a 30 Kg', '—', '570 - 640 gr', '430 - 480 gr', '350 - 400 gr'], ['De 30 a 35 Kg', '—', '—', '480 - 530 gr', '400 - 450 gr'], ['Más de 35 Kg', '—', '—', '—', '450 gr o más']],
         comp: [['—', '12 %'], ['16 %', '—'], ['28 %', '—'], ['—', '3,5 %'], ['—', '8 %'], ['1,2 %', '2 %'], ['0,6 %', '1 %']] },
 
-      { id: 'gold-peq', img: this.res('uploads/opt/1.webp'), line: 'gold', especie: 'perro', tipo: 'Kongo Gold Adultos', etapaLabel: 'Pequeños', etapa: 'adulto', tamano: 'pequeno', protein: 28, accent: '#F2994A',
+      { id: 'gold-peq', img: this.res('uploads/renders26/p-gold-peq.png'), line: 'gold', especie: 'perro', tipo: 'Kongo Gold Adultos', etapaLabel: 'Pequeños', etapa: 'adulto', tamano: 'pequeno', protein: 28, accent: '#96661F',
         benefit: 'Aporta más energía y colabora con una piel y un pelo más saludable.',
         claims: ['Mejora el sistema inmunológico;', 'Aporta más energía;', 'Colabora con una piel y un pelo más saludable;', 'Contribuye en el cuidado dental.'],
         ingredientes: ING.goldAdulto,
@@ -1258,7 +1274,7 @@ class Component extends DCLogic {
         daily: [['0,5 a 2 Kg', '20 - 60 gr'], ['2 a 4 Kg', '60 - 90 gr'], ['4 a 6 Kg', '90 - 120 gr'], ['6 a 8 Kg', '120 - 145 gr'], ['8 a 10 Kg', '145 - 170 gr']],
         comp: [['—', '12 %'], ['14 %', '—'], ['28 %', '—'], ['—', '3,5 %'], ['—', '8 %'], ['1 %', '1,5 %'], ['0,6 %', '1,2 %']] },
 
-      { id: 'gold-med', img: this.res('uploads/opt/1-1.webp'), line: 'gold', especie: 'perro', tipo: 'Kongo Gold Adultos', etapaLabel: 'Medianos y Grandes', etapa: 'adulto', tamano: 'mediano', protein: 26, accent: '#A6CE39',
+      { id: 'gold-med', img: this.res('uploads/renders26/p-gold-med.png'), line: 'gold', especie: 'perro', tipo: 'Kongo Gold Adultos', etapaLabel: 'Medianos y Grandes', etapa: 'adulto', tamano: 'mediano', protein: 26, accent: '#6C6F3C',
         benefit: 'Ayuda a mantener las articulaciones sanas y fuertes.',
         claims: ['Ayuda a mantener las articulaciones sanas y fuertes.', 'Colabora con una piel y un pelo saludables.', 'Contribuye en el cuidado dental.', 'Aporta más digestibilidad.'],
         ingredientes: ING.goldAdulto,
@@ -1266,24 +1282,24 @@ class Component extends DCLogic {
         daily: [['5 - 10 Kg', '110 - 180 gr'], ['11 - 20 Kg', '190 - 280 gr'], ['21 - 30 Kg', '290 - 370 gr'], ['31 - 40 Kg', '380 - 450 gr'], ['41 - 50 Kg', '460 - 520 gr'], ['51 Kg o más', '530 gr o más']],
         comp: [['—', '12 %'], ['13 %', '—'], ['26 %', '—'], ['—', '3,5 %'], ['—', '8 %'], ['1 %', '1,5 %'], ['0,6 %', '1,2 %']] },
 
-      { id: 'gatitos', img: this.res('uploads/opt/c1.webp'), line: 'kongo', especie: 'gato', tipo: 'Kongo', etapaLabel: 'Gatitos', etapa: 'cachorro', tamano: 'todas', protein: 34, accent: '#F4A6C8',
-        benefit: 'Favorece el correcto desarrollo desde edad temprana.',
-        claims: ['Favorece el correcto desarrollo desde edad temprana;', 'Ayuda a prevenir las bolas de pelo;', 'Refuerza el sistema inmunológico;', 'Favorece el desarrollo de la visión.'],
+      { id: 'gatitos', img: this.res('uploads/renders26/p-gatitos.png'), line: 'kongo', especie: 'gato', tipo: 'Kongo', etapaLabel: 'Gatitos', etapa: 'cachorro', tamano: 'todas', protein: 34, accent: '#97272D',
+        benefit: 'Acompaña el crecimiento con proteínas de alta calidad y taurina.',
+        claims: ['Proteínas de alta calidad y taurina para preservar la masa muscular, proteger el corazón y mejorar la agilidad cognitiva.','Ácidos grasos esenciales, omega 3 y 6, que cuidan la piel, las articulaciones y mantienen un pelaje suave y brillante.','Vitaminas, minerales y prebióticos naturales que fortalecen las defensas y acompañan la vitalidad y el equilibrio físico en cada etapa.'],
         ingredientes: 'Harina de carne vacuna, harina de pollo, arroz, gluten de maíz, trigo, harina de germen de maíz, aceite de pollo, aceite de pescado (fuente de omega 3 y 6), huevo en polvo, plasma bovino en polvo, hidrolizado proteico de pollo, pulpa de remolacha (fuente de fructo-oligosacáridos – FOS), leche en polvo, levadura de cerveza, sal, carbonato de calcio, zeolita, fosfato de calcio, dióxido de titanio, dipropionato de amonio, ácido propiónico, pirofosfato ácido de sodio, metionina, celulosa en polvo, ácido cítrico, tocoferoles, taurina, extracto de yucca schidigera, vitaminas A, D3, E, K, B1, B2, B6, B12, ácido fólico, ácido nicotínico, ácido pantoténico, biotina, colina, minerales: zinc, hierro, cobre, yodo, manganeso y selenio.',
         pres: [0.5, 1, 3, 8], dailyHead: 'Edad (meses)', dailyCols: ['Gramos'],
         daily: [['Hasta 3', '70 - 90 gr'], ['De 4 a 6', '80 - 100 gr'], ['De 7 a 8', '90 - 120 gr'], ['De 9 a 12', '100 - 130 gr']],
         comp: [['—', '12 %'], ['13 %', '—'], ['34 %', '—'], ['—', '4 %'], ['—', '7,5 %'], ['0,9 %', '1,2 %'], ['0,6 %', '0,9 %']] },
 
-      { id: 'gatos-adultos', img: this.res('uploads/opt/gatos-carne-pollo.webp'), line: 'kongo', especie: 'gato', tipo: 'Kongo Gatos', etapaLabel: 'Adultos', etapa: 'adulto', tamano: 'todas', protein: 30, accent: '#E5007E',
-        benefit: 'Refuerza el sistema inmunológico y ayuda a prevenir las bolas de pelo.',
-        claims: ['Favorece el correcto desarrollo desde edad temprana;', 'Ayuda a prevenir las bolas de pelo;', 'Refuerza el sistema inmunológico;', 'Favorece el desarrollo de la visión.'],
+      { id: 'gatos-adultos', img: this.res('uploads/renders26/p-gatos-adultos.png'), line: 'kongo', especie: 'gato', tipo: 'Kongo Gatos', etapaLabel: 'Adultos', etapa: 'adulto', tamano: 'todas', protein: 30, accent: '#7A1F24',
+        benefit: 'Preserva la masa muscular y cuida el corazón con taurina.',
+        claims: ['Proteínas de alta calidad y taurina para preservar la masa muscular, proteger el corazón y mejorar la agilidad cognitiva.','Ácidos grasos esenciales, omega 3 y 6, que cuidan la piel, las articulaciones y mantienen un pelaje suave y brillante.','Vitaminas, minerales y prebióticos naturales que fortalecen las defensas y acompañan la vitalidad y el equilibrio físico en cada etapa.'],
         ingredientes: ING.gatoAdulto,
         pres: [0.5, 1, 3, 8, 15], dailyHead: 'Clasificación', dailyCols: ['Cantidad'],
         daily: gatoAdultoRows, comp: gatoAdultoComp },
 
-      { id: 'gatos-salmon', img: this.res('uploads/opt/v1.webp'), line: 'kongo', especie: 'gato', tipo: 'Kongo Gatos Adultos', etapaLabel: 'Salmón y Atún', etapa: 'adulto', tamano: 'todas', protein: 30, accent: '#4FC3E8',
-        benefit: 'Colabora con un tracto urinario sano y ayuda a un corazón saludable.',
-        claims: ['Colabora con un tracto urinario sano;', 'Reduce la formación de bolas de pelo;', 'Ayuda a un corazón saludable;', 'Favorece el desarrollo de la visión.'],
+      { id: 'gatos-salmon', img: this.res('uploads/renders26/p-gatos-salmon.png'), line: 'kongo', especie: 'gato', tipo: 'Kongo Gatos Adultos', etapaLabel: 'Salmón y Atún', etapa: 'adulto', tamano: 'todas', protein: 30, accent: '#96661F',
+        benefit: 'Salmón y atún: piel, articulaciones y pelaje brillante.',
+        claims: ['Proteínas de alta calidad y taurina para preservar la masa muscular, proteger el corazón y mejorar la agilidad cognitiva.','Ácidos grasos esenciales, omega 3 y 6, que cuidan la piel, las articulaciones y mantienen un pelaje suave y brillante.','Vitaminas, minerales y prebióticos naturales que fortalecen las defensas y acompañan la vitalidad y el equilibrio físico en cada etapa.'],
         ingredientes: ING.gatoAdulto,
         pres: [0.5, 1, 3, 8, 15], dailyHead: 'Clasificación', dailyCols: ['Cantidad'],
         daily: gatoAdultoRows, comp: gatoAdultoComp }
@@ -1367,7 +1383,7 @@ class Component extends DCLogic {
       .map((r, i) => Object.assign({}, r, {
         locLabel: r.loc === r.prov ? r.loc : r.loc + ' · ' + r.prov,
         delay: (i % 9) * 60,
-        accent: ['#FFB71B', '#FF7F30', '#6BA43A', '#5EB3E4', '#E96BB0', '#4CA585'][i % 6],
+        accent: ['#EAA55D', '#96661F', '#A1A467', '#D4BA8B', '#97272D', '#A1A467'][i % 6],
         href: r.ig ? 'https://www.instagram.com/' + r.ig : 'https://instagram.com/kongooficial',
         handle: r.ig ? '@' + r.ig : 'Escribinos para contactarlo',
         initial: r.name.charAt(0).toUpperCase()
@@ -1375,7 +1391,7 @@ class Component extends DCLogic {
     const faqItems = this.faqList().map((f, i) => Object.assign({}, f, {
       num: ('0' + (i + 1)).slice(-2), delay: (i % 4) * 70, soft: f.dot + '22',
       group: i < 2 ? 'kongo' : 'comunidad',
-      enter: (e) => { const el = e.currentTarget; el.style.background = f.dot + '22'; el.style.borderColor = f.dot; el.style.boxShadow = '0 18px 40px rgba(0,59,113,.10)'; },
+      enter: (e) => { const el = e.currentTarget; el.style.background = f.dot + '22'; el.style.borderColor = f.dot; el.style.boxShadow = '0 18px 40px rgba(0,62,81,.10)'; },
       leave: (e) => { const el = e.currentTarget; el.style.background = '#fff'; el.style.borderColor = '#E8ECF1'; el.style.boxShadow = 'none'; }
     }));
     const showPattern = this.props.patternVisible !== false;
@@ -1388,15 +1404,13 @@ class Component extends DCLogic {
       (!f.tamano || p.tamano === f.tamano);
 
     const inkMap = {
-      '#F5B921': '#C08E10', '#F07E26': '#B54B08', '#8CC63F': '#3F6B1D',
-      '#FFB71B': '#C08E10', '#F2994A': '#B0561A', '#A6CE39': '#4A6B14',
-      '#F4A6C8': '#A63A72', '#E5007E': '#8E0050', '#4FC3E8': '#0C6592',
-      '#FF7F30': '#B54B08', '#6BA43A': '#3F6B1D', '#5EB3E4': '#0C6592', '#4CA585': '#1E6B54', '#E96BB0': '#A62C6E'
+      '#8A6A38': '#6E5529', '#96661F': '#7E5620', '#6C6F3C': '#454727',
+      '#B67B2E': '#8A6320', '#97272D': '#7A1F24', '#7A1F24': '#5E1A1E'
     };
     const SABOR = {
-      'k-cachorros': 'Carne, pollo y vegetales', 'k-peq': 'Carne, pollo y vegetales', 'k-med': 'Carne, pollo y vegetales',
+      'k-cachorros': 'Carne y pollo', 'k-peq': 'Carne y pollo', 'k-med': 'Carne y pollo',
       'gold-cachorros': 'Pollo y vegetales', 'gold-peq': 'Pollo y vegetales', 'gold-med': 'Pollo y vegetales',
-      'gatitos': 'Carne y leche', 'gatos-adultos': 'Carne y pollo', 'gatos-salmon': 'Salmón y atún'
+      'gatitos': 'Carne y pollo', 'gatos-adultos': 'Carne y pollo', 'gatos-salmon': 'Salmón y atún'
     };
     const withOpen = (p) => {
       const brand = p.line === 'gold' ? 'Kongo Gold' : (p.especie === 'gato' ? 'Kongo Gatos' : 'Kongo');
@@ -1407,7 +1421,7 @@ class Component extends DCLogic {
       const norm = (s) => (s || '').toLowerCase();
       const redundant = norm(p.etapaLabel) === norm(sabor) || norm(cat).indexOf(norm(p.etapaLabel)) > -1;
       return Object.assign({}, p, {
-        open: this.openProduct(p.id), ink: inkMap[p.accent] || '#003B71',
+        open: this.openProduct(p.id), ink: inkMap[p.accent] || '#003E51',
         brand: brand, catLabel: cat, sabor: sabor, spec: p.etapaLabel,
         topLabel: redundant ? cat : cat + ' · ' + p.etapaLabel,
         specLabel: redundant ? '' : '· ' + norm(p.etapaLabel),
@@ -1444,10 +1458,10 @@ class Component extends DCLogic {
       return { label, pick: this.setFilter(key, value), bg: on ? c : soft, fg: on ? '#fff' : ink, border: c };
     };
     const G = {
-      linea: ['#FF7F30', '#B54B08', '#FFF1E7'],
-      especie: ['#6BA43A', '#3F6B1D', '#F0F6E9'],
-      etapa: ['#5EB3E4', '#0C6592', '#EAF5FC'],
-      tamano: ['#E96BB0', '#A62C6E', '#FDEEF6']
+      linea: ['#96661F', '#7E5620', '#FAF1E4'],
+      especie: ['#A1A467', '#4F5230', '#F3F2E6'],
+      etapa: ['#D4BA8B', '#7A5F33', '#EAF5F7'],
+      tamano: ['#97272D', '#97272D', '#F8EDEC']
     };
     const o = (k, v, l) => opt(k, v, l, G[k][0], G[k][1], G[k][2]);
     const filterGroups = [
@@ -1463,14 +1477,12 @@ class Component extends DCLogic {
     const base = all.find(p => p.id === st.productId) || all[3];
     const isCat = base.especie === 'gato';
     const tintMap = {
-      '#F5B921': '#FFF6E0', '#F07E26': '#FFF1E7', '#8CC63F': '#F2F8E8',
-      '#FFB71B': '#FFF6E0', '#F2994A': '#FFF2E6', '#A6CE39': '#F4F9E9',
-      '#F4A6C8': '#FDEEF5', '#E5007E': '#FCE8F2', '#4FC3E8': '#EAF7FC',
-      '#FF7F30': '#FFF1E7', '#6BA43A': '#F0F6E9', '#5EB3E4': '#EAF5FC', '#4CA585': '#E9F5F1', '#E96BB0': '#FDEEF6'
+      '#8A6A38': '#F7F1E4', '#96661F': '#FAF1E4', '#6C6F3C': '#F3F2E6',
+      '#B67B2E': '#FBF2E4', '#97272D': '#F8EDEC', '#7A1F24': '#F8EDEC'
     };
-    const color = inkMap[base.accent] || (isCat ? '#AB0033' : '#003B71');
+    const color = inkMap[base.accent] || (isCat ? '#97272D' : '#003E51');
     const tint = tintMap[base.accent] || '#F4F7FA';
-    const dots = isCat ? ['#5EB3E4', '#4CA585', '#E96BB0', '#AB0033'] : ['#FFB71B', '#FF7F30', '#6BA43A', '#003B71'];
+    const dots = isCat ? ['#97272D', '#8A6A38', '#6C6F3C', '#7A1F24'] : ['#B67B2E', '#96661F', '#6C6F3C', '#003E51'];
     const compNames = ['Humedad', 'Extracto etéreo', 'Proteína', 'Fibra cruda', 'Minerales totales', 'Calcio', 'Fósforo'];
     const maxKg = Math.max.apply(null, base.pres);
     const kgLabel = (k) => (k === 1.5 ? '1,5 kg' : (k === 0.5 ? '0,5 kg' : k + ' kg'));
@@ -1504,11 +1516,11 @@ class Component extends DCLogic {
     const related = all.filter(p => p.especie === base.especie && p.id !== base.id).slice(0, 3).map(withOpen);
 
     // --- blog ---
-    const catColor = (c) => c === 'Gatos' ? '#AB0033' : '#003B71';
-    const allPosts = this.postsData().map(p => Object.assign({}, p, { open: this.openPost(p.id), catColor: catColor(p.cat), hasCover: !!p.cover, noCover: !p.cover }));
+    const catColor = (c) => c === 'Gatos' ? '#97272D' : '#003E51';
+    const allPosts = this.postsData().map(p => Object.assign({}, p, { open: this.openPost(p.id), catColor: catColor(p.cat), hasCover: !!p.cover, noCover: !p.cover, coverBg: p.cover ? 'url("' + p.cover + '")' : 'none' }));
     const blogCats = [['todos', 'Todas'], ['Perros', 'Perros'], ['Gatos', 'Gatos']].map(c => {
       const on = st.cat === c[0];
-      const line = c[0] === 'Gatos' ? '#AB0033' : '#003B71';
+      const line = c[0] === 'Gatos' ? '#97272D' : '#003E51';
       return { label: c[1], pick: () => this.setState({ cat: c[0] }), line: line, bg: on ? line : '#fff', fg: on ? '#fff' : line };
     });
     const posts = allPosts.filter(p => st.cat === 'todos' || p.cat === st.cat)
@@ -1517,6 +1529,7 @@ class Component extends DCLogic {
     post = Object.assign({}, post, {
       hasCover: !!post.cover,
       noCover: !post.cover,
+      coverBg: post.cover ? 'url("' + post.cover + '")' : 'none',
       isPlaceholder: !post.body,
       blocks: (post.body || []).map(b => Object.assign({}, b, {
         plain: !b.quote && !b.h && !b.note,
@@ -1525,10 +1538,10 @@ class Component extends DCLogic {
     });
 
     const FAM = {
-      kongo: { label: 'Kongo', color: '#FF7F30', ink: '#B54B08', soft: '#FFF1E7', kicker: 'Línea completa',
+      kongo: { label: 'Kongo', color: '#96661F', ink: '#7E5620', soft: '#FAF1E4', kicker: 'Línea completa',
         text: 'Kongo cuenta con una línea completa de alimento para perros y gatos que aporta una nutrición natural y saludable sin colorantes ni saborizantes artificiales. Está formulado con productos naturales de excelente calidad y proteína animal como su principal ingrediente. De esta manera es la mejor opción del segmento ya que otorga una excelente relación entre precio y calidad.',
         cta: 'Ver los alimentos Kongo' },
-      gold: { label: 'Kongo Gold', color: '#FFB71B', ink: '#8A6A12', soft: '#FFF6E0', kicker: 'Súper premium',
+      gold: { label: 'Kongo Gold', color: '#9A6519', ink: '#8A6320', soft: '#FBF2E4', kicker: 'Súper premium',
         text: 'Kongo Gold es el alimento súper premium de la familia de Kongo y ofrece los estándares más altos de calidad en su segmento. Con la fórmula ideal para cada etapa de la vida y proteína de pollo como ingrediente principal.',
         cta: 'Ver los alimentos Kongo Gold' }
     };
@@ -1540,9 +1553,9 @@ class Component extends DCLogic {
         hoverBg: on ? '#fff' : FAM[k].color, hoverFg: on ? FAM[k].ink : '#fff' };
     });
     const perfilesRaw = [
-      { t1: 'Tengo un', t2: 'refugio', tab: 'Refugios', color: '#6BA43A', ink: '#3F6B1D', bg: '#F0F6E9', text: 'Escribinos por Instagram desde la cuenta del refugio a @kongooficial. Te mandamos el formulario para sumarte y material para difundir la campaña.' },
-      { t1: 'Tengo un', t2: 'punto de venta', tab: 'Puntos de venta', color: '#6BA43A', ink: '#3F6B1D', bg: '#F0F6E9', text: 'Tu local puede recibir las bolsas vacías. Hablá con tu distribuidor o escribinos a @kongooficial con los datos del comercio: te llevamos el botadero y el material para arrancar.' },
-      { t1: 'Soy', t2: 'consumidor', tab: 'Consumidores', color: '#6BA43A', ink: '#3F6B1D', bg: '#F0F6E9', text: 'Guardá las bolsas vacías de Kongo y llevalas al refugio o local que participe más cerca de tu casa. Mirá el listado completo y elegí el tuyo.' }
+      { t1: 'Tengo un', t2: 'refugio', tab: 'Refugios', color: '#E5D3AF', ink: '#7A5F33', bg: '#F7F1E4', text: 'Escribinos por Instagram desde la cuenta del refugio a @kongooficial. Te mandamos el formulario para sumarte y material para difundir la campaña.' },
+      { t1: 'Tengo un', t2: 'punto de venta', tab: 'Puntos de venta', color: '#E5D3AF', ink: '#7A5F33', bg: '#F7F1E4', text: 'Tu local puede recibir las bolsas vacías. Hablá con tu distribuidor o escribinos a @kongooficial con los datos del comercio: te llevamos el botadero y el material para arrancar.' },
+      { t1: 'Soy', t2: 'consumidor', tab: 'Consumidores', color: '#E5D3AF', ink: '#7A5F33', bg: '#F7F1E4', text: 'Guardá las bolsas vacías de Kongo y llevalas al refugio o local que participe más cerca de tu casa. Mirá el listado completo y elegí el tuyo.' }
     ];
     const perfilCta = [
       { cta: 'Escribinos', href: 'https://wa.me/5491164050041', ext: true },
@@ -1557,18 +1570,18 @@ class Component extends DCLogic {
     const perfilTabs = perfilesRaw.map((p, i) => {
       const on = st.perfil === i;
       return { label: p.tab, num: '0' + (i + 1), pick: () => this.setState({ perfil: i }),
-        bg: on ? p.color : 'rgba(255,255,255,.08)', fg: on ? '#0F2A16' : '#DCEBCD', border: on ? p.color : 'rgba(255,255,255,.28)' };
+        bg: on ? p.color : 'rgba(255,255,255,.08)', fg: on ? '#212314' : '#E6E7D2', border: on ? p.color : 'rgba(255,255,255,.28)' };
     });
 
     return {
       nav: st.scrolled
-        ? { bg: 'rgba(0,59,113,.96)', border: 'rgba(255,255,255,.20)', fg: '#ffffff', oAzul: 0, oCrema: 1 }
-        : { bg: 'rgba(255,255,255,0.94)', border: '#E8ECF1', fg: '#16202B', oAzul: 1, oCrema: 0 },
+        ? { bg: 'rgba(0,62,81,.96)', border: 'rgba(255,255,255,.20)', fg: '#ffffff', oAzul: 0, oCrema: 1 }
+        : { bg: 'rgba(255,255,255,0.94)', border: '#E8ECF1', fg: '#1D1D1B', oAzul: 1, oCrema: 0 },
       fam: FAM[st.fam] || FAM.kongo, famTabs: famTabs, rail: rail,
       pickKongo: () => this.setState({ fam: 'kongo' }),
       pickGold: () => this.setState({ fam: 'gold' }),
-      tabKongo: st.fam === 'kongo' ? { bg: '#FF7F30', fg: '#fff' } : { bg: '#fff', fg: '#B54B08' },
-      tabGold: st.fam === 'gold' ? { bg: '#FFB71B', fg: '#fff' } : { bg: '#fff', fg: '#8A6A12' },
+      tabKongo: st.fam === 'kongo' ? { bg: '#003E51', fg: '#fff' } : { bg: '#fff', fg: '#003E51' },
+      tabGold: st.fam === 'gold' ? { bg: '#9A6519', fg: '#fff' } : { bg: '#fff', fg: '#8A6320' },
       perfilTabs: perfilTabs, perfilActive: perfilesRaw[st.perfil] || perfilesRaw[0], perfilCards: perfilCards,
       menuOpen: !!st.menuOpen,
       toggleMenu: () => this.setState(s => ({ menuOpen: !s.menuOpen })),
@@ -1591,7 +1604,7 @@ class Component extends DCLogic {
       censoName: censoName, censoNum: censoNum,
       censoInk: censoInk, censoSoft: censoSoft, censoAccent: censoAccent,
       censoOp: censoOp, censoY: censoY,
-      showPattern: showPattern, imgH: compact ? '150px' : '230px',
+      showPattern: showPattern, imgH: compact ? '170px' : '262px',
       dogs: lay(dogs), gold: lay(gold), cats: lay(cats),
       showDogs: dogs.length > 0, showGold: gold.length > 0, showCats: cats.length > 0,
       showEmpty: shown.length === 0,
@@ -1609,20 +1622,20 @@ class Component extends DCLogic {
       homePosts: allPosts.slice(0, 3).map((p, i) => Object.assign({}, p, { delay: i * 100 })), posts: posts, blogCats: blogCats, post: post,
       relatedPosts: allPosts.filter(p => p.id !== post.id).slice(0, 2),
       ciclo: [
-        { n: '01', color: '#FFB71B', text: 'Comprá cualquier producto Kongo, en cualquiera de sus presentaciones.' },
-        { n: '02', color: '#FF7F30', text: 'Llevá el envase vacío a un refugio adherido o a un punto de acopio de Comunidad Baires.' },
-        { n: '03', color: '#6BA43A', text: 'Nosotros retiramos los envases y entregamos alimento a los refugios participantes.' },
-        { n: '04', color: '#5EB3E4', text: 'Las bolsas recolectadas se envían a una cooperativa de reciclado, donde el plástico se transforma en nueva materia prima.' }
+        { n: '01', color: '#EAA55D', text: 'Comprá cualquier producto Kongo, en cualquiera de sus presentaciones.' },
+        { n: '02', color: '#96661F', text: 'Llevá el envase vacío a un refugio adherido o a un punto de acopio de Comunidad Baires.' },
+        { n: '03', color: '#A1A467', text: 'Nosotros retiramos los envases y entregamos alimento a los refugios participantes.' },
+        { n: '04', color: '#D4BA8B', text: 'Las bolsas recolectadas se envían a una cooperativa de reciclado, donde el plástico se transforma en nueva materia prima.' }
       ],
       perfiles: [
-        { title: 'Tengo un refugio', bg: '#E9F3DE', text: 'Si representas a un refugio y querés formar parte de Comunidad Baires, debes escribirnos desde el instagram del refugio a @kongooficial donde te enviaremos un formulario de inscripción.' },
-        { title: 'Tengo un punto de venta', bg: '#FFF1D6', text: 'Podés convertir tu local en un punto de acopio de Comunidad Baires y recibir envases en un botadero. Para participar, contacta a tu distribuidor o escribinos a @kongooficial, indicándonos los datos de tu comercio. Nuestro equipo te brindará toda la información y el material necesario para comenzar.' },
-        { title: 'Soy consumidor', bg: '#DFEFFA', text: 'Si querés colaborar con Comunidad Baires, podés acercar tus envases vacíos a un refugio o punto de acopio adherido. Para conocer cuál es el más cercano a tu domicilio, escribinos por Instagram a @kongooficial o comunicate con nuestro WhatsApp de Atención al Cliente al +54 9 11 6405-0041.' }
+        { title: 'Tengo un refugio', bg: '#F3F2E6', text: 'Si representas a un refugio y querés formar parte de Comunidad Baires, debes escribirnos desde el instagram del refugio a @kongooficial donde te enviaremos un formulario de inscripción.' },
+        { title: 'Tengo un punto de venta', bg: '#FAF1E4', text: 'Podés convertir tu local en un punto de acopio de Comunidad Baires y recibir envases en un botadero. Para participar, contacta a tu distribuidor o escribinos a @kongooficial, indicándonos los datos de tu comercio. Nuestro equipo te brindará toda la información y el material necesario para comenzar.' },
+        { title: 'Soy consumidor', bg: '#E2F0F3', text: 'Si querés colaborar con Comunidad Baires, podés acercar tus envases vacíos a un refugio o punto de acopio adherido. Para conocer cuál es el más cercano a tu domicilio, escribinos por Instagram a @kongooficial o comunicate con nuestro WhatsApp de Atención al Cliente al +54 9 11 6405-0041.' }
       ],
       faqs: faqItems,
       faqGroups: [
-        { title: 'Sobre Kongo', color: '#FF7F30', items: faqItems.filter(f => f.group === 'kongo') },
-        { title: 'Comunidad Baires', color: '#6BA43A', items: faqItems.filter(f => f.group === 'comunidad') }
+        { title: 'Sobre Kongo', color: '#96661F', items: faqItems.filter(f => f.group === 'kongo') },
+        { title: 'Comunidad Baires', color: '#A1A467', items: faqItems.filter(f => f.group === 'comunidad') }
       ]
     };
   }
@@ -1638,12 +1651,12 @@ class Component extends DCLogic {
 
   faqList() {
     return [
-        { q: '¿Qué es Baires?', dot: '#FFB71B', a: 'Baires es una empresa argentina comprometida con el bienestar de perros y gatos. Nuestro propósito es brindar una nutrición de excelencia que contribuya a una mejor calidad de vida para las mascotas. Nos especializamos en la elaboración de alimentos balanceados de alta calidad y trabajamos todos los días con pasión, innovación y compromiso para acompañar a miles de familias en el cuidado de sus compañeros de cuatro patas. Contamos con un amplio portfolio de marcas, entre las que se encuentra Kongo.' },
-        { q: '¿Qué es Kongo?', dot: '#FF7F30', a: 'Kongo ofrece una línea completa de alimentos balanceados para perros y gatos, desarrollada para brindar una nutrición completa, natural y saludable. Sus fórmulas están elaboradas sin colorantes ni saborizantes artificiales, con ingredientes cuidadosamente seleccionados y proteína de origen animal como ingrediente principal. De esta manera, Kongo ofrece una excelente combinación de calidad, nutrición y precio para acompañar el bienestar de perros y gatos en cada etapa de su vida. Kongo Gold es el alimento súper Premium de la familia Kongo y ofrece los estándares más altos de calidad en su segmento. Con la fórmula ideal para cada etapa de la vida y proteína de pollo como ingrediente principal.' },
-        { q: '¿Qué es Comunidad Baires?', dot: '#6BA43A', a: 'Comunidad Baires es nuestra campaña de triple impacto, creada para cuidar a las mascotas, ayudar a los refugios y contribuir al cuidado del medio ambiente. A través de esta iniciativa, invitamos a las personas a juntar los envases vacíos de Kongo y acercarlos a un refugio participante o punto de acopio. Los refugios pueden canjear 1 envase vacío por 1 kg de alimento balanceado. Por su parte, los envases recuperados son enviados a la cooperativa Creando Conciencia para ser reciclados y transformarlos en nuevos productos, promoviendo la economía circular y reduciendo el impacto ambiental.' },
-        { q: 'Tengo un refugio, ¿cómo hago para participar?', dot: '#5EB3E4', a: 'Si representas a un refugio y querés formar parte de Comunidad Baires, debes escribirnos desde el instagram del refugio a @kongooficial donde te enviaremos un formulario de inscripción.' },
-        { q: 'Tengo un punto de venta, ¿cómo me puedo sumar?', dot: '#4CA585', a: 'Podés convertir tu local en un punto de acopio de Comunidad Baires y recibir envases en un botadero. Para participar, contacta a tu distribuidor o escribinos a @kongooficial, indicándonos los datos de tu comercio. Nuestro equipo te brindará toda la información y el material necesario para comenzar.' },
-        { q: 'Soy consumidor. ¿Dónde puedo llevar los envases?', dot: '#E96BB0', a: 'Si querés colaborar con Comunidad Baires, podés acercar tus envases vacíos a un refugio o punto de acopio adherido. Para conocer cuál es el más cercano a tu domicilio, escribinos por Instagram a @kongooficial o comunicate con nuestro WhatsApp de Atención al Cliente al +54 9 11 6405-0041. Nuestro equipo te ayudará a encontrar el punto de entrega más conveniente.' }
+        { q: '¿Qué es Baires?', dot: '#EAA55D', a: 'Baires es una empresa argentina comprometida con el bienestar de perros y gatos. Nuestro propósito es brindar una nutrición de excelencia que contribuya a una mejor calidad de vida para las mascotas. Nos especializamos en la elaboración de alimentos balanceados de alta calidad y trabajamos todos los días con pasión, innovación y compromiso para acompañar a miles de familias en el cuidado de sus compañeros de cuatro patas. Contamos con un amplio portfolio de marcas, entre las que se encuentra Kongo.' },
+        { q: '¿Qué es Kongo?', dot: '#96661F', a: 'Kongo ofrece una línea completa de alimentos balanceados para perros y gatos, desarrollada para brindar una nutrición completa, natural y saludable. Sus fórmulas están elaboradas sin colorantes ni saborizantes artificiales, con ingredientes cuidadosamente seleccionados y proteína de origen animal como ingrediente principal. De esta manera, Kongo ofrece una excelente combinación de calidad, nutrición y precio para acompañar el bienestar de perros y gatos en cada etapa de su vida. Kongo Gold es el alimento súper Premium de la familia Kongo y ofrece los estándares más altos de calidad en su segmento. Con la fórmula ideal para cada etapa de la vida y proteína de pollo como ingrediente principal.' },
+        { q: '¿Qué es Comunidad Baires?', dot: '#A1A467', a: 'Comunidad Baires es nuestra campaña de triple impacto, creada para cuidar a las mascotas, ayudar a los refugios y contribuir al cuidado del medio ambiente. A través de esta iniciativa, invitamos a las personas a juntar los envases vacíos de Kongo y acercarlos a un refugio participante o punto de acopio. Los refugios pueden canjear 1 envase vacío por 1 kg de alimento balanceado. Por su parte, los envases recuperados son enviados a la cooperativa Creando Conciencia para ser reciclados y transformarlos en nuevos productos, promoviendo la economía circular y reduciendo el impacto ambiental.' },
+        { q: 'Tengo un refugio, ¿cómo hago para participar?', dot: '#D4BA8B', a: 'Si representas a un refugio y querés formar parte de Comunidad Baires, debes escribirnos desde el instagram del refugio a @kongooficial donde te enviaremos un formulario de inscripción.' },
+        { q: 'Tengo un punto de venta, ¿cómo me puedo sumar?', dot: '#A1A467', a: 'Podés convertir tu local en un punto de acopio de Comunidad Baires y recibir envases en un botadero. Para participar, contacta a tu distribuidor o escribinos a @kongooficial, indicándonos los datos de tu comercio. Nuestro equipo te brindará toda la información y el material necesario para comenzar.' },
+        { q: 'Soy consumidor. ¿Dónde puedo llevar los envases?', dot: '#97272D', a: 'Si querés colaborar con Comunidad Baires, podés acercar tus envases vacíos a un refugio o punto de acopio adherido. Para conocer cuál es el más cercano a tu domicilio, escribinos por Instagram a @kongooficial o comunicate con nuestro WhatsApp de Atención al Cliente al +54 9 11 6405-0041. Nuestro equipo te ayudará a encontrar el punto de entrega más conveniente.' }
     ];
   }
 }
