@@ -263,7 +263,7 @@
           <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:clamp(32px,4vw,56px); align-items:center">
             <div data-reveal="0" data-reveal-mode="left">
               <span class="k-com-kicker" style="display:inline-block; font-size:12px; font-weight:700; letter-spacing:1.6px; text-transform:uppercase; color:#BCBE92">Ayudamos a los que más lo necesitan · ¿Te sumás?</span>
-              <img class="k-com-logo" src="uploads/logo-comunidad-baires-blanco.png" alt="Comunidad Baires" style="display:block; margin:18px 0 0; width:min(100%,520px); height:auto">
+              <img class="k-com-logo" src="uploads/logo-comunidad-baires-blanco-v2.png" alt="Comunidad Baires" style="display:block; margin:18px 0 0; width:min(100%,520px); height:auto">
               <p class="k-com-text" style="margin:22px 0 0; max-width:44ch; font-size:19px; line-height:1.6; color:#E6E7D2; text-wrap:pretty">Con cada envase vacío de Kongo podés ayudar a perritos que están en los refugios y además cuidar al medio ambiente.</p>
               <div class="k-com-cta" style="display:flex; gap:14px; flex-wrap:wrap; margin-top:30px">
                 <div onClick="{{ goComunidad }}" style="padding:15px 30px; border-radius:999px; background:#BCBE92; border:2px solid #BCBE92; color:#003E51; font-weight:700; font-size:16px; cursor:pointer; transition:all .3s" style-hover="background:transparent; color:#BCBE92">Conocé la campaña</div>
@@ -281,7 +281,7 @@
                 <div onClick="{{ goComunidad }}" style="border-radius:18px; padding:16px 20px; background:rgba(255,255,255,.09); backdrop-filter:blur(12px); border:1px solid rgba(255,255,255,.18); display:flex; align-items:center; gap:14px; cursor:pointer; transition:background .3s ease, border-color .3s ease" style-hover="background:rgba(161,164,103,.14); border-color:rgba(161,164,103,.5)">
                   <div style="flex:0 0 auto; font-size:15px; font-weight:700; line-height:1.2; letter-spacing:.8px; color:#BCBE92"><span data-count="3">3</span></div>
                   <div style="font-size:15px; font-weight:500; line-height:1.2; letter-spacing:.8px; text-transform:uppercase; color:#E6E7D2">formas de sumarse</div>
-                  <span style="margin-left:auto; flex:0 0 auto; font-size:13px; font-weight:700; color:#97272D; border-bottom:2px solid rgba(151,39,45,.35); padding-bottom:1px; white-space:nowrap; font-size:13px">Más información →</span>
+                  <span style="margin-left: auto; flex: 0 0 auto; font-size: 13px; font-weight: 700; color: #FFFFFF; border-bottom: 2px solid #FFFFFF; padding-bottom: 1px; white-space: nowrap; font-size: 13px">Más información →</span>
                 </div>
               </div>
             </div>
@@ -303,7 +303,7 @@
             <p style="margin:20px 0 0; font-size:18px; line-height:1.62; color:#3C3C3B; max-width:42ch; text-wrap:pretty">Tienen nombre, tienen historia y son parte de tu familia. Registralos y sumate a una comunidad que celebra ese vínculo todos los días.</p>
             <span style="position:relative; display:inline-block; overflow:hidden; margin-top:26px; padding:15px 30px; border-radius:999px; background:#97272D; color:#fff; font-weight:700; font-size:16px">
               <span style="position:absolute; inset:0; background:linear-gradient(100deg,transparent 20%,rgba(255,255,255,.42) 50%,transparent 80%); background-size:200% 100%; animation:kongoSweep 2.6s linear infinite"></span>
-              <span style="position:relative">Registrá tu mascota →</span>
+              <span style="position:relative">Registralo →</span>
             </span>
           </div>
           <div style="position:relative; display:flex; justify-content:center; align-items:center; min-height:clamp(240px,26vw,320px)">
@@ -360,7 +360,7 @@
             </div>
           </sc-for>
         </div>
-      </section>
+      </div></section>
 
       <!-- BAIRES -->
       <section class="k-air k-air-baires" data-bleed="" style="position:relative; width:100vw; margin-left:calc(50% - 50vw); margin-top:96px; padding:clamp(44px,6vw,84px) clamp(18px,3.2vw,44px) 0; background:#F2F6FA; border-top:1px solid #E3EAF1">
@@ -585,7 +585,7 @@
     <!-- INGREDIENTES -->
     <section data-reveal="0" style="margin-top:64px; display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:24px; align-items:stretch">
       <div style="background:{{ prod.soft }}; border-radius:26px; padding:30px; border:2px solid transparent; display:flex; flex-direction:column">
-        <h2 style="margin:0 0 16px; font-size:clamp(22px,2.6vw,30px); line-height:1; font-weight:700; letter-spacing:-1.2px; color:{{ prod.color }}"><span style="font-family: Bevan,Georgia,serif; font-weight: 400; font-size: 54.94px">Ingredientes</span></h2>
+        <h2 style="margin:0 0 16px; font-size:clamp(22px,2.6vw,30px); line-height:1; font-weight:700; letter-spacing:-1.2px; color:{{ prod.color }}"><span style="font-family: Bevan,Georgia,serif; font-weight: 400; font-size: clamp(30px,4.6vw,54.94px); white-space: nowrap">Ingredientes</span></h2>
         <p style="margin: 0; flex: 1; display: flex; align-items: center; font-size: 17px; line-height: 1.75; color: #1D1D1B; text-wrap: pretty; width: 100%; min-width: 0">{{ prod.ingredientes }}</p>
       </div>
       <div style="border:2px solid {{ prod.accent }}; border-radius:26px; padding:30px; display:flex; flex-direction:column">
@@ -670,7 +670,7 @@
       <div class="k-hero-com-grid" style="position:relative; max-width:1440px; margin:0 auto; display:grid; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); gap:clamp(28px,4vw,56px); align-items:center">
         <div>
           <span class="k-com-kicker" data-reveal="0" style="display:inline-block; font-size:12px; font-weight:700; letter-spacing:1.6px; text-transform:uppercase; color:#BCBE92">Ayudamos a los que más lo necesitan</span>
-          <img class="k-hero-com-logo" data-reveal="60" src="uploads/logo-comunidad-baires-blanco.png" alt="Comunidad Baires" style="display:block; margin:clamp(14px,2vw,22px) 0 0; width:min(100%,580px); height:auto">
+          <img class="k-hero-com-logo" data-reveal="60" src="uploads/logo-comunidad-baires-blanco-v2.png" alt="Comunidad Baires" style="display:block; margin:clamp(14px,2vw,22px) 0 0; width:min(100%,580px); height:auto">
           <p class="k-hero-com-text" data-reveal="140" style="margin:clamp(18px,2.6vw,28px) 0 0; font-size:18px; line-height:1.6; color:#F3F2E6; max-width:52ch; text-wrap:pretty">No tires la bolsa vacía de Kongo: llevala a un refugio. Nosotros la retiramos y <strong style="font-weight:700; color:#fff">les dejamos alimento</strong>; después las bolsas se reciclan y el plástico vuelve a ser materia prima. Con algo que ibas a tirar cuidamos al planeta y ayudamos a quienes más lo necesitan.</p>
         </div>
         <div data-reveal="200" data-reveal-mode="right" style="border-radius:24px; overflow:hidden; aspect-ratio:16/9; background:#08191F; border:1px solid rgba(255,255,255,.20); box-shadow:0 26px 60px rgba(0,0,0,.34)">
