@@ -1,0 +1,6041 @@
+{
+  "products": [
+    {
+      "id": "k-cachorros",
+      "type": "product",
+      "slug": "k-cachorros",
+      "status": "published",
+      "title": "Kongo Cachorros Todas las Razas",
+      "summary": "Contribuye al desarrollo corporal y cognitivo desde los primeros meses.",
+      "data": {
+        "id": "k-cachorros",
+        "img": "uploads/renders26/p-cachorros.png",
+        "line": "kongo",
+        "especie": "perro",
+        "tipo": "Kongo Cachorros",
+        "etapaLabel": "Todas las Razas",
+        "sabor": "Carne y pollo",
+        "etapa": "cachorro",
+        "tamano": "todas",
+        "protein": 26,
+        "accent": "#8A6A38",
+        "benefit": "Contribuye al desarrollo corporal y cognitivo desde los primeros meses.",
+        "claims": [
+          "Proteínas de alta calidad para contribuir al desarrollo corporal y cognitivo desde los primeros meses.",
+          "Vitaminas y minerales que fortalecen las defensas y acompañan la vitalidad en cada etapa del crecimiento.",
+          "Prebióticos naturales que cuidan la flora intestinal y favorecen una digestión saludable desde el primer día."
+        ],
+        "ingredientes": "Harina de carne vacuna, harina de pollo, trigo, maíz, gluten de maíz, germen de maíz, arveja, harina de soja, levadura de cerveza, aceite de pollo, carbonato de calcio, sal yodada, cloruro de potasio, pulpa de remolacha (fuente de fructo-oligosacáridos), zeolita, leche en polvo, extracto de yucca schidigera, espinaca deshidratada, hidrolizado proteico de pollo, ácido cítrico, tocoferoles, dipropionato de amonio, ácido propiónico, núcleo vitamínico-mineral: vitaminas A, D3, E, K, B1, B2, B6, B12, ácido fólico, ácido nicotínico, ácido pantoténico, biotina, colina, minerales: zinc, hierro, cobre, yodo, manganeso, selenio.",
+        "pres": [
+          1.5,
+          3,
+          8,
+          15,
+          21
+        ],
+        "dailyHead": "Peso",
+        "dailyCols": [
+          "De 1 a 2 meses",
+          "De 3 a 4 meses",
+          "De 5 a 8 meses",
+          "Hasta 12 meses"
+        ],
+        "daily": [
+          [
+            "Hasta 2 Kg",
+            "135 gr",
+            "110 gr",
+            "80 gr",
+            "65 gr"
+          ],
+          [
+            "De 2 a 4 Kg",
+            "135 - 215 gr",
+            "110 - 170 gr",
+            "80 - 130 gr",
+            "65 - 105 gr"
+          ],
+          [
+            "De 4 a 6 Kg",
+            "215 - 280 gr",
+            "170 - 225 gr",
+            "130 - 170 gr",
+            "105 - 140 gr"
+          ],
+          [
+            "De 6 a 10 Kg",
+            "280 - 390 gr",
+            "225 - 320 gr",
+            "170 - 240 gr",
+            "140 - 200 gr"
+          ],
+          [
+            "De 10 a 15 Kg",
+            "390 - 520 gr",
+            "320 - 420 gr",
+            "240 - 315 gr",
+            "200 - 260 gr"
+          ],
+          [
+            "De 15 a 20 Kg",
+            "520 - 630 gr",
+            "420 - 510 gr",
+            "315 - 380 gr",
+            "260 - 315 gr"
+          ],
+          [
+            "De 20 a 25 Kg",
+            "—",
+            "510 - 580 gr",
+            "380 - 440 gr",
+            "315 - 370 gr"
+          ],
+          [
+            "De 25 a 30 Kg",
+            "—",
+            "580 - 670 gr",
+            "440 - 500 gr",
+            "370 - 415 gr"
+          ],
+          [
+            "De 30 a 35 Kg",
+            "—",
+            "—",
+            "500 - 550 gr",
+            "415 - 460 gr"
+          ],
+          [
+            "Más de 35 Kg",
+            "—",
+            "—",
+            "—",
+            "460 gr o más"
+          ]
+        ],
+        "comp": [
+          [
+            "—",
+            "12 %"
+          ],
+          [
+            "15 %",
+            "—"
+          ],
+          [
+            "26 %",
+            "—"
+          ],
+          [
+            "—",
+            "4 %"
+          ],
+          [
+            "—",
+            "8 %"
+          ],
+          [
+            "1,2 %",
+            "2 %"
+          ],
+          [
+            "0,6 %",
+            "1,2 %"
+          ]
+        ]
+      },
+      "sortOrder": 1
+    },
+    {
+      "id": "k-peq",
+      "type": "product",
+      "slug": "k-peq",
+      "status": "published",
+      "title": "Kongo Adultos Pequeños",
+      "summary": "Sostiene la masa muscular y un buen funcionamiento cognitivo.",
+      "data": {
+        "id": "k-peq",
+        "img": "uploads/renders26/p-peq.png",
+        "line": "kongo",
+        "especie": "perro",
+        "tipo": "Kongo Adultos",
+        "etapaLabel": "Pequeños",
+        "sabor": "Carne y pollo",
+        "etapa": "adulto",
+        "tamano": "pequeno",
+        "protein": 23,
+        "accent": "#96661F",
+        "benefit": "Sostiene la masa muscular y un buen funcionamiento cognitivo.",
+        "claims": [
+          "Proteínas de alta calidad para sostener la masa muscular y un buen funcionamiento cognitivo.",
+          "Ácidos grasos esenciales, omega 3 y 6, que cuidan la piel y mantienen un pelaje suave y saludable.",
+          "Vitaminas y minerales que refuerzan las defensas y acompañan el equilibrio físico en la etapa adulta."
+        ],
+        "ingredientes": "Harina de carne vacuna, harina de pollo, trigo, maíz, gluten de maíz, germen de maíz, harina de soja, levadura de cerveza, aceite de pollo, aceite de pescado (fuente de omega 3 y 6), pulpa de remolacha (fuente de fructo-oligosacáridos), carbonato de calcio, sal yodada, cloruro de potasio, zeolita, extracto de yucca schidigera, espinaca deshidratada; hidrolizado proteico de pollo, ácido cítrico, tocoferoles, dipropionato de amonio, ácido propiónico; núcleo vitamínico-mineral: vitaminas: A, D3, E, K, B1, B2, B6, B12, ácido fólico, ácido nicotínico, ácido pantoténico, biotina, colina; minerales: zinc, hierro, cobre, yodo, manganeso, selenio.",
+        "pres": [
+          1.5,
+          3,
+          8,
+          15
+        ],
+        "dailyHead": "Peso (kg)",
+        "dailyCols": [
+          "Gramos / día"
+        ],
+        "daily": [
+          [
+            "0,5 a 2 Kg",
+            "30 - 75 gr"
+          ],
+          [
+            "2 a 4 Kg",
+            "75 - 120 gr"
+          ],
+          [
+            "4 a 6 Kg",
+            "120 - 150 gr"
+          ],
+          [
+            "6 a 8 Kg",
+            "150 - 185 gr"
+          ],
+          [
+            "8 a 10 Kg",
+            "185 - 215 gr"
+          ]
+        ],
+        "comp": [
+          [
+            "—",
+            "12 %"
+          ],
+          [
+            "10 %",
+            "—"
+          ],
+          [
+            "23 %",
+            "—"
+          ],
+          [
+            "—",
+            "4 %"
+          ],
+          [
+            "—",
+            "8 %"
+          ],
+          [
+            "1 %",
+            "1,5 %"
+          ],
+          [
+            "0,6 %",
+            "1,2 %"
+          ]
+        ]
+      },
+      "sortOrder": 2
+    },
+    {
+      "id": "k-med",
+      "type": "product",
+      "slug": "k-med",
+      "status": "published",
+      "title": "Kongo Adultos Medianos y Grandes",
+      "summary": "Cuida la estructura corporal y la salud articular.",
+      "data": {
+        "id": "k-med",
+        "img": "uploads/renders26/p-med.png",
+        "line": "kongo",
+        "especie": "perro",
+        "tipo": "Kongo Adultos",
+        "etapaLabel": "Medianos y Grandes",
+        "sabor": "Carne y pollo",
+        "etapa": "adulto",
+        "tamano": "mediano",
+        "protein": 22,
+        "accent": "#6C6F3C",
+        "benefit": "Cuida la estructura corporal y la salud articular.",
+        "claims": [
+          "Proteínas de alta calidad que favorecen el cuidado de la estructura corporal y la agilidad cognitiva.",
+          "Ácidos grasos esenciales, omega 3 y 6, que protegen la piel y contribuyen a la salud articular.",
+          "Vitaminas y minerales que refuerzan las defensas y acompañan el equilibrio físico en la etapa adulta."
+        ],
+        "ingredientes": "Harina de carne vacuna, harina de pollo, aceite de pollo, maíz, gluten de maíz, trigo, germen de maíz, salvado de trigo, harina de soja, arveja, grasa vacuna, levadura de cerveza, pulpa de remolacha (fuente de fructo-oligosacáridos), sal yodada; hidrolizado proteico de pollo, ácido cítrico, tocoferoles, dipropionato de amonio, ácido propiónico; núcleo vitamínico-mineral: vitaminas A, D3, E, K, B1, B2, B6, B12, ácido fólico, ácido nicotínico, ácido pantoténico, biotina, colina; minerales: zinc, hierro, cobre, yodo, manganeso, selenio.",
+        "pres": [
+          1.5,
+          3,
+          8,
+          15,
+          21
+        ],
+        "dailyHead": "Peso (kg)",
+        "dailyCols": [
+          "Gramos / día"
+        ],
+        "daily": [
+          [
+            "5 - 10 Kg",
+            "140 - 220 gr"
+          ],
+          [
+            "11 - 20 Kg",
+            "230 - 350 gr"
+          ],
+          [
+            "21 - 30 Kg",
+            "360 - 460 gr"
+          ],
+          [
+            "31 - 40 Kg",
+            "470 - 550 gr"
+          ],
+          [
+            "41 - 50 Kg",
+            "550 - 640 gr"
+          ],
+          [
+            "51 Kg o más",
+            "650 gr o más"
+          ]
+        ],
+        "comp": [
+          [
+            "—",
+            "12 %"
+          ],
+          [
+            "9 %",
+            "—"
+          ],
+          [
+            "22 %",
+            "—"
+          ],
+          [
+            "—",
+            "4 %"
+          ],
+          [
+            "—",
+            "8 %"
+          ],
+          [
+            "1 %",
+            "1,5 %"
+          ],
+          [
+            "0,6 %",
+            "1,2 %"
+          ]
+        ]
+      },
+      "sortOrder": 3
+    },
+    {
+      "id": "gold-cachorros",
+      "type": "product",
+      "slug": "gold-cachorros",
+      "status": "published",
+      "title": "Kongo Gold Cachorros Todas las Razas",
+      "summary": "Crecimiento sano y nutritivo, con proteína de pollo como ingrediente principal.",
+      "data": {
+        "id": "gold-cachorros",
+        "img": "uploads/renders26/p-gold-cachorros.png",
+        "line": "gold",
+        "especie": "perro",
+        "tipo": "Kongo Gold Cachorros",
+        "etapaLabel": "Todas las Razas",
+        "sabor": "Pollo y vegetales",
+        "etapa": "cachorro",
+        "tamano": "todas",
+        "protein": 28,
+        "accent": "#B67B2E",
+        "benefit": "Crecimiento sano y nutritivo, con proteína de pollo como ingrediente principal.",
+        "claims": [
+          "Crecimiento sano y nutritivo;",
+          "Desarrolla sus huesos y músculos;",
+          "Estimula el rápido aprendizaje;",
+          "Mejora su sistema inmunológico."
+        ],
+        "ingredientes": "Harina de pollo, arroz, gluten de maíz, germen de maíz desgrasado, grasa animal (pollo-cerdo), aceite de pescado (fuente de omega 3 y 6), hidrolizado proteico bovino, pulpa de remolacha (fuente de fructo-oligosacáridos – FOS), leche en polvo, levadura de cerveza, zeolita, sal, extracto de yucca schidigera, manano-oligosacáridos – MOS, nucleótidos de levadura, carbonato de calcio, dipropionato de amonio, ácido propiónico, acetato de zinc, pirofosfato ácido de sodio, glucosamina, condroitin sulfato, ascorbato de manganeso, metionina, ácido cítrico, tocoferoles, antioxidantes naturales: extracto de romero, vitamina C, betacaroteno, licopeno, luteína, polifenoles, taurina, vitaminas: A, D3, E, K, B1, B2, B6, B12, ácido fólico, ácido nicotínico, pantotenato de calcio, biotina, colina, minerales: zinc, hierro, cobre, yodo, selenio.",
+        "pres": [
+          1.5,
+          3,
+          8,
+          15,
+          21
+        ],
+        "dailyHead": "Peso",
+        "dailyCols": [
+          "De 1 a 2 meses",
+          "De 3 a 4 meses",
+          "De 5 a 8 meses",
+          "Hasta 12 meses"
+        ],
+        "daily": [
+          [
+            "Hasta 2 Kg",
+            "130 gr",
+            "105 gr",
+            "80 gr",
+            "65 gr"
+          ],
+          [
+            "De 2 a 4 Kg",
+            "130 - 205 gr",
+            "105 - 160 gr",
+            "80 - 120 gr",
+            "65 - 100 gr"
+          ],
+          [
+            "De 4 a 6 Kg",
+            "205 - 275 gr",
+            "160 - 220 gr",
+            "120 - 160 gr",
+            "100 - 135 gr"
+          ],
+          [
+            "De 6 a 10 Kg",
+            "275 - 380 gr",
+            "220 - 310 gr",
+            "160 - 230 gr",
+            "135 - 200 gr"
+          ],
+          [
+            "De 10 a 15 Kg",
+            "380 - 500 gr",
+            "310 - 405 gr",
+            "230 - 300 gr",
+            "200 - 250 gr"
+          ],
+          [
+            "De 15 a 20 Kg",
+            "500 - 610 gr",
+            "405 - 500 gr",
+            "300 - 370 gr",
+            "250 - 300 gr"
+          ],
+          [
+            "De 20 a 25 Kg",
+            "—",
+            "500 - 570 gr",
+            "370 - 430 gr",
+            "300 - 350 gr"
+          ],
+          [
+            "De 25 a 30 Kg",
+            "—",
+            "570 - 640 gr",
+            "430 - 480 gr",
+            "350 - 400 gr"
+          ],
+          [
+            "De 30 a 35 Kg",
+            "—",
+            "—",
+            "480 - 530 gr",
+            "400 - 450 gr"
+          ],
+          [
+            "Más de 35 Kg",
+            "—",
+            "—",
+            "—",
+            "450 gr o más"
+          ]
+        ],
+        "comp": [
+          [
+            "—",
+            "12 %"
+          ],
+          [
+            "16 %",
+            "—"
+          ],
+          [
+            "28 %",
+            "—"
+          ],
+          [
+            "—",
+            "3,5 %"
+          ],
+          [
+            "—",
+            "8 %"
+          ],
+          [
+            "1,2 %",
+            "2 %"
+          ],
+          [
+            "0,6 %",
+            "1 %"
+          ]
+        ]
+      },
+      "sortOrder": 4
+    },
+    {
+      "id": "gold-peq",
+      "type": "product",
+      "slug": "gold-peq",
+      "status": "published",
+      "title": "Kongo Gold Adultos Pequeños",
+      "summary": "Aporta más energía y colabora con una piel y un pelo más saludable.",
+      "data": {
+        "id": "gold-peq",
+        "img": "uploads/renders26/p-gold-peq.png",
+        "line": "gold",
+        "especie": "perro",
+        "tipo": "Kongo Gold Adultos",
+        "etapaLabel": "Pequeños",
+        "sabor": "Pollo y vegetales",
+        "etapa": "adulto",
+        "tamano": "pequeno",
+        "protein": 28,
+        "accent": "#96661F",
+        "benefit": "Aporta más energía y colabora con una piel y un pelo más saludable.",
+        "claims": [
+          "Mejora el sistema inmunológico;",
+          "Aporta más energía;",
+          "Colabora con una piel y un pelo más saludable;",
+          "Contribuye en el cuidado dental."
+        ],
+        "ingredientes": "Harina de pollo, arroz, gluten de maíz, germen de maíz desgrasado, grasa animal (pollo-cerdo), aceite de pescado (fuente de omega 3 y 6), hidrolizado proteico bovino, pulpa de remolacha (fuente de fructo-oligosacáridos – FOS), levadura de cerveza, zeolita, sal, extracto de yucca schidigera, manano-oligosacáridos – MOS, nucleótidos de levadura, carbonato de calcio, dipropionato de amonio, ácido propiónico, acetato de zinc, pirofosfato ácido de sodio, glucosamina, condroitin sulfato, ascorbato de manganeso, metionina, ácido cítrico, tocoferoles, antioxidantes naturales: extracto de romero, vitamina C, betacaroteno, licopeno, luteína, polifenoles, taurina, vitaminas: A, D3, E, K, B1, B2, B6, B12, ácido fólico, ácido nicotínico, pantotenato de calcio, biotina, colina, minerales: zinc, hierro, cobre, yodo, selenio.",
+        "pres": [
+          3,
+          15
+        ],
+        "dailyHead": "Peso (kg)",
+        "dailyCols": [
+          "Gramos / día"
+        ],
+        "daily": [
+          [
+            "0,5 a 2 Kg",
+            "20 - 60 gr"
+          ],
+          [
+            "2 a 4 Kg",
+            "60 - 90 gr"
+          ],
+          [
+            "4 a 6 Kg",
+            "90 - 120 gr"
+          ],
+          [
+            "6 a 8 Kg",
+            "120 - 145 gr"
+          ],
+          [
+            "8 a 10 Kg",
+            "145 - 170 gr"
+          ]
+        ],
+        "comp": [
+          [
+            "—",
+            "12 %"
+          ],
+          [
+            "14 %",
+            "—"
+          ],
+          [
+            "28 %",
+            "—"
+          ],
+          [
+            "—",
+            "3,5 %"
+          ],
+          [
+            "—",
+            "8 %"
+          ],
+          [
+            "1 %",
+            "1,5 %"
+          ],
+          [
+            "0,6 %",
+            "1,2 %"
+          ]
+        ]
+      },
+      "sortOrder": 5
+    },
+    {
+      "id": "gold-med",
+      "type": "product",
+      "slug": "gold-med",
+      "status": "published",
+      "title": "Kongo Gold Adultos Medianos y Grandes",
+      "summary": "Ayuda a mantener las articulaciones sanas y fuertes.",
+      "data": {
+        "id": "gold-med",
+        "img": "uploads/renders26/p-gold-med.png",
+        "line": "gold",
+        "especie": "perro",
+        "tipo": "Kongo Gold Adultos",
+        "etapaLabel": "Medianos y Grandes",
+        "sabor": "Pollo y vegetales",
+        "etapa": "adulto",
+        "tamano": "mediano",
+        "protein": 26,
+        "accent": "#6C6F3C",
+        "benefit": "Ayuda a mantener las articulaciones sanas y fuertes.",
+        "claims": [
+          "Ayuda a mantener las articulaciones sanas y fuertes.",
+          "Colabora con una piel y un pelo saludables.",
+          "Contribuye en el cuidado dental.",
+          "Aporta más digestibilidad."
+        ],
+        "ingredientes": "Harina de pollo, arroz, gluten de maíz, germen de maíz desgrasado, grasa animal (pollo-cerdo), aceite de pescado (fuente de omega 3 y 6), hidrolizado proteico bovino, pulpa de remolacha (fuente de fructo-oligosacáridos – FOS), levadura de cerveza, zeolita, sal, extracto de yucca schidigera, manano-oligosacáridos – MOS, nucleótidos de levadura, carbonato de calcio, dipropionato de amonio, ácido propiónico, acetato de zinc, pirofosfato ácido de sodio, glucosamina, condroitin sulfato, ascorbato de manganeso, metionina, ácido cítrico, tocoferoles, antioxidantes naturales: extracto de romero, vitamina C, betacaroteno, licopeno, luteína, polifenoles, taurina, vitaminas: A, D3, E, K, B1, B2, B6, B12, ácido fólico, ácido nicotínico, pantotenato de calcio, biotina, colina, minerales: zinc, hierro, cobre, yodo, selenio.",
+        "pres": [
+          1.5,
+          3,
+          15,
+          21
+        ],
+        "dailyHead": "Peso (kg)",
+        "dailyCols": [
+          "Gramos / día"
+        ],
+        "daily": [
+          [
+            "5 - 10 Kg",
+            "110 - 180 gr"
+          ],
+          [
+            "11 - 20 Kg",
+            "190 - 280 gr"
+          ],
+          [
+            "21 - 30 Kg",
+            "290 - 370 gr"
+          ],
+          [
+            "31 - 40 Kg",
+            "380 - 450 gr"
+          ],
+          [
+            "41 - 50 Kg",
+            "460 - 520 gr"
+          ],
+          [
+            "51 Kg o más",
+            "530 gr o más"
+          ]
+        ],
+        "comp": [
+          [
+            "—",
+            "12 %"
+          ],
+          [
+            "13 %",
+            "—"
+          ],
+          [
+            "26 %",
+            "—"
+          ],
+          [
+            "—",
+            "3,5 %"
+          ],
+          [
+            "—",
+            "8 %"
+          ],
+          [
+            "1 %",
+            "1,5 %"
+          ],
+          [
+            "0,6 %",
+            "1,2 %"
+          ]
+        ]
+      },
+      "sortOrder": 6
+    },
+    {
+      "id": "gatitos",
+      "type": "product",
+      "slug": "gatitos",
+      "status": "published",
+      "title": "Kongo Gatitos",
+      "summary": "Acompaña el crecimiento con proteínas de alta calidad y taurina.",
+      "data": {
+        "id": "gatitos",
+        "img": "uploads/renders26/p-gatitos.png",
+        "line": "kongo",
+        "especie": "gato",
+        "tipo": "Kongo",
+        "etapaLabel": "Gatitos",
+        "sabor": "Carne y pollo",
+        "etapa": "cachorro",
+        "tamano": "todas",
+        "protein": 34,
+        "accent": "#97272D",
+        "benefit": "Acompaña el crecimiento con proteínas de alta calidad y taurina.",
+        "claims": [
+          "Proteínas de alta calidad y taurina para preservar la masa muscular, proteger el corazón y mejorar la agilidad cognitiva.",
+          "Ácidos grasos esenciales, omega 3 y 6, que cuidan la piel, las articulaciones y mantienen un pelaje suave y brillante.",
+          "Vitaminas, minerales y prebióticos naturales que fortalecen las defensas y acompañan la vitalidad y el equilibrio físico en cada etapa."
+        ],
+        "ingredientes": "Harina de carne vacuna, harina de pollo, arroz, gluten de maíz, trigo, harina de germen de maíz, aceite de pollo, aceite de pescado (fuente de omega 3 y 6), huevo en polvo, plasma bovino en polvo, hidrolizado proteico de pollo, pulpa de remolacha (fuente de fructo-oligosacáridos – FOS), leche en polvo, levadura de cerveza, sal, carbonato de calcio, zeolita, fosfato de calcio, dióxido de titanio, dipropionato de amonio, ácido propiónico, pirofosfato ácido de sodio, metionina, celulosa en polvo, ácido cítrico, tocoferoles, taurina, extracto de yucca schidigera, vitaminas A, D3, E, K, B1, B2, B6, B12, ácido fólico, ácido nicotínico, ácido pantoténico, biotina, colina, minerales: zinc, hierro, cobre, yodo, manganeso y selenio.",
+        "pres": [
+          0.5,
+          1,
+          3,
+          8
+        ],
+        "dailyHead": "Edad (meses)",
+        "dailyCols": [
+          "Gramos"
+        ],
+        "daily": [
+          [
+            "Hasta 3",
+            "70 - 90 gr"
+          ],
+          [
+            "De 4 a 6",
+            "80 - 100 gr"
+          ],
+          [
+            "De 7 a 8",
+            "90 - 120 gr"
+          ],
+          [
+            "De 9 a 12",
+            "100 - 130 gr"
+          ]
+        ],
+        "comp": [
+          [
+            "—",
+            "12 %"
+          ],
+          [
+            "13 %",
+            "—"
+          ],
+          [
+            "34 %",
+            "—"
+          ],
+          [
+            "—",
+            "4 %"
+          ],
+          [
+            "—",
+            "7,5 %"
+          ],
+          [
+            "0,9 %",
+            "1,2 %"
+          ],
+          [
+            "0,6 %",
+            "0,9 %"
+          ]
+        ]
+      },
+      "sortOrder": 7
+    },
+    {
+      "id": "gatos-adultos",
+      "type": "product",
+      "slug": "gatos-adultos",
+      "status": "published",
+      "title": "Kongo Gatos Adultos",
+      "summary": "Preserva la masa muscular y cuida el corazón con taurina.",
+      "data": {
+        "id": "gatos-adultos",
+        "img": "uploads/renders26/p-gatos-adultos.png",
+        "line": "kongo",
+        "especie": "gato",
+        "tipo": "Kongo Gatos",
+        "etapaLabel": "Adultos",
+        "sabor": "Carne y pollo",
+        "etapa": "adulto",
+        "tamano": "todas",
+        "protein": 30,
+        "accent": "#7A1F24",
+        "benefit": "Preserva la masa muscular y cuida el corazón con taurina.",
+        "claims": [
+          "Proteínas de alta calidad y taurina para preservar la masa muscular, proteger el corazón y mejorar la agilidad cognitiva.",
+          "Ácidos grasos esenciales, omega 3 y 6, que cuidan la piel, las articulaciones y mantienen un pelaje suave y brillante.",
+          "Vitaminas, minerales y prebióticos naturales que fortalecen las defensas y acompañan la vitalidad y el equilibrio físico en cada etapa."
+        ],
+        "ingredientes": "Harina de pescado, harina de pollo, harina de carne vacuna, aceite de pollo, aceite de pescado (fuente de omega 3 y 6), arroz, gluten de maíz, trigo, arveja, harina de soja, levadura de cerveza, hidrolizado proteico de pollo, sal yodada, extracto de yucca schidigera, taurina, metionina, ácido cítrico, tocoferoles, dipropionato de amonio, ácido propiónico; núcleo vitamínico-mineral: vitaminas A, D3, E, K, B1, B2, B6, B12, ácido fólico, ácido nicotínico, ácido pantoténico, biotina, colina, minerales: zinc, hierro, cobre, yodo, manganeso y selenio.",
+        "pres": [
+          0.5,
+          1,
+          3,
+          8,
+          15
+        ],
+        "dailyHead": "Clasificación",
+        "dailyCols": [
+          "Cantidad"
+        ],
+        "daily": [
+          [
+            "Macho",
+            "60 - 110 gr"
+          ],
+          [
+            "Macho castrado",
+            "50 - 90 gr"
+          ],
+          [
+            "Hembra",
+            "60 - 100 gr"
+          ],
+          [
+            "Hembra preñada",
+            "70 - 120 gr"
+          ],
+          [
+            "Hembra lactante",
+            "160 - 280 gr"
+          ],
+          [
+            "Hembra castrada",
+            "50 - 90 gr"
+          ]
+        ],
+        "comp": [
+          [
+            "—",
+            "12 %"
+          ],
+          [
+            "9 %",
+            "—"
+          ],
+          [
+            "30 %",
+            "—"
+          ],
+          [
+            "—",
+            "3 %"
+          ],
+          [
+            "—",
+            "9 %"
+          ],
+          [
+            "1 %",
+            "2 %"
+          ],
+          [
+            "0,6 %",
+            "1,2 %"
+          ]
+        ]
+      },
+      "sortOrder": 8
+    },
+    {
+      "id": "gatos-salmon",
+      "type": "product",
+      "slug": "gatos-salmon",
+      "status": "published",
+      "title": "Kongo Gatos Adultos Salmón y Atún",
+      "summary": "Salmón y atún: piel, articulaciones y pelaje brillante.",
+      "data": {
+        "id": "gatos-salmon",
+        "img": "uploads/renders26/p-gatos-salmon.png",
+        "line": "kongo",
+        "especie": "gato",
+        "tipo": "Kongo Gatos Adultos",
+        "etapaLabel": "Salmón y Atún",
+        "sabor": "Salmón y atún",
+        "etapa": "adulto",
+        "tamano": "todas",
+        "protein": 30,
+        "accent": "#96661F",
+        "benefit": "Salmón y atún: piel, articulaciones y pelaje brillante.",
+        "claims": [
+          "Proteínas de alta calidad y taurina para preservar la masa muscular, proteger el corazón y mejorar la agilidad cognitiva.",
+          "Ácidos grasos esenciales, omega 3 y 6, que cuidan la piel, las articulaciones y mantienen un pelaje suave y brillante.",
+          "Vitaminas, minerales y prebióticos naturales que fortalecen las defensas y acompañan la vitalidad y el equilibrio físico en cada etapa."
+        ],
+        "ingredientes": "Harina de pescado, harina de pollo, harina de carne vacuna, aceite de pollo, aceite de pescado (fuente de omega 3 y 6), arroz, gluten de maíz, trigo, arveja, harina de soja, levadura de cerveza, hidrolizado proteico de pollo, sal yodada, extracto de yucca schidigera, taurina, metionina, ácido cítrico, tocoferoles, dipropionato de amonio, ácido propiónico; núcleo vitamínico-mineral: vitaminas A, D3, E, K, B1, B2, B6, B12, ácido fólico, ácido nicotínico, ácido pantoténico, biotina, colina, minerales: zinc, hierro, cobre, yodo, manganeso y selenio.",
+        "pres": [
+          0.5,
+          1,
+          3,
+          8,
+          15
+        ],
+        "dailyHead": "Clasificación",
+        "dailyCols": [
+          "Cantidad"
+        ],
+        "daily": [
+          [
+            "Macho",
+            "60 - 110 gr"
+          ],
+          [
+            "Macho castrado",
+            "50 - 90 gr"
+          ],
+          [
+            "Hembra",
+            "60 - 100 gr"
+          ],
+          [
+            "Hembra preñada",
+            "70 - 120 gr"
+          ],
+          [
+            "Hembra lactante",
+            "160 - 280 gr"
+          ],
+          [
+            "Hembra castrada",
+            "50 - 90 gr"
+          ]
+        ],
+        "comp": [
+          [
+            "—",
+            "12 %"
+          ],
+          [
+            "9 %",
+            "—"
+          ],
+          [
+            "30 %",
+            "—"
+          ],
+          [
+            "—",
+            "3 %"
+          ],
+          [
+            "—",
+            "9 %"
+          ],
+          [
+            "1 %",
+            "2 %"
+          ],
+          [
+            "0,6 %",
+            "1,2 %"
+          ]
+        ]
+      },
+      "sortOrder": 9
+    }
+  ],
+  "posts": [
+    {
+      "id": "1",
+      "type": "post",
+      "slug": "dia-internacional-del-gato-por-que-cada-vez-mas-personas-eligen-convivir-con-felinos",
+      "status": "published",
+      "title": "Día Internacional del Gato: por qué cada vez más personas eligen convivir con felinos",
+      "summary": "Esta efeméride invita a conocer las razones detrás de una tendencia que crece: cada vez más personas eligen compartir su hogar con felinos, en un contexto de cambios en las formas de vivir, trabajar y vincularse con los animales.",
+      "data": {
+        "id": 1,
+        "cat": "Gatos",
+        "date": "08.08.2026",
+        "title": "Día Internacional del Gato: por qué cada vez más personas eligen convivir con felinos",
+        "excerpt": "Esta efeméride invita a conocer las razones detrás de una tendencia que crece: cada vez más personas eligen compartir su hogar con felinos, en un contexto de cambios en las formas de vivir, trabajar y vincularse con los animales.",
+        "cover": "uploads/opt/nota-gato-cover.webp",
+        "body": [
+          {
+            "t": "Buenos Aires, agosto de 2026 – Cada 8 de agosto se celebra el Día Internacional del Gato, una fecha que busca concientizar sobre el bienestar, el cuidado responsable y la importancia de garantizar una buena calidad de vida a los felinos. Además de homenajearlos, la efeméride invita a reflexionar sobre un fenómeno que crece año tras año: cada vez más personas eligen convivir con gatos."
+          },
+          {
+            "t": "Esta tendencia también se refleja en los datos del Registro Nacional de Perros y Gatos de Old Prince, impulsado además por Kongo y Fawna, que ya reúne 21.736 animales registrados, de los cuales 5.629 corresponden a gatos. Esta iniciativa también busca conocer algunas curiosidades sobre los gatos argentinos. Por ejemplo, entre los nombres más elegidos aparecen Tom, Simón, Simba, Romeo, Pelusa, Olivia, Oliver, Nina, Nala, Milo, Michi, Luna, Lola y Frida."
+          },
+          {
+            "t": "Para Nicolás Fiasche, médico veterinario y Responsable del Área Técnica y Desarrollo de Agroindustrias Baires, este crecimiento responde a una transformación en la forma en que las personas se vinculan con sus animales."
+          },
+          {
+            "quote": true,
+            "t": "Cada vez más personas eligen compartir su vida con gatos porque encuentran en ellos compañeros que se adaptan muy bien a las dinámicas actuales de los hogares. Son animales independientes, pero también afectuosos y capaces de construir vínculos muy profundos con sus familias.",
+            "who": "Nicolás Fiasche · Área Técnica y Desarrollo, Agroindustrias Baires"
+          },
+          {
+            "h": "Qué explica el cambio"
+          },
+          {
+            "t": "¿Qué explica este cambio en la elección de los gatos como mascotas? Para los especialistas, se trata de una tendencia impulsada por distintos cambios sociales y culturales que transformaron la forma en que las personas viven y se vinculan con los animales."
+          },
+          {
+            "t": "Uno de ellos es la aparición de nuevas configuraciones de hogar. Cada vez son más frecuentes los hogares unipersonales, las parejas sin hijos y las viviendas urbanas más compactas. En ese contexto, muchos gatos pueden adaptarse muy bien a la vida dentro de un departamento, siempre que cuenten con estímulos, espacios de descanso, oportunidades de juego y la atención necesaria para desarrollar su comportamiento de manera saludable."
+          },
+          {
+            "t": "A esto se suman rutinas cada vez más variables. Frente a jornadas laborales extensas, esquemas híbridos y una vida cotidiana menos estructurada, el gato suele ser percibido como un compañero compatible con una mayor autonomía doméstica. Sin embargo, esto no significa que necesite menos cuidados que un perro, sino que sus necesidades cotidianas son diferentes y deben ser atendidas con la misma responsabilidad."
+          },
+          {
+            "t": "Otro aspecto que explica este crecimiento es la mayor búsqueda de compañía emocional. Los animales ocupan un lugar cada vez más central dentro de las familias. De hecho, una encuesta difundida en 2025 indicó que ocho de cada diez argentinos conviven con al menos un animal y que el 75 % considera a su perro o gato “como un hijo”, reflejando el vínculo cada vez más estrecho entre las personas y sus mascotas."
+          },
+          {
+            "t": "Por último, también se observa un cambio cultural respecto de los gatos. Hoy existe mayor información sobre su comportamiento y sus necesidades, una creciente difusión de la adopción responsable y una representación mucho más positiva de los felinos en redes sociales. Además, la preferencia por los gatos forma parte de una tendencia internacional: en Europa ya constituyen la población de animales de compañía más numerosa, consolidando un fenómeno que también comienza a observarse con fuerza en Argentina."
+          },
+          {
+            "h": "Popularidad con responsabilidad"
+          },
+          {
+            "t": "En este contexto, los especialistas destacan que, más allá de la creciente popularidad de los gatos, su bienestar depende de una tenencia responsable. Controles veterinarios periódicos, vacunación, castración, espacios adecuados para desarrollar su comportamiento natural y una alimentación balanceada, adaptada a cada etapa de la vida, son pilares fundamentales para garantizar su salud y calidad de vida."
+          },
+          {
+            "note": true,
+            "t": "Acerca de Baires S.A.: la compañía se especializa en la producción de alimento para perros y gatos. Actualmente se posiciona como la empresa líder en tecnología y calidad de la Argentina, alimentando a más de 2 millones de perros y gatos por mes."
+          }
+        ]
+      },
+      "publishedAt": "08.08.2026",
+      "sortOrder": 1
+    }
+  ],
+  "shelters": [
+    {
+      "id": "shelter-1",
+      "type": "shelter",
+      "slug": "shelter-1",
+      "status": "published",
+      "title": "Refugio Patitas Rescatadas A. Korn",
+      "summary": "Alejandro Korn, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "Alejandro Korn",
+        "name": "Refugio Patitas Rescatadas A. Korn",
+        "ig": "refugiopatitasrescatadas"
+      },
+      "sortOrder": 1
+    },
+    {
+      "id": "shelter-2",
+      "type": "shelter",
+      "slug": "shelter-2",
+      "status": "published",
+      "title": "Ranitas Rescatadas",
+      "summary": "Alejandro Korn, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "Alejandro Korn",
+        "name": "Ranitas Rescatadas",
+        "ig": "ranitas_rescatadas"
+      },
+      "sortOrder": 2
+    },
+    {
+      "id": "shelter-3",
+      "type": "shelter",
+      "slug": "shelter-3",
+      "status": "published",
+      "title": "Mascoteros Bahienses",
+      "summary": "Bahía Blanca, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "Bahía Blanca",
+        "name": "Mascoteros Bahienses",
+        "ig": "mascoterosbahienses"
+      },
+      "sortOrder": 3
+    },
+    {
+      "id": "shelter-4",
+      "type": "shelter",
+      "slug": "shelter-4",
+      "status": "published",
+      "title": "House of Michis",
+      "summary": "Bahía Blanca, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "Bahía Blanca",
+        "name": "House of Michis",
+        "ig": "houseofmichis"
+      },
+      "sortOrder": 4
+    },
+    {
+      "id": "shelter-5",
+      "type": "shelter",
+      "slug": "shelter-5",
+      "status": "published",
+      "title": "Huellitas Bahía Blanca",
+      "summary": "Bahía Blanca, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "Bahía Blanca",
+        "name": "Huellitas Bahía Blanca",
+        "ig": "huellitas.bahiablanca"
+      },
+      "sortOrder": 5
+    },
+    {
+      "id": "shelter-6",
+      "type": "shelter",
+      "slug": "shelter-6",
+      "status": "published",
+      "title": "Nora Aguilar — proteccionista independiente",
+      "summary": "Bahía Blanca, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "Bahía Blanca",
+        "name": "Nora Aguilar — proteccionista independiente",
+        "ig": "noritaguilar"
+      },
+      "sortOrder": 6
+    },
+    {
+      "id": "shelter-7",
+      "type": "shelter",
+      "slug": "shelter-7",
+      "status": "published",
+      "title": "Proyecto Animal Bahía Blanca",
+      "summary": "Bahía Blanca, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "Bahía Blanca",
+        "name": "Proyecto Animal Bahía Blanca",
+        "ig": "proyectoanimalbb"
+      },
+      "sortOrder": 7
+    },
+    {
+      "id": "shelter-8",
+      "type": "shelter",
+      "slug": "shelter-8",
+      "status": "published",
+      "title": "SAPAAB",
+      "summary": "Bolívar, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "Bolívar",
+        "name": "SAPAAB",
+        "ig": "sapaab_bolivar"
+      },
+      "sortOrder": 8
+    },
+    {
+      "id": "shelter-9",
+      "type": "shelter",
+      "slug": "shelter-9",
+      "status": "published",
+      "title": "Voluntarios Animalistas de Bragado",
+      "summary": "Bragado, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "Bragado",
+        "name": "Voluntarios Animalistas de Bragado",
+        "ig": "voluntariosanimalistasbragado"
+      },
+      "sortOrder": 9
+    },
+    {
+      "id": "shelter-10",
+      "type": "shelter",
+      "slug": "shelter-10",
+      "status": "published",
+      "title": "Amigo a Casa",
+      "summary": "Buenos Aires, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "Buenos Aires",
+        "name": "Amigo a Casa",
+        "ig": "amigoacasa"
+      },
+      "sortOrder": 10
+    },
+    {
+      "id": "shelter-11",
+      "type": "shelter",
+      "slug": "shelter-11",
+      "status": "published",
+      "title": "Somos Ayudando",
+      "summary": "Cañuelas, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "Cañuelas",
+        "name": "Somos Ayudando",
+        "ig": "somos.ayudando"
+      },
+      "sortOrder": 11
+    },
+    {
+      "id": "shelter-12",
+      "type": "shelter",
+      "slug": "shelter-12",
+      "status": "published",
+      "title": "María de Matos Leitao",
+      "summary": "Cañuelas, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "Cañuelas",
+        "name": "María de Matos Leitao",
+        "ig": "mariadematosleitao"
+      },
+      "sortOrder": 12
+    },
+    {
+      "id": "shelter-13",
+      "type": "shelter",
+      "slug": "shelter-13",
+      "status": "published",
+      "title": "Adopciones Huellitas Callejeras",
+      "summary": "Capitán Sarmiento, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "Capitán Sarmiento",
+        "name": "Adopciones Huellitas Callejeras",
+        "ig": "huellitas67"
+      },
+      "sortOrder": 13
+    },
+    {
+      "id": "shelter-14",
+      "type": "shelter",
+      "slug": "shelter-14",
+      "status": "published",
+      "title": "Cambiando Vidas",
+      "summary": "Carmen de Areco, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "Carmen de Areco",
+        "name": "Cambiando Vidas",
+        "ig": "cambiandovidas.ar"
+      },
+      "sortOrder": 14
+    },
+    {
+      "id": "shelter-15",
+      "type": "shelter",
+      "slug": "shelter-15",
+      "status": "published",
+      "title": "Chivilcotas ONG",
+      "summary": "Chivilcoy, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "Chivilcoy",
+        "name": "Chivilcotas ONG",
+        "ig": ""
+      },
+      "sortOrder": 15
+    },
+    {
+      "id": "shelter-16",
+      "type": "shelter",
+      "slug": "shelter-16",
+      "status": "published",
+      "title": "Mirada de Galgo",
+      "summary": "Chivilcoy, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "Chivilcoy",
+        "name": "Mirada de Galgo",
+        "ig": "miradadegalgo"
+      },
+      "sortOrder": 16
+    },
+    {
+      "id": "shelter-17",
+      "type": "shelter",
+      "slug": "shelter-17",
+      "status": "published",
+      "title": "Galgos Felices Chivilcoy",
+      "summary": "Chivilcoy, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "Chivilcoy",
+        "name": "Galgos Felices Chivilcoy",
+        "ig": "galgosfeliceschivilcoyarg"
+      },
+      "sortOrder": 17
+    },
+    {
+      "id": "shelter-18",
+      "type": "shelter",
+      "slug": "shelter-18",
+      "status": "published",
+      "title": "Huellitas al Rescate Chivilcoy",
+      "summary": "Chivilcoy, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "Chivilcoy",
+        "name": "Huellitas al Rescate Chivilcoy",
+        "ig": "huellitasalrescatechivilcoy"
+      },
+      "sortOrder": 18
+    },
+    {
+      "id": "shelter-19",
+      "type": "shelter",
+      "slug": "shelter-19",
+      "status": "published",
+      "title": "Corazones Voluntarios Chivilcoy",
+      "summary": "Chivilcoy, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "Chivilcoy",
+        "name": "Corazones Voluntarios Chivilcoy",
+        "ig": "voluntarioscorazones"
+      },
+      "sortOrder": 19
+    },
+    {
+      "id": "shelter-20",
+      "type": "shelter",
+      "slug": "shelter-20",
+      "status": "published",
+      "title": "Vidas en Adopción",
+      "summary": "Garín, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "Garín",
+        "name": "Vidas en Adopción",
+        "ig": "vidasenadopcion"
+      },
+      "sortOrder": 20
+    },
+    {
+      "id": "shelter-21",
+      "type": "shelter",
+      "slug": "shelter-21",
+      "status": "published",
+      "title": "Patas en Casa",
+      "summary": "General Las Heras, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "General Las Heras",
+        "name": "Patas en Casa",
+        "ig": "patasencasa"
+      },
+      "sortOrder": 21
+    },
+    {
+      "id": "shelter-22",
+      "type": "shelter",
+      "slug": "shelter-22",
+      "status": "published",
+      "title": "Rabito Contento",
+      "summary": "General Rodríguez, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "General Rodríguez",
+        "name": "Rabito Contento",
+        "ig": "rabitocontento2023"
+      },
+      "sortOrder": 22
+    },
+    {
+      "id": "shelter-23",
+      "type": "shelter",
+      "slug": "shelter-23",
+      "status": "published",
+      "title": "Refugio y Albergue Esperanza",
+      "summary": "General Rodríguez, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "General Rodríguez",
+        "name": "Refugio y Albergue Esperanza",
+        "ig": "refugioyalbergueesperanza"
+      },
+      "sortOrder": 23
+    },
+    {
+      "id": "shelter-24",
+      "type": "shelter",
+      "slug": "shelter-24",
+      "status": "published",
+      "title": "La Tribu de Ale",
+      "summary": "General Rodríguez, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "General Rodríguez",
+        "name": "La Tribu de Ale",
+        "ig": "latribudeale"
+      },
+      "sortOrder": 24
+    },
+    {
+      "id": "shelter-25",
+      "type": "shelter",
+      "slug": "shelter-25",
+      "status": "published",
+      "title": "Ayuda un Galgo",
+      "summary": "La Plata, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "La Plata",
+        "name": "Ayuda un Galgo",
+        "ig": "ayudaungalgo"
+      },
+      "sortOrder": 25
+    },
+    {
+      "id": "shelter-26",
+      "type": "shelter",
+      "slug": "shelter-26",
+      "status": "published",
+      "title": "Adopciones Gatitos LP",
+      "summary": "La Plata, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "La Plata",
+        "name": "Adopciones Gatitos LP",
+        "ig": "adopcionesgatitoslp"
+      },
+      "sortOrder": 26
+    },
+    {
+      "id": "shelter-27",
+      "type": "shelter",
+      "slug": "shelter-27",
+      "status": "published",
+      "title": "APA La Plata — Encontrá un Amigo",
+      "summary": "La Plata, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "La Plata",
+        "name": "APA La Plata — Encontrá un Amigo",
+        "ig": "encontra.un.amigo"
+      },
+      "sortOrder": 27
+    },
+    {
+      "id": "shelter-28",
+      "type": "shelter",
+      "slug": "shelter-28",
+      "status": "published",
+      "title": "Gatolandia La Plata",
+      "summary": "La Plata, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "La Plata",
+        "name": "Gatolandia La Plata",
+        "ig": "gatolandia_laplata"
+      },
+      "sortOrder": 28
+    },
+    {
+      "id": "shelter-29",
+      "type": "shelter",
+      "slug": "shelter-29",
+      "status": "published",
+      "title": "Rescatando Narices Frías",
+      "summary": "La Plata, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "La Plata",
+        "name": "Rescatando Narices Frías",
+        "ig": "rescatandonaricesfrias"
+      },
+      "sortOrder": 29
+    },
+    {
+      "id": "shelter-30",
+      "type": "shelter",
+      "slug": "shelter-30",
+      "status": "published",
+      "title": "Voluntariado El Rincón",
+      "summary": "La Plata, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "La Plata",
+        "name": "Voluntariado El Rincón",
+        "ig": "voluntariado_el_rincon"
+      },
+      "sortOrder": 30
+    },
+    {
+      "id": "shelter-31",
+      "type": "shelter",
+      "slug": "shelter-31",
+      "status": "published",
+      "title": "Rescataditos La Plata",
+      "summary": "La Plata, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "La Plata",
+        "name": "Rescataditos La Plata",
+        "ig": "rescataditoslaplata"
+      },
+      "sortOrder": 31
+    },
+    {
+      "id": "shelter-32",
+      "type": "shelter",
+      "slug": "shelter-32",
+      "status": "published",
+      "title": "Callejeritos de Villa Elisa",
+      "summary": "La Plata, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "La Plata",
+        "name": "Callejeritos de Villa Elisa",
+        "ig": "callejeritosvillaelisa"
+      },
+      "sortOrder": 32
+    },
+    {
+      "id": "shelter-33",
+      "type": "shelter",
+      "slug": "shelter-33",
+      "status": "published",
+      "title": "Casona de Galgos SPA",
+      "summary": "Mar del Plata, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "Mar del Plata",
+        "name": "Casona de Galgos SPA",
+        "ig": "casonadegalgosspa"
+      },
+      "sortOrder": 33
+    },
+    {
+      "id": "shelter-34",
+      "type": "shelter",
+      "slug": "shelter-34",
+      "status": "published",
+      "title": "Los Perritos de María Marto",
+      "summary": "Mar del Plata, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "Mar del Plata",
+        "name": "Los Perritos de María Marto",
+        "ig": "perritosdemaria"
+      },
+      "sortOrder": 34
+    },
+    {
+      "id": "shelter-35",
+      "type": "shelter",
+      "slug": "shelter-35",
+      "status": "published",
+      "title": "El Gran Pirincho MDP",
+      "summary": "Mar del Plata, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "Mar del Plata",
+        "name": "El Gran Pirincho MDP",
+        "ig": "refu_elgranpirincho_mdp"
+      },
+      "sortOrder": 35
+    },
+    {
+      "id": "shelter-36",
+      "type": "shelter",
+      "slug": "shelter-36",
+      "status": "published",
+      "title": "Michis del Amor MDP",
+      "summary": "Mar del Plata, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "Mar del Plata",
+        "name": "Michis del Amor MDP",
+        "ig": "michisdelamor_mdp"
+      },
+      "sortOrder": 36
+    },
+    {
+      "id": "shelter-37",
+      "type": "shelter",
+      "slug": "shelter-37",
+      "status": "published",
+      "title": "Patitas Callejeras",
+      "summary": "Mar del Plata, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "Mar del Plata",
+        "name": "Patitas Callejeras",
+        "ig": "patitascallejeras.casos"
+      },
+      "sortOrder": 37
+    },
+    {
+      "id": "shelter-38",
+      "type": "shelter",
+      "slug": "shelter-38",
+      "status": "published",
+      "title": "Callejeros del Regional",
+      "summary": "Mar del Plata, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "Mar del Plata",
+        "name": "Callejeros del Regional",
+        "ig": "callejerosdelregional"
+      },
+      "sortOrder": 38
+    },
+    {
+      "id": "shelter-39",
+      "type": "shelter",
+      "slug": "shelter-39",
+      "status": "published",
+      "title": "Pampa Nuestra",
+      "summary": "Mar del Plata, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "Mar del Plata",
+        "name": "Pampa Nuestra",
+        "ig": "pampa_nuestra.hogardetransito"
+      },
+      "sortOrder": 39
+    },
+    {
+      "id": "shelter-40",
+      "type": "shelter",
+      "slug": "shelter-40",
+      "status": "published",
+      "title": "Danos una Pata MDP",
+      "summary": "Mar del Plata, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "Mar del Plata",
+        "name": "Danos una Pata MDP",
+        "ig": "danosunapatamdp"
+      },
+      "sortOrder": 40
+    },
+    {
+      "id": "shelter-41",
+      "type": "shelter",
+      "slug": "shelter-41",
+      "status": "published",
+      "title": "La Manada de Julio",
+      "summary": "Marcos Paz, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "Marcos Paz",
+        "name": "La Manada de Julio",
+        "ig": "lamanadadejulio"
+      },
+      "sortOrder": 41
+    },
+    {
+      "id": "shelter-42",
+      "type": "shelter",
+      "slug": "shelter-42",
+      "status": "published",
+      "title": "Hogar Amor de Galgo",
+      "summary": "Mariano Acosta, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "Mariano Acosta",
+        "name": "Hogar Amor de Galgo",
+        "ig": "hogaramordegalgo"
+      },
+      "sortOrder": 42
+    },
+    {
+      "id": "shelter-43",
+      "type": "shelter",
+      "slug": "shelter-43",
+      "status": "published",
+      "title": "UNAN Unidos por Nuestros Animales Navarro",
+      "summary": "Navarro, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "Navarro",
+        "name": "UNAN Unidos por Nuestros Animales Navarro",
+        "ig": "nuestrosanimalesnav"
+      },
+      "sortOrder": 43
+    },
+    {
+      "id": "shelter-44",
+      "type": "shelter",
+      "slug": "shelter-44",
+      "status": "published",
+      "title": "Rescataditos Pergamino",
+      "summary": "Pergamino, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "Pergamino",
+        "name": "Rescataditos Pergamino",
+        "ig": "rescataditospergamino"
+      },
+      "sortOrder": 44
+    },
+    {
+      "id": "shelter-45",
+      "type": "shelter",
+      "slug": "shelter-45",
+      "status": "published",
+      "title": "Saltitos Felices",
+      "summary": "Pilar, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "Pilar",
+        "name": "Saltitos Felices",
+        "ig": "hogardeanimalessaltitosfelices"
+      },
+      "sortOrder": 45
+    },
+    {
+      "id": "shelter-46",
+      "type": "shelter",
+      "slug": "shelter-46",
+      "status": "published",
+      "title": "Mascotas Pilar del Este",
+      "summary": "Pilar, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "Pilar",
+        "name": "Mascotas Pilar del Este",
+        "ig": "mascotaspilardeleste"
+      },
+      "sortOrder": 46
+    },
+    {
+      "id": "shelter-47",
+      "type": "shelter",
+      "slug": "shelter-47",
+      "status": "published",
+      "title": "Tropilla al Rescate",
+      "summary": "Pilar, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "Pilar",
+        "name": "Tropilla al Rescate",
+        "ig": "tropilla.al.rescate"
+      },
+      "sortOrder": 47
+    },
+    {
+      "id": "shelter-48",
+      "type": "shelter",
+      "slug": "shelter-48",
+      "status": "published",
+      "title": "Patitas Pinamar",
+      "summary": "Pinamar, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "Pinamar",
+        "name": "Patitas Pinamar",
+        "ig": "patitaspinamar"
+      },
+      "sortOrder": 48
+    },
+    {
+      "id": "shelter-49",
+      "type": "shelter",
+      "slug": "shelter-49",
+      "status": "published",
+      "title": "Los Luceritos de Presidente Derqui",
+      "summary": "Presidente Derqui, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "Presidente Derqui",
+        "name": "Los Luceritos de Presidente Derqui",
+        "ig": "losluceritosptederquic"
+      },
+      "sortOrder": 49
+    },
+    {
+      "id": "shelter-50",
+      "type": "shelter",
+      "slug": "shelter-50",
+      "status": "published",
+      "title": "Asociación Protectora de Animales de Salto",
+      "summary": "Salto, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "Salto",
+        "name": "Asociación Protectora de Animales de Salto",
+        "ig": "cuidandohuellas"
+      },
+      "sortOrder": 50
+    },
+    {
+      "id": "shelter-51",
+      "type": "shelter",
+      "slug": "shelter-51",
+      "status": "published",
+      "title": "Refugio San Vicente",
+      "summary": "San Vicente, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "San Vicente",
+        "name": "Refugio San Vicente",
+        "ig": "refugiosanvicente"
+      },
+      "sortOrder": 51
+    },
+    {
+      "id": "shelter-52",
+      "type": "shelter",
+      "slug": "shelter-52",
+      "status": "published",
+      "title": "Patitas de San Vicente",
+      "summary": "San Vicente, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "San Vicente",
+        "name": "Patitas de San Vicente",
+        "ig": "refupatitassanvicente"
+      },
+      "sortOrder": 52
+    },
+    {
+      "id": "shelter-53",
+      "type": "shelter",
+      "slug": "shelter-53",
+      "status": "published",
+      "title": "PACMA Tres Arroyos",
+      "summary": "Tres Arroyos, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "Tres Arroyos",
+        "name": "PACMA Tres Arroyos",
+        "ig": "refugiocaninopacma"
+      },
+      "sortOrder": 53
+    },
+    {
+      "id": "shelter-54",
+      "type": "shelter",
+      "slug": "shelter-54",
+      "status": "published",
+      "title": "APAADE Villa Gesell",
+      "summary": "Villa Gesell, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "Villa Gesell",
+        "name": "APAADE Villa Gesell",
+        "ig": "refugioapaade"
+      },
+      "sortOrder": 54
+    },
+    {
+      "id": "shelter-55",
+      "type": "shelter",
+      "slug": "shelter-55",
+      "status": "published",
+      "title": "Animales en Adopción Zárate",
+      "summary": "Zárate, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "Zárate",
+        "name": "Animales en Adopción Zárate",
+        "ig": "animalesenadopcionzarate"
+      },
+      "sortOrder": 55
+    },
+    {
+      "id": "shelter-56",
+      "type": "shelter",
+      "slug": "shelter-56",
+      "status": "published",
+      "title": "S.O.S. Galgos de Zárate",
+      "summary": "Zárate, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "Zárate",
+        "name": "S.O.S. Galgos de Zárate",
+        "ig": "sosgalgosdezarate"
+      },
+      "sortOrder": 56
+    },
+    {
+      "id": "shelter-57",
+      "type": "shelter",
+      "slug": "shelter-57",
+      "status": "published",
+      "title": "Adopciones Responsables BA",
+      "summary": "Zárate, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "Zárate",
+        "name": "Adopciones Responsables BA",
+        "ig": "adopciones.responsablesba"
+      },
+      "sortOrder": 57
+    },
+    {
+      "id": "shelter-58",
+      "type": "shelter",
+      "slug": "shelter-58",
+      "status": "published",
+      "title": "Sociedad Protectora de Animales de Zárate",
+      "summary": "Zárate, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "Zárate",
+        "name": "Sociedad Protectora de Animales de Zárate",
+        "ig": "protectoradeanimaleszarate"
+      },
+      "sortOrder": 58
+    },
+    {
+      "id": "shelter-59",
+      "type": "shelter",
+      "slug": "shelter-59",
+      "status": "published",
+      "title": "Patitas Zona Norte",
+      "summary": "Zona Norte, Buenos Aires",
+      "data": {
+        "prov": "Buenos Aires",
+        "loc": "Zona Norte",
+        "name": "Patitas Zona Norte",
+        "ig": "patitaszonanorte"
+      },
+      "sortOrder": 59
+    },
+    {
+      "id": "shelter-60",
+      "type": "shelter",
+      "slug": "shelter-60",
+      "status": "published",
+      "title": "Bicheros S.P. Peña - V. Raffo",
+      "summary": "Tres de Febrero, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Tres de Febrero",
+        "name": "Bicheros S.P. Peña - V. Raffo",
+        "ig": "bicheros_sp_vr"
+      },
+      "sortOrder": 60
+    },
+    {
+      "id": "shelter-61",
+      "type": "shelter",
+      "slug": "shelter-61",
+      "status": "published",
+      "title": "Gatos Adrogué",
+      "summary": "Adrogué, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Adrogué",
+        "name": "Gatos Adrogué",
+        "ig": "gatosadrogue"
+      },
+      "sortOrder": 61
+    },
+    {
+      "id": "shelter-62",
+      "type": "shelter",
+      "slug": "shelter-62",
+      "status": "published",
+      "title": "Proyecto Hocicos Contentos",
+      "summary": "Agronomía, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Agronomía",
+        "name": "Proyecto Hocicos Contentos",
+        "ig": "proyecto.hocicos.contentos"
+      },
+      "sortOrder": 62
+    },
+    {
+      "id": "shelter-63",
+      "type": "shelter",
+      "slug": "shelter-63",
+      "status": "published",
+      "title": "AyudaCan",
+      "summary": "Almagro, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Almagro",
+        "name": "AyudaCan",
+        "ig": "ayudacan"
+      },
+      "sortOrder": 63
+    },
+    {
+      "id": "shelter-64",
+      "type": "shelter",
+      "slug": "shelter-64",
+      "status": "published",
+      "title": "Amores Callejeros Don Orione",
+      "summary": "Almirante Brown, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Almirante Brown",
+        "name": "Amores Callejeros Don Orione",
+        "ig": "amorescallejeros2_"
+      },
+      "sortOrder": 64
+    },
+    {
+      "id": "shelter-65",
+      "type": "shelter",
+      "slug": "shelter-65",
+      "status": "published",
+      "title": "Bigotes Felices",
+      "summary": "Avellaneda, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Avellaneda",
+        "name": "Bigotes Felices",
+        "ig": "bigotes._felices"
+      },
+      "sortOrder": 65
+    },
+    {
+      "id": "shelter-66",
+      "type": "shelter",
+      "slug": "shelter-66",
+      "status": "published",
+      "title": "Amores en Adopción",
+      "summary": "Avellaneda, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Avellaneda",
+        "name": "Amores en Adopción",
+        "ig": "silviabeatriz.rioschirino"
+      },
+      "sortOrder": 66
+    },
+    {
+      "id": "shelter-67",
+      "type": "shelter",
+      "slug": "shelter-67",
+      "status": "published",
+      "title": "Gatitos de Avellaneda",
+      "summary": "Avellaneda, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Avellaneda",
+        "name": "Gatitos de Avellaneda",
+        "ig": "gatitosdeavellaneda"
+      },
+      "sortOrder": 67
+    },
+    {
+      "id": "shelter-68",
+      "type": "shelter",
+      "slug": "shelter-68",
+      "status": "published",
+      "title": "Hogar de Rescate y Protección Lourdes",
+      "summary": "Balvanera, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Balvanera",
+        "name": "Hogar de Rescate y Protección Lourdes",
+        "ig": "hogardeproteccionlourdes"
+      },
+      "sortOrder": 68
+    },
+    {
+      "id": "shelter-69",
+      "type": "shelter",
+      "slug": "shelter-69",
+      "status": "published",
+      "title": "Trapito'S",
+      "summary": "Balvanera, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Balvanera",
+        "name": "Trapito'S",
+        "ig": "trapitosyco"
+      },
+      "sortOrder": 69
+    },
+    {
+      "id": "shelter-70",
+      "type": "shelter",
+      "slug": "shelter-70",
+      "status": "published",
+      "title": "Catdopciones",
+      "summary": "Barracas, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Barracas",
+        "name": "Catdopciones",
+        "ig": "catdopciones"
+      },
+      "sortOrder": 70
+    },
+    {
+      "id": "shelter-71",
+      "type": "shelter",
+      "slug": "shelter-71",
+      "status": "published",
+      "title": "Los Bebés Gorditos",
+      "summary": "Barracas, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Barracas",
+        "name": "Los Bebés Gorditos",
+        "ig": "losbebesgorditos"
+      },
+      "sortOrder": 71
+    },
+    {
+      "id": "shelter-72",
+      "type": "shelter",
+      "slug": "shelter-72",
+      "status": "published",
+      "title": "Refugio de Silvia",
+      "summary": "Barracas, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Barracas",
+        "name": "Refugio de Silvia",
+        "ig": "refugiodesilvia"
+      },
+      "sortOrder": 72
+    },
+    {
+      "id": "shelter-73",
+      "type": "shelter",
+      "slug": "shelter-73",
+      "status": "published",
+      "title": "Patitas al Rescate",
+      "summary": "Belgrano, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Belgrano",
+        "name": "Patitas al Rescate",
+        "ig": "patitasalrescate"
+      },
+      "sortOrder": 73
+    },
+    {
+      "id": "shelter-74",
+      "type": "shelter",
+      "slug": "shelter-74",
+      "status": "published",
+      "title": "El Campito Felino",
+      "summary": "Belgrano, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Belgrano",
+        "name": "El Campito Felino",
+        "ig": "elcampitofelino"
+      },
+      "sortOrder": 74
+    },
+    {
+      "id": "shelter-75",
+      "type": "shelter",
+      "slug": "shelter-75",
+      "status": "published",
+      "title": "Pandilla Animal",
+      "summary": "Belgrano, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Belgrano",
+        "name": "Pandilla Animal",
+        "ig": "pandillaanimal"
+      },
+      "sortOrder": 75
+    },
+    {
+      "id": "shelter-76",
+      "type": "shelter",
+      "slug": "shelter-76",
+      "status": "published",
+      "title": "Patitas Unidas Tigre",
+      "summary": "Benavídez, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Benavídez",
+        "name": "Patitas Unidas Tigre",
+        "ig": "patitas_unidas_tigre"
+      },
+      "sortOrder": 76
+    },
+    {
+      "id": "shelter-77",
+      "type": "shelter",
+      "slug": "shelter-77",
+      "status": "published",
+      "title": "Salvemos a las Patitas",
+      "summary": "Berazategui, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Berazategui",
+        "name": "Salvemos a las Patitas",
+        "ig": "salvemosalaspatitas"
+      },
+      "sortOrder": 77
+    },
+    {
+      "id": "shelter-78",
+      "type": "shelter",
+      "slug": "shelter-78",
+      "status": "published",
+      "title": "Refugio Hogar Cristian",
+      "summary": "Bernal Oeste, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Bernal Oeste",
+        "name": "Refugio Hogar Cristian",
+        "ig": "refugio_hogar_cristian"
+      },
+      "sortOrder": 78
+    },
+    {
+      "id": "shelter-79",
+      "type": "shelter",
+      "slug": "shelter-79",
+      "status": "published",
+      "title": "Refugio Lucero de Raúl",
+      "summary": "Boedo, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Boedo",
+        "name": "Refugio Lucero de Raúl",
+        "ig": "refugio.lucero"
+      },
+      "sortOrder": 79
+    },
+    {
+      "id": "shelter-80",
+      "type": "shelter",
+      "slug": "shelter-80",
+      "status": "published",
+      "title": "Callejeros Casa Quiere",
+      "summary": "Boedo, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Boedo",
+        "name": "Callejeros Casa Quiere",
+        "ig": "callejerocasaquiere"
+      },
+      "sortOrder": 80
+    },
+    {
+      "id": "shelter-81",
+      "type": "shelter",
+      "slug": "shelter-81",
+      "status": "published",
+      "title": "Rescatando 4 Patas",
+      "summary": "Boedo, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Boedo",
+        "name": "Rescatando 4 Patas",
+        "ig": "rescatando4patas_"
+      },
+      "sortOrder": 81
+    },
+    {
+      "id": "shelter-82",
+      "type": "shelter",
+      "slug": "shelter-82",
+      "status": "published",
+      "title": "Gatisenial",
+      "summary": "CABA, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "CABA",
+        "name": "Gatisenial",
+        "ig": "gatisenial"
+      },
+      "sortOrder": 82
+    },
+    {
+      "id": "shelter-83",
+      "type": "shelter",
+      "slug": "shelter-83",
+      "status": "published",
+      "title": "Bicho Feliz",
+      "summary": "CABA, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "CABA",
+        "name": "Bicho Feliz",
+        "ig": "holabichofeliz"
+      },
+      "sortOrder": 83
+    },
+    {
+      "id": "shelter-84",
+      "type": "shelter",
+      "slug": "shelter-84",
+      "status": "published",
+      "title": "Las Antonias Rescate",
+      "summary": "CABA, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "CABA",
+        "name": "Las Antonias Rescate",
+        "ig": "lasantonias.rescates"
+      },
+      "sortOrder": 84
+    },
+    {
+      "id": "shelter-85",
+      "type": "shelter",
+      "slug": "shelter-85",
+      "status": "published",
+      "title": "Zaguates Refugio",
+      "summary": "CABA, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "CABA",
+        "name": "Zaguates Refugio",
+        "ig": "zaguatesrefugio"
+      },
+      "sortOrder": 85
+    },
+    {
+      "id": "shelter-86",
+      "type": "shelter",
+      "slug": "shelter-86",
+      "status": "published",
+      "title": "Adopta un Galgo en Argentina",
+      "summary": "CABA, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "CABA",
+        "name": "Adopta un Galgo en Argentina",
+        "ig": "adoptaungalgo"
+      },
+      "sortOrder": 86
+    },
+    {
+      "id": "shelter-87",
+      "type": "shelter",
+      "slug": "shelter-87",
+      "status": "published",
+      "title": "Yo Adopto Argentina",
+      "summary": "CABA, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "CABA",
+        "name": "Yo Adopto Argentina",
+        "ig": "yoadoptoargentina"
+      },
+      "sortOrder": 87
+    },
+    {
+      "id": "shelter-88",
+      "type": "shelter",
+      "slug": "shelter-88",
+      "status": "published",
+      "title": "Rescatando Peluditos",
+      "summary": "Zona Norte, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Zona Norte",
+        "name": "Rescatando Peluditos",
+        "ig": "rescatando.peluditos_bsas"
+      },
+      "sortOrder": 88
+    },
+    {
+      "id": "shelter-89",
+      "type": "shelter",
+      "slug": "shelter-89",
+      "status": "published",
+      "title": "Galgos Mágicos",
+      "summary": "Caballito, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Caballito",
+        "name": "Galgos Mágicos",
+        "ig": "galgosmagicos"
+      },
+      "sortOrder": 89
+    },
+    {
+      "id": "shelter-90",
+      "type": "shelter",
+      "slug": "shelter-90",
+      "status": "published",
+      "title": "Gatos de Caballito",
+      "summary": "Caballito, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Caballito",
+        "name": "Gatos de Caballito",
+        "ig": "gatos_de_caballito"
+      },
+      "sortOrder": 90
+    },
+    {
+      "id": "shelter-91",
+      "type": "shelter",
+      "slug": "shelter-91",
+      "status": "published",
+      "title": "Huellas sin Techo",
+      "summary": "Caballito, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Caballito",
+        "name": "Huellas sin Techo",
+        "ig": "huellassintecho"
+      },
+      "sortOrder": 91
+    },
+    {
+      "id": "shelter-92",
+      "type": "shelter",
+      "slug": "shelter-92",
+      "status": "published",
+      "title": "Vero Amor Perruno",
+      "summary": "Caballito, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Caballito",
+        "name": "Vero Amor Perruno",
+        "ig": "vero_amorperruno"
+      },
+      "sortOrder": 92
+    },
+    {
+      "id": "shelter-93",
+      "type": "shelter",
+      "slug": "shelter-93",
+      "status": "published",
+      "title": "Refugio Hogar de Nené",
+      "summary": "Castelar, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Castelar",
+        "name": "Refugio Hogar de Nené",
+        "ig": "refugio_hogardenene"
+      },
+      "sortOrder": 93
+    },
+    {
+      "id": "shelter-94",
+      "type": "shelter",
+      "slug": "shelter-94",
+      "status": "published",
+      "title": "Gatitos Castelar",
+      "summary": "Castelar, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Castelar",
+        "name": "Gatitos Castelar",
+        "ig": "gatitos_castelar"
+      },
+      "sortOrder": 94
+    },
+    {
+      "id": "shelter-95",
+      "type": "shelter",
+      "slug": "shelter-95",
+      "status": "published",
+      "title": "Ayuda Animal de Ciudad Evita",
+      "summary": "Ciudad Evita, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Ciudad Evita",
+        "name": "Ayuda Animal de Ciudad Evita",
+        "ig": "ayuda_animal.ok"
+      },
+      "sortOrder": 95
+    },
+    {
+      "id": "shelter-96",
+      "type": "shelter",
+      "slug": "shelter-96",
+      "status": "published",
+      "title": "Huellas de un Amor Infinito",
+      "summary": "Ciudad Evita, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Ciudad Evita",
+        "name": "Huellas de un Amor Infinito",
+        "ig": "huellas_deamor_infinito_bsas"
+      },
+      "sortOrder": 96
+    },
+    {
+      "id": "shelter-97",
+      "type": "shelter",
+      "slug": "shelter-97",
+      "status": "published",
+      "title": "Patitas x Ahí",
+      "summary": "Ciudadela, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Ciudadela",
+        "name": "Patitas x Ahí",
+        "ig": "patitasxahi"
+      },
+      "sortOrder": 97
+    },
+    {
+      "id": "shelter-98",
+      "type": "shelter",
+      "slug": "shelter-98",
+      "status": "published",
+      "title": "Solar de Bigotes",
+      "summary": "Ciudadela, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Ciudadela",
+        "name": "Solar de Bigotes",
+        "ig": "solardebigotes"
+      },
+      "sortOrder": 98
+    },
+    {
+      "id": "shelter-99",
+      "type": "shelter",
+      "slug": "shelter-99",
+      "status": "published",
+      "title": "Gatitos Ciudadela",
+      "summary": "Ciudadela, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Ciudadela",
+        "name": "Gatitos Ciudadela",
+        "ig": "gatitosciudadela"
+      },
+      "sortOrder": 99
+    },
+    {
+      "id": "shelter-100",
+      "type": "shelter",
+      "slug": "shelter-100",
+      "status": "published",
+      "title": "Gatitos en las Vías",
+      "summary": "Colegiales, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Colegiales",
+        "name": "Gatitos en las Vías",
+        "ig": "gatitosenlasvias"
+      },
+      "sortOrder": 100
+    },
+    {
+      "id": "shelter-101",
+      "type": "shelter",
+      "slug": "shelter-101",
+      "status": "published",
+      "title": "Gatitos de Avilés",
+      "summary": "Colegiales, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Colegiales",
+        "name": "Gatitos de Avilés",
+        "ig": "gatitosdeaviles"
+      },
+      "sortOrder": 101
+    },
+    {
+      "id": "shelter-102",
+      "type": "shelter",
+      "slug": "shelter-102",
+      "status": "published",
+      "title": "Mascotopia Adopciones",
+      "summary": "Villa Devoto, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Villa Devoto",
+        "name": "Mascotopia Adopciones",
+        "ig": "mascotopia_adopciones"
+      },
+      "sortOrder": 102
+    },
+    {
+      "id": "shelter-103",
+      "type": "shelter",
+      "slug": "shelter-103",
+      "status": "published",
+      "title": "Dog Sud Help",
+      "summary": "Dock Sud, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Dock Sud",
+        "name": "Dog Sud Help",
+        "ig": "dogsudhelp"
+      },
+      "sortOrder": 103
+    },
+    {
+      "id": "shelter-104",
+      "type": "shelter",
+      "slug": "shelter-104",
+      "status": "published",
+      "title": "Adopciones en CABA",
+      "summary": "Dock Sud, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Dock Sud",
+        "name": "Adopciones en CABA",
+        "ig": "adopcionesencaba"
+      },
+      "sortOrder": 104
+    },
+    {
+      "id": "shelter-105",
+      "type": "shelter",
+      "slug": "shelter-105",
+      "status": "published",
+      "title": "Cuchitas Dock Sud",
+      "summary": "Dock Sud, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Dock Sud",
+        "name": "Cuchitas Dock Sud",
+        "ig": "cuchitasdocksud"
+      },
+      "sortOrder": 105
+    },
+    {
+      "id": "shelter-106",
+      "type": "shelter",
+      "slug": "shelter-106",
+      "status": "published",
+      "title": "Hocicos en Espera",
+      "summary": "Don Torcuato, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Don Torcuato",
+        "name": "Hocicos en Espera",
+        "ig": "hocicosenespera"
+      },
+      "sortOrder": 106
+    },
+    {
+      "id": "shelter-107",
+      "type": "shelter",
+      "slug": "shelter-107",
+      "status": "published",
+      "title": "Sinkka Chiri",
+      "summary": "Ensenada, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Ensenada",
+        "name": "Sinkka Chiri",
+        "ig": "sinkkachiri"
+      },
+      "sortOrder": 107
+    },
+    {
+      "id": "shelter-108",
+      "type": "shelter",
+      "slug": "shelter-108",
+      "status": "published",
+      "title": "Ayuda Animal Ezeiza",
+      "summary": "Ezeiza, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Ezeiza",
+        "name": "Ayuda Animal Ezeiza",
+        "ig": "ayuda_para_animales_de_ezeiza"
+      },
+      "sortOrder": 108
+    },
+    {
+      "id": "shelter-109",
+      "type": "shelter",
+      "slug": "shelter-109",
+      "status": "published",
+      "title": "Por Ellos Ezeiza",
+      "summary": "Ezeiza, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Ezeiza",
+        "name": "Por Ellos Ezeiza",
+        "ig": ""
+      },
+      "sortOrder": 109
+    },
+    {
+      "id": "shelter-110",
+      "type": "shelter",
+      "slug": "shelter-110",
+      "status": "published",
+      "title": "Patitas Rescatadas Andy",
+      "summary": "Florencio Varela, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Florencio Varela",
+        "name": "Patitas Rescatadas Andy",
+        "ig": "patitasrescatadas.andy"
+      },
+      "sortOrder": 110
+    },
+    {
+      "id": "shelter-111",
+      "type": "shelter",
+      "slug": "shelter-111",
+      "status": "published",
+      "title": "Gatos y Perros de Flores",
+      "summary": "Flores, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Flores",
+        "name": "Gatos y Perros de Flores",
+        "ig": "gatosyperrosdeflores"
+      },
+      "sortOrder": 111
+    },
+    {
+      "id": "shelter-112",
+      "type": "shelter",
+      "slug": "shelter-112",
+      "status": "published",
+      "title": "Rescate de Patitas",
+      "summary": "Flores, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Flores",
+        "name": "Rescate de Patitas",
+        "ig": "rescatedepatitas"
+      },
+      "sortOrder": 112
+    },
+    {
+      "id": "shelter-113",
+      "type": "shelter",
+      "slug": "shelter-113",
+      "status": "published",
+      "title": "Los Callejeritos de Flores",
+      "summary": "Flores, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Flores",
+        "name": "Los Callejeritos de Flores",
+        "ig": "loscallejeritosdeflores"
+      },
+      "sortOrder": 113
+    },
+    {
+      "id": "shelter-114",
+      "type": "shelter",
+      "slug": "shelter-114",
+      "status": "published",
+      "title": "Hogar de Lactantes",
+      "summary": "Flores, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Flores",
+        "name": "Hogar de Lactantes",
+        "ig": "hogardelactantes"
+      },
+      "sortOrder": 114
+    },
+    {
+      "id": "shelter-115",
+      "type": "shelter",
+      "slug": "shelter-115",
+      "status": "published",
+      "title": "Patitas al Hogar",
+      "summary": "Francisco Álvarez, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Francisco Álvarez",
+        "name": "Patitas al Hogar",
+        "ig": "patitasalhogar"
+      },
+      "sortOrder": 115
+    },
+    {
+      "id": "shelter-116",
+      "type": "shelter",
+      "slug": "shelter-116",
+      "status": "published",
+      "title": "Adopciones Casa de Sol",
+      "summary": "Francisco Álvarez, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Francisco Álvarez",
+        "name": "Adopciones Casa de Sol",
+        "ig": "adopcionescasadesol"
+      },
+      "sortOrder": 116
+    },
+    {
+      "id": "shelter-117",
+      "type": "shelter",
+      "slug": "shelter-117",
+      "status": "published",
+      "title": "Paraíso de Galgos",
+      "summary": "Glew, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Glew",
+        "name": "Paraíso de Galgos",
+        "ig": "paraisodegalgosch"
+      },
+      "sortOrder": 117
+    },
+    {
+      "id": "shelter-118",
+      "type": "shelter",
+      "slug": "shelter-118",
+      "status": "published",
+      "title": "A.D.A.S.",
+      "summary": "Glew, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Glew",
+        "name": "A.D.A.S.",
+        "ig": "adasporlosanimales"
+      },
+      "sortOrder": 118
+    },
+    {
+      "id": "shelter-119",
+      "type": "shelter",
+      "slug": "shelter-119",
+      "status": "published",
+      "title": "Callejeritos Gonnet",
+      "summary": "Gonnet, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Gonnet",
+        "name": "Callejeritos Gonnet",
+        "ig": "callejeritos.gonnet"
+      },
+      "sortOrder": 119
+    },
+    {
+      "id": "shelter-120",
+      "type": "shelter",
+      "slug": "shelter-120",
+      "status": "published",
+      "title": "Faby Dandolo Rescatados",
+      "summary": "González Catán, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "González Catán",
+        "name": "Faby Dandolo Rescatados",
+        "ig": "fabydandolo.rescatados"
+      },
+      "sortOrder": 120
+    },
+    {
+      "id": "shelter-121",
+      "type": "shelter",
+      "slug": "shelter-121",
+      "status": "published",
+      "title": "Rescatdog Pequeño Refugio Hogar",
+      "summary": "González Catán, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "González Catán",
+        "name": "Rescatdog Pequeño Refugio Hogar",
+        "ig": "rescatdog_"
+      },
+      "sortOrder": 121
+    },
+    {
+      "id": "shelter-122",
+      "type": "shelter",
+      "slug": "shelter-122",
+      "status": "published",
+      "title": "Esperando una Cucha",
+      "summary": "González Catán, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "González Catán",
+        "name": "Esperando una Cucha",
+        "ig": "esperando.una.cucha"
+      },
+      "sortOrder": 122
+    },
+    {
+      "id": "shelter-123",
+      "type": "shelter",
+      "slug": "shelter-123",
+      "status": "published",
+      "title": "Rescatancitos",
+      "summary": "González Catán, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "González Catán",
+        "name": "Rescatancitos",
+        "ig": "rescatancitos"
+      },
+      "sortOrder": 123
+    },
+    {
+      "id": "shelter-124",
+      "type": "shelter",
+      "slug": "shelter-124",
+      "status": "published",
+      "title": "Detrás de tus Huellas",
+      "summary": "González Catán, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "González Catán",
+        "name": "Detrás de tus Huellas",
+        "ig": "detrasdetushuellas"
+      },
+      "sortOrder": 124
+    },
+    {
+      "id": "shelter-125",
+      "type": "shelter",
+      "slug": "shelter-125",
+      "status": "published",
+      "title": "Una Patita Amiga Hogar Canino",
+      "summary": "González Catán, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "González Catán",
+        "name": "Una Patita Amiga Hogar Canino",
+        "ig": "unapatitaamigahogarcanino12"
+      },
+      "sortOrder": 125
+    },
+    {
+      "id": "shelter-126",
+      "type": "shelter",
+      "slug": "shelter-126",
+      "status": "published",
+      "title": "Polo Animal",
+      "summary": "General Rodríguez, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "General Rodríguez",
+        "name": "Polo Animal",
+        "ig": "polo.animal.hogar.gr"
+      },
+      "sortOrder": 126
+    },
+    {
+      "id": "shelter-127",
+      "type": "shelter",
+      "slug": "shelter-127",
+      "status": "published",
+      "title": "Fundación Viva la Vida",
+      "summary": "Hurlingham, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Hurlingham",
+        "name": "Fundación Viva la Vida",
+        "ig": "fundacionvivalavida.argentina"
+      },
+      "sortOrder": 127
+    },
+    {
+      "id": "shelter-128",
+      "type": "shelter",
+      "slug": "shelter-128",
+      "status": "published",
+      "title": "Hogar Guerreritos",
+      "summary": "Ingeniero Budge, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Ingeniero Budge",
+        "name": "Hogar Guerreritos",
+        "ig": "los.guerreritos"
+      },
+      "sortOrder": 128
+    },
+    {
+      "id": "shelter-129",
+      "type": "shelter",
+      "slug": "shelter-129",
+      "status": "published",
+      "title": "Huellitas sin Hogar BsAs",
+      "summary": "Ingeniero Adolfo Sourdeaux, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Ingeniero Adolfo Sourdeaux",
+        "name": "Huellitas sin Hogar BsAs",
+        "ig": "huellitassinhogarbsas"
+      },
+      "sortOrder": 129
+    },
+    {
+      "id": "shelter-130",
+      "type": "shelter",
+      "slug": "shelter-130",
+      "status": "published",
+      "title": "Patitas de la UNLaM",
+      "summary": "Ituzaingó, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Ituzaingó",
+        "name": "Patitas de la UNLaM",
+        "ig": "patitasdelaunlam"
+      },
+      "sortOrder": 130
+    },
+    {
+      "id": "shelter-131",
+      "type": "shelter",
+      "slug": "shelter-131",
+      "status": "published",
+      "title": "Tigrecitos",
+      "summary": "Ituzaingó, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Ituzaingó",
+        "name": "Tigrecitos",
+        "ig": "tigrecitossinhogar"
+      },
+      "sortOrder": 131
+    },
+    {
+      "id": "shelter-132",
+      "type": "shelter",
+      "slug": "shelter-132",
+      "status": "published",
+      "title": "Rescates y Adopciones Ituzaingó",
+      "summary": "Ituzaingó, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Ituzaingó",
+        "name": "Rescates y Adopciones Ituzaingó",
+        "ig": "rescates.adopciones.ituzaingo"
+      },
+      "sortOrder": 132
+    },
+    {
+      "id": "shelter-133",
+      "type": "shelter",
+      "slug": "shelter-133",
+      "status": "published",
+      "title": "Refugio Clemente Mamani",
+      "summary": "Ituzaingó, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Ituzaingó",
+        "name": "Refugio Clemente Mamani",
+        "ig": "refuclementemamani"
+      },
+      "sortOrder": 133
+    },
+    {
+      "id": "shelter-134",
+      "type": "shelter",
+      "slug": "shelter-134",
+      "status": "published",
+      "title": "El Edén de los Rescatados",
+      "summary": "José C. Paz, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "José C. Paz",
+        "name": "El Edén de los Rescatados",
+        "ig": "eleden_hogar"
+      },
+      "sortOrder": 134
+    },
+    {
+      "id": "shelter-135",
+      "type": "shelter",
+      "slug": "shelter-135",
+      "status": "published",
+      "title": "Alejandra Muñoz Callejeritos Rescatados",
+      "summary": "La Tablada, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "La Tablada",
+        "name": "Alejandra Muñoz Callejeritos Rescatados",
+        "ig": "ale_callejeritos_rescatados"
+      },
+      "sortOrder": 135
+    },
+    {
+      "id": "shelter-136",
+      "type": "shelter",
+      "slug": "shelter-136",
+      "status": "published",
+      "title": "Gatitos de Lanús",
+      "summary": "Lanús, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Lanús",
+        "name": "Gatitos de Lanús",
+        "ig": "gatitosdelanus"
+      },
+      "sortOrder": 136
+    },
+    {
+      "id": "shelter-137",
+      "type": "shelter",
+      "slug": "shelter-137",
+      "status": "published",
+      "title": "Patitas 1785",
+      "summary": "Lanús, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Lanús",
+        "name": "Patitas 1785",
+        "ig": "patitas1785lanus_este"
+      },
+      "sortOrder": 137
+    },
+    {
+      "id": "shelter-138",
+      "type": "shelter",
+      "slug": "shelter-138",
+      "status": "published",
+      "title": "Hogar de Tránsito Ghione Noemí",
+      "summary": "Lanús, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Lanús",
+        "name": "Hogar de Tránsito Ghione Noemí",
+        "ig": "hogardetransitoghione_noemi"
+      },
+      "sortOrder": 138
+    },
+    {
+      "id": "shelter-139",
+      "type": "shelter",
+      "slug": "shelter-139",
+      "status": "published",
+      "title": "Raza Callejera",
+      "summary": "Lanús, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Lanús",
+        "name": "Raza Callejera",
+        "ig": "razacallejera"
+      },
+      "sortOrder": 139
+    },
+    {
+      "id": "shelter-140",
+      "type": "shelter",
+      "slug": "shelter-140",
+      "status": "published",
+      "title": "Patitas Unidas Zona Sur",
+      "summary": "Lanús, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Lanús",
+        "name": "Patitas Unidas Zona Sur",
+        "ig": "patitas.unidas.zonasur"
+      },
+      "sortOrder": 140
+    },
+    {
+      "id": "shelter-141",
+      "type": "shelter",
+      "slug": "shelter-141",
+      "status": "published",
+      "title": "Rescatando Huellitas",
+      "summary": "Lanús, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Lanús",
+        "name": "Rescatando Huellitas",
+        "ig": "rescatandohuellitasoficial"
+      },
+      "sortOrder": 141
+    },
+    {
+      "id": "shelter-142",
+      "type": "shelter",
+      "slug": "shelter-142",
+      "status": "published",
+      "title": "Unidos en Rescate",
+      "summary": "Liniers, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Liniers",
+        "name": "Unidos en Rescate",
+        "ig": "unidosenrescate"
+      },
+      "sortOrder": 142
+    },
+    {
+      "id": "shelter-143",
+      "type": "shelter",
+      "slug": "shelter-143",
+      "status": "published",
+      "title": "Gatitos de Caballito",
+      "summary": "Liniers, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Liniers",
+        "name": "Gatitos de Caballito",
+        "ig": "gatitosdecaballito"
+      },
+      "sortOrder": 143
+    },
+    {
+      "id": "shelter-144",
+      "type": "shelter",
+      "slug": "shelter-144",
+      "status": "published",
+      "title": "Patitas que Ayudan SM",
+      "summary": "Loma Hermosa, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Loma Hermosa",
+        "name": "Patitas que Ayudan SM",
+        "ig": "patitasqueayudan_sm"
+      },
+      "sortOrder": 144
+    },
+    {
+      "id": "shelter-145",
+      "type": "shelter",
+      "slug": "shelter-145",
+      "status": "published",
+      "title": "Adopta un Amigo",
+      "summary": "Lomas de Zamora, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Lomas de Zamora",
+        "name": "Adopta un Amigo",
+        "ig": "adoptaunamigo.arg"
+      },
+      "sortOrder": 145
+    },
+    {
+      "id": "shelter-146",
+      "type": "shelter",
+      "slug": "shelter-146",
+      "status": "published",
+      "title": "Los Callejeritos de Su y Bella Brisa",
+      "summary": "Lomas de Zamora, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Lomas de Zamora",
+        "name": "Los Callejeritos de Su y Bella Brisa",
+        "ig": "los_callejeritodesu"
+      },
+      "sortOrder": 146
+    },
+    {
+      "id": "shelter-147",
+      "type": "shelter",
+      "slug": "shelter-147",
+      "status": "published",
+      "title": "Patipufete",
+      "summary": "Lomas de Zamora, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Lomas de Zamora",
+        "name": "Patipufete",
+        "ig": "patipufete"
+      },
+      "sortOrder": 147
+    },
+    {
+      "id": "shelter-148",
+      "type": "shelter",
+      "slug": "shelter-148",
+      "status": "published",
+      "title": "Refugio San Nicolás",
+      "summary": "Lomas de Zamora, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Lomas de Zamora",
+        "name": "Refugio San Nicolás",
+        "ig": "refugio_san_nicolas"
+      },
+      "sortOrder": 148
+    },
+    {
+      "id": "shelter-149",
+      "type": "shelter",
+      "slug": "shelter-149",
+      "status": "published",
+      "title": "Rescataditos LDM",
+      "summary": "Lomas del Mirador, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Lomas del Mirador",
+        "name": "Rescataditos LDM",
+        "ig": "rescataditos.ldm"
+      },
+      "sortOrder": 149
+    },
+    {
+      "id": "shelter-150",
+      "type": "shelter",
+      "slug": "shelter-150",
+      "status": "published",
+      "title": "Adopt.amor",
+      "summary": "Lomas del Mirador, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Lomas del Mirador",
+        "name": "Adopt.amor",
+        "ig": "adopt.amor"
+      },
+      "sortOrder": 150
+    },
+    {
+      "id": "shelter-151",
+      "type": "shelter",
+      "slug": "shelter-151",
+      "status": "published",
+      "title": "Adopciones CABA",
+      "summary": "Lomas del Mirador, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Lomas del Mirador",
+        "name": "Adopciones CABA",
+        "ig": "adopciones_caba"
+      },
+      "sortOrder": 151
+    },
+    {
+      "id": "shelter-152",
+      "type": "shelter",
+      "slug": "shelter-152",
+      "status": "published",
+      "title": "Adoptame Zona Norte",
+      "summary": "Malvinas Argentinas, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Malvinas Argentinas",
+        "name": "Adoptame Zona Norte",
+        "ig": "adoptamezonanorte"
+      },
+      "sortOrder": 152
+    },
+    {
+      "id": "shelter-153",
+      "type": "shelter",
+      "slug": "shelter-153",
+      "status": "published",
+      "title": "Ángeles al Rescate",
+      "summary": "Catamarca Capital, Catamarca",
+      "data": {
+        "prov": "Catamarca",
+        "loc": "Catamarca Capital",
+        "name": "Ángeles al Rescate",
+        "ig": "angelesalrescate"
+      },
+      "sortOrder": 153
+    },
+    {
+      "id": "shelter-154",
+      "type": "shelter",
+      "slug": "shelter-154",
+      "status": "published",
+      "title": "Proteccionistas Independientes de Valle Viejo",
+      "summary": "Valle Viejo, Catamarca",
+      "data": {
+        "prov": "Catamarca",
+        "loc": "Valle Viejo",
+        "name": "Proteccionistas Independientes de Valle Viejo",
+        "ig": "malena.quevedo.9440"
+      },
+      "sortOrder": 154
+    },
+    {
+      "id": "shelter-155",
+      "type": "shelter",
+      "slug": "shelter-155",
+      "status": "published",
+      "title": "Asociación Civil La Manada BRK",
+      "summary": "Brinkmann, Córdoba",
+      "data": {
+        "prov": "Córdoba",
+        "loc": "Brinkmann",
+        "name": "Asociación Civil La Manada BRK",
+        "ig": "lamanadabrk"
+      },
+      "sortOrder": 155
+    },
+    {
+      "id": "shelter-156",
+      "type": "shelter",
+      "slug": "shelter-156",
+      "status": "published",
+      "title": "Amigo Fiel",
+      "summary": "Brinkmann, Córdoba",
+      "data": {
+        "prov": "Córdoba",
+        "loc": "Brinkmann",
+        "name": "Amigo Fiel",
+        "ig": "amigofielbrinkmann"
+      },
+      "sortOrder": 156
+    },
+    {
+      "id": "shelter-157",
+      "type": "shelter",
+      "slug": "shelter-157",
+      "status": "published",
+      "title": "Huellitas Capilla del Monte",
+      "summary": "Capilla del Monte, Córdoba",
+      "data": {
+        "prov": "Córdoba",
+        "loc": "Capilla del Monte",
+        "name": "Huellitas Capilla del Monte",
+        "ig": "dont_stoopp"
+      },
+      "sortOrder": 157
+    },
+    {
+      "id": "shelter-158",
+      "type": "shelter",
+      "slug": "shelter-158",
+      "status": "published",
+      "title": "Patitas de Perros",
+      "summary": "Córdoba Capital, Córdoba",
+      "data": {
+        "prov": "Córdoba",
+        "loc": "Córdoba Capital",
+        "name": "Patitas de Perros",
+        "ig": "patitasdeperrosoficial"
+      },
+      "sortOrder": 158
+    },
+    {
+      "id": "shelter-159",
+      "type": "shelter",
+      "slug": "shelter-159",
+      "status": "published",
+      "title": "Fundación Garra",
+      "summary": "Córdoba Capital, Córdoba",
+      "data": {
+        "prov": "Córdoba",
+        "loc": "Córdoba Capital",
+        "name": "Fundación Garra",
+        "ig": "fundaciongarra"
+      },
+      "sortOrder": 159
+    },
+    {
+      "id": "shelter-160",
+      "type": "shelter",
+      "slug": "shelter-160",
+      "status": "published",
+      "title": "SOS Animales Las Varillas",
+      "summary": "Las Varillas, Córdoba",
+      "data": {
+        "prov": "Córdoba",
+        "loc": "Las Varillas",
+        "name": "SOS Animales Las Varillas",
+        "ig": "sosanimaleslasvarillas"
+      },
+      "sortOrder": 160
+    },
+    {
+      "id": "shelter-161",
+      "type": "shelter",
+      "slug": "shelter-161",
+      "status": "published",
+      "title": "Colitas Contentas",
+      "summary": "Morteros, Córdoba",
+      "data": {
+        "prov": "Córdoba",
+        "loc": "Morteros",
+        "name": "Colitas Contentas",
+        "ig": "colitas.contentas"
+      },
+      "sortOrder": 161
+    },
+    {
+      "id": "shelter-162",
+      "type": "shelter",
+      "slug": "shelter-162",
+      "status": "published",
+      "title": "Protectora Mario Gemelli San Francisco",
+      "summary": "San Francisco, Córdoba",
+      "data": {
+        "prov": "Córdoba",
+        "loc": "San Francisco",
+        "name": "Protectora Mario Gemelli San Francisco",
+        "ig": "protectora.mariogemelli"
+      },
+      "sortOrder": 162
+    },
+    {
+      "id": "shelter-163",
+      "type": "shelter",
+      "slug": "shelter-163",
+      "status": "published",
+      "title": "Rescataditos Valle Hermoso Punilla",
+      "summary": "Valle Hermoso, Córdoba",
+      "data": {
+        "prov": "Córdoba",
+        "loc": "Valle Hermoso",
+        "name": "Rescataditos Valle Hermoso Punilla",
+        "ig": "silvidela1726"
+      },
+      "sortOrder": 163
+    },
+    {
+      "id": "shelter-164",
+      "type": "shelter",
+      "slug": "shelter-164",
+      "status": "published",
+      "title": "Alma Animal",
+      "summary": "Valle Hermoso, Córdoba",
+      "data": {
+        "prov": "Córdoba",
+        "loc": "Valle Hermoso",
+        "name": "Alma Animal",
+        "ig": "alma.animal.of"
+      },
+      "sortOrder": 164
+    },
+    {
+      "id": "shelter-165",
+      "type": "shelter",
+      "slug": "shelter-165",
+      "status": "published",
+      "title": "IPAD",
+      "summary": "Villa Carlos Paz, Córdoba",
+      "data": {
+        "prov": "Córdoba",
+        "loc": "Villa Carlos Paz",
+        "name": "IPAD",
+        "ig": "ipad_carlos_paz"
+      },
+      "sortOrder": 165
+    },
+    {
+      "id": "shelter-166",
+      "type": "shelter",
+      "slug": "shelter-166",
+      "status": "published",
+      "title": "Red Voluntarios de Animales de Villa Giardino",
+      "summary": "Villa Giardino, Córdoba",
+      "data": {
+        "prov": "Córdoba",
+        "loc": "Villa Giardino",
+        "name": "Red Voluntarios de Animales de Villa Giardino",
+        "ig": "redvoluntariosanimalesgiardino"
+      },
+      "sortOrder": 166
+    },
+    {
+      "id": "shelter-167",
+      "type": "shelter",
+      "slug": "shelter-167",
+      "status": "published",
+      "title": "Manos x Patas CdelU",
+      "summary": "Concepción del Uruguay, Entre Ríos",
+      "data": {
+        "prov": "Entre Ríos",
+        "loc": "Concepción del Uruguay",
+        "name": "Manos x Patas CdelU",
+        "ig": "manosxpatascdelu"
+      },
+      "sortOrder": 167
+    },
+    {
+      "id": "shelter-168",
+      "type": "shelter",
+      "slug": "shelter-168",
+      "status": "published",
+      "title": "SOS Animales CdelU",
+      "summary": "Concepción del Uruguay, Entre Ríos",
+      "data": {
+        "prov": "Entre Ríos",
+        "loc": "Concepción del Uruguay",
+        "name": "SOS Animales CdelU",
+        "ig": "a.c_civil_s.o.s_animal_cdelu"
+      },
+      "sortOrder": 168
+    },
+    {
+      "id": "shelter-169",
+      "type": "shelter",
+      "slug": "shelter-169",
+      "status": "published",
+      "title": "Alma Animal",
+      "summary": "Concepción del Uruguay, Entre Ríos",
+      "data": {
+        "prov": "Entre Ríos",
+        "loc": "Concepción del Uruguay",
+        "name": "Alma Animal",
+        "ig": "gabyallois"
+      },
+      "sortOrder": 169
+    },
+    {
+      "id": "shelter-170",
+      "type": "shelter",
+      "slug": "shelter-170",
+      "status": "published",
+      "title": "Rescate Animal CDU",
+      "summary": "Concepción del Uruguay, Entre Ríos",
+      "data": {
+        "prov": "Entre Ríos",
+        "loc": "Concepción del Uruguay",
+        "name": "Rescate Animal CDU",
+        "ig": "rescateanimal.cdu"
+      },
+      "sortOrder": 170
+    },
+    {
+      "id": "shelter-171",
+      "type": "shelter",
+      "slug": "shelter-171",
+      "status": "published",
+      "title": "Ayuda Animal CdelU",
+      "summary": "Concepción del Uruguay, Entre Ríos",
+      "data": {
+        "prov": "Entre Ríos",
+        "loc": "Concepción del Uruguay",
+        "name": "Ayuda Animal CdelU",
+        "ig": "ayudaanimalcdelu"
+      },
+      "sortOrder": 171
+    },
+    {
+      "id": "shelter-172",
+      "type": "shelter",
+      "slug": "shelter-172",
+      "status": "published",
+      "title": "Patitas Crespo",
+      "summary": "Crespo, Entre Ríos",
+      "data": {
+        "prov": "Entre Ríos",
+        "loc": "Crespo",
+        "name": "Patitas Crespo",
+        "ig": "patitascrespo"
+      },
+      "sortOrder": 172
+    },
+    {
+      "id": "shelter-173",
+      "type": "shelter",
+      "slug": "shelter-173",
+      "status": "published",
+      "title": "Patitas Gualeguaychú",
+      "summary": "Gualeguaychú, Entre Ríos",
+      "data": {
+        "prov": "Entre Ríos",
+        "loc": "Gualeguaychú",
+        "name": "Patitas Gualeguaychú",
+        "ig": "patitasengualeguaychu"
+      },
+      "sortOrder": 173
+    },
+    {
+      "id": "shelter-174",
+      "type": "shelter",
+      "slug": "shelter-174",
+      "status": "published",
+      "title": "Los Perros de San Roque",
+      "summary": "Gualeguaychú, Entre Ríos",
+      "data": {
+        "prov": "Entre Ríos",
+        "loc": "Gualeguaychú",
+        "name": "Los Perros de San Roque",
+        "ig": "refugiolosperrosdesanroque"
+      },
+      "sortOrder": 174
+    },
+    {
+      "id": "shelter-175",
+      "type": "shelter",
+      "slug": "shelter-175",
+      "status": "published",
+      "title": "APA Los Amigos",
+      "summary": "Nogoyá, Entre Ríos",
+      "data": {
+        "prov": "Entre Ríos",
+        "loc": "Nogoyá",
+        "name": "APA Los Amigos",
+        "ig": "apanogoya"
+      },
+      "sortOrder": 175
+    },
+    {
+      "id": "shelter-176",
+      "type": "shelter",
+      "slug": "shelter-176",
+      "status": "published",
+      "title": "Amor x los Animales",
+      "summary": "Paraná, Entre Ríos",
+      "data": {
+        "prov": "Entre Ríos",
+        "loc": "Paraná",
+        "name": "Amor x los Animales",
+        "ig": "amorxlosanimales_pna"
+      },
+      "sortOrder": 176
+    },
+    {
+      "id": "shelter-177",
+      "type": "shelter",
+      "slug": "shelter-177",
+      "status": "published",
+      "title": "Fundación Callejeritos",
+      "summary": "Paraná, Entre Ríos",
+      "data": {
+        "prov": "Entre Ríos",
+        "loc": "Paraná",
+        "name": "Fundación Callejeritos",
+        "ig": "fundacion.callejeritos"
+      },
+      "sortOrder": 177
+    },
+    {
+      "id": "shelter-178",
+      "type": "shelter",
+      "slug": "shelter-178",
+      "status": "published",
+      "title": "Refugio La Casita",
+      "summary": "Gualeguaychú, Entre Ríos",
+      "data": {
+        "prov": "Entre Ríos",
+        "loc": "Gualeguaychú",
+        "name": "Refugio La Casita",
+        "ig": "car_colombo_refu_lacasita"
+      },
+      "sortOrder": 178
+    },
+    {
+      "id": "shelter-179",
+      "type": "shelter",
+      "slug": "shelter-179",
+      "status": "published",
+      "title": "Sanjochichos",
+      "summary": "San José, Entre Ríos",
+      "data": {
+        "prov": "Entre Ríos",
+        "loc": "San José",
+        "name": "Sanjochichos",
+        "ig": "sanjochichos"
+      },
+      "sortOrder": 179
+    },
+    {
+      "id": "shelter-180",
+      "type": "shelter",
+      "slug": "shelter-180",
+      "status": "published",
+      "title": "APPA General Pico",
+      "summary": "General Pico, La Pampa",
+      "data": {
+        "prov": "La Pampa",
+        "loc": "General Pico",
+        "name": "APPA General Pico",
+        "ig": "appa_generalpico"
+      },
+      "sortOrder": 180
+    },
+    {
+      "id": "shelter-181",
+      "type": "shelter",
+      "slug": "shelter-181",
+      "status": "published",
+      "title": "El Refugio de Animales Posadas",
+      "summary": "Posadas, Misiones",
+      "data": {
+        "prov": "Misiones",
+        "loc": "Posadas",
+        "name": "El Refugio de Animales Posadas",
+        "ig": "elrefugiodeanimalesposadas"
+      },
+      "sortOrder": 181
+    },
+    {
+      "id": "shelter-182",
+      "type": "shelter",
+      "slug": "shelter-182",
+      "status": "published",
+      "title": "Refugio A.M.P.A.R.A.",
+      "summary": "San Martín, Mendoza",
+      "data": {
+        "prov": "Mendoza",
+        "loc": "San Martín",
+        "name": "Refugio A.M.P.A.R.A.",
+        "ig": "refugioampara"
+      },
+      "sortOrder": 182
+    },
+    {
+      "id": "shelter-183",
+      "type": "shelter",
+      "slug": "shelter-183",
+      "status": "published",
+      "title": "El Refugio de Diego",
+      "summary": "Guaymallén, Mendoza",
+      "data": {
+        "prov": "Mendoza",
+        "loc": "Guaymallén",
+        "name": "El Refugio de Diego",
+        "ig": "elrefugiodediego"
+      },
+      "sortOrder": 183
+    },
+    {
+      "id": "shelter-184",
+      "type": "shelter",
+      "slug": "shelter-184",
+      "status": "published",
+      "title": "Refugio Defensores de Vida",
+      "summary": "Pico Truncado, Santa Cruz",
+      "data": {
+        "prov": "Santa Cruz",
+        "loc": "Pico Truncado",
+        "name": "Refugio Defensores de Vida",
+        "ig": "refugiodefensoresdevida"
+      },
+      "sortOrder": 184
+    },
+    {
+      "id": "shelter-185",
+      "type": "shelter",
+      "slug": "shelter-185",
+      "status": "published",
+      "title": "Colitas sin Hogar",
+      "summary": "Gobernador Crespo, Santa Fe",
+      "data": {
+        "prov": "Santa Fe",
+        "loc": "Gobernador Crespo",
+        "name": "Colitas sin Hogar",
+        "ig": "colitas.sin.hogar"
+      },
+      "sortOrder": 185
+    },
+    {
+      "id": "shelter-186",
+      "type": "shelter",
+      "slug": "shelter-186",
+      "status": "published",
+      "title": "Dejando Huellas Rosario",
+      "summary": "Rosario, Santa Fe",
+      "data": {
+        "prov": "Santa Fe",
+        "loc": "Rosario",
+        "name": "Dejando Huellas Rosario",
+        "ig": "dejandohuellasrosario"
+      },
+      "sortOrder": 186
+    },
+    {
+      "id": "shelter-187",
+      "type": "shelter",
+      "slug": "shelter-187",
+      "status": "published",
+      "title": "Propatas Rosario",
+      "summary": "Rosario, Santa Fe",
+      "data": {
+        "prov": "Santa Fe",
+        "loc": "Rosario",
+        "name": "Propatas Rosario",
+        "ig": "propatasrosario"
+      },
+      "sortOrder": 187
+    },
+    {
+      "id": "shelter-188",
+      "type": "shelter",
+      "slug": "shelter-188",
+      "status": "published",
+      "title": "Gatitos Rosario",
+      "summary": "Rosario, Santa Fe",
+      "data": {
+        "prov": "Santa Fe",
+        "loc": "Rosario",
+        "name": "Gatitos Rosario",
+        "ig": "gatitosrosario"
+      },
+      "sortOrder": 188
+    },
+    {
+      "id": "shelter-189",
+      "type": "shelter",
+      "slug": "shelter-189",
+      "status": "published",
+      "title": "Acción Bigotes",
+      "summary": "Rosario, Santa Fe",
+      "data": {
+        "prov": "Santa Fe",
+        "loc": "Rosario",
+        "name": "Acción Bigotes",
+        "ig": "accionbigotes"
+      },
+      "sortOrder": 189
+    },
+    {
+      "id": "shelter-190",
+      "type": "shelter",
+      "slug": "shelter-190",
+      "status": "published",
+      "title": "Ya Te Elegí Perros en Adopción",
+      "summary": "Rosario, Santa Fe",
+      "data": {
+        "prov": "Santa Fe",
+        "loc": "Rosario",
+        "name": "Ya Te Elegí Perros en Adopción",
+        "ig": "yateelegiperrosenadopcion"
+      },
+      "sortOrder": 190
+    },
+    {
+      "id": "shelter-191",
+      "type": "shelter",
+      "slug": "shelter-191",
+      "status": "published",
+      "title": "Casita Feliz de Ibarlucea",
+      "summary": "Rosario, Santa Fe",
+      "data": {
+        "prov": "Santa Fe",
+        "loc": "Rosario",
+        "name": "Casita Feliz de Ibarlucea",
+        "ig": "norajunot"
+      },
+      "sortOrder": 191
+    },
+    {
+      "id": "shelter-192",
+      "type": "shelter",
+      "slug": "shelter-192",
+      "status": "published",
+      "title": "Animalistas de Rosario",
+      "summary": "Rosario, Santa Fe",
+      "data": {
+        "prov": "Santa Fe",
+        "loc": "Rosario",
+        "name": "Animalistas de Rosario",
+        "ig": "animalistasderosario"
+      },
+      "sortOrder": 192
+    },
+    {
+      "id": "shelter-193",
+      "type": "shelter",
+      "slug": "shelter-193",
+      "status": "published",
+      "title": "Amigos de los Perritos de Graciela",
+      "summary": "Rosario, Santa Fe",
+      "data": {
+        "prov": "Santa Fe",
+        "loc": "Rosario",
+        "name": "Amigos de los Perritos de Graciela",
+        "ig": "amigosdelosperritosdegraciela"
+      },
+      "sortOrder": 193
+    },
+    {
+      "id": "shelter-194",
+      "type": "shelter",
+      "slug": "shelter-194",
+      "status": "published",
+      "title": "Protectora Domingo Faustino Sarmiento",
+      "summary": "Rosario, Santa Fe",
+      "data": {
+        "prov": "Santa Fe",
+        "loc": "Rosario",
+        "name": "Protectora Domingo Faustino Sarmiento",
+        "ig": "protectorasarmiento_oficial"
+      },
+      "sortOrder": 194
+    },
+    {
+      "id": "shelter-195",
+      "type": "shelter",
+      "slug": "shelter-195",
+      "status": "published",
+      "title": "Dejando Huellas Recreo",
+      "summary": "Recreo, Santa Fe",
+      "data": {
+        "prov": "Santa Fe",
+        "loc": "Recreo",
+        "name": "Dejando Huellas Recreo",
+        "ig": "dejandohuellasrecreo_"
+      },
+      "sortOrder": 195
+    },
+    {
+      "id": "shelter-196",
+      "type": "shelter",
+      "slug": "shelter-196",
+      "status": "published",
+      "title": "Misión Ronroneo",
+      "summary": "San Lorenzo, Santa Fe",
+      "data": {
+        "prov": "Santa Fe",
+        "loc": "San Lorenzo",
+        "name": "Misión Ronroneo",
+        "ig": "mision.ronroneo"
+      },
+      "sortOrder": 196
+    },
+    {
+      "id": "shelter-197",
+      "type": "shelter",
+      "slug": "shelter-197",
+      "status": "published",
+      "title": "Animales en Adopción SF",
+      "summary": "Santa Fe Capital, Santa Fe",
+      "data": {
+        "prov": "Santa Fe",
+        "loc": "Santa Fe Capital",
+        "name": "Animales en Adopción SF",
+        "ig": "animalesenadopcionsf"
+      },
+      "sortOrder": 197
+    },
+    {
+      "id": "shelter-198",
+      "type": "shelter",
+      "slug": "shelter-198",
+      "status": "published",
+      "title": "Ayuda 1 Gato Santa Fe",
+      "summary": "Santa Fe Capital, Santa Fe",
+      "data": {
+        "prov": "Santa Fe",
+        "loc": "Santa Fe Capital",
+        "name": "Ayuda 1 Gato Santa Fe",
+        "ig": "ayuda1gatosantafe"
+      },
+      "sortOrder": 198
+    },
+    {
+      "id": "shelter-199",
+      "type": "shelter",
+      "slug": "shelter-199",
+      "status": "published",
+      "title": "Rescatando Ando Santa Fe",
+      "summary": "Santa Fe Capital, Santa Fe",
+      "data": {
+        "prov": "Santa Fe",
+        "loc": "Santa Fe Capital",
+        "name": "Rescatando Ando Santa Fe",
+        "ig": "rescatandoando.sfe"
+      },
+      "sortOrder": 199
+    },
+    {
+      "id": "shelter-200",
+      "type": "shelter",
+      "slug": "shelter-200",
+      "status": "published",
+      "title": "Salvando Patitas Santa Fe",
+      "summary": "Santa Fe Capital, Santa Fe",
+      "data": {
+        "prov": "Santa Fe",
+        "loc": "Santa Fe Capital",
+        "name": "Salvando Patitas Santa Fe",
+        "ig": "salvandopatitassf"
+      },
+      "sortOrder": 200
+    },
+    {
+      "id": "shelter-201",
+      "type": "shelter",
+      "slug": "shelter-201",
+      "status": "published",
+      "title": "Galguitis Aguda",
+      "summary": "Santa Fe Capital, Santa Fe",
+      "data": {
+        "prov": "Santa Fe",
+        "loc": "Santa Fe Capital",
+        "name": "Galguitis Aguda",
+        "ig": "galguitis.sf"
+      },
+      "sortOrder": 201
+    },
+    {
+      "id": "shelter-202",
+      "type": "shelter",
+      "slug": "shelter-202",
+      "status": "published",
+      "title": "S.O.S. Gatos Santa Fe",
+      "summary": "Santa Fe Capital, Santa Fe",
+      "data": {
+        "prov": "Santa Fe",
+        "loc": "Santa Fe Capital",
+        "name": "S.O.S. Gatos Santa Fe",
+        "ig": "sosgatostafe"
+      },
+      "sortOrder": 202
+    },
+    {
+      "id": "shelter-203",
+      "type": "shelter",
+      "slug": "shelter-203",
+      "status": "published",
+      "title": "Juntos por Ellos",
+      "summary": "Santo Tomé, Santa Fe",
+      "data": {
+        "prov": "Santa Fe",
+        "loc": "Santo Tomé",
+        "name": "Juntos por Ellos",
+        "ig": "juntosporelloss"
+      },
+      "sortOrder": 203
+    },
+    {
+      "id": "shelter-204",
+      "type": "shelter",
+      "slug": "shelter-204",
+      "status": "published",
+      "title": "Totoras por los Animales",
+      "summary": "Totoras, Santa Fe",
+      "data": {
+        "prov": "Santa Fe",
+        "loc": "Totoras",
+        "name": "Totoras por los Animales",
+        "ig": "adopcionestotoras"
+      },
+      "sortOrder": 204
+    },
+    {
+      "id": "shelter-205",
+      "type": "shelter",
+      "slug": "shelter-205",
+      "status": "published",
+      "title": "Unidos x Ellos",
+      "summary": "Venado Tuerto, Santa Fe",
+      "data": {
+        "prov": "Santa Fe",
+        "loc": "Venado Tuerto",
+        "name": "Unidos x Ellos",
+        "ig": "unidosxellosvt"
+      },
+      "sortOrder": 205
+    },
+    {
+      "id": "shelter-206",
+      "type": "shelter",
+      "slug": "shelter-206",
+      "status": "published",
+      "title": "Galgos Amados",
+      "summary": "Venado Tuerto, Santa Fe",
+      "data": {
+        "prov": "Santa Fe",
+        "loc": "Venado Tuerto",
+        "name": "Galgos Amados",
+        "ig": "galgosamados"
+      },
+      "sortOrder": 206
+    },
+    {
+      "id": "shelter-207",
+      "type": "shelter",
+      "slug": "shelter-207",
+      "status": "published",
+      "title": "Refugio de Laura Daniele",
+      "summary": "Santiago del Estero, Santiago del Estero",
+      "data": {
+        "prov": "Santiago del Estero",
+        "loc": "Santiago del Estero",
+        "name": "Refugio de Laura Daniele",
+        "ig": ""
+      },
+      "sortOrder": 207
+    },
+    {
+      "id": "shelter-208",
+      "type": "shelter",
+      "slug": "shelter-208",
+      "status": "published",
+      "title": "Bichos SGO",
+      "summary": "Santiago del Estero, Santiago del Estero",
+      "data": {
+        "prov": "Santiago del Estero",
+        "loc": "Santiago del Estero",
+        "name": "Bichos SGO",
+        "ig": "bichossgo"
+      },
+      "sortOrder": 208
+    },
+    {
+      "id": "shelter-209",
+      "type": "shelter",
+      "slug": "shelter-209",
+      "status": "published",
+      "title": "Di Romi Rescates",
+      "summary": "Banda del Río Salí, Tucumán",
+      "data": {
+        "prov": "Tucumán",
+        "loc": "Banda del Río Salí",
+        "name": "Di Romi Rescates",
+        "ig": "diromi_rescates"
+      },
+      "sortOrder": 209
+    },
+    {
+      "id": "shelter-210",
+      "type": "shelter",
+      "slug": "shelter-210",
+      "status": "published",
+      "title": "APAT Ayuda para los Animales de Tafí",
+      "summary": "Tafí Viejo, Tucumán",
+      "data": {
+        "prov": "Tucumán",
+        "loc": "Tafí Viejo",
+        "name": "APAT Ayuda para los Animales de Tafí",
+        "ig": "apat_amoranimal"
+      },
+      "sortOrder": 210
+    },
+    {
+      "id": "shelter-211",
+      "type": "shelter",
+      "slug": "shelter-211",
+      "status": "published",
+      "title": "ADLAA Tafí Viejo",
+      "summary": "Tafí Viejo, Tucumán",
+      "data": {
+        "prov": "Tucumán",
+        "loc": "Tafí Viejo",
+        "name": "ADLAA Tafí Viejo",
+        "ig": "adlaatafiviejo"
+      },
+      "sortOrder": 211
+    },
+    {
+      "id": "shelter-212",
+      "type": "shelter",
+      "slug": "shelter-212",
+      "status": "published",
+      "title": "Tres Patitas Callejeras",
+      "summary": "Martínez, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Martínez",
+        "name": "Tres Patitas Callejeras",
+        "ig": "trespatitascallejeras"
+      },
+      "sortOrder": 212
+    },
+    {
+      "id": "shelter-213",
+      "type": "shelter",
+      "slug": "shelter-213",
+      "status": "published",
+      "title": "Hogar Gatitos Jazz",
+      "summary": "Mataderos, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Mataderos",
+        "name": "Hogar Gatitos Jazz",
+        "ig": "hogargatitosjazz"
+      },
+      "sortOrder": 213
+    },
+    {
+      "id": "shelter-214",
+      "type": "shelter",
+      "slug": "shelter-214",
+      "status": "published",
+      "title": "Adopciones Somos Puente 310",
+      "summary": "Mataderos, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Mataderos",
+        "name": "Adopciones Somos Puente 310",
+        "ig": "adopciones_somospuente310"
+      },
+      "sortOrder": 214
+    },
+    {
+      "id": "shelter-215",
+      "type": "shelter",
+      "slug": "shelter-215",
+      "status": "published",
+      "title": "Pastoraok",
+      "summary": "Mataderos, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Mataderos",
+        "name": "Pastoraok",
+        "ig": "pastoraok"
+      },
+      "sortOrder": 215
+    },
+    {
+      "id": "shelter-216",
+      "type": "shelter",
+      "slug": "shelter-216",
+      "status": "published",
+      "title": "Refugio Zoe Moria",
+      "summary": "Merlo, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Merlo",
+        "name": "Refugio Zoe Moria",
+        "ig": "refugiozoe..moria"
+      },
+      "sortOrder": 216
+    },
+    {
+      "id": "shelter-217",
+      "type": "shelter",
+      "slug": "shelter-217",
+      "status": "published",
+      "title": "El Refugio de Liliana",
+      "summary": "Merlo, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Merlo",
+        "name": "El Refugio de Liliana",
+        "ig": ""
+      },
+      "sortOrder": 217
+    },
+    {
+      "id": "shelter-218",
+      "type": "shelter",
+      "slug": "shelter-218",
+      "status": "published",
+      "title": "Refugio Zoobrevivientes",
+      "summary": "Merlo, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Merlo",
+        "name": "Refugio Zoobrevivientes",
+        "ig": "refugiozoobrevivientes"
+      },
+      "sortOrder": 218
+    },
+    {
+      "id": "shelter-219",
+      "type": "shelter",
+      "slug": "shelter-219",
+      "status": "published",
+      "title": "Gatitos de la Sarmiento",
+      "summary": "Monserrat, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Monserrat",
+        "name": "Gatitos de la Sarmiento",
+        "ig": "gatitosdelsalon"
+      },
+      "sortOrder": 219
+    },
+    {
+      "id": "shelter-220",
+      "type": "shelter",
+      "slug": "shelter-220",
+      "status": "published",
+      "title": "Garritas",
+      "summary": "Monte Castro, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Monte Castro",
+        "name": "Garritas",
+        "ig": "garritasdemontecastro"
+      },
+      "sortOrder": 220
+    },
+    {
+      "id": "shelter-221",
+      "type": "shelter",
+      "slug": "shelter-221",
+      "status": "published",
+      "title": "Amoreanimal",
+      "summary": "Monte Grande, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Monte Grande",
+        "name": "Amoreanimal",
+        "ig": "amore__animal"
+      },
+      "sortOrder": 221
+    },
+    {
+      "id": "shelter-222",
+      "type": "shelter",
+      "slug": "shelter-222",
+      "status": "published",
+      "title": "Patitas Buscando Hogar Argentina",
+      "summary": "Monte Grande, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Monte Grande",
+        "name": "Patitas Buscando Hogar Argentina",
+        "ig": "patitas_buscando_hogar_arg"
+      },
+      "sortOrder": 222
+    },
+    {
+      "id": "shelter-223",
+      "type": "shelter",
+      "slug": "shelter-223",
+      "status": "published",
+      "title": "Patitas Somos su Voz",
+      "summary": "Monte Grande, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Monte Grande",
+        "name": "Patitas Somos su Voz",
+        "ig": "patitas_somos_su_voz"
+      },
+      "sortOrder": 223
+    },
+    {
+      "id": "shelter-224",
+      "type": "shelter",
+      "slug": "shelter-224",
+      "status": "published",
+      "title": "Rescatando Bigotes",
+      "summary": "Monte Grande, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Monte Grande",
+        "name": "Rescatando Bigotes",
+        "ig": "rescatando_bigotes"
+      },
+      "sortOrder": 224
+    },
+    {
+      "id": "shelter-225",
+      "type": "shelter",
+      "slug": "shelter-225",
+      "status": "published",
+      "title": "Los Callejeritos de Elisa",
+      "summary": "Monte Grande, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Monte Grande",
+        "name": "Los Callejeritos de Elisa",
+        "ig": "loscallejeritosdeelisa"
+      },
+      "sortOrder": 225
+    },
+    {
+      "id": "shelter-226",
+      "type": "shelter",
+      "slug": "shelter-226",
+      "status": "published",
+      "title": "Animalistas de San Francisco",
+      "summary": "Monte Grande, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Monte Grande",
+        "name": "Animalistas de San Francisco",
+        "ig": "luzenelsilencio"
+      },
+      "sortOrder": 226
+    },
+    {
+      "id": "shelter-227",
+      "type": "shelter",
+      "slug": "shelter-227",
+      "status": "published",
+      "title": "Sergalgos",
+      "summary": "Monserrat, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Monserrat",
+        "name": "Sergalgos",
+        "ig": "sergalgos"
+      },
+      "sortOrder": 227
+    },
+    {
+      "id": "shelter-228",
+      "type": "shelter",
+      "slug": "shelter-228",
+      "status": "published",
+      "title": "Aprani",
+      "summary": "Moreno, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Moreno",
+        "name": "Aprani",
+        "ig": "apraniprotectora_"
+      },
+      "sortOrder": 228
+    },
+    {
+      "id": "shelter-229",
+      "type": "shelter",
+      "slug": "shelter-229",
+      "status": "published",
+      "title": "Fundación Orejas",
+      "summary": "Moreno, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Moreno",
+        "name": "Fundación Orejas",
+        "ig": "fundacionorejas"
+      },
+      "sortOrder": 229
+    },
+    {
+      "id": "shelter-230",
+      "type": "shelter",
+      "slug": "shelter-230",
+      "status": "published",
+      "title": "Peludas Colitas",
+      "summary": "Moreno, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Moreno",
+        "name": "Peludas Colitas",
+        "ig": "peludascolitas"
+      },
+      "sortOrder": 230
+    },
+    {
+      "id": "shelter-231",
+      "type": "shelter",
+      "slug": "shelter-231",
+      "status": "published",
+      "title": "Casa Miau",
+      "summary": "Morón, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Morón",
+        "name": "Casa Miau",
+        "ig": "casamiau.ar"
+      },
+      "sortOrder": 231
+    },
+    {
+      "id": "shelter-232",
+      "type": "shelter",
+      "slug": "shelter-232",
+      "status": "published",
+      "title": "Choque esa Pata",
+      "summary": "Morón, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Morón",
+        "name": "Choque esa Pata",
+        "ig": "choqueesapata"
+      },
+      "sortOrder": 232
+    },
+    {
+      "id": "shelter-233",
+      "type": "shelter",
+      "slug": "shelter-233",
+      "status": "published",
+      "title": "Hogar Mascotero",
+      "summary": "Morón, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Morón",
+        "name": "Hogar Mascotero",
+        "ig": "hogar__mascotero"
+      },
+      "sortOrder": 233
+    },
+    {
+      "id": "shelter-234",
+      "type": "shelter",
+      "slug": "shelter-234",
+      "status": "published",
+      "title": "Gatitos Pompeya",
+      "summary": "Nueva Pompeya, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Nueva Pompeya",
+        "name": "Gatitos Pompeya",
+        "ig": "gatitospompeya"
+      },
+      "sortOrder": 234
+    },
+    {
+      "id": "shelter-235",
+      "type": "shelter",
+      "slug": "shelter-235",
+      "status": "published",
+      "title": "Refugio Rescatados",
+      "summary": "Nueva Pompeya, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Nueva Pompeya",
+        "name": "Refugio Rescatados",
+        "ig": "refugiorescatados"
+      },
+      "sortOrder": 235
+    },
+    {
+      "id": "shelter-236",
+      "type": "shelter",
+      "slug": "shelter-236",
+      "status": "published",
+      "title": "Huella de Pitbull",
+      "summary": "Nueva Pompeya, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Nueva Pompeya",
+        "name": "Huella de Pitbull",
+        "ig": "hdp.rescates"
+      },
+      "sortOrder": 236
+    },
+    {
+      "id": "shelter-237",
+      "type": "shelter",
+      "slug": "shelter-237",
+      "status": "published",
+      "title": "Gaticos de Núñez y Villa Martelli",
+      "summary": "Núñez, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Núñez",
+        "name": "Gaticos de Núñez y Villa Martelli",
+        "ig": "gaticosdenunez"
+      },
+      "sortOrder": 237
+    },
+    {
+      "id": "shelter-238",
+      "type": "shelter",
+      "slug": "shelter-238",
+      "status": "published",
+      "title": "Gatitos de Belgrano Adopciones",
+      "summary": "Núñez, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Núñez",
+        "name": "Gatitos de Belgrano Adopciones",
+        "ig": "gatitosdebelgrano"
+      },
+      "sortOrder": 238
+    },
+    {
+      "id": "shelter-239",
+      "type": "shelter",
+      "slug": "shelter-239",
+      "status": "published",
+      "title": "Red 4 Patas",
+      "summary": "Núñez, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Núñez",
+        "name": "Red 4 Patas",
+        "ig": "red4patas"
+      },
+      "sortOrder": 239
+    },
+    {
+      "id": "shelter-240",
+      "type": "shelter",
+      "slug": "shelter-240",
+      "status": "published",
+      "title": "Santa Ramona Protectora",
+      "summary": "Olivos, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Olivos",
+        "name": "Santa Ramona Protectora",
+        "ig": "santaramonaprotectora"
+      },
+      "sortOrder": 240
+    },
+    {
+      "id": "shelter-241",
+      "type": "shelter",
+      "slug": "shelter-241",
+      "status": "published",
+      "title": "Peludos Felices",
+      "summary": "Pablo Nogués, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Pablo Nogués",
+        "name": "Peludos Felices",
+        "ig": "peludos_felices"
+      },
+      "sortOrder": 241
+    },
+    {
+      "id": "shelter-242",
+      "type": "shelter",
+      "slug": "shelter-242",
+      "status": "published",
+      "title": "Garritas de Palermo",
+      "summary": "Palermo, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Palermo",
+        "name": "Garritas de Palermo",
+        "ig": "garritasdepalermo"
+      },
+      "sortOrder": 242
+    },
+    {
+      "id": "shelter-243",
+      "type": "shelter",
+      "slug": "shelter-243",
+      "status": "published",
+      "title": "Gatitos de Palermo",
+      "summary": "Palermo, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Palermo",
+        "name": "Gatitos de Palermo",
+        "ig": "gatitosdepalermook"
+      },
+      "sortOrder": 243
+    },
+    {
+      "id": "shelter-244",
+      "type": "shelter",
+      "slug": "shelter-244",
+      "status": "published",
+      "title": "Mascotas en Adopción Argentina",
+      "summary": "Palermo, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Palermo",
+        "name": "Mascotas en Adopción Argentina",
+        "ig": "mascotasenadopcionargentina"
+      },
+      "sortOrder": 244
+    },
+    {
+      "id": "shelter-245",
+      "type": "shelter",
+      "slug": "shelter-245",
+      "status": "published",
+      "title": "Rescate al Alma",
+      "summary": "Palomar, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Palomar",
+        "name": "Rescate al Alma",
+        "ig": "rescatealalma"
+      },
+      "sortOrder": 245
+    },
+    {
+      "id": "shelter-246",
+      "type": "shelter",
+      "slug": "shelter-246",
+      "status": "published",
+      "title": "Los Perritos del Palomar Refugio CCPA",
+      "summary": "Palomar, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Palomar",
+        "name": "Los Perritos del Palomar Refugio CCPA",
+        "ig": "losperritosdelpalomarefugio"
+      },
+      "sortOrder": 246
+    },
+    {
+      "id": "shelter-247",
+      "type": "shelter",
+      "slug": "shelter-247",
+      "status": "published",
+      "title": "Gatites del Centenario",
+      "summary": "Parque Centenario, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Parque Centenario",
+        "name": "Gatites del Centenario",
+        "ig": "gatitesdelcentenario"
+      },
+      "sortOrder": 247
+    },
+    {
+      "id": "shelter-248",
+      "type": "shelter",
+      "slug": "shelter-248",
+      "status": "published",
+      "title": "101 Rescataditos",
+      "summary": "Parque Centenario, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Parque Centenario",
+        "name": "101 Rescataditos",
+        "ig": "101_rescataditos"
+      },
+      "sortOrder": 248
+    },
+    {
+      "id": "shelter-249",
+      "type": "shelter",
+      "slug": "shelter-249",
+      "status": "published",
+      "title": "Colonia de Gatitos Parque Chacabuco",
+      "summary": "Parque Chacabuco, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Parque Chacabuco",
+        "name": "Colonia de Gatitos Parque Chacabuco",
+        "ig": "coloniagatitos.pc"
+      },
+      "sortOrder": 249
+    },
+    {
+      "id": "shelter-250",
+      "type": "shelter",
+      "slug": "shelter-250",
+      "status": "published",
+      "title": "Gatitos Parque Chacabuco",
+      "summary": "Parque Chacabuco, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Parque Chacabuco",
+        "name": "Gatitos Parque Chacabuco",
+        "ig": "gatitos_parque_chacabuco"
+      },
+      "sortOrder": 250
+    },
+    {
+      "id": "shelter-251",
+      "type": "shelter",
+      "slug": "shelter-251",
+      "status": "published",
+      "title": "Gatitos del Mercado",
+      "summary": "Parque Chacabuco, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Parque Chacabuco",
+        "name": "Gatitos del Mercado",
+        "ig": "gatitosdelmercado"
+      },
+      "sortOrder": 251
+    },
+    {
+      "id": "shelter-252",
+      "type": "shelter",
+      "slug": "shelter-252",
+      "status": "published",
+      "title": "Vagabundos de Parque Patricios — El Hogar de Claudia",
+      "summary": "Parque Patricios, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Parque Patricios",
+        "name": "Vagabundos de Parque Patricios — El Hogar de Claudia",
+        "ig": "vagabundos.parquepatricios"
+      },
+      "sortOrder": 252
+    },
+    {
+      "id": "shelter-253",
+      "type": "shelter",
+      "slug": "shelter-253",
+      "status": "published",
+      "title": "Adopciones Álida",
+      "summary": "Parque Patricios, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Parque Patricios",
+        "name": "Adopciones Álida",
+        "ig": "adopciones_alida"
+      },
+      "sortOrder": 253
+    },
+    {
+      "id": "shelter-254",
+      "type": "shelter",
+      "slug": "shelter-254",
+      "status": "published",
+      "title": "Gatitos del Penna",
+      "summary": "Parque Patricios, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Parque Patricios",
+        "name": "Gatitos del Penna",
+        "ig": "gatitosdelpenna"
+      },
+      "sortOrder": 254
+    },
+    {
+      "id": "shelter-255",
+      "type": "shelter",
+      "slug": "shelter-255",
+      "status": "published",
+      "title": "Misión Vagabundos",
+      "summary": "Paternal, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Paternal",
+        "name": "Misión Vagabundos",
+        "ig": "misionvagabundosba"
+      },
+      "sortOrder": 255
+    },
+    {
+      "id": "shelter-256",
+      "type": "shelter",
+      "slug": "shelter-256",
+      "status": "published",
+      "title": "Michis Hospital Alvear",
+      "summary": "Paternal, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Paternal",
+        "name": "Michis Hospital Alvear",
+        "ig": "michishospitalalvear"
+      },
+      "sortOrder": 256
+    },
+    {
+      "id": "shelter-257",
+      "type": "shelter",
+      "slug": "shelter-257",
+      "status": "published",
+      "title": "Un Gatito Adopta",
+      "summary": "Paternal, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Paternal",
+        "name": "Un Gatito Adopta",
+        "ig": "ungatitoadopta"
+      },
+      "sortOrder": 257
+    },
+    {
+      "id": "shelter-258",
+      "type": "shelter",
+      "slug": "shelter-258",
+      "status": "published",
+      "title": "Gatos y Perros de la Paternal",
+      "summary": "Paternal, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Paternal",
+        "name": "Gatos y Perros de la Paternal",
+        "ig": "gatosyperrosdelapaternal"
+      },
+      "sortOrder": 258
+    },
+    {
+      "id": "shelter-259",
+      "type": "shelter",
+      "slug": "shelter-259",
+      "status": "published",
+      "title": "Michis Adopciones",
+      "summary": "Pompeya, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Pompeya",
+        "name": "Michis Adopciones",
+        "ig": "michisadopciones"
+      },
+      "sortOrder": 259
+    },
+    {
+      "id": "shelter-260",
+      "type": "shelter",
+      "slug": "shelter-260",
+      "status": "published",
+      "title": "Mascotas Puerto Madero",
+      "summary": "Puerto Madero, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Puerto Madero",
+        "name": "Mascotas Puerto Madero",
+        "ig": "mascotaspuertomadero"
+      },
+      "sortOrder": 260
+    },
+    {
+      "id": "shelter-261",
+      "type": "shelter",
+      "slug": "shelter-261",
+      "status": "published",
+      "title": "Gatitos del Barrio",
+      "summary": "Quilmes, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Quilmes",
+        "name": "Gatitos del Barrio",
+        "ig": "los_gatitos_delbarrio"
+      },
+      "sortOrder": 261
+    },
+    {
+      "id": "shelter-262",
+      "type": "shelter",
+      "slug": "shelter-262",
+      "status": "published",
+      "title": "Vegan Quilmes",
+      "summary": "Quilmes, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Quilmes",
+        "name": "Vegan Quilmes",
+        "ig": "veganquilmes"
+      },
+      "sortOrder": 262
+    },
+    {
+      "id": "shelter-263",
+      "type": "shelter",
+      "slug": "shelter-263",
+      "status": "published",
+      "title": "Santuario de Florcita",
+      "summary": "Ramos Mejía, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Ramos Mejía",
+        "name": "Santuario de Florcita",
+        "ig": "santuariodeflorcita"
+      },
+      "sortOrder": 263
+    },
+    {
+      "id": "shelter-264",
+      "type": "shelter",
+      "slug": "shelter-264",
+      "status": "published",
+      "title": "Sentido Galgo",
+      "summary": "Recoleta, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Recoleta",
+        "name": "Sentido Galgo",
+        "ig": "sentidogalgo"
+      },
+      "sortOrder": 264
+    },
+    {
+      "id": "shelter-265",
+      "type": "shelter",
+      "slug": "shelter-265",
+      "status": "published",
+      "title": "Gatitos de Recoleta",
+      "summary": "Recoleta, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Recoleta",
+        "name": "Gatitos de Recoleta",
+        "ig": "gatitosderecoleta"
+      },
+      "sortOrder": 265
+    },
+    {
+      "id": "shelter-266",
+      "type": "shelter",
+      "slug": "shelter-266",
+      "status": "published",
+      "title": "Michis de Lanús",
+      "summary": "Remedios de Escalada, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Remedios de Escalada",
+        "name": "Michis de Lanús",
+        "ig": "michisdelanus"
+      },
+      "sortOrder": 266
+    },
+    {
+      "id": "shelter-267",
+      "type": "shelter",
+      "slug": "shelter-267",
+      "status": "published",
+      "title": "Galguired",
+      "summary": "CABA, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "CABA",
+        "name": "Galguired",
+        "ig": "galguired"
+      },
+      "sortOrder": 267
+    },
+    {
+      "id": "shelter-268",
+      "type": "shelter",
+      "slug": "shelter-268",
+      "status": "published",
+      "title": "Rescataditos en Adopción",
+      "summary": "Saavedra, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Saavedra",
+        "name": "Rescataditos en Adopción",
+        "ig": "rescataditosenadopcionn"
+      },
+      "sortOrder": 268
+    },
+    {
+      "id": "shelter-269",
+      "type": "shelter",
+      "slug": "shelter-269",
+      "status": "published",
+      "title": "Huellitas Adopciones",
+      "summary": "Saavedra, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Saavedra",
+        "name": "Huellitas Adopciones",
+        "ig": "huellitas.adopciones"
+      },
+      "sortOrder": 269
+    },
+    {
+      "id": "shelter-270",
+      "type": "shelter",
+      "slug": "shelter-270",
+      "status": "published",
+      "title": "Bolita de Leche",
+      "summary": "Saavedra, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Saavedra",
+        "name": "Bolita de Leche",
+        "ig": "bolitadelecheok"
+      },
+      "sortOrder": 270
+    },
+    {
+      "id": "shelter-271",
+      "type": "shelter",
+      "slug": "shelter-271",
+      "status": "published",
+      "title": "Adopción de Gatos CABA",
+      "summary": "San Cristóbal, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "San Cristóbal",
+        "name": "Adopción de Gatos CABA",
+        "ig": "adopciondegatoscaba"
+      },
+      "sortOrder": 271
+    },
+    {
+      "id": "shelter-272",
+      "type": "shelter",
+      "slug": "shelter-272",
+      "status": "published",
+      "title": "Gatitos Lactantes Zona Norte",
+      "summary": "San Fernando, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "San Fernando",
+        "name": "Gatitos Lactantes Zona Norte",
+        "ig": "gatitoslacanteszn"
+      },
+      "sortOrder": 272
+    },
+    {
+      "id": "shelter-273",
+      "type": "shelter",
+      "slug": "shelter-273",
+      "status": "published",
+      "title": "Refugio Callejeritos del Oeste",
+      "summary": "San Justo, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "San Justo",
+        "name": "Refugio Callejeritos del Oeste",
+        "ig": "refugio_callejeritos_del_oeste"
+      },
+      "sortOrder": 273
+    },
+    {
+      "id": "shelter-274",
+      "type": "shelter",
+      "slug": "shelter-274",
+      "status": "published",
+      "title": "Gatitos del Gutiérrez",
+      "summary": "San Martín, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "San Martín",
+        "name": "Gatitos del Gutiérrez",
+        "ig": "gatitos__del_gutierrez"
+      },
+      "sortOrder": 274
+    },
+    {
+      "id": "shelter-275",
+      "type": "shelter",
+      "slug": "shelter-275",
+      "status": "published",
+      "title": "Patitas Unisex",
+      "summary": "San Martín, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "San Martín",
+        "name": "Patitas Unisex",
+        "ig": "belladelnilo"
+      },
+      "sortOrder": 275
+    },
+    {
+      "id": "shelter-276",
+      "type": "shelter",
+      "slug": "shelter-276",
+      "status": "published",
+      "title": "Patitas a Salvo",
+      "summary": "San Martín, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "San Martín",
+        "name": "Patitas a Salvo",
+        "ig": "patitasalvo__"
+      },
+      "sortOrder": 276
+    },
+    {
+      "id": "shelter-277",
+      "type": "shelter",
+      "slug": "shelter-277",
+      "status": "published",
+      "title": "Refugio para Michis",
+      "summary": "San Telmo, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "San Telmo",
+        "name": "Refugio para Michis",
+        "ig": "refugioparamichis"
+      },
+      "sortOrder": 277
+    },
+    {
+      "id": "shelter-278",
+      "type": "shelter",
+      "slug": "shelter-278",
+      "status": "published",
+      "title": "Los Hermanos Pati Corti",
+      "summary": "Santos Lugares, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Santos Lugares",
+        "name": "Los Hermanos Pati Corti",
+        "ig": "loshermanospaticorti"
+      },
+      "sortOrder": 278
+    },
+    {
+      "id": "shelter-279",
+      "type": "shelter",
+      "slug": "shelter-279",
+      "status": "published",
+      "title": "Amicats Sarandí",
+      "summary": "Sarandí, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Sarandí",
+        "name": "Amicats Sarandí",
+        "ig": "amicatsarandi"
+      },
+      "sortOrder": 279
+    },
+    {
+      "id": "shelter-280",
+      "type": "shelter",
+      "slug": "shelter-280",
+      "status": "published",
+      "title": "Aquimiu",
+      "summary": "Sarandí, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Sarandí",
+        "name": "Aquimiu",
+        "ig": "aquimiu"
+      },
+      "sortOrder": 280
+    },
+    {
+      "id": "shelter-281",
+      "type": "shelter",
+      "slug": "shelter-281",
+      "status": "published",
+      "title": "Voz Animal Argentina",
+      "summary": "Tapiales, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Tapiales",
+        "name": "Voz Animal Argentina",
+        "ig": "vozanimal.arg"
+      },
+      "sortOrder": 281
+    },
+    {
+      "id": "shelter-282",
+      "type": "shelter",
+      "slug": "shelter-282",
+      "status": "published",
+      "title": "Seres Sintientes",
+      "summary": "Temperley, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Temperley",
+        "name": "Seres Sintientes",
+        "ig": "seres.sintientes"
+      },
+      "sortOrder": 282
+    },
+    {
+      "id": "shelter-283",
+      "type": "shelter",
+      "slug": "shelter-283",
+      "status": "published",
+      "title": "Proteccionismo Tigre",
+      "summary": "Tigre, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Tigre",
+        "name": "Proteccionismo Tigre",
+        "ig": "proteccionismotigre"
+      },
+      "sortOrder": 283
+    },
+    {
+      "id": "shelter-284",
+      "type": "shelter",
+      "slug": "shelter-284",
+      "status": "published",
+      "title": "Rescatando Mini Patitas",
+      "summary": "Tigre, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Tigre",
+        "name": "Rescatando Mini Patitas",
+        "ig": "rescatandominipatitas"
+      },
+      "sortOrder": 284
+    },
+    {
+      "id": "shelter-285",
+      "type": "shelter",
+      "slug": "shelter-285",
+      "status": "published",
+      "title": "Rescates Tigre",
+      "summary": "Tigre, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Tigre",
+        "name": "Rescates Tigre",
+        "ig": "rescatestigre"
+      },
+      "sortOrder": 285
+    },
+    {
+      "id": "shelter-286",
+      "type": "shelter",
+      "slug": "shelter-286",
+      "status": "published",
+      "title": "Salvando Patitas",
+      "summary": "Tortuguitas, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Tortuguitas",
+        "name": "Salvando Patitas",
+        "ig": "salvandopatitasrg"
+      },
+      "sortOrder": 286
+    },
+    {
+      "id": "shelter-287",
+      "type": "shelter",
+      "slug": "shelter-287",
+      "status": "published",
+      "title": "Hogar de Tránsito Oca",
+      "summary": "Tristán Suárez, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Tristán Suárez",
+        "name": "Hogar de Tránsito Oca",
+        "ig": "hogardetransitoca"
+      },
+      "sortOrder": 287
+    },
+    {
+      "id": "shelter-288",
+      "type": "shelter",
+      "slug": "shelter-288",
+      "status": "published",
+      "title": "Proyecto El Arca",
+      "summary": "Tristán Suárez, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Tristán Suárez",
+        "name": "Proyecto El Arca",
+        "ig": "_proyectoelarca"
+      },
+      "sortOrder": 288
+    },
+    {
+      "id": "shelter-289",
+      "type": "shelter",
+      "slug": "shelter-289",
+      "status": "published",
+      "title": "Andy Pichy",
+      "summary": "Tristán Suárez, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Tristán Suárez",
+        "name": "Andy Pichy",
+        "ig": "andy_pichi_guau"
+      },
+      "sortOrder": 289
+    },
+    {
+      "id": "shelter-290",
+      "type": "shelter",
+      "slug": "shelter-290",
+      "status": "published",
+      "title": "Refugio Hogar Rox Michis",
+      "summary": "Valentín Alsina, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Valentín Alsina",
+        "name": "Refugio Hogar Rox Michis",
+        "ig": "refugiohogarroxmichiss"
+      },
+      "sortOrder": 290
+    },
+    {
+      "id": "shelter-291",
+      "type": "shelter",
+      "slug": "shelter-291",
+      "status": "published",
+      "title": "Animales de Vte. López",
+      "summary": "Vicente López, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Vicente López",
+        "name": "Animales de Vte. López",
+        "ig": "animalesdevtelopez"
+      },
+      "sortOrder": 291
+    },
+    {
+      "id": "shelter-292",
+      "type": "shelter",
+      "slug": "shelter-292",
+      "status": "published",
+      "title": "Patitas San Martín",
+      "summary": "Villa Ballester, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Villa Ballester",
+        "name": "Patitas San Martín",
+        "ig": "patitassanmartin"
+      },
+      "sortOrder": 292
+    },
+    {
+      "id": "shelter-293",
+      "type": "shelter",
+      "slug": "shelter-293",
+      "status": "published",
+      "title": "Patitas Villa Ballester",
+      "summary": "Villa Ballester, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Villa Ballester",
+        "name": "Patitas Villa Ballester",
+        "ig": "patitasvillaballester"
+      },
+      "sortOrder": 293
+    },
+    {
+      "id": "shelter-294",
+      "type": "shelter",
+      "slug": "shelter-294",
+      "status": "published",
+      "title": "Pichy Michis",
+      "summary": "Villa Celina, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Villa Celina",
+        "name": "Pichy Michis",
+        "ig": "pichymichis"
+      },
+      "sortOrder": 294
+    },
+    {
+      "id": "shelter-295",
+      "type": "shelter",
+      "slug": "shelter-295",
+      "status": "published",
+      "title": "Rescatando por Amor",
+      "summary": "Villa Celina, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Villa Celina",
+        "name": "Rescatando por Amor",
+        "ig": "rescatando.por.amor"
+      },
+      "sortOrder": 295
+    },
+    {
+      "id": "shelter-296",
+      "type": "shelter",
+      "slug": "shelter-296",
+      "status": "published",
+      "title": "Colitas sin Hogar",
+      "summary": "Villa Celina, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Villa Celina",
+        "name": "Colitas sin Hogar",
+        "ig": "colitassinhogar"
+      },
+      "sortOrder": 296
+    },
+    {
+      "id": "shelter-297",
+      "type": "shelter",
+      "slug": "shelter-297",
+      "status": "published",
+      "title": "Liberados del Pasteur",
+      "summary": "Villa Crespo, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Villa Crespo",
+        "name": "Liberados del Pasteur",
+        "ig": "liberadosdelpasteur"
+      },
+      "sortOrder": 297
+    },
+    {
+      "id": "shelter-298",
+      "type": "shelter",
+      "slug": "shelter-298",
+      "status": "published",
+      "title": "Adopciones Villa Crespo",
+      "summary": "Villa Crespo, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Villa Crespo",
+        "name": "Adopciones Villa Crespo",
+        "ig": "adopciones.villacrespo"
+      },
+      "sortOrder": 298
+    },
+    {
+      "id": "shelter-299",
+      "type": "shelter",
+      "slug": "shelter-299",
+      "status": "published",
+      "title": "Guardianes de Galgos",
+      "summary": "Villa Crespo, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Villa Crespo",
+        "name": "Guardianes de Galgos",
+        "ig": "guardianesdegalgos"
+      },
+      "sortOrder": 299
+    },
+    {
+      "id": "shelter-300",
+      "type": "shelter",
+      "slug": "shelter-300",
+      "status": "published",
+      "title": "Suertudos de Li",
+      "summary": "Villa de Mayo, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Villa de Mayo",
+        "name": "Suertudos de Li",
+        "ig": "suertudos__de_li"
+      },
+      "sortOrder": 300
+    },
+    {
+      "id": "shelter-301",
+      "type": "shelter",
+      "slug": "shelter-301",
+      "status": "published",
+      "title": "Amor a las Cuatro Huellitas",
+      "summary": "Villa del Parque, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Villa del Parque",
+        "name": "Amor a las Cuatro Huellitas",
+        "ig": "amoralascuatrohuellitas"
+      },
+      "sortOrder": 301
+    },
+    {
+      "id": "shelter-302",
+      "type": "shelter",
+      "slug": "shelter-302",
+      "status": "published",
+      "title": "Los Michis de VdP",
+      "summary": "Villa del Parque, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Villa del Parque",
+        "name": "Los Michis de VdP",
+        "ig": "losmichisdevdp"
+      },
+      "sortOrder": 302
+    },
+    {
+      "id": "shelter-303",
+      "type": "shelter",
+      "slug": "shelter-303",
+      "status": "published",
+      "title": "Ronroneos Felices",
+      "summary": "Villa del Parque, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Villa del Parque",
+        "name": "Ronroneos Felices",
+        "ig": "ronroneosfelices"
+      },
+      "sortOrder": 303
+    },
+    {
+      "id": "shelter-304",
+      "type": "shelter",
+      "slug": "shelter-304",
+      "status": "published",
+      "title": "APAC Avellaneda",
+      "summary": "Villa Domínico, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Villa Domínico",
+        "name": "APAC Avellaneda",
+        "ig": "apacavellaneda"
+      },
+      "sortOrder": 304
+    },
+    {
+      "id": "shelter-305",
+      "type": "shelter",
+      "slug": "shelter-305",
+      "status": "published",
+      "title": "Aledia Riveros Adopciones",
+      "summary": "Villa Lugano, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Villa Lugano",
+        "name": "Aledia Riveros Adopciones",
+        "ig": "alediariveros_adopciones"
+      },
+      "sortOrder": 305
+    },
+    {
+      "id": "shelter-306",
+      "type": "shelter",
+      "slug": "shelter-306",
+      "status": "published",
+      "title": "Melina Adopciones",
+      "summary": "Villa Lugano, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Villa Lugano",
+        "name": "Melina Adopciones",
+        "ig": "melina_adopciones"
+      },
+      "sortOrder": 306
+    },
+    {
+      "id": "shelter-307",
+      "type": "shelter",
+      "slug": "shelter-307",
+      "status": "published",
+      "title": "Patitas Lugano",
+      "summary": "Villa Lugano, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Villa Lugano",
+        "name": "Patitas Lugano",
+        "ig": "patitaslugano"
+      },
+      "sortOrder": 307
+    },
+    {
+      "id": "shelter-308",
+      "type": "shelter",
+      "slug": "shelter-308",
+      "status": "published",
+      "title": "Hogar Donna",
+      "summary": "Villa Pueyrredón, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Villa Pueyrredón",
+        "name": "Hogar Donna",
+        "ig": "hogar.donna"
+      },
+      "sortOrder": 308
+    },
+    {
+      "id": "shelter-309",
+      "type": "shelter",
+      "slug": "shelter-309",
+      "status": "published",
+      "title": "Gatitos de Villa Pueyrredón",
+      "summary": "Villa Pueyrredón, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Villa Pueyrredón",
+        "name": "Gatitos de Villa Pueyrredón",
+        "ig": "gatitosdevillapueyrredon"
+      },
+      "sortOrder": 309
+    },
+    {
+      "id": "shelter-310",
+      "type": "shelter",
+      "slug": "shelter-310",
+      "status": "published",
+      "title": "Escuadrón Animal BA",
+      "summary": "Villa Santa Rita, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Villa Santa Rita",
+        "name": "Escuadrón Animal BA",
+        "ig": "escuadron.animal.ba"
+      },
+      "sortOrder": 310
+    },
+    {
+      "id": "shelter-311",
+      "type": "shelter",
+      "slug": "shelter-311",
+      "status": "published",
+      "title": "Techo de Amor",
+      "summary": "Villa Sarmiento, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Villa Sarmiento",
+        "name": "Techo de Amor",
+        "ig": "techodeamor"
+      },
+      "sortOrder": 311
+    },
+    {
+      "id": "shelter-312",
+      "type": "shelter",
+      "slug": "shelter-312",
+      "status": "published",
+      "title": "GAPRA Refugio",
+      "summary": "Villa Soldati, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Villa Soldati",
+        "name": "GAPRA Refugio",
+        "ig": "gapra.refugio"
+      },
+      "sortOrder": 312
+    },
+    {
+      "id": "shelter-313",
+      "type": "shelter",
+      "slug": "shelter-313",
+      "status": "published",
+      "title": "Proyecto Miau",
+      "summary": "Villa Soldati, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Villa Soldati",
+        "name": "Proyecto Miau",
+        "ig": "proyecto.miau"
+      },
+      "sortOrder": 313
+    },
+    {
+      "id": "shelter-314",
+      "type": "shelter",
+      "slug": "shelter-314",
+      "status": "published",
+      "title": "Bigotes en Apuros",
+      "summary": "Villa Urquiza, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Villa Urquiza",
+        "name": "Bigotes en Apuros",
+        "ig": "bigotesenapuros"
+      },
+      "sortOrder": 314
+    },
+    {
+      "id": "shelter-315",
+      "type": "shelter",
+      "slug": "shelter-315",
+      "status": "published",
+      "title": "Sumá un Amigo",
+      "summary": "Villa Urquiza, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Villa Urquiza",
+        "name": "Sumá un Amigo",
+        "ig": "sumaunamigo"
+      },
+      "sortOrder": 315
+    },
+    {
+      "id": "shelter-316",
+      "type": "shelter",
+      "slug": "shelter-316",
+      "status": "published",
+      "title": "Fauna Urbana",
+      "summary": "Villa Urquiza, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Villa Urquiza",
+        "name": "Fauna Urbana",
+        "ig": "faunaurbanaba"
+      },
+      "sortOrder": 316
+    },
+    {
+      "id": "shelter-317",
+      "type": "shelter",
+      "slug": "shelter-317",
+      "status": "published",
+      "title": "Asociación Civil Las Renatas",
+      "summary": "Virrey del Pino, CABA y GBA",
+      "data": {
+        "prov": "CABA y GBA",
+        "loc": "Virrey del Pino",
+        "name": "Asociación Civil Las Renatas",
+        "ig": "refugiolasrenatasoficial"
+      },
+      "sortOrder": 317
+    }
+  ],
+  "faqs": [
+    {
+      "id": "faq-1",
+      "type": "faq",
+      "slug": "faq-1",
+      "status": "published",
+      "title": "¿Qué es Baires?",
+      "summary": "Baires es una empresa argentina comprometida con el bienestar de perros y gatos. Nuestro propósito es brindar una nutrición de excelencia que contribuya a una mejor calidad de vida para las mascotas. Nos especializamos en la elaboración de alimentos balanceados de alta calidad y trabajamos todos los días con pasión, innovación y compromiso para acompañar a miles de familias en el cuidado de sus compañeros de cuatro patas. Contamos con un amplio portfolio de marcas, entre las que se encuentra Kongo.",
+      "data": {
+        "q": "¿Qué es Baires?",
+        "dot": "#EAA55D",
+        "a": "Baires es una empresa argentina comprometida con el bienestar de perros y gatos. Nuestro propósito es brindar una nutrición de excelencia que contribuya a una mejor calidad de vida para las mascotas. Nos especializamos en la elaboración de alimentos balanceados de alta calidad y trabajamos todos los días con pasión, innovación y compromiso para acompañar a miles de familias en el cuidado de sus compañeros de cuatro patas. Contamos con un amplio portfolio de marcas, entre las que se encuentra Kongo."
+      },
+      "sortOrder": 1
+    },
+    {
+      "id": "faq-2",
+      "type": "faq",
+      "slug": "faq-2",
+      "status": "published",
+      "title": "¿Qué es Kongo?",
+      "summary": "Kongo ofrece una línea completa de alimentos balanceados para perros y gatos, desarrollada para brindar una nutrición completa, natural y saludable. Sus fórmulas están elaboradas sin colorantes ni saborizantes artificiales, con ingredientes cuidadosamente seleccionados y proteína de origen animal como ingrediente principal. De esta manera, Kongo ofrece una excelente combinación de calidad, nutrición y precio para acompañar el bienestar de perros y gatos en cada etapa de su vida. Kongo Gold es el alimento súper Premium de la familia Kongo y ofrece los estándares más altos de calidad en su segmento. Con la fórmula ideal para cada etapa de la vida y proteína de pollo como ingrediente principal.",
+      "data": {
+        "q": "¿Qué es Kongo?",
+        "dot": "#96661F",
+        "a": "Kongo ofrece una línea completa de alimentos balanceados para perros y gatos, desarrollada para brindar una nutrición completa, natural y saludable. Sus fórmulas están elaboradas sin colorantes ni saborizantes artificiales, con ingredientes cuidadosamente seleccionados y proteína de origen animal como ingrediente principal. De esta manera, Kongo ofrece una excelente combinación de calidad, nutrición y precio para acompañar el bienestar de perros y gatos en cada etapa de su vida. Kongo Gold es el alimento súper Premium de la familia Kongo y ofrece los estándares más altos de calidad en su segmento. Con la fórmula ideal para cada etapa de la vida y proteína de pollo como ingrediente principal."
+      },
+      "sortOrder": 2
+    },
+    {
+      "id": "faq-3",
+      "type": "faq",
+      "slug": "faq-3",
+      "status": "published",
+      "title": "¿Qué es Comunidad Baires?",
+      "summary": "Comunidad Baires es nuestra campaña de triple impacto, creada para cuidar a las mascotas, ayudar a los refugios y contribuir al cuidado del medio ambiente. A través de esta iniciativa, invitamos a las personas a juntar los envases vacíos de Kongo y acercarlos a un refugio participante o punto de acopio. Los refugios pueden canjear 1 envase vacío por 1 kg de alimento balanceado. Por su parte, los envases recuperados son enviados a la cooperativa Creando Conciencia para ser reciclados y transformarlos en nuevos productos, promoviendo la economía circular y reduciendo el impacto ambiental.",
+      "data": {
+        "q": "¿Qué es Comunidad Baires?",
+        "dot": "#A1A467",
+        "a": "Comunidad Baires es nuestra campaña de triple impacto, creada para cuidar a las mascotas, ayudar a los refugios y contribuir al cuidado del medio ambiente. A través de esta iniciativa, invitamos a las personas a juntar los envases vacíos de Kongo y acercarlos a un refugio participante o punto de acopio. Los refugios pueden canjear 1 envase vacío por 1 kg de alimento balanceado. Por su parte, los envases recuperados son enviados a la cooperativa Creando Conciencia para ser reciclados y transformarlos en nuevos productos, promoviendo la economía circular y reduciendo el impacto ambiental."
+      },
+      "sortOrder": 3
+    },
+    {
+      "id": "faq-4",
+      "type": "faq",
+      "slug": "faq-4",
+      "status": "published",
+      "title": "Tengo un refugio, ¿cómo hago para participar?",
+      "summary": "Si representas a un refugio y querés formar parte de Comunidad Baires, debes escribirnos desde el instagram del refugio a @kongooficial donde te enviaremos un formulario de inscripción.",
+      "data": {
+        "q": "Tengo un refugio, ¿cómo hago para participar?",
+        "dot": "#D4BA8B",
+        "a": "Si representas a un refugio y querés formar parte de Comunidad Baires, debes escribirnos desde el instagram del refugio a @kongooficial donde te enviaremos un formulario de inscripción."
+      },
+      "sortOrder": 4
+    },
+    {
+      "id": "faq-5",
+      "type": "faq",
+      "slug": "faq-5",
+      "status": "published",
+      "title": "Tengo un punto de venta, ¿cómo me puedo sumar?",
+      "summary": "Podés convertir tu local en un punto de acopio de Comunidad Baires y recibir envases en un botadero. Para participar, contacta a tu distribuidor o escribinos a @kongooficial, indicándonos los datos de tu comercio. Nuestro equipo te brindará toda la información y el material necesario para comenzar.",
+      "data": {
+        "q": "Tengo un punto de venta, ¿cómo me puedo sumar?",
+        "dot": "#A1A467",
+        "a": "Podés convertir tu local en un punto de acopio de Comunidad Baires y recibir envases en un botadero. Para participar, contacta a tu distribuidor o escribinos a @kongooficial, indicándonos los datos de tu comercio. Nuestro equipo te brindará toda la información y el material necesario para comenzar."
+      },
+      "sortOrder": 5
+    },
+    {
+      "id": "faq-6",
+      "type": "faq",
+      "slug": "faq-6",
+      "status": "published",
+      "title": "Soy consumidor. ¿Dónde puedo llevar los envases?",
+      "summary": "Si querés colaborar con Comunidad Baires, podés acercar tus envases vacíos a un refugio o punto de acopio adherido. Para conocer cuál es el más cercano a tu domicilio, escribinos por Instagram a @kongooficial o comunicate con nuestro WhatsApp de Atención al Cliente al +54 9 11 6405-0041. Nuestro equipo te ayudará a encontrar el punto de entrega más conveniente.",
+      "data": {
+        "q": "Soy consumidor. ¿Dónde puedo llevar los envases?",
+        "dot": "#97272D",
+        "a": "Si querés colaborar con Comunidad Baires, podés acercar tus envases vacíos a un refugio o punto de acopio adherido. Para conocer cuál es el más cercano a tu domicilio, escribinos por Instagram a @kongooficial o comunicate con nuestro WhatsApp de Atención al Cliente al +54 9 11 6405-0041. Nuestro equipo te ayudará a encontrar el punto de entrega más conveniente."
+      },
+      "sortOrder": 6
+    }
+  ],
+  "pages": [
+    {
+      "id": "home",
+      "type": "page",
+      "slug": "inicio",
+      "status": "published",
+      "title": "Inicio",
+      "summary": "Textos principales de la portada",
+      "data": {
+        "eyebrow": "Nutrición natural",
+        "title": "Nutrición natural para perros y gatos",
+        "heroBefore": "Nutrición",
+        "heroHighlight": "natural",
+        "heroAfter": "para perros y gatos",
+        "heroCta": "Ver los productos",
+        "stat1": "100",
+        "stat1Label": "ingredientes naturales",
+        "stat2a": "22",
+        "stat2b": "34",
+        "stat2Label": "de proteína",
+        "stat3": "85",
+        "stat3Label": "proteína de origen animal",
+        "stat4": "0",
+        "stat4Label": "colorantes y saborizantes artificiales",
+        "familiaTitle": "Familia",
+        "kongoLabel": "Kongo",
+        "kongoText": "Kongo cuenta con una línea completa de alimento para perros y gatos que aporta una nutrición natural y saludable sin colorantes ni saborizantes artificiales. Está formulado con productos naturales de excelente calidad y proteína animal como su principal ingrediente. De esta manera es la mejor opción del segmento ya que otorga una excelente relación entre precio y calidad.",
+        "kongoCta": "Ver los alimentos Kongo",
+        "goldLabel": "Kongo Gold",
+        "goldText": "Kongo Gold es el alimento súper premium de la familia de Kongo y ofrece los estándares más altos de calidad en su segmento. Con la fórmula ideal para cada etapa de la vida y proteína de pollo como ingrediente principal.",
+        "goldCta": "Ver los alimentos Kongo Gold",
+        "familiaProductsCta": "Ver todos los productos →",
+        "railHint": "DESLIZÁ PARA VER TODOS",
+        "communityKicker": "Ayudamos a los que más lo necesitan · ¿Te sumás?",
+        "communityText": "Con cada envase vacío de Kongo podés ayudar a perritos que están en los refugios y además cuidar al medio ambiente.",
+        "communityCta": "Conocé la campaña",
+        "communityIg": "@kongooficial",
+        "communityIgUrl": "https://instagram.com/kongooficial",
+        "communityVideo": "https://www.youtube.com/watch?v=VEUU6t2USAk",
+        "communityVideoStart": "7",
+        "exchangeLine": "1 envase vacío = 1 kg de alimento",
+        "joinCount": "3",
+        "joinLabel": "formas de sumarse",
+        "joinMore": "Más información →",
+        "censoKicker": "Registro Nacional de Perros y Gatos",
+        "censoTitleBefore": "Tu perro y tu gato no son",
+        "censoHighlight": "uno más",
+        "censoText": "Tienen nombre, tienen historia y son parte de tu familia. Registralos y sumate a una comunidad que celebra ese vínculo todos los días.",
+        "censoCta": "Registralo →",
+        "censoUrl": "https://censo.oldprince.com.ar/",
+        "consejosTitle": "Consejos",
+        "consejosCta": "Ver todas las notas",
+        "bairesTitleBefore": "Trabajamos todos los días para hacer el",
+        "bairesHighlight": "mejor alimento para ellos",
+        "bairesText": "Somos una empresa responsable y comprometida. Es nuestro propósito ofrecer excelencia en nutrición, aportando más salud y mejor calidad de vida a perros y gatos. Para ello nos especializamos en la producción de sus alimentos y trabajamos con pasión, logrando así ingresar día a día en nuevos hogares para compartir el cuidado con sus familias.",
+        "bairesCta": "Conocé Baires S.A.",
+        "bairesUrl": "https://baires-sa.com.ar/"
+      },
+      "sortOrder": 1
+    },
+    {
+      "id": "community",
+      "type": "page",
+      "slug": "comunidad-baires",
+      "status": "published",
+      "title": "Comunidad Baires",
+      "summary": "Campaña de recuperación de envases",
+      "data": {
+        "kicker": "Ayudamos a los que más lo necesitan",
+        "intro": "No tires la bolsa vacía de Kongo: llevala a un refugio. Nosotros la retiramos y les dejamos alimento; después las bolsas se reciclan y el plástico vuelve a ser materia prima.",
+        "headline": "Ayudamos a los que más lo necesitan",
+        "text": "No tires la bolsa vacía de Kongo: llevala a un refugio. Nosotros la retiramos y les dejamos alimento; después las bolsas se reciclan y el plástico vuelve a ser materia prima.",
+        "video": "https://www.youtube.com/watch?v=VEUU6t2USAk",
+        "videoStart": "7",
+        "cicloIntro": "Porque cuando trabajamos juntos, cada pequeño gesto puede generar un gran impacto para los animales y para el planeta.",
+        "cicloNote": "Cada envase tiene una segunda oportunidad: alimenta a quien espera una familia y cuida el ambiente.",
+        "ciclo1": "Comprá cualquier producto Kongo, en cualquiera de sus presentaciones.",
+        "ciclo2": "Llevá el envase vacío a un refugio adherido o a un punto de acopio de Comunidad Baires.",
+        "ciclo3": "Nosotros retiramos los envases y entregamos alimento a los refugios participantes.",
+        "ciclo4": "Las bolsas recolectadas se envían a una cooperativa de reciclado, donde el plástico se transforma en nueva materia prima."
+      },
+      "sortOrder": 2
+    },
+    {
+      "id": "contact",
+      "type": "page",
+      "slug": "contacto",
+      "status": "published",
+      "title": "Contacto",
+      "summary": "Textos de la sección de contacto",
+      "data": {
+        "headline": "Contáctanos",
+        "text": "Escribinos y te respondemos a la brevedad.",
+        "pageBefore": "¡Contactate con",
+        "pageHighlight": "nosotros",
+        "email": "consultas@baires-sa.com.ar",
+        "whatsapp": "+54 9 11 6405-0041",
+        "whatsappHref": "https://wa.me/5491164050041",
+        "instagram": "@kongooficial",
+        "instagramUrl": "https://instagram.com/kongooficial",
+        "facebookUrl": "https://www.facebook.com/KongoOficial/",
+        "youtubeUrl": "https://www.youtube.com/channel/UColFvIkhJhcC3K8ip8eK6tw",
+        "redesText": "Instagram, Facebook y YouTube: @kongooficial"
+      },
+      "sortOrder": 3
+    },
+    {
+      "id": "products-page",
+      "type": "page",
+      "slug": "productos",
+      "status": "published",
+      "title": "Productos",
+      "summary": "Títulos de la página de productos",
+      "data": {
+        "heroBefore": "Nuestros",
+        "heroHighlight": "productos",
+        "filtersLabel": "Filtros",
+        "clearFilters": "Limpiar filtros"
+      },
+      "sortOrder": 4
+    },
+    {
+      "id": "tips-page",
+      "type": "page",
+      "slug": "consejos",
+      "status": "published",
+      "title": "Consejos",
+      "summary": "Títulos de la sección de notas",
+      "data": {
+        "heroBefore": "Consejos",
+        "heroHighlight": "Kongo",
+        "intro": "Notas sobre alimentación, salud y convivencia con perros y gatos."
+      },
+      "sortOrder": 5
+    },
+    {
+      "id": "faq-page",
+      "type": "page",
+      "slug": "faq",
+      "status": "published",
+      "title": "Preguntas frecuentes",
+      "summary": "Título de la página de FAQ",
+      "data": {
+        "heroBefore": "Preguntas",
+        "heroHighlight": "frecuentes"
+      },
+      "sortOrder": 6
+    },
+    {
+      "id": "shelters-page",
+      "type": "page",
+      "slug": "refugios",
+      "status": "published",
+      "title": "Refugios",
+      "summary": "Textos del listado de refugios",
+      "data": {
+        "backLabel": "← Volver a Comunidad Baires",
+        "heroBefore": "Refugios",
+        "heroHighlight": "beneficiados",
+        "intro": "Estos son los refugios que reciben el alimento de Comunidad Baires. Buscá el más cercano y llevale tus bolsas vacías de Kongo.",
+        "footnote": "¿Participas de comunidad y querés aparecer acá? Escribinos por Instagram a @kongooficial."
+      },
+      "sortOrder": 7
+    },
+    {
+      "id": "nav-page",
+      "type": "page",
+      "slug": "navegacion",
+      "status": "published",
+      "title": "Navegación y pie",
+      "summary": "Menú, footer y textos legales",
+      "data": {
+        "inicio": "Inicio",
+        "productos": "Productos",
+        "comunidad": "Comunidad Baires",
+        "consejos": "Consejos",
+        "faq": "Preguntas frecuentes",
+        "contacto": "Contacto",
+        "footerBlurb": "Nutrición natural para perros y gatos. Una marca de Baires S.A.",
+        "sectionsTitle": "Secciones",
+        "followTitle": "Seguinos",
+        "contactTitle": "Contacto",
+        "legal": "© 2026 Baires S.A. Todos los derechos reservados. Kongo es una marca registrada de Baires S.A."
+      },
+      "sortOrder": 8
+    }
+  ]
+}
