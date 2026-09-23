@@ -34,6 +34,7 @@ const upload = multer({
 });
 
 function csrfToken(req) {
+  if (!req.session) req.session = {};
   if (!req.session.csrfToken) req.session.csrfToken = crypto.randomBytes(24).toString('hex');
   return req.session.csrfToken;
 }
@@ -56,7 +57,7 @@ async function requireAuth(req, _res, next) {
   }
   const user = await findUserById(req.session.userId);
   if (!user) {
-    req.session.destroy(() => {});
+    req.session = {};
     const error = new Error('La sesión ya no es válida');
     error.status = 401;
     return next(error);
@@ -91,8 +92,7 @@ router.post('/auth/bootstrap', loginLimiter, requireCsrf, async (req, res) => {
   if (await hasUsers()) return res.status(409).json({ error: 'El panel ya tiene un administrador' });
   const input = parse(userSchema, { ...req.body, role: 'admin' });
   const user = await createUser({ ...input, role: 'admin', passwordHash: await bcrypt.hash(input.password, 12) });
-  await new Promise((resolve, reject) => req.session.regenerate((error) => error ? reject(error) : resolve()));
-  req.session.userId = user.id;
+  req.session = { userId: user.id };
   const token = csrfToken(req);
   await addAudit(user.id, 'bootstrap', 'user', String(user.id), { email: user.email }, req.ip);
   res.status(201).json({ user, csrfToken: token });
@@ -103,8 +103,7 @@ router.post('/auth/login', loginLimiter, requireCsrf, async (req, res) => {
   const user = await findUserByEmail(input.email);
   const valid = user && await bcrypt.compare(input.password, user.password_hash);
   if (!valid) return res.status(401).json({ error: 'Email o contraseña incorrectos' });
-  await new Promise((resolve, reject) => req.session.regenerate((error) => error ? reject(error) : resolve()));
-  req.session.userId = user.id;
+  req.session = { userId: user.id };
   const token = csrfToken(req);
   await updateLastLogin(user.id);
   await addAudit(user.id, 'login', 'session', null, {}, req.ip);
@@ -113,7 +112,8 @@ router.post('/auth/login', loginLimiter, requireCsrf, async (req, res) => {
 
 router.post('/auth/logout', requireAuth, requireCsrf, async (req, res) => {
   await addAudit(req.user.id, 'logout', 'session', null, {}, req.ip);
-  req.session.destroy(() => res.status(204).end());
+  req.session = {};
+  res.status(204).end();
 });
 
 router.use('/admin', requireAuth);
