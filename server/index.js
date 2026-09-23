@@ -76,14 +76,18 @@ app.use((error, _req, res, _next) => {
   });
 });
 
-const server = app.listen(port, () => {
-  console.log(`Kongo CMS disponible en http://localhost:${port}`);
-  if (useMemoryStore) console.log('Usando almacenamiento local en memoria. El panel está en /admin');
-  else console.log('Dashboard: /admin');
-});
+export default app;
 
-function shutdown() {
-  server.close(() => process.exit(0));
+if (!process.env.VERCEL) {
+  const server = app.listen(port, () => {
+    console.log(`Kongo CMS disponible en http://localhost:${port}`);
+    if (useMemoryStore) console.log('Usando almacenamiento local en memoria. El panel está en /admin');
+    else console.log('Dashboard: /admin');
+  });
+
+  function shutdown() {
+    server.close(() => process.exit(0));
+  }
+  process.on('SIGTERM', shutdown);
+  process.on('SIGINT', shutdown);
 }
-process.on('SIGTERM', shutdown);
-process.on('SIGINT', shutdown);

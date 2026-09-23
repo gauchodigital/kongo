@@ -20,6 +20,15 @@ function loadEnvFile() {
 
 loadEnvFile();
 
+if (process.env.VERCEL) {
+  process.env.USE_MEMORY_STORE = 'true';
+  process.env.PUBLIC_INDEXING = process.env.PUBLIC_INDEXING || 'false';
+  process.env.UPLOAD_DIR = process.env.UPLOAD_DIR || '/tmp/kongo-cms';
+  if (String(process.env.SESSION_SECRET || '').length < 32) {
+    process.env.SESSION_SECRET = 'kongo-vercel-test-session-secret-min-32';
+  }
+}
+
 export const port = Number(process.env.PORT || 3010);
 export const useMemoryStore = process.env.USE_MEMORY_STORE === 'true' || !process.env.DB_HOST;
 export const isProduction = process.env.NODE_ENV === 'production';

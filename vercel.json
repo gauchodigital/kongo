@@ -1,7 +1,13 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": null,
-  "installCommand": "echo skip-install",
-  "buildCommand": "echo skip-build",
-  "outputDirectory": "."
+  "installCommand": "npm install",
+  "buildCommand": "npm run build && node scripts/prepare-vercel.mjs",
+  "outputDirectory": "dist",
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api" },
+    { "source": "/admin", "destination": "/admin/index.html" },
+    { "source": "/admin/", "destination": "/admin/index.html" },
+    { "source": "/admin/((?!assets/).*)", "destination": "/admin/index.html" }
+  ]
 }

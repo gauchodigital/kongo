@@ -1,12 +1,6 @@
-admin
-admin-dist
-server
-scripts
-tests
-docs
-app.cjs
-package.json
-package-lock.json
-node_modules
 .env
 .env.*
+!.env.example
+node_modules
+admin-dist
+dist
