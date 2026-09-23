@@ -32,6 +32,7 @@ if (process.env.VERCEL) {
 export const port = Number(process.env.PORT || 3010);
 export const useMemoryStore = process.env.USE_MEMORY_STORE === 'true' || !process.env.DB_HOST;
 export const isProduction = process.env.NODE_ENV === 'production';
+export const allowPublicBootstrap = !isProduction && process.env.ALLOW_PUBLIC_BOOTSTRAP !== 'false';
 export const uploadDir = process.env.UPLOAD_DIR || path.join(rootDir, 'uploads', 'cms');
 
 export const dbConfig = {

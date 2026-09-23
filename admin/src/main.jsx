@@ -65,7 +65,7 @@ function Login({ onLogin, needsBootstrap }) {
       <div className="mobile-brand">Kongo <small>CMS</small></div>
       <p className="eyebrow">{needsBootstrap ? 'CONFIGURACIÓN INICIAL' : 'ACCESO SEGURO'}</p>
       <h2>{needsBootstrap ? 'Crear administrador' : 'Bienvenido'}</h2>
-      <p className="muted">{needsBootstrap ? 'Este paso se habilita una sola vez.' : 'Ingresá con tu cuenta del equipo Kongo.'}</p>
+      <p className="muted">{needsBootstrap ? 'Solo en local, para crear el primer administrador.' : 'Solo personal autorizado de Baires. Si no tenés cuenta, pedila a un administrador.'}</p>
       <form onSubmit={submit}>
         {needsBootstrap && <label>Nombre<input autoFocus value={form.name} onChange={(e) => setForm({ ...form, name: e.target.value })} placeholder="Nombre y apellido" required /></label>}
         <label>Email<input autoFocus type="email" value={form.email} onChange={(e) => setForm({ ...form, email: e.target.value })} placeholder="nombre@baires-sa.com.ar" required /></label>

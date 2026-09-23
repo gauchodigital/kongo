@@ -7,7 +7,7 @@ import multer from 'multer';
 import sharp from 'sharp';
 import slugify from 'slugify';
 import { rateLimit } from 'express-rate-limit';
-import { uploadDir } from './config.js';
+import { allowPublicBootstrap, uploadDir } from './config.js';
 import {
   addAudit, createItem, createMedia, createUser, deleteItem, duplicateItem, findUserByEmail, findUserById,
   getItem, getPublicContent, hasUsers, listAudit, listItems, listMedia, listUsers, stats, updateItem, updateLastLogin
@@ -83,10 +83,11 @@ router.get('/content', async (_req, res) => {
 
 router.get('/auth/session', async (req, res) => {
   const user = req.session.userId ? await findUserById(req.session.userId) : null;
-  res.json({ user, csrfToken: csrfToken(req), needsBootstrap: !(await hasUsers()) });
+  res.json({ user, csrfToken: csrfToken(req), needsBootstrap: allowPublicBootstrap && !(await hasUsers()) });
 });
 
 router.post('/auth/bootstrap', loginLimiter, requireCsrf, async (req, res) => {
+  if (!allowPublicBootstrap) return res.status(403).json({ error: 'El alta pública está deshabilitada. Solo ingresan cuentas autorizadas.' });
   if (await hasUsers()) return res.status(409).json({ error: 'El panel ya tiene un administrador' });
   const input = parse(userSchema, { ...req.body, role: 'admin' });
   const user = await createUser({ ...input, role: 'admin', passwordHash: await bcrypt.hash(input.password, 12) });
